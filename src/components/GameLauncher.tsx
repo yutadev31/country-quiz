@@ -183,7 +183,7 @@ function RuleSection() {
 
 export default function GameLauncher() {
   return (
-    <form action="/" className="space-y-6 py-4">
+    <form action="/country-quiz" className="space-y-6 py-4">
       <h2 className="text-center text-2xl">国クイズ</h2>
 
       <input type="hidden" name="page" value="game" />
