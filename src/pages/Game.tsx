@@ -51,6 +51,10 @@ export default function GamePage() {
     return <></>;
   }
 
+  if (question === "domain" || choice === "domain") {
+    filteredCountries = filteredCountries.filter((c) => c.tld);
+  }
+
   return (
     <div className="mx-auto max-w-xl">
       <Game

@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
 
-export type ContentType = "name" | "capital" | "flag";
+export type ContentType = "name" | "capital" | "domain" | "flag";
 
 function QuestionContent({
   country,
@@ -18,6 +18,8 @@ function QuestionContent({
       return <p className="text-3xl font-bold">{country.name}</p>;
     case "capital":
       return <p className="text-3xl font-bold">{country.capital}</p>;
+    case "domain":
+      return <p className="text-3xl font-bold">{country.tld}</p>;
     case "flag":
       return (
         <img
@@ -82,7 +84,9 @@ function ChoiceContentItem({
       onClick={onClick}
       className="rounded-xl bg-blue-600 p-4 text-lg font-semibold transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
     >
-      {content === "name" ? country.name : country.capital}
+      {content === "name" && country.name}
+      {content === "capital" && country.capital}
+      {content === "domain" && country.tld}
     </button>
   );
 }
@@ -99,6 +103,8 @@ function CorrectContent({
       return <span>{country.name}</span>;
     case "capital":
       return <span>{country.capital}</span>;
+    case "domain":
+      return <span>{country.tld}</span>;
     case "flag":
       return (
         <img

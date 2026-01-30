@@ -92,7 +92,7 @@ const rulePresets = [
 
 function RuleSection() {
   const [preset, setPreset] = useState("standard");
-  const [count, setCount] = useState(20);
+  const [count, setCount] = useState(10);
   const [timeLimit, setTimeLimit] = useState(10);
 
   const handlePresetChange = (id: string) => {
@@ -197,9 +197,10 @@ export default function GameLauncher() {
           name="question"
           defaultValue="name"
           options={[
-            { label: "国名", hiragana: "こくめい", value: "name" },
-            { label: "首都", hiragana: "しゅと", value: "capital" },
-            { label: "国旗", hiragana: "こっき", value: "flag" },
+            { label: "国名", value: "name" },
+            { label: "首都", value: "capital" },
+            { label: "国旗", value: "flag" },
+            { label: "ドメイン", value: "domain" },
           ]}
         />
 
@@ -208,9 +209,10 @@ export default function GameLauncher() {
           name="choice"
           defaultValue="flag"
           options={[
-            { label: "国名", hiragana: "こくめい", value: "name" },
-            { label: "首都", hiragana: "しゅと", value: "capital" },
-            { label: "国旗", hiragana: "こっき", value: "flag" },
+            { label: "国名", value: "name" },
+            { label: "首都", value: "capital" },
+            { label: "国旗", value: "flag" },
+            { label: "ドメイン", value: "domain" },
           ]}
         />
       </section>

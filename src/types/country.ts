@@ -3,4 +3,5 @@ export interface Country {
   name: string;
   capital: string | null;
   regions: string[];
+  tld: string | null;
 }
