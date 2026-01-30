@@ -20,7 +20,7 @@ function RadioGroup({
   options: Option[];
 }) {
   return (
-    <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
+    <div className="grid grid-cols-2 gap-4">
       {options.map(({ label, hiragana, value }) => (
         <label
           key={value}
