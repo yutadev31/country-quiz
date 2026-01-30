@@ -1,0 +1,1490 @@
+[
+  {
+    "code": "ad",
+    "name": "アンドラ",
+    "capital": "アンドラ・ラ・ベリャ",
+    "regions": ["europe", "southwestern europe"]
+  },
+  {
+    "code": "ae",
+    "name": "アラブ首長国連邦",
+    "capital": "アブダビ",
+    "regions": ["asia", "western asia", "middle east"]
+  },
+  {
+    "code": "af",
+    "name": "アフガニスタン",
+    "capital": "カブール",
+    "regions": ["asia", "southern asia"]
+  },
+  {
+    "code": "ag",
+    "name": "アンティグア・バーブーダ",
+    "capital": "セント・ジョンズ",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "ai",
+    "name": "アンギラ",
+    "capital": "バレー",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "al",
+    "name": "アルバニア",
+    "capital": "ティラナ",
+    "regions": ["europe"]
+  },
+  {
+    "code": "am",
+    "name": "アルメニア",
+    "capital": "エレバン",
+    "regions": ["asia", "western asia", "caucasus"]
+  },
+  {
+    "code": "ao",
+    "name": "アンゴラ",
+    "capital": "ルアンダ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "ar",
+    "name": "アルゼンチン",
+    "capital": "ブエノスアイレス",
+    "regions": ["america"]
+  },
+  {
+    "code": "as",
+    "name": "アメリカ領サモア",
+    "capital": "パゴパゴ",
+    "regions": ["oceania", "polynesia"]
+  },
+  {
+    "code": "at",
+    "name": "オーストリア",
+    "capital": "ウィーン",
+    "regions": ["europe"]
+  },
+  {
+    "code": "au",
+    "name": "オーストラリア",
+    "capital": "キャンベラ",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "aw",
+    "name": "アルバ",
+    "capital": "オラニェスタット",
+    "regions": ["america"]
+  },
+  {
+    "code": "ax",
+    "name": "オーランド諸島",
+    "capital": "マリエハムン",
+    "regions": ["europe"]
+  },
+  {
+    "code": "az",
+    "name": "アゼルバイジャン",
+    "capital": "バクー",
+    "regions": ["asia", "western asia", "caucasus"]
+  },
+  {
+    "code": "ba",
+    "name": "ボスニア・ヘルツェゴビナ",
+    "capital": "サラエボ",
+    "regions": ["europe"]
+  },
+  {
+    "code": "bb",
+    "name": "バルバドス",
+    "capital": "ブリッジタウン",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "bd",
+    "name": "バングラデシュ",
+    "capital": "ダッカ",
+    "regions": ["asia", "southern asia"]
+  },
+  {
+    "code": "be",
+    "name": "ベルギー",
+    "capital": "ブリュッセル",
+    "regions": ["europe"]
+  },
+  {
+    "code": "bf",
+    "name": "ブルキナファソ",
+    "capital": "ワガドゥグー",
+    "regions": ["africa"]
+  },
+  {
+    "code": "bg",
+    "name": "ブルガリア",
+    "capital": "ソフィア",
+    "regions": ["europe"]
+  },
+  {
+    "code": "bh",
+    "name": "バーレーン",
+    "capital": "マナーマ",
+    "regions": ["asia", "western asia", "middle east"]
+  },
+  {
+    "code": "bi",
+    "name": "ブルンジ",
+    "capital": "ギテガ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "bj",
+    "name": "ベナン",
+    "capital": "ポルトノボ(憲法上)、コトヌー(事実上)",
+    "regions": ["africa"]
+  },
+  {
+    "code": "bl",
+    "name": "サン・バルテルミー島",
+    "capital": "グスタビア",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "bm",
+    "name": "バミューダ諸島",
+    "capital": "ハミルトン",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "bn",
+    "name": "ブルネイ",
+    "capital": "バンダル・スリ・ブガワン",
+    "regions": ["asia", "southeastern asia"]
+  },
+  {
+    "code": "bo",
+    "name": "ボリビア",
+    "capital": "ラパス",
+    "regions": ["america", "south america"]
+  },
+  {
+    "code": "bq",
+    "name": "ボネール、シント・ユースタティウスおよびサバ",
+    "capital": null,
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "br",
+    "name": "ブラジル",
+    "capital": "ブラジリア",
+    "regions": ["america", "south america"]
+  },
+  {
+    "code": "bs",
+    "name": "バハマ",
+    "capital": "ナッソー",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "bt",
+    "name": "ブータン",
+    "capital": "ティンプー",
+    "regions": ["asia", "southern asia"]
+  },
+  {
+    "code": "bw",
+    "name": "ボツワナ",
+    "capital": "ハボローネ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "by",
+    "name": "ベラルーシ",
+    "capital": "ミンスク",
+    "regions": ["europe", "eastern europe"]
+  },
+  {
+    "code": "bz",
+    "name": "ベリーズ",
+    "capital": "ベルモパン",
+    "regions": ["america", "central america"]
+  },
+  {
+    "code": "ca",
+    "name": "カナダ",
+    "capital": "オタワ",
+    "regions": ["america", "north america"]
+  },
+  {
+    "code": "cc",
+    "name": "ココス諸島",
+    "capital": "ウェスト島",
+    "regions": ["asia", "southeastern asia"]
+  },
+  {
+    "code": "cd",
+    "name": "コンゴ民主共和国",
+    "capital": "キンシャサ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "cf",
+    "name": "中央アフリカ共和国",
+    "capital": "バンギ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "cg",
+    "name": "コンゴ共和国",
+    "capital": "ブラザヴィル",
+    "regions": ["africa"]
+  },
+  {
+    "code": "ch",
+    "name": "スイス",
+    "capital": "ベルン",
+    "regions": ["europe"]
+  },
+  {
+    "code": "ci",
+    "name": "コートジボワール",
+    "capital": "ヤムスクロ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "ck",
+    "name": "クック諸島",
+    "capital": "アバルア",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "cl",
+    "name": "チリ",
+    "capital": "サンティアゴ",
+    "regions": ["america", "south america"]
+  },
+  {
+    "code": "cm",
+    "name": "カメルーン",
+    "capital": "ヤウンデ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "cn",
+    "name": "中国",
+    "capital": "北京",
+    "regions": ["asia", "east asia"]
+  },
+  {
+    "code": "co",
+    "name": "コロンビア",
+    "capital": "ボゴタ",
+    "regions": ["america", "south america"]
+  },
+  {
+    "code": "cr",
+    "name": "コスタリカ",
+    "capital": "サン・ホセ",
+    "regions": ["america", "north america"]
+  },
+  {
+    "code": "cu",
+    "name": "キューバ",
+    "capital": "ハバナ",
+    "regions": ["america", "north america"]
+  },
+  {
+    "code": "cv",
+    "name": "カーボベルデ",
+    "capital": "プライア",
+    "regions": ["africa"]
+  },
+  {
+    "code": "cw",
+    "name": "キュラソー",
+    "capital": "ウィレムスタット",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "cx",
+    "name": "クリスマス島",
+    "capital": "フライング・フィッシュ・コーブ（セトルメント）",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "cy",
+    "name": "キプロス",
+    "capital": "ニコシア",
+    "regions": ["europe"]
+  },
+  {
+    "code": "cz",
+    "name": "チェコ",
+    "capital": "プラハ",
+    "regions": ["europe"]
+  },
+  {
+    "code": "de",
+    "name": "ドイツ",
+    "capital": "ベルリン",
+    "regions": ["europe"]
+  },
+  {
+    "code": "dj",
+    "name": "ジブチ",
+    "capital": "ジブチ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "dk",
+    "name": "デンマーク",
+    "capital": "コペンハーゲン",
+    "regions": ["europe"]
+  },
+  {
+    "code": "dm",
+    "name": "ドミニカ国",
+    "capital": "ロゾー",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "do",
+    "name": "ドミニカ共和国",
+    "capital": "サントドミンゴ",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "dz",
+    "name": "アルジェリア",
+    "capital": "アルジェ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "ec",
+    "name": "エクアドル",
+    "capital": "カラカス",
+    "regions": ["america", "south america"]
+  },
+  {
+    "code": "ee",
+    "name": "エストニア",
+    "capital": "タリン",
+    "regions": ["europe"]
+  },
+  {
+    "code": "eg",
+    "name": "エジプト",
+    "capital": "カイロ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "eh",
+    "name": "西サハラ",
+    "capital": "ラユーン（アイウン）（憲法による規定）、ティファリティ（臨時）、ティンドゥフ（国外拠点）",
+    "regions": ["africa"]
+  },
+  {
+    "code": "er",
+    "name": "エリトリア",
+    "capital": "アスマラ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "es",
+    "name": "スペイン",
+    "capital": "マドリード",
+    "regions": ["europe"]
+  },
+  {
+    "code": "et",
+    "name": "エチオピア",
+    "capital": "アジス・アベバ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "fi",
+    "name": "フィンランド",
+    "capital": "ヘルシンキ",
+    "regions": ["europe", "northern europe"]
+  },
+  {
+    "code": "fj",
+    "name": "フィジー",
+    "capital": "スバ",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "fk",
+    "name": "フォークランド諸島",
+    "capital": "スタンリー",
+    "regions": ["america", "south america"]
+  },
+  {
+    "code": "fm",
+    "name": "ミクロネシア連邦",
+    "capital": "パリキール",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "fo",
+    "name": "フェロー諸島",
+    "capital": "トースハウン",
+    "regions": ["europe", "northern europe"]
+  },
+  {
+    "code": "fr",
+    "name": "フランス",
+    "capital": "パリ",
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "ga",
+    "name": "ガボン",
+    "capital": "リーブルビル",
+    "regions": ["africa"]
+  },
+  {
+    "code": "gb",
+    "name": "イギリス",
+    "capital": "ロンドン",
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "gb-eng",
+    "name": "イングランド",
+    "capital": null,
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "gb-nir",
+    "name": "北アイルランド",
+    "capital": null,
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "gb-sct",
+    "name": "スコットランド",
+    "capital": null,
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "gb-wls",
+    "name": "ウェールズ",
+    "capital": null,
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "gd",
+    "name": "グレナダ",
+    "capital": "セントジョージズ",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "ge",
+    "name": "ジョージア",
+    "capital": "トビリシ",
+    "regions": ["asia", "western asia", "caucasus"]
+  },
+  {
+    "code": "gf",
+    "name": "フランス領ギアナ",
+    "capital": "カイエンヌ",
+    "regions": ["america", "south america"]
+  },
+  {
+    "code": "gg",
+    "name": "ガーンジー",
+    "capital": "セント・ピーター・ポート",
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "gh",
+    "name": "ガーナ",
+    "capital": "アクラ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "gi",
+    "name": "ジブラルタル",
+    "capital": "ウェストサイド",
+    "regions": ["europe", "western europe", "southern europe"]
+  },
+  {
+    "code": "gl",
+    "name": "グリーンランド",
+    "capital": "ヌーク",
+    "regions": ["europe", "northern europe"]
+  },
+  {
+    "code": "gm",
+    "name": "ガンビア",
+    "capital": "バンジュル",
+    "regions": ["africa"]
+  },
+  {
+    "code": "gn",
+    "name": "ギニア",
+    "capital": "コナクリ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "gp",
+    "name": "グアドループ",
+    "capital": "バステール",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "gq",
+    "name": "赤道ギニア",
+    "capital": "マラボ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "gr",
+    "name": "ギリシャ",
+    "capital": "アテネ",
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "gs",
+    "name": "サウスジョージア・サウスサンドウィッチ諸島",
+    "capital": "キング・エドワード・ポイント",
+    "regions": ["america", "south america"]
+  },
+  {
+    "code": "gt",
+    "name": "グアテマラ",
+    "capital": "グアテマラシティ",
+    "regions": ["america", "central america"]
+  },
+  {
+    "code": "gu",
+    "name": "グアム",
+    "capital": "ハガニア",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "gw",
+    "name": "ギニアビサウ",
+    "capital": "ビサウ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "gy",
+    "name": "ガイアナ",
+    "capital": "ジョージタウン",
+    "regions": ["america", "south america"]
+  },
+  {
+    "code": "hk",
+    "name": "香港",
+    "capital": null,
+    "regions": ["asia", "east asia"]
+  },
+  {
+    "code": "hn",
+    "name": "ホンジュラス",
+    "capital": "テグシガルパ",
+    "regions": ["america", "central america"]
+  },
+  {
+    "code": "hr",
+    "name": "クロアチア",
+    "capital": "ザグレブ",
+    "regions": ["europe", "central europe"]
+  },
+  {
+    "code": "ht",
+    "name": "ハイチ",
+    "capital": "ポルトープランス",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "hu",
+    "name": "ハンガリー",
+    "capital": "ブダペスト",
+    "regions": ["europe", "central europe"]
+  },
+  {
+    "code": "id",
+    "name": "インドネシア",
+    "capital": "ジャカルタ",
+    "regions": ["asia", "southeastern asia"]
+  },
+  {
+    "code": "ie",
+    "name": "アイルランド",
+    "capital": "ダブリン",
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "il",
+    "name": "イスラエル",
+    "capital": "エルサレム",
+    "regions": ["asia", "western asia", "middle east"]
+  },
+  {
+    "code": "im",
+    "name": "マン島",
+    "capital": "ダグラス",
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "in",
+    "name": "インド",
+    "capital": "ニューデリー",
+    "regions": ["asia", "southern asia"]
+  },
+  {
+    "code": "io",
+    "name": "イギリス領インド洋地域",
+    "capital": "ヴィクトリア",
+    "regions": ["asia", "southern asia"]
+  },
+  {
+    "code": "iq",
+    "name": "イラク",
+    "capital": "バグダッド",
+    "regions": ["asia", "western asia", "middle east"]
+  },
+  {
+    "code": "ir",
+    "name": "イラン",
+    "capital": "テヘラン",
+    "regions": ["asia", "western asia", "middle east"]
+  },
+  {
+    "code": "is",
+    "name": "アイスランド",
+    "capital": "レイキャビク",
+    "regions": ["europe", "northern europe"]
+  },
+  {
+    "code": "it",
+    "name": "イタリア",
+    "capital": "ローマ",
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "je",
+    "name": "ジャージー",
+    "capital": "セント・ヘリア",
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "jm",
+    "name": "ジャマイカ",
+    "capital": "キングストン",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "jo",
+    "name": "ヨルダン",
+    "capital": "アンマン",
+    "regions": ["asia", "western asia", "middle east"]
+  },
+  {
+    "code": "jp",
+    "name": "日本",
+    "capital": "東京",
+    "regions": ["asia", "east asia"]
+  },
+  {
+    "code": "ke",
+    "name": "ケニア",
+    "capital": "ナイロビ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "kg",
+    "name": "キルギス",
+    "capital": "ビシュケク",
+    "regions": ["asia", "central asia"]
+  },
+  {
+    "code": "kh",
+    "name": "カンボジア",
+    "capital": "プノンペン",
+    "regions": ["asia", "southeastern asia"]
+  },
+  {
+    "code": "ki",
+    "name": "キリバス",
+    "capital": "タラワ",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "km",
+    "name": "コモロ",
+    "capital": "モロニ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "kn",
+    "name": "セントクリストファー・ネイビス",
+    "capital": "バセテール",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "kp",
+    "name": "北朝鮮",
+    "capital": "平壌",
+    "regions": ["asia", "east asia"]
+  },
+  {
+    "code": "kr",
+    "name": "韓国",
+    "capital": "ソウル",
+    "regions": ["asia", "east asia"]
+  },
+  {
+    "code": "kw",
+    "name": "クウェート",
+    "capital": "クウェート",
+    "regions": ["asia", "western asia", "middle east"]
+  },
+  {
+    "code": "ky",
+    "name": "ケイマン諸島",
+    "capital": "ジョージタウン",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "kz",
+    "name": "カザフスタン",
+    "capital": "アスタナ",
+    "regions": ["asia", "central asia"]
+  },
+  {
+    "code": "la",
+    "name": "ラオス",
+    "capital": "ヴィエンチャン",
+    "regions": ["asia", "southeastern asia"]
+  },
+  {
+    "code": "lb",
+    "name": "レバノン",
+    "capital": "ベイルート",
+    "regions": ["asia", "western asia", "middle east"]
+  },
+  {
+    "code": "lc",
+    "name": "セントルシア",
+    "capital": "カストリーズ",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "li",
+    "name": "リヒテンシュタイン",
+    "capital": "ファドゥーツ",
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "lk",
+    "name": "スリランカ",
+    "capital": "スリ・ジャヤワルダナプラ・コッテ",
+    "regions": ["asia", "southeastern asia"]
+  },
+  {
+    "code": "lr",
+    "name": "リベリア",
+    "capital": "モンロビア",
+    "regions": ["africa"]
+  },
+  {
+    "code": "ls",
+    "name": "レソト",
+    "capital": "マセル",
+    "regions": ["africa"]
+  },
+  {
+    "code": "lt",
+    "name": "リトアニア",
+    "capital": "リガ",
+    "regions": ["europe", "eastern europe"]
+  },
+  {
+    "code": "lu",
+    "name": "ルクセンブルク",
+    "capital": "ルクセンブルク",
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "lv",
+    "name": "ラトビア",
+    "capital": "ビルニュス",
+    "regions": ["europe", "eastern europe"]
+  },
+  {
+    "code": "ly",
+    "name": "リビア",
+    "capital": "トリポリ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "ma",
+    "name": "モロッコ",
+    "capital": "ラバト",
+    "regions": ["africa"]
+  },
+  {
+    "code": "mc",
+    "name": "モナコ",
+    "capital": "モナコ市",
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "md",
+    "name": "モルドバ",
+    "capital": "キシナウ",
+    "regions": ["europe", "eastern europe"]
+  },
+  {
+    "code": "me",
+    "name": "モンテネグロ",
+    "capital": "ポドゴリツァ",
+    "regions": ["europe", "southeastern europe"]
+  },
+  {
+    "code": "mg",
+    "name": "マダガスカル",
+    "capital": "アンタナナリボ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "mh",
+    "name": "マーシャル諸島",
+    "capital": "マジュロ",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "mk",
+    "name": "北マケドニア",
+    "capital": "スコピエ",
+    "regions": ["europe", "southeastern europe"]
+  },
+  {
+    "code": "ml",
+    "name": "マリ共和国",
+    "capital": "バマコ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "mm",
+    "name": "ミャンマー",
+    "capital": "ネピドー",
+    "regions": ["asia", "southern asia"]
+  },
+  {
+    "code": "mn",
+    "name": "モンゴル",
+    "capital": "ウランバートル",
+    "regions": ["asia", "east asia"]
+  },
+  {
+    "code": "mo",
+    "name": "マカオ",
+    "capital": null,
+    "regions": ["asia", "east asia"]
+  },
+  {
+    "code": "mp",
+    "name": "北マリアナ諸島",
+    "capital": "ススペ",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "mq",
+    "name": "マルティニーク",
+    "capital": "フォール・ド・フランス",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "mr",
+    "name": "モーリタニア",
+    "capital": "ヌアクショット",
+    "regions": ["africa"]
+  },
+  {
+    "code": "ms",
+    "name": "モントセラト",
+    "capital": "プリマス（壊滅）、ブレイズ（臨時首都）、リトルベイ（新首都）",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "mt",
+    "name": "マルタ",
+    "capital": "バレッタ",
+    "regions": ["europe", "southern europe"]
+  },
+  {
+    "code": "mu",
+    "name": "モーリシャス",
+    "capital": "ポート・ルイス",
+    "regions": ["africa"]
+  },
+  {
+    "code": "mv",
+    "name": "モルディブ",
+    "capital": "マレ",
+    "regions": ["asia", "southern asia"]
+  },
+  {
+    "code": "mw",
+    "name": "マラウイ",
+    "capital": "リロングウェ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "mx",
+    "name": "メキシコ",
+    "capital": "メキシコシティ",
+    "regions": ["america", "north america", "central america"]
+  },
+  {
+    "code": "my",
+    "name": "マレーシア",
+    "capital": "クアラルンプール",
+    "regions": ["asia", "southeastern asia"]
+  },
+  {
+    "code": "mz",
+    "name": "モザンビーク",
+    "capital": "マプート",
+    "regions": ["africa"]
+  },
+  {
+    "code": "na",
+    "name": "ナミビア",
+    "capital": "ウィントフーク",
+    "regions": ["africa"]
+  },
+  {
+    "code": "nc",
+    "name": "ニューカレドニア",
+    "capital": "ヌメア",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "ne",
+    "name": "ニジェール",
+    "capital": "ニアメー",
+    "regions": ["africa"]
+  },
+  {
+    "code": "nf",
+    "name": "ノーフォーク島",
+    "capital": "キングストン",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "ng",
+    "name": "ナイジェリア",
+    "capital": "アブジャ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "ni",
+    "name": "ニカラグア",
+    "capital": "マナグア",
+    "regions": ["america", "central america"]
+  },
+  {
+    "code": "nl",
+    "name": "オランダ",
+    "capital": "アムステルダム（憲法上）、デン・ハーグ（事実上）",
+    "regions": ["europe"]
+  },
+  {
+    "code": "no",
+    "name": "ノルウェー",
+    "capital": "オスロ",
+    "regions": ["europe"]
+  },
+  {
+    "code": "np",
+    "name": "ネパール",
+    "capital": "カトマンズ",
+    "regions": ["asia", "southern asia"]
+  },
+  {
+    "code": "nr",
+    "name": "ナウル",
+    "capital": "ヤレン地区",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "nu",
+    "name": "ニウエ",
+    "capital": "アロフィ",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "nz",
+    "name": "ニュージーランド",
+    "capital": "ウェリントン",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "om",
+    "name": "オマーン",
+    "capital": "マスカット",
+    "regions": ["asia", "western asia", "middle east"]
+  },
+  {
+    "code": "pa",
+    "name": "パナマ",
+    "capital": "パナマ市",
+    "regions": ["america", "central america"]
+  },
+  {
+    "code": "pe",
+    "name": "ペルー",
+    "capital": "リマ",
+    "regions": ["america", "south america"]
+  },
+  {
+    "code": "pf",
+    "name": "フランス領ポリネシア",
+    "capital": "パペーテ",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "pg",
+    "name": "パプアニューギニア",
+    "capital": "ポート・モレスビー",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "ph",
+    "name": "フィリピン",
+    "capital": "マニラ",
+    "regions": ["asia", "southern asia"]
+  },
+  {
+    "code": "pk",
+    "name": "パキスタン",
+    "capital": "イスラマバード",
+    "regions": ["asia", "southern asia"]
+  },
+  {
+    "code": "pl",
+    "name": "ポーランド",
+    "capital": "ワルシャワ",
+    "regions": ["europe", "eastern europe"]
+  },
+  {
+    "code": "pm",
+    "name": "サンピエール島・ミクロン島",
+    "capital": "サンピエール",
+    "regions": ["america", "north america"]
+  },
+  {
+    "code": "pn",
+    "name": "ピトケアン諸島",
+    "capital": "アダムスタウン",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "pr",
+    "name": "プエルトリコ",
+    "capital": "サンフアン",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "ps",
+    "name": "パレスチナ",
+    "capital": "東エルサレム (デ・ジュリ)、ラマッラー（事実上）",
+    "regions": ["asia", "western asia", "middle east"]
+  },
+  {
+    "code": "pt",
+    "name": "ポルトガル",
+    "capital": "リスボン",
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "pw",
+    "name": "パラオ",
+    "capital": "マルキョク",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "py",
+    "name": "パラグアイ",
+    "capital": "アスンシオン",
+    "regions": ["america", "south america"]
+  },
+  {
+    "code": "qa",
+    "name": "カタール",
+    "capital": "ドーハ",
+    "regions": ["asia", "western asia", "middle east"]
+  },
+  {
+    "code": "re",
+    "name": "レユニオン",
+    "capital": "サン・ドニ",
+    "regions": ["africa", "eastern africa"]
+  },
+  {
+    "code": "ro",
+    "name": "ルーマニア",
+    "capital": "ブカレスト",
+    "regions": ["europe", "eastern europe"]
+  },
+  {
+    "code": "rs",
+    "name": "セルビア",
+    "capital": "ベオグラード",
+    "regions": ["europe", "southeastern europe"]
+  },
+  {
+    "code": "ru",
+    "name": "ロシア",
+    "capital": "モスクワ",
+    "regions": ["europe", "eastern europe"]
+  },
+  {
+    "code": "rw",
+    "name": "ルワンダ",
+    "capital": "キガリ",
+    "regions": ["africa", "eastern africa"]
+  },
+  {
+    "code": "sa",
+    "name": "サウジアラビア",
+    "capital": "リヤド",
+    "regions": ["asia", "western asia", "middle east"]
+  },
+  {
+    "code": "sb",
+    "name": "ソロモン諸島",
+    "capital": "ホニアラ",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "sc",
+    "name": "セーシェル",
+    "capital": "ヴィクトリア",
+    "regions": ["africa", "eastern africa"]
+  },
+  {
+    "code": "sd",
+    "name": "スーダン",
+    "capital": "ハルツーム",
+    "regions": ["africa", "northern africa"]
+  },
+  {
+    "code": "se",
+    "name": "スウェーデン",
+    "capital": "ストックホルム",
+    "regions": ["europe", "northern europe"]
+  },
+  {
+    "code": "sg",
+    "name": "シンガポール",
+    "capital": "シンガポール",
+    "regions": ["asia", "southeastern asia"]
+  },
+  {
+    "code": "sh",
+    "name": "セントヘレナ・アセンションおよびトリスタンダクーニャ",
+    "capital": "ジェームズタウン",
+    "regions": ["africa", "western africa"]
+  },
+  {
+    "code": "si",
+    "name": "スロベニア",
+    "capital": "リュブリャナ",
+    "regions": ["europe", "central europe"]
+  },
+  {
+    "code": "sk",
+    "name": "スロバキア",
+    "capital": "ブラチスラバ",
+    "regions": ["europe", "central europe"]
+  },
+  {
+    "code": "sl",
+    "name": "シエラレオネ",
+    "capital": "フリータウン",
+    "regions": ["africa", "western africa"]
+  },
+  {
+    "code": "sm",
+    "name": "サンマリノ",
+    "capital": "サンマリノ市",
+    "regions": ["europe", "southern europe"]
+  },
+  {
+    "code": "sn",
+    "name": "セネガル",
+    "capital": "ダカール",
+    "regions": ["africa", "western africa"]
+  },
+  {
+    "code": "so",
+    "name": "ソマリア",
+    "capital": "モガディシュ",
+    "regions": ["africa", "eastern africa"]
+  },
+  {
+    "code": "sr",
+    "name": "スリナム",
+    "capital": "パラマリボ",
+    "regions": ["africa", "western africa"]
+  },
+  {
+    "code": "ss",
+    "name": "南スーダン",
+    "capital": "ジューバー",
+    "regions": ["africa", "eastern africa"]
+  },
+  {
+    "code": "st",
+    "name": "サントメ・プリンシペ",
+    "capital": "サントメ",
+    "regions": ["africa", "western africa"]
+  },
+  {
+    "code": "sv",
+    "name": "エルサルバドル",
+    "capital": "サン・サルバドル",
+    "regions": ["america", "north america", "central america"]
+  },
+  {
+    "code": "sx",
+    "name": "シント・マールテン",
+    "capital": "フィリップスブルフ",
+    "regions": ["america", "north america", "central america"]
+  },
+  {
+    "code": "sy",
+    "name": "シリア",
+    "capital": "ダマスカス",
+    "regions": ["asia", "middle east"]
+  },
+  {
+    "code": "sz",
+    "name": "エスワティニ",
+    "capital": "ムババネ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "tc",
+    "name": "タークス・カイコス諸島",
+    "capital": "コックバーンタウン",
+    "regions": ["america", "north america", "central america"]
+  },
+  {
+    "code": "td",
+    "name": "チャド",
+    "capital": "ンジャメナ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "tf",
+    "name": "フランス領南方・南極地域",
+    "capital": "ポルトーフランセ",
+    "regions": ["africa", "antarctica"]
+  },
+  {
+    "code": "tg",
+    "name": "トーゴ",
+    "capital": "ロメ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "th",
+    "name": "タイ",
+    "capital": "バンコク",
+    "regions": ["asia", "southeastern asia"]
+  },
+  {
+    "code": "tj",
+    "name": "タジキスタン",
+    "capital": "ドゥシャンベ",
+    "regions": ["asia", "central asia"]
+  },
+  {
+    "code": "tk",
+    "name": "トケラウ",
+    "capital": null,
+    "regions": ["oceania"]
+  },
+  {
+    "code": "tl",
+    "name": "東ティモール",
+    "capital": "ディリ",
+    "regions": ["asia", "southeastern asia"]
+  },
+  {
+    "code": "tm",
+    "name": "トルクメニスタン",
+    "capital": "アシガバード",
+    "regions": ["asia", "central asia"]
+  },
+  {
+    "code": "tn",
+    "name": "チュニジア",
+    "capital": "チュニス",
+    "regions": ["africa"]
+  },
+  {
+    "code": "to",
+    "name": "トンガ",
+    "capital": "ヌクアロファ",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "tr",
+    "name": "トルコ",
+    "capital": "アンカラ",
+    "regions": ["asia", "western asia", "middle east"]
+  },
+  {
+    "code": "tt",
+    "name": "トリニダード・トバゴ",
+    "capital": "ポート・オブ・スペイン",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "tv",
+    "name": "ツバル",
+    "capital": "フナフティ島",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "tw",
+    "name": "台湾",
+    "capital": "台北",
+    "regions": ["asia", "east asia"]
+  },
+  {
+    "code": "tz",
+    "name": "タンザニア",
+    "capital": "ドドマ（立法）、ダルエスサラーム（事実上）",
+    "regions": ["africa"]
+  },
+  {
+    "code": "ua",
+    "name": "ウクライナ",
+    "capital": "キーウ",
+    "regions": ["europe", "eastern europe"]
+  },
+  {
+    "code": "ug",
+    "name": "ウガンダ",
+    "capital": "カンパラ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "us",
+    "name": "アメリカ合衆国",
+    "capital": "ワシントンDC",
+    "regions": ["america", "north america"]
+  },
+  {
+    "code": "uy",
+    "name": "ウルグアイ",
+    "capital": "モンテビデオ",
+    "regions": ["america", "south america"]
+  },
+  {
+    "code": "uz",
+    "name": "ウズベキスタン",
+    "capital": "タシケント",
+    "regions": ["asia", "central asia"]
+  },
+  {
+    "code": "va",
+    "name": "バチカン",
+    "capital": null,
+    "regions": ["europe", "western europe"]
+  },
+  {
+    "code": "vc",
+    "name": "セントビンセント・グレナディーン",
+    "capital": "キングスタウン",
+    "regions": ["america", "caribbean"]
+  },
+  {
+    "code": "ve",
+    "name": "ベネズエラ",
+    "capital": "カラカス",
+    "regions": ["america", "south america"]
+  },
+  {
+    "code": "vg",
+    "name": "イギリス領ヴァージン諸島",
+    "capital": "ロードタウン",
+    "regions": ["america", "north america"]
+  },
+  {
+    "code": "vi",
+    "name": "アメリカ領ヴァージン諸島",
+    "capital": "シャーロット・アマリエ",
+    "regions": ["america", "north america"]
+  },
+  {
+    "code": "vn",
+    "name": "ベトナム",
+    "capital": "ハノイ",
+    "regions": ["asia", "southeastern asia"]
+  },
+  {
+    "code": "vu",
+    "name": "バヌアツ",
+    "capital": "ポート・ビラ",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "wf",
+    "name": "ウォリス・フツナ",
+    "capital": "マタウチュ",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "ws",
+    "name": "サモア",
+    "capital": "アピア",
+    "regions": ["oceania"]
+  },
+  {
+    "code": "xk",
+    "name": "コソボ",
+    "capital": "プリシュティナ",
+    "regions": ["europe", "central europe"]
+  },
+  {
+    "code": "ye",
+    "name": "イエメン",
+    "capital": "サナア",
+    "regions": ["asia", "western asia"]
+  },
+  {
+    "code": "yt",
+    "name": "マヨット",
+    "capital": "ザウジ",
+    "regions": ["africa", "western africa"]
+  },
+  {
+    "code": "za",
+    "name": "南アフリカ",
+    "capital": "プレトリア（行政）、ケープタウン（立法）、ブルームフォンテーン（司法）",
+    "regions": ["africa", "southern africa"]
+  },
+  {
+    "code": "zm",
+    "name": "ザンビア",
+    "capital": "ルサカ",
+    "regions": ["africa"]
+  },
+  {
+    "code": "zw",
+    "name": "ジンバブエ",
+    "capital": "ハラレ",
+    "regions": ["africa"]
+  }
+]
