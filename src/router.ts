@@ -4,11 +4,11 @@ import GamePage from "./pages/Game";
 
 export default createBrowserRouter([
   {
-    path: "/",
+    path: "/country-quiz/",
     Component: HomePage,
   },
   {
-    path: "/game",
+    path: "/country-quiz/game",
     Component: GamePage,
   },
 ]);
