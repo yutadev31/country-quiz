@@ -1,7 +1,7 @@
 import Game, { type ContentType } from "@/components/Game";
 import type { Country } from "@/types/country";
 import countries from "@/data/countries.json";
-import { useSearchParams } from "react-router";
+import { useQueryState } from "nuqs";
 
 export interface Props {
   area: string;
@@ -12,13 +12,12 @@ export interface Props {
 }
 
 export default function GamePage() {
-  const [searchParams] = useSearchParams();
-  const area = searchParams.get("area");
-  const question = searchParams.get("question");
-  const choice = searchParams.get("choice");
-  const count = searchParams.get("count");
-  const oneShotMode = searchParams.get("oneShotMode");
-  const timeLimit = searchParams.get("timeLimit");
+  const [area] = useQueryState("area");
+  const [question] = useQueryState("question");
+  const [choice] = useQueryState("choice");
+  const [count] = useQueryState("count");
+  const [oneShotMode] = useQueryState("oneShotMode");
+  const [timeLimit] = useQueryState("timeLimit");
 
   const parseCount = (countries: Country[], count: string | undefined) => {
     if (count === undefined) {

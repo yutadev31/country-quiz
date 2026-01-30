@@ -1,10 +1,9 @@
-import { useSearchParams } from "react-router";
 import HomePage from "./pages/Home";
 import GamePage from "./pages/Game";
+import { useQueryState } from "nuqs";
 
 export default function App() {
-  const [searchParams] = useSearchParams();
-  const page = searchParams.get("page");
+  const [page] = useQueryState("page");
 
   if (page === "game") {
     return <GamePage />;

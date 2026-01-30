@@ -1,11 +1,13 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./global.css";
-import { RouterProvider } from "react-router";
-import router from "./router";
+import App from "./App";
+import { NuqsAdapter } from "nuqs/adapters/react";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <NuqsAdapter>
+      <App />
+    </NuqsAdapter>
   </StrictMode>,
 );

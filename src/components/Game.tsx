@@ -2,7 +2,6 @@ import type { Country } from "@/types/country";
 import { shuffleArray } from "@/utils/array";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useState } from "react";
-import { Link } from "react-router";
 
 export type ContentType = "name" | "capital" | "domain" | "flag";
 
@@ -285,9 +284,9 @@ export default function Game({
           >
             スタート
           </button>
-          <Link to="/country-quiz" className="text-blue-500 underline">
+          <a href="/country-quiz" className="text-blue-500 underline">
             モード選択に戻る
-          </Link>
+          </a>
         </div>
       ) : current >= questions.length ? (
         <>
