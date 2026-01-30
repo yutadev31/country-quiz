@@ -1,0 +1,54 @@
+{
+  "title": "Country Quiz",
+  "heading": {
+    "content": "Quiz Content",
+    "area": "Question Area",
+    "rule": "Rule Settings",
+    "one-shot-mode": "One-Shot Mode"
+  },
+  "label": {
+    "question-type": "Question Type",
+    "choice-type": "Choice Type",
+    "number-of-questions": "Number of Questions",
+    "time-limit": "Time Limit (seconds)"
+  },
+  "message": {
+    "correct": "Correct!",
+    "incorrect": "Incorrect"
+  },
+  "button": {
+    "start": "Start",
+    "restart": "Restart",
+    "back-to-mode-selection": "Back to Mode Selection"
+  },
+  "description": {
+    "one-shot-mode": "One mistake and it's game over."
+  },
+  "content-type": {
+    "name": "Country Name",
+    "capital": "Capital City",
+    "flag": "Country Flag",
+    "domain": "Domain (TLD)"
+  },
+  "area": {
+    "all": "All",
+    "asia": "Asia",
+    "east-asia": "East Asia",
+    "europe": "Europe",
+    "america": "America",
+    "north-america": "North America",
+    "south-america": "South America",
+    "africa": "Africa",
+    "oceania": "Oceania",
+    "caribbean": "Caribbean"
+  },
+  "rule-preset": {
+    "casual": "Casual",
+    "standard": "Standard",
+    "hard": "Hard",
+    "custom": "Custom"
+  },
+  "result": {
+    "title": "Result"
+  }
+}

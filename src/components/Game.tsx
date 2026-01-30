@@ -2,6 +2,7 @@ import type { Country } from "@/types/country";
 import { shuffleArray } from "@/utils/array";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export type ContentType = "name" | "capital" | "domain" | "flag";
 
@@ -143,6 +144,8 @@ export default function Game({
   const [incorrectCount, setIncorrectCount] = useState(0);
   const [timeLeft, setTimeLeft] = useState(timeLimit ?? null);
 
+  const { t } = useTranslation();
+
   /* init */
   useEffect(() => {
     const q = shuffleArray(countries).slice(0, count);
@@ -231,7 +234,7 @@ export default function Game({
     <div className="relative flex w-full flex-col items-center gap-4 p-2">
       <div className="flex w-full rounded-lg bg-slate-800 px-4 py-2 text-center">
         <div className="flex w-full justify-center gap-4 py-2">
-          <p className="font-bold">国クイズ</p>
+          <p className="font-bold">{t("title")}</p>
           {current >= 0 && current < questions.length && (
             <>
               <p>
@@ -260,10 +263,10 @@ export default function Game({
           >
             <div className="text-center">
               {isCorrect ? (
-                <p className="text-4xl font-bold">正解！</p>
+                <p className="text-4xl font-bold">{t("message.correct")}</p>
               ) : (
                 <>
-                  <p className="mb-2 text-3xl">不正解</p>
+                  <p className="mb-2 text-3xl">{t("message.incorrect")}</p>
                   <p>
                     正解：
                     <CorrectContent content={choiceKind} country={correct!} />
@@ -282,16 +285,16 @@ export default function Game({
             onClick={() => setCurrent(0)}
             className="rounded-xl bg-blue-600 px-10 py-4 text-xl text-white hover:bg-blue-500"
           >
-            スタート
+            {t("button.start")}
           </button>
           <a href="/country-quiz" className="text-blue-500 underline">
-            モード選択に戻る
+            {t("button.back-to-mode-selection")}
           </a>
         </div>
       ) : current >= questions.length ? (
         <>
           <div className="mt-12 w-full rounded-xl bg-zinc-800 p-6 shadow-xl">
-            <p className="mb-4 text-2xl font-bold">結果</p>
+            <p className="mb-4 text-2xl font-bold">{t("result.title")}</p>
             <p className="text-green-500">正解: {correctCount}</p>
             <p className="text-red-500">不正解: {incorrectCount}</p>
           </div>
@@ -309,7 +312,7 @@ export default function Game({
               setReset((c) => c + 1);
             }}
           >
-            戻る
+            {t("button.restart")}
           </button>
         </>
       ) : (

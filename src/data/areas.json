@@ -1,10 +1,12 @@
-{
-  "": "すべて",
-  "asia": "アジア",
-  "east-asia": "東アジア",
-  "europe": "ヨーロッパ",
-  "america": "アメリカ",
-  "africa": "アフリカ",
-  "oceania": "オセアニア",
-  "caribbean": "カリブ海"
-}
+[
+  "all",
+  "asia",
+  "east-asia",
+  "europe",
+  "america",
+  "north-america",
+  "south-america",
+  "africa",
+  "oceania",
+  "caribbean"
+]

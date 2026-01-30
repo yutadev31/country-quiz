@@ -1,0 +1,54 @@
+{
+  "title": "国クイズ",
+  "heading": {
+    "content": "クイズ内容",
+    "area": "出題地域",
+    "rule": "ルール設定",
+    "one-shot-mode": "一発勝負モード"
+  },
+  "label": {
+    "question-type": "問題の種類",
+    "choice-type": "選択肢の種類",
+    "number-of-questions": "問題数",
+    "time-limit": "制限時間 (秒)"
+  },
+  "message": {
+    "correct": "正解！",
+    "incorrect": "不正解"
+  },
+  "button": {
+    "start": "スタート",
+    "restart": "もう一度",
+    "back-to-mode-selection": "モード選択に戻る"
+  },
+  "description": {
+    "one-shot-mode": "1問でも間違えたら即終了"
+  },
+  "content-type": {
+    "name": "国名",
+    "capital": "首都",
+    "flag": "国旗",
+    "domain": "ドメイン (TLD)"
+  },
+  "area": {
+    "all": "すべて",
+    "asia": "アジア",
+    "east-asia": "東アジア",
+    "europe": "ヨーロッパ",
+    "america": "アメリカ",
+    "north-america": "北アメリカ",
+    "south-america": "南アメリカ",
+    "africa": "アフリカ",
+    "oceania": "オセアニア",
+    "caribbean": "カリブ海"
+  },
+  "rule-preset": {
+    "casual": "カジュアル",
+    "standard": "スタンダード",
+    "hard": "ハード",
+    "custom": "カスタム"
+  },
+  "result": {
+    "title": "結果"
+  }
+}

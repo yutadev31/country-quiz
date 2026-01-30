@@ -3,6 +3,7 @@ import areas from "@/data/areas.json";
 import { LuBrain, LuGlobe, LuTimer, LuFlame } from "react-icons/lu";
 import { HiPlay } from "react-icons/hi2";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 type Option = {
   label: string;
@@ -65,35 +66,36 @@ function SectionTitle({
   );
 }
 
-const rulePresets = [
-  {
-    id: "casual",
-    label: "カジュアル",
-    count: 5,
-    timeLimit: 15,
-  },
-  {
-    id: "standard",
-    label: "スタンダード",
-    count: 10,
-    timeLimit: 10,
-  },
-  {
-    id: "hardcore",
-    label: "ハード",
-    count: 20,
-    timeLimit: 5,
-  },
-  {
-    id: "custom",
-    label: "カスタム",
-  },
-];
-
 function RuleSection() {
   const [preset, setPreset] = useState("standard");
   const [count, setCount] = useState(10);
   const [timeLimit, setTimeLimit] = useState(10);
+  const { t } = useTranslation();
+
+  const rulePresets = [
+    {
+      id: "casual",
+      label: t("rule-preset.casual"),
+      count: 5,
+      timeLimit: 15,
+    },
+    {
+      id: "standard",
+      label: t("rule-preset.standard"),
+      count: 10,
+      timeLimit: 10,
+    },
+    {
+      id: "hard",
+      label: t("rule-preset.hard"),
+      count: 20,
+      timeLimit: 5,
+    },
+    {
+      id: "custom",
+      label: t("rule-preset.custom"),
+    },
+  ];
 
   const handlePresetChange = (id: string) => {
     setPreset(id);
@@ -108,9 +110,8 @@ function RuleSection() {
 
   return (
     <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
-      <SectionTitle icon={LuTimer} title="ルール設定" />
+      <SectionTitle icon={LuTimer} title={t("heading.rule")} />
 
-      {/* プリセット */}
       <div className="grid grid-cols-2 gap-3">
         {rulePresets.map((p) => (
           <label
@@ -139,14 +140,13 @@ function RuleSection() {
         ))}
       </div>
 
-      {/* カスタム入力 */}
       <div
         className={`mt-4 grid grid-cols-2 gap-4 ${
           isCustom ? "opacity-100" : "opacity-40"
         }`}
       >
         <div>
-          <label className="text-sm">問題数</label>
+          <label className="text-sm">{t("label.number-of-questions")}</label>
           <input
             type="number"
             name="count"
@@ -158,7 +158,7 @@ function RuleSection() {
         </div>
 
         <div>
-          <label className="text-sm">制限時間（秒）</label>
+          <label className="text-sm">{t("label.time-limit")}</label>
           <input
             type="number"
             name="timeLimit"
@@ -170,7 +170,6 @@ function RuleSection() {
         </div>
       </div>
 
-      {/* hidden values for non-custom */}
       {!isCustom && (
         <>
           <input type="hidden" name="count" value={count} />
@@ -182,76 +181,77 @@ function RuleSection() {
 }
 
 export default function GameLauncher() {
+  const { t } = useTranslation();
+
   return (
     <form action="/country-quiz" className="space-y-6 py-4">
-      <h2 className="text-center text-2xl">国クイズ</h2>
+      <h2 className="text-center text-2xl">{t("title")}</h2>
 
       <input type="hidden" name="page" value="game" />
 
-      {/* クイズ内容 */}
       <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
-        <SectionTitle icon={LuBrain} title="クイズ内容" />
+        <SectionTitle icon={LuBrain} title={t("heading.content")} />
 
-        <p className="mb-2 text-sm">問題の種類</p>
+        <p className="mb-2 text-sm">{t("label.question-type")}</p>
         <RadioGroup
           name="question"
           defaultValue="name"
           options={[
-            { label: "国名", value: "name" },
-            { label: "首都", value: "capital" },
-            { label: "国旗", value: "flag" },
-            { label: "ドメイン", value: "domain" },
+            { label: t("content-type.name"), value: "name" },
+            { label: t("content-type.capital"), value: "capital" },
+            { label: t("content-type.flag"), value: "flag" },
+            { label: t("content-type.domain"), value: "domain" },
           ]}
         />
 
-        <p className="mt-4 mb-2 text-sm">選択肢の種類</p>
+        <p className="mt-4 mb-2 text-sm">{t("label.choice-type")}</p>
         <RadioGroup
           name="choice"
           defaultValue="flag"
           options={[
-            { label: "国名", value: "name" },
-            { label: "首都", value: "capital" },
-            { label: "国旗", value: "flag" },
-            { label: "ドメイン", value: "domain" },
+            { label: t("content-type.name"), value: "name" },
+            { label: t("content-type.capital"), value: "capital" },
+            { label: t("content-type.flag"), value: "flag" },
+            { label: t("content-type.domain"), value: "domain" },
           ]}
         />
       </section>
 
-      {/* 出題地域 */}
       <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
-        <SectionTitle icon={LuGlobe} title="出題地域" />
+        <SectionTitle icon={LuGlobe} title={t("heading.area")} />
         <RadioGroup
           name="area"
           defaultValue=""
-          options={Object.keys(areas).map((key) => ({
-            label: areas[key as keyof typeof areas],
+          options={areas.map((key) => ({
+            label: t(`area.${key}`),
             value: key,
           }))}
         />
       </section>
 
-      {/* ルール */}
       <RuleSection />
 
-      {/* 一発勝負 */}
       <section className="rounded-xl border border-red-800 bg-red-950 p-4">
         <div className="flex items-center gap-2">
           <LuFlame className="text-xl text-red-400" />
-          <span className="font-bold text-red-300">一発勝負モード</span>
+          <span className="font-bold text-red-300">
+            {t("heading.one-shot-mode")}
+          </span>
         </div>
         <label className="mt-3 flex items-center gap-3">
           <input type="checkbox" name="oneShotMode" className="scale-125" />
-          <span className="text-sm text-red-200">1問でも間違えたら即終了</span>
+          <span className="text-sm text-red-200">
+            {t("description.one-shot-mode")}
+          </span>
         </label>
       </section>
 
-      {/* 開始 */}
       <button
         type="submit"
         className="flex w-full items-center justify-center gap-2 rounded-xl bg-linear-to-r from-blue-500 to-cyan-500 px-6 py-3 text-lg font-bold transition hover:scale-[1.02] active:scale-[0.98]"
       >
         <HiPlay className="text-xl" />
-        ゲーム開始
+        {t("button.start")}
       </button>
     </form>
   );
