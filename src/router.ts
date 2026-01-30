@@ -1,14 +1,9 @@
 import { createBrowserRouter } from "react-router";
-import HomePage from "./pages/Home";
-import GamePage from "./pages/Game";
+import App from "./App";
 
 export default createBrowserRouter([
   {
     path: "/country-quiz/",
-    Component: HomePage,
-  },
-  {
-    path: "/country-quiz/game",
-    Component: GamePage,
+    Component: App,
   },
 ]);

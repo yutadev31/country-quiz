@@ -183,8 +183,10 @@ function RuleSection() {
 
 export default function GameLauncher() {
   return (
-    <form action="/game" className="space-y-6 py-4">
+    <form action="/" className="space-y-6 py-4">
       <h2 className="text-center text-2xl">国クイズ</h2>
+
+      <input type="hidden" name="page" value="game" />
 
       {/* クイズ内容 */}
       <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">

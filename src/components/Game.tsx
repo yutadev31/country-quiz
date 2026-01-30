@@ -279,7 +279,7 @@ export default function Game({
           >
             スタート
           </button>
-          <Link to="/" className="text-blue-500 underline">
+          <Link to="/country-quiz" className="text-blue-500 underline">
             モード選択に戻る
           </Link>
         </div>
