@@ -42,6 +42,7 @@ export default function GamePage() {
 
   const filter = (countries: Country[], area?: string) => {
     if (!area) return countries;
+    if (area === "all") return countries;
     return filterRegion(countries, area.replace(/-/g, " "));
   };
 

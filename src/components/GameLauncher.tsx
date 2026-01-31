@@ -221,7 +221,7 @@ export default function GameLauncher() {
         <SectionTitle icon={LuGlobe} title={t("heading.area")} />
         <RadioGroup
           name="area"
-          defaultValue=""
+          defaultValue="all"
           options={areas.map((key) => ({
             label: t(`area.${key}`),
             value: key,
