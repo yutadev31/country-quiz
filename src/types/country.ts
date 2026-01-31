@@ -2,6 +2,6 @@ export interface Country {
   code: string;
   name: string;
   capital: string | null;
-  regions: string[];
+  continent: string[];
   tld: string | null;
 }

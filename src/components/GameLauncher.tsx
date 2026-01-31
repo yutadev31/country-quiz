@@ -1,5 +1,4 @@
 import areas from "@/data/areas.json";
-
 import { LuBrain, LuGlobe, LuTimer, LuFlame } from "react-icons/lu";
 import { HiPlay } from "react-icons/hi2";
 import { useState } from "react";
@@ -222,9 +221,9 @@ export default function GameLauncher() {
         <RadioGroup
           name="area"
           defaultValue="all"
-          options={areas.map((key) => ({
-            label: t(`area.${key}`),
-            value: key,
+          options={["all", ...areas].map((area) => ({
+            label: t(`area.${area}`),
+            value: area,
           }))}
         />
       </section>

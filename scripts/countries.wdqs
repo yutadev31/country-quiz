@@ -1,0 +1,19 @@
+SELECT
+  ?countryLabel
+  ?capitalLabel
+  ?iso2
+  ?tldLabel
+  ?continentLabel
+WHERE {
+  ?country wdt:P31 wd:Q3624078;
+           wdt:P297 ?iso2;
+           wdt:P78 ?tld;
+           wdt:P30 ?continent.
+
+  OPTIONAL { ?country wdt:P36 ?capital. }
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "ja,en".
+  }
+}
+ORDER BY ?iso2

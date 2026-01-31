@@ -40,13 +40,13 @@ export default function GamePage() {
     }
   };
 
-  const filterRegion = (countries: Country[], region: string) =>
-    countries.filter((country) => country.regions.indexOf(region) !== -1);
+  const filterRegion = (countries: Country[], continent: string) =>
+    countries.filter((country) => country.continent.indexOf(continent) !== -1);
 
   const filter = (countries: Country[], area?: string) => {
     if (!area) return countries;
     if (area === "all") return countries;
-    return filterRegion(countries, area.replace(/-/g, " "));
+    return filterRegion(countries, area);
   };
 
   let filteredCountries = filter(countries, area || "");

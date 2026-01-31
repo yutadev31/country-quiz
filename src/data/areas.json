@@ -1,12 +1,1 @@
-[
-  "all",
-  "asia",
-  "east-asia",
-  "europe",
-  "america",
-  "north-america",
-  "south-america",
-  "africa",
-  "oceania",
-  "caribbean"
-]
+["asia", "europe", "africa", "north-america", "south-america", "oceania"]

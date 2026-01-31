@@ -33,14 +33,12 @@
   "area": {
     "all": "すべて",
     "asia": "アジア",
-    "east-asia": "東アジア",
     "europe": "ヨーロッパ",
     "america": "アメリカ",
     "north-america": "北アメリカ",
     "south-america": "南アメリカ",
     "africa": "アフリカ",
-    "oceania": "オセアニア",
-    "caribbean": "カリブ海"
+    "oceania": "オセアニア"
   },
   "rule-preset": {
     "casual": "カジュアル",
