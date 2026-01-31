@@ -2,6 +2,7 @@ import Game, { type ContentType } from "@/components/Game";
 import type { Country } from "@/types/country";
 import countries from "@/data/countries.json";
 import { useQueryState } from "nuqs";
+import { useState } from "react";
 
 export interface Props {
   area: string;
@@ -18,6 +19,8 @@ export default function GamePage() {
   const [count] = useQueryState("count");
   const [oneShotMode] = useQueryState("oneShotMode");
   const [timeLimit] = useQueryState("timeLimit");
+
+  const [seed, setSeed] = useState(Math.floor(Math.random() * 4096));
 
   const parseCount = (countries: Country[], count: string | undefined) => {
     if (count === undefined) {
@@ -58,6 +61,11 @@ export default function GamePage() {
   return (
     <div className="mx-auto max-w-xl">
       <Game
+        key={seed}
+        seed={seed}
+        next={() => {
+          setSeed(Math.floor(Math.random() * 4096));
+        }}
         countries={filteredCountries}
         questionKind={question as ContentType}
         choiceKind={choice as ContentType}

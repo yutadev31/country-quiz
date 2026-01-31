@@ -1,7 +1,7 @@
 import type { Country } from "@/types/country";
 import { shuffleArray } from "@/utils/array";
 import { AnimatePresence, motion } from "motion/react";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 export type ContentType = "name" | "capital" | "domain" | "flag";
@@ -122,6 +122,8 @@ export default function Game({
   count,
   oneShotMode,
   timeLimit,
+  seed,
+  next,
 }: {
   countries: Country[];
   questionKind: ContentType;
@@ -129,13 +131,29 @@ export default function Game({
   count: number;
   oneShotMode: boolean;
   timeLimit: number | null;
+  seed: number;
+  next: () => void;
 }) {
-  const [questions, setQuestions] = useState<Country[]>([]);
-  const [reset, setReset] = useState(0);
+  const questions = useMemo(() => {
+    return shuffleArray(countries, seed).slice(0, count);
+  }, [countries, count, seed]);
+
+  const choices = useMemo(() => {
+    return questions.map((q, index) =>
+      shuffleArray(
+        [
+          q,
+          ...shuffleArray(
+            countries.filter((c) => c.code !== q.code),
+            seed + index + 1024,
+          ).slice(0, 3),
+        ],
+        seed + index,
+      ),
+    );
+  }, [questions, countries, seed]);
 
   const [current, setCurrent] = useState(-1);
-  const [choices, setChoices] = useState<Country[][]>([]);
-
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [correct, setCorrect] = useState<Country | null>(null);
@@ -146,24 +164,7 @@ export default function Game({
 
   const { t } = useTranslation();
 
-  /* init */
   useEffect(() => {
-    const q = shuffleArray(countries).slice(0, count);
-    setQuestions(q);
-    setChoices(
-      q.map((question) =>
-        shuffleArray([
-          question,
-          ...shuffleArray(
-            countries.filter((c) => c.code !== question.code),
-          ).slice(0, 3),
-        ]),
-      ),
-    );
-  }, [countries, count, reset]);
-
-  useEffect(() => {
-    setTimeLeft(timeLimit || null);
     if (questionKind === "flag") {
       const next = questions[current + 1];
       if (!next) return;
@@ -183,7 +184,7 @@ export default function Game({
         img.src = `https://flagcdn.com/${choice.code}.svg`;
       });
     }
-  }, [current, questions]);
+  }, [current, questions, choices, questionKind, choiceKind, timeLimit]);
 
   useEffect(() => {
     if (
@@ -205,6 +206,7 @@ export default function Game({
         setCurrent(questions.length);
       } else {
         setCurrent((c) => c + 1);
+        setTimeLeft(timeLimit || null);
       }
       return;
     }
@@ -214,7 +216,7 @@ export default function Game({
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [timeLeft, current, questions, oneShotMode, showResult]);
+  }, [timeLimit, timeLeft, current, questions, oneShotMode, showResult]);
 
   useEffect(() => {
     if (!showResult) return;
@@ -282,7 +284,10 @@ export default function Game({
       {current === -1 ? (
         <div className="mt-16 flex flex-col items-center gap-6">
           <button
-            onClick={() => setCurrent(0)}
+            onClick={() => {
+              setCurrent(0);
+              setTimeLeft(timeLimit || null);
+            }}
             className="rounded-xl bg-blue-600 px-10 py-4 text-xl text-white hover:bg-blue-500"
           >
             {t("button.start")}
@@ -301,15 +306,7 @@ export default function Game({
           <button
             className="w-full rounded-xl bg-blue-600 p-4 text-lg font-semibold text-white transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
             onClick={() => {
-              setCurrent(-1);
-              setChoices([]);
-              setShowResult(false);
-              setIsCorrect(null);
-              setCorrect(null);
-              setCorrectCount(0);
-              setIncorrectCount(0);
-              setTimeLeft(timeLimit || null);
-              setReset((c) => c + 1);
+              next();
             }}
           >
             {t("button.restart")}
@@ -344,6 +341,7 @@ export default function Game({
                 setCurrent(questions.length);
               } else {
                 setCurrent((c) => c + 1);
+                setTimeLeft(timeLimit || null);
               }
             }}
           />
