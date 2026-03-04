@@ -14,7 +14,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
     "i18next": "^25.8.14",
-    "motion": "^12.34.5",
+    "motion": "^12.35.0",
     "nuqs": "^2.8.9",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
