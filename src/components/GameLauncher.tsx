@@ -105,8 +105,6 @@ function RuleSection() {
     }
   };
 
-  const isCustom = preset === "custom";
-
   return (
     <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
       <SectionTitle icon={LuTimer} title={t("heading.rule")} />
@@ -139,19 +137,17 @@ function RuleSection() {
         ))}
       </div>
 
-      <div
-        className={`mt-4 grid grid-cols-2 gap-4 ${
-          isCustom ? "opacity-100" : "opacity-40"
-        }`}
-      >
+      <div className="mt-4 grid grid-cols-2 gap-4">
         <div>
           <label className="text-sm">{t("label.number-of-questions")}</label>
           <input
             type="number"
             name="count"
             value={count}
-            onChange={(e) => setCount(Number(e.target.value))}
-            disabled={!isCustom}
+            onChange={(e) => {
+              setPreset("custom");
+              setCount(Number(e.target.value));
+            }}
             className="mt-1 w-full rounded border border-zinc-700 bg-zinc-800 px-2 py-1"
           />
         </div>
@@ -162,19 +158,14 @@ function RuleSection() {
             type="number"
             name="timeLimit"
             value={timeLimit}
-            onChange={(e) => setTimeLimit(Number(e.target.value))}
-            disabled={!isCustom}
+            onChange={(e) => {
+              setPreset("custom");
+              setTimeLimit(Number(e.target.value));
+            }}
             className="mt-1 w-full rounded border border-zinc-700 bg-zinc-800 px-2 py-1"
           />
         </div>
       </div>
-
-      {!isCustom && (
-        <>
-          <input type="hidden" name="count" value={count} />
-          <input type="hidden" name="timeLimit" value={timeLimit} />
-        </>
-      )}
     </section>
   );
 }
