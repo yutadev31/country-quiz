@@ -20,6 +20,7 @@ export default function GamePage() {
   const [oneShotMode] = useQueryState("oneShotMode");
   const [timeLimit] = useQueryState("timeLimit");
 
+  // eslint-disable-next-line react-hooks/purity
   const [seed, setSeed] = useState(Math.floor(Math.random() * 4096));
 
   const parseCount = (countries: Country[], count: string | undefined) => {

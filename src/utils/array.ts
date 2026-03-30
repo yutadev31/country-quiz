@@ -1,6 +1,6 @@
 function mulberry32(seed: number) {
   let t = seed;
-  return function () {
+  return () => {
     t += 0x6d2b79f5;
     let r = Math.imul(t ^ (t >>> 15), 1 | t);
     r ^= r + Math.imul(r ^ (r >>> 7), 61 | r);

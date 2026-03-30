@@ -23,6 +23,7 @@ function QuestionContent({
     case "flag":
       return (
         <img
+          alt=""
           src={`https://flagcdn.com/${country.code}.svg`}
           className="mx-auto h-32 object-contain drop-shadow-xl"
         />
@@ -68,10 +69,12 @@ function ChoiceContentItem({
   if (content === "flag") {
     return (
       <button
+        type="button"
         onClick={onClick}
         className="aspect-4/3 rounded-xl bg-zinc-800 shadow-md transition hover:scale-[1.03] hover:shadow-xl active:scale-[0.97]"
       >
         <img
+          alt=""
           src={`https://flagcdn.com/${country.code}.svg`}
           className="h-full w-full object-contain p-2"
         />
@@ -81,6 +84,7 @@ function ChoiceContentItem({
 
   return (
     <button
+      type="button"
       onClick={onClick}
       className="rounded-xl bg-blue-600 p-4 font-semibold text-lg transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
     >
@@ -108,6 +112,7 @@ function CorrectContent({
     case "flag":
       return (
         <img
+          alt=""
           src={`https://flagcdn.com/${country.code}.svg`}
           className="inline h-6 object-contain align-middle"
         />
@@ -197,6 +202,7 @@ export default function Game({
     }
 
     if (timeLeft <= 0) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setIncorrectCount((c) => c + 1);
       setIsCorrect(false);
       setCorrect(questions[current]);
@@ -267,13 +273,15 @@ export default function Game({
               {isCorrect ? (
                 <p className="font-bold text-4xl">{t("message.correct")}</p>
               ) : (
-                <>
-                  <p className="mb-2 text-3xl">{t("message.incorrect")}</p>
-                  <p>
-                    正解：
-                    <CorrectContent content={choiceKind} country={correct!} />
-                  </p>
-                </>
+                correct && (
+                  <>
+                    <p className="mb-2 text-3xl">{t("message.incorrect")}</p>
+                    <p>
+                      正解：
+                      <CorrectContent content={choiceKind} country={correct} />
+                    </p>
+                  </>
+                )
               )}
             </div>
           </motion.div>
@@ -284,6 +292,7 @@ export default function Game({
       {current === -1 ? (
         <div className="mt-16 flex flex-col items-center gap-6">
           <button
+            type="button"
             onClick={() => {
               setCurrent(0);
               setTimeLeft(timeLimit || null);
@@ -304,6 +313,7 @@ export default function Game({
             <p className="text-red-500">不正解: {incorrectCount}</p>
           </div>
           <button
+            type="button"
             className="w-full rounded-xl bg-blue-600 p-4 font-semibold text-lg text-white transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
             onClick={() => {
               next();

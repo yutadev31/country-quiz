@@ -101,7 +101,7 @@ function RuleSection() {
     const selected = rulePresets.find((p) => p.id === id);
     if (selected?.count) {
       setCount(selected.count);
-      setTimeLimit(selected.timeLimit!);
+      setTimeLimit(selected.timeLimit);
     }
   };
 
@@ -139,10 +139,13 @@ function RuleSection() {
 
       <div className="mt-4 grid grid-cols-2 gap-4">
         <div>
-          <label className="text-sm">{t("label.number-of-questions")}</label>
+          <label htmlFor="count" className="text-sm">
+            {t("label.number-of-questions")}
+          </label>
           <input
             type="number"
             name="count"
+            id="count"
             value={count}
             onChange={(e) => {
               setPreset("custom");
@@ -153,10 +156,13 @@ function RuleSection() {
         </div>
 
         <div>
-          <label className="text-sm">{t("label.time-limit")}</label>
+          <label htmlFor="timeLimit" className="text-sm">
+            {t("label.time-limit")}
+          </label>
           <input
             type="number"
             name="timeLimit"
+            id="timeLimit"
             value={timeLimit}
             onChange={(e) => {
               setPreset("custom");
