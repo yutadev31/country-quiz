@@ -1,8 +1,8 @@
-import areas from "@/data/areas.json";
-import { LuBrain, LuGlobe, LuTimer, LuFlame } from "react-icons/lu";
-import { HiPlay } from "react-icons/hi2";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { HiPlay } from "react-icons/hi2";
+import { LuBrain, LuFlame, LuGlobe, LuTimer } from "react-icons/lu";
+import areas from "@/data/areas.json";
 
 type Option = {
   label: string;
@@ -58,7 +58,7 @@ function SectionTitle({
     <div className="mb-3 flex items-center gap-2">
       <Icon className="text-xl text-zinc-300" />
       <div>
-        <h2 className="text-lg font-bold">{title}</h2>
+        <h2 className="font-bold text-lg">{title}</h2>
         {description && <p className="text-sm text-zinc-400">{description}</p>}
       </div>
     </div>
@@ -223,14 +223,14 @@ export default function GameLauncher() {
 
       <section className="rounded-xl border border-red-800 bg-red-950 p-4">
         <div className="flex items-center gap-2">
-          <LuFlame className="text-xl text-red-400" />
+          <LuFlame className="text-red-400 text-xl" />
           <span className="font-bold text-red-300">
             {t("heading.one-shot-mode")}
           </span>
         </div>
         <label className="mt-3 flex items-center gap-3">
           <input type="checkbox" name="oneShotMode" className="scale-125" />
-          <span className="text-sm text-red-200">
+          <span className="text-red-200 text-sm">
             {t("description.one-shot-mode")}
           </span>
         </label>
@@ -238,7 +238,7 @@ export default function GameLauncher() {
 
       <button
         type="submit"
-        className="flex w-full items-center justify-center gap-2 rounded-xl bg-linear-to-r from-blue-500 to-cyan-500 px-6 py-3 text-lg font-bold transition hover:scale-[1.02] active:scale-[0.98]"
+        className="flex w-full items-center justify-center gap-2 rounded-xl bg-linear-to-r from-blue-500 to-cyan-500 px-6 py-3 font-bold text-lg transition hover:scale-[1.02] active:scale-[0.98]"
       >
         <HiPlay className="text-xl" />
         {t("button.start")}

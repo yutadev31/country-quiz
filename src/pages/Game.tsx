@@ -1,8 +1,8 @@
-import Game, { type ContentType } from "@/components/Game";
-import type { Country } from "@/types/country";
-import countries from "@/data/countries.json";
 import { useQueryState } from "nuqs";
 import { useState } from "react";
+import Game, { type ContentType } from "@/components/Game";
+import countries from "@/data/countries.json";
+import type { Country } from "@/types/country";
 
 export interface Props {
   area: string;
@@ -28,7 +28,7 @@ export default function GamePage() {
     } else if (count === "all") {
       return countries.length;
     } else {
-      return parseInt(count);
+      return parseInt(count, 10);
     }
   };
 
@@ -36,7 +36,7 @@ export default function GamePage() {
     if (timeLimit === null) {
       return null;
     } else {
-      return parseInt(timeLimit);
+      return parseInt(timeLimit, 10);
     }
   };
 

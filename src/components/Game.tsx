@@ -1,8 +1,8 @@
-import type { Country } from "@/types/country";
-import { shuffleArray } from "@/utils/array";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
+import type { Country } from "@/types/country";
+import { shuffleArray } from "@/utils/array";
 
 export type ContentType = "name" | "capital" | "domain" | "flag";
 
@@ -15,11 +15,11 @@ function QuestionContent({
 }) {
   switch (content) {
     case "name":
-      return <p className="text-3xl font-bold">{country.name}</p>;
+      return <p className="font-bold text-3xl">{country.name}</p>;
     case "capital":
-      return <p className="text-3xl font-bold">{country.capital}</p>;
+      return <p className="font-bold text-3xl">{country.capital}</p>;
     case "domain":
-      return <p className="text-3xl font-bold">{country.tld}</p>;
+      return <p className="font-bold text-3xl">{country.tld}</p>;
     case "flag":
       return (
         <img
@@ -82,7 +82,7 @@ function ChoiceContentItem({
   return (
     <button
       onClick={onClick}
-      className="rounded-xl bg-blue-600 p-4 text-lg font-semibold transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
+      className="rounded-xl bg-blue-600 p-4 font-semibold text-lg transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
     >
       {content === "name" && country.name}
       {content === "capital" && country.capital}
@@ -184,7 +184,7 @@ export default function Game({
         img.src = `https://flagcdn.com/${choice.code}.svg`;
       });
     }
-  }, [current, questions, choices, questionKind, choiceKind, timeLimit]);
+  }, [current, questions, choices, questionKind, choiceKind]);
 
   useEffect(() => {
     if (
@@ -216,7 +216,7 @@ export default function Game({
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [timeLimit, timeLeft, current, questions, oneShotMode, showResult]);
+  }, [timeLimit, timeLeft, current, questions, oneShotMode]);
 
   useEffect(() => {
     if (!showResult) return;
@@ -230,7 +230,7 @@ export default function Game({
     );
 
     return () => clearTimeout(timer);
-  }, [showResult]);
+  }, [showResult, isCorrect]);
 
   return (
     <div className="relative flex w-full flex-col items-center gap-4 p-2">
@@ -265,7 +265,7 @@ export default function Game({
           >
             <div className="text-center">
               {isCorrect ? (
-                <p className="text-4xl font-bold">{t("message.correct")}</p>
+                <p className="font-bold text-4xl">{t("message.correct")}</p>
               ) : (
                 <>
                   <p className="mb-2 text-3xl">{t("message.incorrect")}</p>
@@ -288,7 +288,7 @@ export default function Game({
               setCurrent(0);
               setTimeLeft(timeLimit || null);
             }}
-            className="rounded-xl bg-blue-600 px-10 py-4 text-xl text-white hover:bg-blue-500"
+            className="rounded-xl bg-blue-600 px-10 py-4 text-white text-xl hover:bg-blue-500"
           >
             {t("button.start")}
           </button>
@@ -299,12 +299,12 @@ export default function Game({
       ) : current >= questions.length ? (
         <>
           <div className="mt-12 w-full rounded-xl bg-zinc-800 p-6 shadow-xl">
-            <p className="mb-4 text-2xl font-bold">{t("result.title")}</p>
+            <p className="mb-4 font-bold text-2xl">{t("result.title")}</p>
             <p className="text-green-500">正解: {correctCount}</p>
             <p className="text-red-500">不正解: {incorrectCount}</p>
           </div>
           <button
-            className="w-full rounded-xl bg-blue-600 p-4 text-lg font-semibold text-white transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
+            className="w-full rounded-xl bg-blue-600 p-4 font-semibold text-lg text-white transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
             onClick={() => {
               next();
             }}

@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "format": "prettier --write .",
+    "format": "biome format --write",
+    "lint": "biome lint --write",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
     "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.4.9",
     "@eslint/js": "^10.0.1",
     "@types/node": "^25.5.0",
     "@types/react": "^19.2.14",
@@ -32,8 +33,6 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.4.0",
-    "prettier": "^3.8.1",
-    "prettier-plugin-tailwindcss": "^0.7.2",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.57.2",
     "vite": "^7.3.1"
