@@ -8,17 +8,6 @@ export interface USState {
   flag: string;
 }
 
-export default function getUSStates() {
-  return states.map((state) => {
-    return {
-      id: state.code,
-      name: state.name,
-      capital: state.capital,
-      flag: `https://flagcdn.com/${state.code}.svg`,
-    };
-  });
-}
-
 export const usStatesMode: GameModeConfig = {
   id: "us-states",
   titleKey: "mode.us-states.title",
@@ -42,7 +31,15 @@ export const usStatesMode: GameModeConfig = {
     capital: "text",
     flag: "img",
   },
-  getItems: () => getUSStates(),
+  getItems: () =>
+    states.map((state) => {
+      return {
+        id: state.code,
+        name: state.name,
+        capital: state.capital,
+        flag: `https://flagcdn.com/${state.code}.svg`,
+      };
+    }),
   normalizeQuestionField: (value) => {
     if (value === "capital" || value === "flag") {
       return value;

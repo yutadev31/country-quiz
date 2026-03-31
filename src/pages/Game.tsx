@@ -39,11 +39,11 @@ export default function GamePage() {
   const modeConfig = gameModes[mode];
   const questionField = modeConfig.normalizeQuestionField(questionFieldParam);
   const answerField = modeConfig.normalizeAnswerField(answerFieldParam);
-  const items = modeConfig.getItems({
-    area: area || "",
-    questionField,
-    answerField,
-  });
+  const items = modeConfig
+    .getItems({
+      area: area || "",
+    })
+    .filter((item) => item[questionField] && item[answerField]);
 
   return (
     <div className="mx-auto max-w-xl">

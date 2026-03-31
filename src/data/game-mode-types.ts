@@ -11,8 +11,6 @@ export type FieldOption = {
 
 export type GetItemsArgs = {
   area: string;
-  questionField: string;
-  answerField: string;
 };
 
 export type GameModeConfig = {

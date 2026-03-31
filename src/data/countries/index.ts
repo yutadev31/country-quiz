@@ -31,7 +31,7 @@ export default function getCountries(area: string) {
       id: country.code,
       name: country.name,
       capital: country.capital,
-      tld: country.tld,
+      domain: country.tld,
       flag: `https://flagcdn.com/${country.code}.svg`,
     };
   });
@@ -63,16 +63,7 @@ export const countriesMode: GameModeConfig = {
     tld: "text",
     flag: "img",
   },
-  getItems: ({ area, questionField, answerField }) => {
-    let items = getCountries(area);
-    if (questionField === "domain" || answerField === "domain") {
-      items = items.filter((country) => country.tld);
-    }
-    return items.map((country) => ({
-      ...country,
-      domain: country.tld,
-    }));
-  },
+  getItems: ({ area }) => getCountries(area),
   normalizeQuestionField: (value) => {
     if (value === "capital" || value === "flag" || value === "domain") {
       return value;

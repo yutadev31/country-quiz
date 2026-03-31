@@ -7,16 +7,6 @@ export interface FRRegion {
   capital: string;
 }
 
-export default function getFRRegions() {
-  return regions.map((region) => {
-    return {
-      id: region.code,
-      name: region.name,
-      capital: region.capital,
-    };
-  });
-}
-
 export const frRegionsMode: GameModeConfig = {
   id: "fr-regions",
   titleKey: "mode.fr-regions.title",
@@ -37,7 +27,14 @@ export const frRegionsMode: GameModeConfig = {
     name: "text",
     capital: "text",
   },
-  getItems: () => getFRRegions(),
+  getItems: () =>
+    regions.map((region) => {
+      return {
+        id: region.code,
+        name: region.name,
+        capital: region.capital,
+      };
+    }),
   normalizeQuestionField: (value) => {
     if (value === "capital") {
       return value;

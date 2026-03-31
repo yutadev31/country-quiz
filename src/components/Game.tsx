@@ -156,14 +156,19 @@ export default function Game<T extends Record<string, string | null>>({
         [
           q,
           ...shuffleArray(
-            items.filter((c) => c.id !== q.id),
+            items.filter(
+              (c) =>
+                c.id !== q.id &&
+                c[questionField] !== q[questionField] &&
+                c[answerField] !== q[answerField],
+            ),
             randomSeed + index + 1024,
           ).slice(0, 3),
         ],
         randomSeed + index,
       ),
     );
-  }, [questions, randomSeed, items]);
+  }, [questions, randomSeed, items, answerField, questionField]);
 
   const [current, setCurrent] = useState(-1);
   const [showResult, setShowResult] = useState(false);
