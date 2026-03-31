@@ -42,7 +42,7 @@ export const frRegionsMode: GameModeConfig = {
     return "name";
   },
   normalizeAnswerField: (value) => {
-    if (value === "name" || value === "capital") {
+    if (value === "name") {
       return value;
     }
     return "capital";

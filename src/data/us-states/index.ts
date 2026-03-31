@@ -47,7 +47,7 @@ export const usStatesMode: GameModeConfig = {
     return "name";
   },
   normalizeAnswerField: (value) => {
-    if (value === "name" || value === "capital" || value === "flag") {
+    if (value === "name" || value === "capital") {
       return value;
     }
     return "flag";

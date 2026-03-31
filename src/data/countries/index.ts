@@ -71,12 +71,7 @@ export const countriesMode: GameModeConfig = {
     return "name";
   },
   normalizeAnswerField: (value) => {
-    if (
-      value === "name" ||
-      value === "capital" ||
-      value === "flag" ||
-      value === "domain"
-    ) {
+    if (value === "name" || value === "capital" || value === "domain") {
       return value;
     }
     return "flag";
