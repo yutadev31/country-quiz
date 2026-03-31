@@ -3,7 +3,7 @@ import { useState } from "react";
 import Game from "@/components/Game";
 import type { Country } from "@/data/countries";
 import getCountries from "@/data/countries";
-import getUSStates, { type USState } from "@/data/states";
+import getUSStates, { type USState } from "@/data/us-states";
 
 export default function GamePage() {
   const [area] = useQueryState("area");

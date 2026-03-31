@@ -1,4 +1,4 @@
-import states from "@/data/states/states.json";
+import states from "@/data/us-states/states.json";
 
 export interface USState {
   id: string;
