@@ -1,0 +1,15 @@
+SELECT
+  ?regionLabel
+  ?capitalLabel
+  ?iso2
+WHERE {
+  ?region wdt:P31 wd:Q36784;
+           wdt:P300 ?iso2.
+
+  OPTIONAL { ?region wdt:P36 ?capital. }
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "ja,en".
+  }
+}
+ORDER BY ?iso2

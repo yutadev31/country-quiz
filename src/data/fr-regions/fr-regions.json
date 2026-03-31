@@ -1,0 +1,89 @@
+[
+  {
+    "name": "フランシュ＝コンテ地域圏",
+    "capital": "ブザンソン",
+    "code": "fr-i"
+  },
+  { "name": "アキテーヌ地域圏", "capital": "ボルドー", "code": "fr-b" },
+  { "name": "イル＝ド＝フランス地域圏", "capital": "パリ", "code": "fr-idf" },
+  { "name": "オクシタニー地域圏", "capital": "トゥールーズ", "code": "fr-occ" },
+  { "name": "オーヴェルニュ地域圏", "capital": "", "code": "fr-c" },
+  {
+    "name": "オーヴェルニュ＝ローヌ＝アルプ地域圏",
+    "capital": "リヨン",
+    "code": "fr-ara"
+  },
+  { "name": "オー＝ド＝フランス地域圏", "capital": "リール", "code": "fr-hdf" },
+  { "name": "グアドループ", "capital": "バステール", "code": "fr-971" },
+  {
+    "name": "グラン・テスト地域圏",
+    "capital": "ストラスブール",
+    "code": "fr-ges"
+  },
+  { "name": "コルシカ島", "capital": "アジャクシオ", "code": "fr-20r" },
+  {
+    "name": "サントル＝ヴァル・ド・ロワール地域圏",
+    "capital": "オルレアン",
+    "code": "fr-cvl"
+  },
+  {
+    "name": "シャンパーニュ＝アルデンヌ地域圏",
+    "capital": "シャロン＝アン＝シャンパーニュ",
+    "code": "fr-g"
+  },
+  {
+    "name": "ヌーヴェル＝アキテーヌ地域圏",
+    "capital": "ボルドー",
+    "code": "fr-naq"
+  },
+  { "name": "ノルマンディー地域圏", "capital": "ルーアン", "code": "fr-nor" },
+  {
+    "name": "ノール＝パ・ド・カレー地域圏",
+    "capital": "リール",
+    "code": "fr-o"
+  },
+  { "name": "バス＝ノルマンディー地域圏", "capital": "カーン", "code": "fr-p" },
+  { "name": "ピカルディ地域圏", "capital": "アミアン", "code": "fr-s" },
+  { "name": "フランス領ギアナ", "capital": "カイエンヌ", "code": "fr-973" },
+  { "name": "ブルゴーニュ地域圏", "capital": "ディジョン", "code": "fr-d" },
+  {
+    "name": "ブルゴーニュ＝フランシュ＝コンテ地域圏",
+    "capital": "ディジョン,ブザンソン",
+    "code": "fr-bfc"
+  },
+  { "name": "ブルターニュ地域圏", "capital": "レンヌ", "code": "fr-bre" },
+  {
+    "name": "プロヴァンス＝アルプ＝コート・ダジュール地域圏",
+    "capital": "マルセイユ",
+    "code": "fr-pac"
+  },
+  {
+    "name": "ペイ・ド・ラ・ロワール地域圏",
+    "capital": "ナント",
+    "code": "fr-pdl"
+  },
+  {
+    "name": "ポワトゥー＝シャラント地域圏",
+    "capital": "ポワチエ",
+    "code": "fr-t"
+  },
+  { "name": "マヨット", "capital": "マムズ,ザウジ", "code": "fr-976" },
+  {
+    "name": "マルティニーク",
+    "capital": "フォール＝ド＝フランス",
+    "code": "fr-972"
+  },
+  {
+    "name": "ミディ＝ピレネー地域圏",
+    "capital": "トゥールーズ",
+    "code": "fr-n"
+  },
+  {
+    "name": "ラングドック＝ルシヨン地域圏",
+    "capital": "モンペリエ",
+    "code": "fr-k"
+  },
+  { "name": "レユニオン", "capital": "サン＝ドニ", "code": "fr-974" },
+  { "name": "ローヌ＝アルプ地域圏", "capital": "リヨン", "code": "fr-v" },
+  { "name": "上ノルマンディー地域圏", "capital": "ルーアン", "code": "fr-q" }
+]
