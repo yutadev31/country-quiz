@@ -1,6 +1,7 @@
 {
   "title": "国クイズ",
   "heading": {
+    "mode": "モード",
     "content": "クイズ内容",
     "area": "出題地域",
     "rule": "ルール設定",
@@ -22,13 +23,27 @@
     "back-to-mode-selection": "モード選択に戻る"
   },
   "description": {
+    "mode": "遊ぶクイズのモードを選択",
     "one-shot-mode": "1問でも間違えたら即終了"
+  },
+  "mode": {
+    "countries": {
+      "title": "国",
+      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
+    },
+    "us-states": {
+      "title": "アメリカ50州",
+      "description": "州名・州都・州旗などで遊ぶモード"
+    }
   },
   "content-type": {
     "name": "国名",
     "capital": "首都",
     "flag": "国旗",
-    "domain": "ドメイン (TLD)"
+    "domain": "ドメイン (TLD)",
+    "state-name": "州名",
+    "state-capital": "州都",
+    "state-flag": "州旗"
   },
   "area": {
     "all": "すべて",

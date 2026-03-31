@@ -1,6 +1,7 @@
 {
   "title": "Country Quiz",
   "heading": {
+    "mode": "Mode",
     "content": "Quiz Content",
     "area": "Question Area",
     "rule": "Rule Settings",
@@ -22,13 +23,27 @@
     "back-to-mode-selection": "Back to Mode Selection"
   },
   "description": {
+    "mode": "Choose which quiz mode to play.",
     "one-shot-mode": "One mistake and it's game over."
+  },
+  "mode": {
+    "countries": {
+      "title": "Countries",
+      "description": "The standard mode with country names, capitals, flags, and domains."
+    },
+    "us-states": {
+      "title": "U.S. States",
+      "description": "A mode for state names, capitals, flags, and more."
+    }
   },
   "content-type": {
     "name": "Country Name",
     "capital": "Capital City",
     "flag": "Country Flag",
-    "domain": "Domain (TLD)"
+    "domain": "Domain (TLD)",
+    "state-name": "State Name",
+    "state-capital": "State Capital",
+    "state-flag": "State Flag"
   },
   "area": {
     "all": "All",

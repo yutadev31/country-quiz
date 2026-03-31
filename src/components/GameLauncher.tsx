@@ -65,6 +65,78 @@ function SectionTitle({
   );
 }
 
+function ModeSection({
+  mode,
+  onModeChange,
+}: {
+  mode: "countries" | "us-states";
+  onModeChange: (mode: "countries" | "us-states") => void;
+}) {
+  const { t } = useTranslation();
+
+  return (
+    <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
+      <SectionTitle
+        icon={LuGlobe}
+        title={t("heading.mode")}
+        description={t("description.mode")}
+      />
+
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+        <label
+          className={`cursor-pointer rounded-xl border p-4 transition ${
+            mode === "countries"
+              ? "border-blue-400 bg-blue-600"
+              : "border-zinc-700 bg-zinc-800"
+          }`}
+        >
+          <input
+            type="radio"
+            name="mode"
+            value="countries"
+            checked={mode === "countries"}
+            onChange={() => onModeChange("countries")}
+            className="hidden"
+          />
+          <div className="font-bold text-lg">{t("mode.countries.title")}</div>
+          <p
+            className={`mt-1 text-sm ${
+              mode === "countries" ? "text-blue-100" : "text-zinc-300"
+            }`}
+          >
+            {t("mode.countries.description")}
+          </p>
+        </label>
+
+        <label
+          className={`cursor-pointer rounded-xl border p-4 transition ${
+            mode === "us-states"
+              ? "border-blue-400 bg-blue-600"
+              : "border-zinc-700 bg-zinc-800"
+          }`}
+        >
+          <input
+            type="radio"
+            name="mode"
+            value="us-states"
+            checked={mode === "us-states"}
+            onChange={() => onModeChange("us-states")}
+            className="hidden"
+          />
+          <div className="font-bold text-lg">{t("mode.us-states.title")}</div>
+          <p
+            className={`mt-1 text-sm ${
+              mode === "us-states" ? "text-blue-100" : "text-zinc-300"
+            }`}
+          >
+            {t("mode.us-states.description")}
+          </p>
+        </label>
+      </div>
+    </section>
+  );
+}
+
 function RuleSection() {
   const [preset, setPreset] = useState("standard");
   const [count, setCount] = useState(10);
@@ -178,52 +250,63 @@ function RuleSection() {
 
 export default function GameLauncher() {
   const { t } = useTranslation();
+  const [mode, setMode] = useState<"countries" | "us-states">("countries");
+  const contentTypeOptions =
+    mode === "countries"
+      ? [
+          { label: t("content-type.name"), value: "name" },
+          { label: t("content-type.capital"), value: "capital" },
+          { label: t("content-type.flag"), value: "flag" },
+          { label: t("content-type.domain"), value: "domain" },
+        ]
+      : [
+          { label: t("content-type.state-name"), value: "name" },
+          { label: t("content-type.state-capital"), value: "capital" },
+          { label: t("content-type.state-flag"), value: "flag" },
+        ];
 
   return (
     <form action="/country-quiz" className="space-y-6 py-4">
       <h2 className="text-center text-2xl">{t("title")}</h2>
 
       <input type="hidden" name="page" value="game" />
+      {mode === "us-states" && <input type="hidden" name="area" value="all" />}
+
+      <ModeSection mode={mode} onModeChange={setMode} />
 
       <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
         <SectionTitle icon={LuBrain} title={t("heading.content")} />
 
         <p className="mb-2 text-sm">{t("label.question-type")}</p>
         <RadioGroup
+          key={`question-${mode}`}
           name="question"
           defaultValue="name"
-          options={[
-            { label: t("content-type.name"), value: "name" },
-            { label: t("content-type.capital"), value: "capital" },
-            { label: t("content-type.flag"), value: "flag" },
-            { label: t("content-type.domain"), value: "domain" },
-          ]}
+          options={contentTypeOptions}
         />
 
         <p className="mt-4 mb-2 text-sm">{t("label.choice-type")}</p>
         <RadioGroup
+          key={`choice-${mode}`}
           name="choice"
           defaultValue="flag"
-          options={[
-            { label: t("content-type.name"), value: "name" },
-            { label: t("content-type.capital"), value: "capital" },
-            { label: t("content-type.flag"), value: "flag" },
-            { label: t("content-type.domain"), value: "domain" },
-          ]}
+          options={contentTypeOptions}
         />
       </section>
 
-      <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
-        <SectionTitle icon={LuGlobe} title={t("heading.area")} />
-        <RadioGroup
-          name="area"
-          defaultValue="all"
-          options={["all", ...areas].map((area) => ({
-            label: t(`area.${area}`),
-            value: area,
-          }))}
-        />
-      </section>
+      {mode === "countries" && (
+        <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
+          <SectionTitle icon={LuGlobe} title={t("heading.area")} />
+          <RadioGroup
+            name="area"
+            defaultValue="all"
+            options={["all", ...areas].map((area) => ({
+              label: t(`area.${area}`),
+              value: area,
+            }))}
+          />
+        </section>
+      )}
 
       <RuleSection />
 
