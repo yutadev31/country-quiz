@@ -1,44 +1,43 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
-import type { Country } from "@/types/country";
 import { shuffleArray } from "@/utils/array";
 
-export type ContentType = "name" | "capital" | "domain" | "flag";
-
-function QuestionContent({
-  country,
+function QuestionContent<T extends Record<string, string | null>>({
+  item,
   content,
+  view,
 }: {
-  country: Country;
-  content: ContentType;
+  item: T & { id: string };
+  content: keyof T;
+  view: { [K in keyof T]: "text" | "img" | "id" };
 }) {
-  switch (content) {
-    case "name":
-      return <p className="font-bold text-3xl">{country.name}</p>;
-    case "capital":
-      return <p className="font-bold text-3xl">{country.capital}</p>;
-    case "domain":
-      return <p className="font-bold text-3xl">{country.tld}</p>;
-    case "flag":
+  switch (view[content]) {
+    case "text":
+      return <p className="font-bold text-3xl">{`${item[content]}`}</p>;
+    case "img":
       return (
         <img
           alt=""
-          src={`https://flagcdn.com/${country.code}.svg`}
+          src={`${item[content]}`}
           className="mx-auto h-32 object-contain drop-shadow-xl"
         />
       );
+    case "id":
+      throw Error("");
   }
 }
 
-function ChoiceContent({
+function ChoiceContent<T extends Record<string, string | null>>({
   choices,
   content,
+  view,
   onClick,
 }: {
-  choices: Country[];
-  content: ContentType;
-  onClick: (choice: Country) => void;
+  choices: (T & { id: string })[];
+  content: keyof T;
+  view: { [K in keyof T]: "text" | "img" | "id" };
+  onClick: (choice: T & { id: string }) => void;
 }) {
   const layout =
     content === "flag" ? "grid grid-cols-2 gap-4" : "flex flex-col gap-3";
@@ -47,9 +46,10 @@ function ChoiceContent({
     <div className={`mt-6 w-full ${layout}`}>
       {choices.map((choice) => (
         <ChoiceContentItem
-          key={choice.code}
-          country={choice}
+          key={choice.id}
+          item={choice}
           content={content}
+          view={view}
           onClick={() => onClick(choice)}
         />
       ))}
@@ -57,71 +57,75 @@ function ChoiceContent({
   );
 }
 
-function ChoiceContentItem({
-  country,
+function ChoiceContentItem<T extends Record<string, string | null>>({
+  item,
   content,
+  view,
   onClick,
 }: {
-  country: Country;
-  content: ContentType;
+  item: T & { id: string };
+  content: keyof T;
+  view: { [K in keyof T]: "text" | "img" | "id" };
   onClick: () => void;
 }) {
-  if (content === "flag") {
-    return (
-      <button
-        type="button"
-        onClick={onClick}
-        className="aspect-4/3 rounded-xl bg-zinc-800 shadow-md transition hover:scale-[1.03] hover:shadow-xl active:scale-[0.97]"
-      >
-        <img
-          alt=""
-          src={`https://flagcdn.com/${country.code}.svg`}
-          className="h-full w-full object-contain p-2"
-        />
-      </button>
-    );
+  switch (view[content]) {
+    case "text":
+      return (
+        <button
+          type="button"
+          onClick={onClick}
+          className="rounded-xl bg-blue-600 p-4 font-semibold text-lg transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
+        >
+          {`${item[content]}`}
+        </button>
+      );
+    case "img":
+      return (
+        <button
+          type="button"
+          onClick={onClick}
+          className="aspect-4/3 rounded-xl bg-zinc-800 shadow-md transition hover:scale-[1.03] hover:shadow-xl active:scale-[0.97]"
+        >
+          <img
+            alt=""
+            src={`${item[content]}`}
+            className="h-full w-full object-contain p-2"
+          />
+        </button>
+      );
+    case "id":
+      throw Error("");
   }
-
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      className="rounded-xl bg-blue-600 p-4 font-semibold text-lg transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
-    >
-      {content === "name" && country.name}
-      {content === "capital" && country.capital}
-      {content === "domain" && country.tld}
-    </button>
-  );
 }
 
-function CorrectContent({
-  country,
+function CorrectContent<T extends Record<string, string | null>>({
+  item,
   content,
+  view,
 }: {
-  country: Country;
-  content: ContentType;
+  item: T & { id: string };
+  content: keyof T;
+  view: { [K in keyof T]: "text" | "img" | "id" };
 }) {
-  switch (content) {
-    case "name":
-      return <span>{country.name}</span>;
-    case "capital":
-      return <span>{country.capital}</span>;
-    case "domain":
-      return <span>{country.tld}</span>;
-    case "flag":
+  switch (view[content]) {
+    case "text":
+      return <span>{`${item[content]}`}</span>;
+    case "img":
       return (
         <img
           alt=""
-          src={`https://flagcdn.com/${country.code}.svg`}
+          src={`${item[content]}`}
           className="inline h-6 object-contain align-middle"
         />
       );
+    case "id":
+      throw Error("");
   }
 }
 
-export default function Game({
-  countries,
+export default function Game<T extends Record<string, string | null>>({
+  view,
+  data,
   questionKind,
   choiceKind,
   count,
@@ -130,9 +134,10 @@ export default function Game({
   seed,
   next,
 }: {
-  countries: Country[];
-  questionKind: ContentType;
-  choiceKind: ContentType;
+  view: { [K in keyof T]: "text" | "img" | "id" };
+  data: (T & { id: string })[];
+  questionKind: keyof T;
+  choiceKind: keyof T;
   count: number;
   oneShotMode: boolean;
   timeLimit: number | null;
@@ -140,8 +145,8 @@ export default function Game({
   next: () => void;
 }) {
   const questions = useMemo(() => {
-    return shuffleArray(countries, seed).slice(0, count);
-  }, [countries, count, seed]);
+    return shuffleArray(data, seed).slice(0, count);
+  }, [count, seed, data]);
 
   const choices = useMemo(() => {
     return questions.map((q, index) =>
@@ -149,19 +154,19 @@ export default function Game({
         [
           q,
           ...shuffleArray(
-            countries.filter((c) => c.code !== q.code),
+            data.filter((c) => c.id !== q.id),
             seed + index + 1024,
           ).slice(0, 3),
         ],
         seed + index,
       ),
     );
-  }, [questions, countries, seed]);
+  }, [questions, seed, data]);
 
   const [current, setCurrent] = useState(-1);
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
-  const [correct, setCorrect] = useState<Country | null>(null);
+  const [correct, setCorrect] = useState<(T & { id: string }) | null>(null);
 
   const [correctCount, setCorrectCount] = useState(0);
   const [incorrectCount, setIncorrectCount] = useState(0);
@@ -170,15 +175,15 @@ export default function Game({
   const { t } = useTranslation();
 
   useEffect(() => {
-    if (questionKind === "flag") {
+    if (view[questionKind] === "img") {
       const next = questions[current + 1];
       if (!next) return;
 
       const img = new Image();
-      img.src = `https://flagcdn.com/${next.code}.svg`;
+      img.src = `${next[questionKind]}`;
     }
 
-    if (choiceKind === "flag") {
+    if (view[choiceKind] === "img") {
       const next = choices[current + 1];
       if (!next) return;
 
@@ -186,10 +191,10 @@ export default function Game({
         if (!choice) return;
 
         const img = new Image();
-        img.src = `https://flagcdn.com/${choice.code}.svg`;
+        img.src = `${choice[choiceKind]}`;
       });
     }
-  }, [current, questions, choices, questionKind, choiceKind]);
+  }, [current, questions, choices, questionKind, choiceKind, view]);
 
   useEffect(() => {
     if (
@@ -278,7 +283,11 @@ export default function Game({
                     <p className="mb-2 text-3xl">{t("message.incorrect")}</p>
                     <p>
                       正解：
-                      <CorrectContent content={choiceKind} country={correct} />
+                      <CorrectContent
+                        item={correct}
+                        content={choiceKind}
+                        view={view}
+                      />
                     </p>
                   </>
                 )
@@ -326,16 +335,18 @@ export default function Game({
         <div className="w-full">
           <div className="overflow-clip rounded-xl bg-zinc-800 p-6 text-center shadow-xl">
             <QuestionContent
-              country={questions[current]}
+              item={questions[current]}
               content={questionKind}
+              view={view}
             />
           </div>
 
           <ChoiceContent
             choices={choices[current]}
             content={choiceKind}
+            view={view}
             onClick={(choice) => {
-              const isCorrect = questions[current].code === choice.code;
+              const isCorrect = questions[current].id === choice.id;
 
               if (isCorrect) {
                 setCorrectCount((c) => c + 1);

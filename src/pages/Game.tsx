@@ -1,8 +1,8 @@
 import { useQueryState } from "nuqs";
 import { useState } from "react";
-import Game, { type ContentType } from "@/components/Game";
+import Game from "@/components/Game";
 import countries from "@/data/countries.json";
-import type { Country } from "@/types/country";
+import type { Country, CountryForGame } from "@/types/country";
 
 export interface Props {
   area: string;
@@ -67,12 +67,27 @@ export default function GamePage() {
         next={() => {
           setSeed(Math.floor(Math.random() * 4096));
         }}
-        countries={filteredCountries}
-        questionKind={question as ContentType}
-        choiceKind={choice as ContentType}
+        data={filteredCountries.map((country) => {
+          return {
+            id: country.code,
+            name: country.name,
+            capital: country.capital,
+            tld: country.tld,
+            flag: `https://flagcdn.com/${country.code}.svg`,
+          };
+        })}
+        questionKind={question as keyof CountryForGame}
+        choiceKind={choice as keyof CountryForGame}
         count={parseCount(filteredCountries, count || "10")}
         timeLimit={parseTimeLimit(timeLimit)}
         oneShotMode={oneShotMode === "on"}
+        view={{
+          id: "id",
+          name: "text",
+          capital: "text",
+          tld: "text",
+          flag: "img",
+        }}
       />
     </div>
   );

@@ -5,3 +5,10 @@ export interface Country {
   continent: string[];
   tld: string | null;
 }
+
+export interface CountryForGame {
+  name: string;
+  capital: string | null;
+  tld: string | null;
+  flag: string;
+}
