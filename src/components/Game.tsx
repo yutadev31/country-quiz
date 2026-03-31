@@ -4,22 +4,22 @@ import { useTranslation } from "react-i18next";
 import { shuffleArray } from "@/utils/array";
 
 function QuestionContent<T extends Record<string, string | null>>({
-  item,
-  content,
-  view,
+  question,
+  field,
+  fieldDisplayTypes,
 }: {
-  item: T & { id: string };
-  content: keyof T;
-  view: { [K in keyof T]: "text" | "img" | "id" };
+  question: T & { id: string };
+  field: keyof T;
+  fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
 }) {
-  switch (view[content]) {
+  switch (fieldDisplayTypes[field]) {
     case "text":
-      return <p className="font-bold text-3xl">{`${item[content]}`}</p>;
+      return <p className="font-bold text-3xl">{`${question[field]}`}</p>;
     case "img":
       return (
         <img
           alt=""
-          src={`${item[content]}`}
+          src={`${question[field]}`}
           className="mx-auto h-32 object-contain drop-shadow-xl"
         />
       );
@@ -29,28 +29,30 @@ function QuestionContent<T extends Record<string, string | null>>({
 }
 
 function ChoiceContent<T extends Record<string, string | null>>({
-  choices,
-  content,
-  view,
-  onClick,
+  options,
+  field,
+  fieldDisplayTypes,
+  onSelect,
 }: {
-  choices: (T & { id: string })[];
-  content: keyof T;
-  view: { [K in keyof T]: "text" | "img" | "id" };
-  onClick: (choice: T & { id: string }) => void;
+  options: (T & { id: string })[];
+  field: keyof T;
+  fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
+  onSelect: (option: T & { id: string }) => void;
 }) {
   const layout =
-    view[content] === "img" ? "grid grid-cols-2 gap-4" : "flex flex-col gap-3";
+    fieldDisplayTypes[field] === "img"
+      ? "grid grid-cols-2 gap-4"
+      : "flex flex-col gap-3";
 
   return (
     <div className={`mt-6 w-full ${layout}`}>
-      {choices.map((choice) => (
+      {options.map((option) => (
         <ChoiceContentItem
-          key={choice.id}
-          item={choice}
-          content={content}
-          view={view}
-          onClick={() => onClick(choice)}
+          option={option}
+          key={option.id}
+          field={field}
+          fieldDisplayTypes={fieldDisplayTypes}
+          onSelect={() => onSelect(option)}
         />
       ))}
     </div>
@@ -58,37 +60,37 @@ function ChoiceContent<T extends Record<string, string | null>>({
 }
 
 function ChoiceContentItem<T extends Record<string, string | null>>({
-  item,
-  content,
-  view,
-  onClick,
+  option,
+  field,
+  fieldDisplayTypes,
+  onSelect,
 }: {
-  item: T & { id: string };
-  content: keyof T;
-  view: { [K in keyof T]: "text" | "img" | "id" };
-  onClick: () => void;
+  option: T & { id: string };
+  field: keyof T;
+  fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
+  onSelect: () => void;
 }) {
-  switch (view[content]) {
+  switch (fieldDisplayTypes[field]) {
     case "text":
       return (
         <button
           type="button"
-          onClick={onClick}
+          onClick={onSelect}
           className="rounded-xl bg-blue-600 p-4 font-semibold text-lg transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
         >
-          {`${item[content]}`}
+          {`${option[field]}`}
         </button>
       );
     case "img":
       return (
         <button
           type="button"
-          onClick={onClick}
+          onClick={onSelect}
           className="aspect-4/3 rounded-xl bg-zinc-800 shadow-md transition hover:scale-[1.03] hover:shadow-xl active:scale-[0.97]"
         >
           <img
             alt=""
-            src={`${item[content]}`}
+            src={`${option[field]}`}
             className="h-full w-full object-contain p-2"
           />
         </button>
@@ -99,22 +101,22 @@ function ChoiceContentItem<T extends Record<string, string | null>>({
 }
 
 function CorrectContent<T extends Record<string, string | null>>({
-  item,
-  content,
-  view,
+  correctAnswer,
+  field,
+  fieldDisplayTypes,
 }: {
-  item: T & { id: string };
-  content: keyof T;
-  view: { [K in keyof T]: "text" | "img" | "id" };
+  correctAnswer: T & { id: string };
+  field: keyof T;
+  fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
 }) {
-  switch (view[content]) {
+  switch (fieldDisplayTypes[field]) {
     case "text":
-      return <span>{`${item[content]}`}</span>;
+      return <span>{`${correctAnswer[field]}`}</span>;
     case "img":
       return (
         <img
           alt=""
-          src={`${item[content]}`}
+          src={`${correctAnswer[field]}`}
           className="inline h-6 object-contain align-middle"
         />
       );
@@ -124,29 +126,29 @@ function CorrectContent<T extends Record<string, string | null>>({
 }
 
 export default function Game<T extends Record<string, string | null>>({
-  view,
-  data,
-  questionKind,
-  choiceKind,
-  count,
-  oneShotMode,
-  timeLimit,
-  seed,
-  next,
+  fieldDisplayTypes,
+  items,
+  questionField,
+  answerField,
+  questionCount,
+  stopOnMistake,
+  timeLimitSeconds,
+  randomSeed,
+  onRestart,
 }: {
-  view: { [K in keyof T]: "text" | "img" | "id" };
-  data: (T & { id: string })[];
-  questionKind: keyof T;
-  choiceKind: keyof T;
-  count: number;
-  oneShotMode: boolean;
-  timeLimit: number | null;
-  seed: number;
-  next: () => void;
+  fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
+  items: (T & { id: string })[];
+  questionField: keyof T;
+  answerField: keyof T;
+  questionCount: number;
+  stopOnMistake: boolean;
+  timeLimitSeconds: number | null;
+  randomSeed: number;
+  onRestart: () => void;
 }) {
   const questions = useMemo(() => {
-    return shuffleArray(data, seed).slice(0, count);
-  }, [count, seed, data]);
+    return shuffleArray(items, randomSeed).slice(0, questionCount);
+  }, [questionCount, randomSeed, items]);
 
   const choices = useMemo(() => {
     return questions.map((q, index) =>
@@ -154,14 +156,14 @@ export default function Game<T extends Record<string, string | null>>({
         [
           q,
           ...shuffleArray(
-            data.filter((c) => c.id !== q.id),
-            seed + index + 1024,
+            items.filter((c) => c.id !== q.id),
+            randomSeed + index + 1024,
           ).slice(0, 3),
         ],
-        seed + index,
+        randomSeed + index,
       ),
     );
-  }, [questions, seed, data]);
+  }, [questions, randomSeed, items]);
 
   const [current, setCurrent] = useState(-1);
   const [showResult, setShowResult] = useState(false);
@@ -170,37 +172,37 @@ export default function Game<T extends Record<string, string | null>>({
 
   const [correctCount, setCorrectCount] = useState(0);
   const [incorrectCount, setIncorrectCount] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(timeLimit ?? null);
+  const [timeLeft, setTimeLeft] = useState(timeLimitSeconds ?? null);
 
   const { t } = useTranslation();
 
   useEffect(() => {
-    if (view[questionKind] === "img") {
-      const next = questions[current + 1];
-      if (!next) return;
+    if (fieldDisplayTypes[questionField] === "img") {
+      const nextQuestion = questions[current + 1];
+      if (!nextQuestion) return;
 
       const img = new Image();
-      img.src = `${next[questionKind]}`;
+      img.src = `${nextQuestion[questionField]}`;
     }
 
-    if (view[choiceKind] === "img") {
-      const next = choices[current + 1];
-      if (!next) return;
+    if (fieldDisplayTypes[answerField] === "img") {
+      const nextChoices = choices[current + 1];
+      if (!nextChoices) return;
 
-      next.forEach((choice) => {
+      nextChoices.forEach((choice) => {
         if (!choice) return;
 
         const img = new Image();
-        img.src = `${choice[choiceKind]}`;
+        img.src = `${choice[answerField]}`;
       });
     }
-  }, [current, questions, choices, questionKind, choiceKind, view]);
+  }, [current, questions, choices, questionField, answerField, fieldDisplayTypes]);
 
   useEffect(() => {
     if (
       current === -1 ||
       current === questions.length ||
-      timeLimit === null ||
+      timeLimitSeconds === null ||
       timeLeft === null
     ) {
       return;
@@ -213,11 +215,11 @@ export default function Game<T extends Record<string, string | null>>({
       setCorrect(questions[current]);
       setShowResult(true);
 
-      if (oneShotMode) {
+      if (stopOnMistake) {
         setCurrent(questions.length);
       } else {
         setCurrent((c) => c + 1);
-        setTimeLeft(timeLimit || null);
+        setTimeLeft(timeLimitSeconds || null);
       }
       return;
     }
@@ -227,7 +229,7 @@ export default function Game<T extends Record<string, string | null>>({
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [timeLimit, timeLeft, current, questions, oneShotMode]);
+  }, [timeLimitSeconds, timeLeft, current, questions, stopOnMistake]);
 
   useEffect(() => {
     if (!showResult) return;
@@ -284,9 +286,9 @@ export default function Game<T extends Record<string, string | null>>({
                     <p>
                       正解：
                       <CorrectContent
-                        item={correct}
-                        content={choiceKind}
-                        view={view}
+                        correctAnswer={correct}
+                        field={answerField}
+                        fieldDisplayTypes={fieldDisplayTypes}
                       />
                     </p>
                   </>
@@ -304,7 +306,7 @@ export default function Game<T extends Record<string, string | null>>({
             type="button"
             onClick={() => {
               setCurrent(0);
-              setTimeLeft(timeLimit || null);
+              setTimeLeft(timeLimitSeconds || null);
             }}
             className="rounded-xl bg-blue-600 px-10 py-4 text-white text-xl hover:bg-blue-500"
           >
@@ -325,7 +327,7 @@ export default function Game<T extends Record<string, string | null>>({
             type="button"
             className="w-full rounded-xl bg-blue-600 p-4 font-semibold text-lg text-white transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
             onClick={() => {
-              next();
+              onRestart();
             }}
           >
             {t("button.restart")}
@@ -335,17 +337,17 @@ export default function Game<T extends Record<string, string | null>>({
         <div className="w-full">
           <div className="overflow-clip rounded-xl bg-zinc-800 p-6 text-center shadow-xl">
             <QuestionContent
-              item={questions[current]}
-              content={questionKind}
-              view={view}
+              question={questions[current]}
+              field={questionField}
+              fieldDisplayTypes={fieldDisplayTypes}
             />
           </div>
 
           <ChoiceContent
-            choices={choices[current]}
-            content={choiceKind}
-            view={view}
-            onClick={(choice) => {
+            options={choices[current]}
+            field={answerField}
+            fieldDisplayTypes={fieldDisplayTypes}
+            onSelect={(choice) => {
               const isCorrect = questions[current].id === choice.id;
 
               if (isCorrect) {
@@ -358,11 +360,11 @@ export default function Game<T extends Record<string, string | null>>({
               setCorrect(questions[current]);
               setShowResult(true);
 
-              if (oneShotMode && !isCorrect) {
+              if (stopOnMistake && !isCorrect) {
                 setCurrent(questions.length);
               } else {
                 setCurrent((c) => c + 1);
-                setTimeLeft(timeLimit || null);
+                setTimeLeft(timeLimitSeconds || null);
               }
             }}
           />

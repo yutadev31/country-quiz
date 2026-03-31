@@ -4,24 +4,18 @@ import Game from "@/components/Game";
 import type { Country } from "@/data/countries";
 import getCountries from "@/data/countries";
 
-export interface Props {
-  area: string;
-  count: number;
-  lang: string;
-  oneShotMode: boolean;
-  timeLimit: number | null;
-}
-
 export default function GamePage() {
   const [area] = useQueryState("area");
-  const [question] = useQueryState("question");
-  const [choice] = useQueryState("choice");
-  const [count] = useQueryState("count");
-  const [oneShotMode] = useQueryState("oneShotMode");
-  const [timeLimit] = useQueryState("timeLimit");
+  const [questionFieldParam] = useQueryState("question");
+  const [answerFieldParam] = useQueryState("choice");
+  const [countParam] = useQueryState("count");
+  const [stopOnMistakeParam] = useQueryState("oneShotMode");
+  const [timeLimitParam] = useQueryState("timeLimit");
 
-  // eslint-disable-next-line react-hooks/purity
-  const [seed, setSeed] = useState(Math.floor(Math.random() * 4096));
+  const [randomSeed, setRandomSeed] = useState(
+    // eslint-disable-next-line react-hooks/purity
+    Math.floor(Math.random() * 4096),
+  );
 
   const parseCount = (countries: Country[], count: string | undefined) => {
     if (count === undefined) {
@@ -42,25 +36,25 @@ export default function GamePage() {
   };
 
   let countries = getCountries(area || "");
-  if (question === "domain" || choice === "domain") {
+  if (questionFieldParam === "domain" || answerFieldParam === "domain") {
     countries = countries.filter((c) => c.tld);
   }
 
   return (
     <div className="mx-auto max-w-xl">
       <Game
-        key={seed}
-        seed={seed}
-        next={() => {
-          setSeed(Math.floor(Math.random() * 4096));
+        key={randomSeed}
+        randomSeed={randomSeed}
+        onRestart={() => {
+          setRandomSeed(Math.floor(Math.random() * 4096));
         }}
-        data={countries}
-        questionKind={question as keyof Country}
-        choiceKind={choice as keyof Country}
-        count={parseCount(countries, count || "10")}
-        timeLimit={parseTimeLimit(timeLimit)}
-        oneShotMode={oneShotMode === "on"}
-        view={{
+        items={countries}
+        questionField={questionFieldParam as keyof Country}
+        answerField={answerFieldParam as keyof Country}
+        questionCount={parseCount(countries, countParam || "10")}
+        timeLimitSeconds={parseTimeLimit(timeLimitParam)}
+        stopOnMistake={stopOnMistakeParam === "on"}
+        fieldDisplayTypes={{
           id: "id",
           name: "text",
           capital: "text",
