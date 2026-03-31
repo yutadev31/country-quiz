@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { HiPlay } from "react-icons/hi2";
 import { LuBrain, LuFlame, LuGlobe, LuTimer } from "react-icons/lu";
-import areas from "@/data/areas.json";
+import areas from "@/data/countries/areas.json";
 
 type Option = {
   label: string;

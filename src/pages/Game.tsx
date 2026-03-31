@@ -1,8 +1,8 @@
 import { useQueryState } from "nuqs";
 import { useState } from "react";
 import Game from "@/components/Game";
-import countries from "@/data/countries.json";
-import type { Country, CountryForGame } from "@/types/country";
+import type { Country } from "@/data/countries";
+import getCountries from "@/data/countries";
 
 export interface Props {
   area: string;
@@ -41,22 +41,9 @@ export default function GamePage() {
     }
   };
 
-  const filterRegion = (countries: Country[], continent: string) =>
-    countries.filter((country) => country.continent.indexOf(continent) !== -1);
-
-  const filter = (countries: Country[], area?: string) => {
-    if (!area) return countries;
-    if (area === "all") return countries;
-    return filterRegion(countries, area);
-  };
-
-  let filteredCountries = filter(countries, area || "");
-  if (!filteredCountries) {
-    return <></>;
-  }
-
+  let countries = getCountries(area || "");
   if (question === "domain" || choice === "domain") {
-    filteredCountries = filteredCountries.filter((c) => c.tld);
+    countries = countries.filter((c) => c.tld);
   }
 
   return (
@@ -67,18 +54,10 @@ export default function GamePage() {
         next={() => {
           setSeed(Math.floor(Math.random() * 4096));
         }}
-        data={filteredCountries.map((country) => {
-          return {
-            id: country.code,
-            name: country.name,
-            capital: country.capital,
-            tld: country.tld,
-            flag: `https://flagcdn.com/${country.code}.svg`,
-          };
-        })}
-        questionKind={question as keyof CountryForGame}
-        choiceKind={choice as keyof CountryForGame}
-        count={parseCount(filteredCountries, count || "10")}
+        data={countries}
+        questionKind={question as keyof Country}
+        choiceKind={choice as keyof Country}
+        count={parseCount(countries, count || "10")}
         timeLimit={parseTimeLimit(timeLimit)}
         oneShotMode={oneShotMode === "on"}
         view={{
