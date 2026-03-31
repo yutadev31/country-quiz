@@ -40,7 +40,7 @@ function ChoiceContent<T extends Record<string, string | null>>({
   onClick: (choice: T & { id: string }) => void;
 }) {
   const layout =
-    content === "flag" ? "grid grid-cols-2 gap-4" : "flex flex-col gap-3";
+    view[content] === "img" ? "grid grid-cols-2 gap-4" : "flex flex-col gap-3";
 
   return (
     <div className={`mt-6 w-full ${layout}`}>
