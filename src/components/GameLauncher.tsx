@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 import { HiPlay } from "react-icons/hi2";
 import { LuBrain, LuFlame, LuGlobe, LuTimer } from "react-icons/lu";
 import areas from "@/data/countries/areas.json";
+import type { GameModeId } from "@/data/game-mode-types";
+import { gameModeList, gameModes } from "@/data/game-modes";
 
 type Option = {
   label: string;
@@ -69,8 +71,8 @@ function ModeSection({
   mode,
   onModeChange,
 }: {
-  mode: "countries" | "us-states" | "fr-regions";
-  onModeChange: (mode: "countries" | "us-states" | "fr-regions") => void;
+  mode: GameModeId;
+  onModeChange: (mode: GameModeId) => void;
 }) {
   const { t } = useTranslation();
 
@@ -83,80 +85,33 @@ function ModeSection({
       />
 
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-1">
-        <label
-          className={`cursor-pointer rounded-xl border p-4 transition ${
-            mode === "countries"
-              ? "border-blue-400 bg-blue-600"
-              : "border-zinc-700 bg-zinc-800"
-          }`}
-        >
-          <input
-            type="radio"
-            name="mode"
-            value="countries"
-            checked={mode === "countries"}
-            onChange={() => onModeChange("countries")}
-            className="hidden"
-          />
-          <div className="font-bold text-lg">{t("mode.countries.title")}</div>
-          <p
-            className={`mt-1 text-sm ${
-              mode === "countries" ? "text-blue-100" : "text-zinc-300"
+        {gameModeList.map((gameMode) => (
+          <label
+            key={gameMode.id}
+            className={`cursor-pointer rounded-xl border p-4 transition ${
+              mode === gameMode.id
+                ? "border-blue-400 bg-blue-600"
+                : "border-zinc-700 bg-zinc-800"
             }`}
           >
-            {t("mode.countries.description")}
-          </p>
-        </label>
-
-        <label
-          className={`cursor-pointer rounded-xl border p-4 transition ${
-            mode === "us-states"
-              ? "border-blue-400 bg-blue-600"
-              : "border-zinc-700 bg-zinc-800"
-          }`}
-        >
-          <input
-            type="radio"
-            name="mode"
-            value="us-states"
-            checked={mode === "us-states"}
-            onChange={() => onModeChange("us-states")}
-            className="hidden"
-          />
-          <div className="font-bold text-lg">{t("mode.us-states.title")}</div>
-          <p
-            className={`mt-1 text-sm ${
-              mode === "us-states" ? "text-blue-100" : "text-zinc-300"
-            }`}
-          >
-            {t("mode.us-states.description")}
-          </p>
-        </label>
-
-        <label
-          className={`cursor-pointer rounded-xl border p-4 transition ${
-            mode === "fr-regions"
-              ? "border-blue-400 bg-blue-600"
-              : "border-zinc-700 bg-zinc-800"
-          }`}
-        >
-          <input
-            type="radio"
-            name="mode"
-            value="fr-regions"
-            checked={mode === "fr-regions"}
-            onChange={() => onModeChange("fr-regions")}
-            className="hidden"
-          />
-          <div className="font-bold text-lg">{t("mode.fr-regions.title")}</div>
-          <p
-            className={`mt-1 text-sm ${
-              mode === "fr-regions" ? "text-blue-100" : "text-zinc-300"
-            }`}
-          >
-            {t("mode.fr-regions.description")}
-          </p>
-        </label>
+            <input
+              type="radio"
+              name="mode"
+              value={gameMode.id}
+              checked={mode === gameMode.id}
+              onChange={() => onModeChange(gameMode.id)}
+              className="hidden"
+            />
+            <div className="font-bold text-lg">{t(gameMode.titleKey)}</div>
+            <p
+              className={`mt-1 text-sm ${
+                mode === gameMode.id ? "text-blue-100" : "text-zinc-300"
+              }`}
+            >
+              {t(gameMode.descriptionKey)}
+            </p>
+          </label>
+        ))}
       </div>
     </section>
   );
@@ -275,34 +230,25 @@ function RuleSection() {
 
 export default function GameLauncher() {
   const { t } = useTranslation();
-  const [mode, setMode] = useState<"countries" | "us-states" | "fr-regions">(
-    "countries",
-  );
-  const contentTypeOptions =
-    mode === "countries"
-      ? [
-          { label: t("content-type.name"), value: "name" },
-          { label: t("content-type.capital"), value: "capital" },
-          { label: t("content-type.flag"), value: "flag" },
-          { label: t("content-type.domain"), value: "domain" },
-        ]
-      : mode === "fr-regions"
-        ? [
-            { label: t("content-type.fr-region-name"), value: "name" },
-            { label: t("content-type.fr-region-capital"), value: "capital" },
-          ]
-        : [
-            { label: t("content-type.state-name"), value: "name" },
-            { label: t("content-type.state-capital"), value: "capital" },
-            { label: t("content-type.state-flag"), value: "flag" },
-          ];
+  const [mode, setMode] = useState<GameModeId>("countries");
+  const activeMode = gameModes[mode];
+  const questionOptions = activeMode.questionOptions.map((option) => ({
+    label: t(option.labelKey),
+    value: option.value,
+  }));
+  const answerOptions = activeMode.answerOptions.map((option) => ({
+    label: t(option.labelKey),
+    value: option.value,
+  }));
 
   return (
     <form action="/country-quiz" className="space-y-6 py-4">
       <h2 className="text-center text-2xl">{t("title")}</h2>
 
       <input type="hidden" name="page" value="game" />
-      {mode !== "countries" && <input type="hidden" name="area" value="all" />}
+      {!activeMode.hasAreaSelection && (
+        <input type="hidden" name="area" value="all" />
+      )}
 
       <ModeSection mode={mode} onModeChange={setMode} />
 
@@ -313,20 +259,20 @@ export default function GameLauncher() {
         <RadioGroup
           key={`question-${mode}`}
           name="question"
-          defaultValue="name"
-          options={contentTypeOptions}
+          defaultValue={activeMode.defaultQuestionField}
+          options={questionOptions}
         />
 
         <p className="mt-4 mb-2 text-sm">{t("label.choice-type")}</p>
         <RadioGroup
           key={`choice-${mode}`}
           name="choice"
-          defaultValue={mode === "fr-regions" ? "capital" : "flag"}
-          options={contentTypeOptions}
+          defaultValue={activeMode.defaultAnswerField}
+          options={answerOptions}
         />
       </section>
 
-      {mode === "countries" && (
+      {activeMode.hasAreaSelection && (
         <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
           <SectionTitle icon={LuGlobe} title={t("heading.area")} />
           <RadioGroup

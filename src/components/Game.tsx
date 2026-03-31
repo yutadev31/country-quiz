@@ -196,7 +196,14 @@ export default function Game<T extends Record<string, string | null>>({
         img.src = `${choice[answerField]}`;
       });
     }
-  }, [current, questions, choices, questionField, answerField, fieldDisplayTypes]);
+  }, [
+    current,
+    questions,
+    choices,
+    questionField,
+    answerField,
+    fieldDisplayTypes,
+  ]);
 
   useEffect(() => {
     if (

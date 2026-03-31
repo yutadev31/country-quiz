@@ -1,4 +1,5 @@
 import countries from "@/data/countries/countries.json";
+import type { GameModeConfig } from "@/data/game-mode-types";
 
 interface Item {
   code: string;
@@ -35,3 +36,58 @@ export default function getCountries(area: string) {
     };
   });
 }
+
+export const countriesMode: GameModeConfig = {
+  id: "countries",
+  titleKey: "mode.countries.title",
+  descriptionKey: "mode.countries.description",
+  hasAreaSelection: true,
+  questionOptions: [
+    { labelKey: "content-type.name", value: "name" },
+    { labelKey: "content-type.capital", value: "capital" },
+    { labelKey: "content-type.flag", value: "flag" },
+    { labelKey: "content-type.domain", value: "domain" },
+  ],
+  answerOptions: [
+    { labelKey: "content-type.name", value: "name" },
+    { labelKey: "content-type.capital", value: "capital" },
+    { labelKey: "content-type.flag", value: "flag" },
+    { labelKey: "content-type.domain", value: "domain" },
+  ],
+  defaultQuestionField: "name",
+  defaultAnswerField: "flag",
+  fieldDisplayTypes: {
+    id: "id",
+    name: "text",
+    capital: "text",
+    tld: "text",
+    flag: "img",
+  },
+  getItems: ({ area, questionField, answerField }) => {
+    let items = getCountries(area);
+    if (questionField === "domain" || answerField === "domain") {
+      items = items.filter((country) => country.tld);
+    }
+    return items.map((country) => ({
+      ...country,
+      domain: country.tld,
+    }));
+  },
+  normalizeQuestionField: (value) => {
+    if (value === "capital" || value === "flag" || value === "domain") {
+      return value;
+    }
+    return "name";
+  },
+  normalizeAnswerField: (value) => {
+    if (
+      value === "name" ||
+      value === "capital" ||
+      value === "flag" ||
+      value === "domain"
+    ) {
+      return value;
+    }
+    return "flag";
+  },
+};

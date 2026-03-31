@@ -1,10 +1,7 @@
 import { useQueryState } from "nuqs";
 import { useState } from "react";
 import Game from "@/components/Game";
-import type { Country } from "@/data/countries";
-import getCountries from "@/data/countries";
-import getFRRegions, { type FRRegion } from "@/data/fr-regions";
-import getUSStates, { type USState } from "@/data/us-states";
+import { gameModes, isGameModeId } from "@/data/game-modes";
 
 export default function GamePage() {
   const [area] = useQueryState("area");
@@ -38,99 +35,15 @@ export default function GamePage() {
     }
   };
 
-  const mode =
-    modeParam === "us-states" || modeParam === "fr-regions"
-      ? modeParam
-      : "countries";
-
-  if (mode === "us-states") {
-    const states = getUSStates();
-    const questionField =
-      questionFieldParam === "capital" || questionFieldParam === "flag"
-        ? questionFieldParam
-        : "name";
-    const answerField =
-      answerFieldParam === "name" ||
-      answerFieldParam === "capital" ||
-      answerFieldParam === "flag"
-        ? answerFieldParam
-        : "flag";
-
-    return (
-      <div className="mx-auto max-w-xl">
-        <Game
-          key={randomSeed}
-          randomSeed={randomSeed}
-          onRestart={() => {
-            setRandomSeed(Math.floor(Math.random() * 4096));
-          }}
-          items={states}
-          questionField={questionField as keyof USState}
-          answerField={answerField as keyof USState}
-          questionCount={parseCount(states, countParam || "10")}
-          timeLimitSeconds={parseTimeLimit(timeLimitParam)}
-          stopOnMistake={stopOnMistakeParam === "on"}
-          fieldDisplayTypes={{
-            id: "id",
-            name: "text",
-            capital: "text",
-            flag: "img",
-          }}
-        />
-      </div>
-    );
-  }
-
-  if (mode === "fr-regions") {
-    const regions = getFRRegions();
-    const questionField = questionFieldParam === "capital" ? "capital" : "name";
-    const answerField =
-      answerFieldParam === "name" ||
-      answerFieldParam === "capital"
-        ? answerFieldParam
-        : "name";
-
-    return (
-      <div className="mx-auto max-w-xl">
-        <Game
-          key={randomSeed}
-          randomSeed={randomSeed}
-          onRestart={() => {
-            setRandomSeed(Math.floor(Math.random() * 4096));
-          }}
-          items={regions}
-          questionField={questionField as keyof FRRegion}
-          answerField={answerField as keyof FRRegion}
-          questionCount={parseCount(regions, countParam || "10")}
-          timeLimitSeconds={parseTimeLimit(timeLimitParam)}
-          stopOnMistake={stopOnMistakeParam === "on"}
-          fieldDisplayTypes={{
-            id: "id",
-            name: "text",
-            capital: "text",
-          }}
-        />
-      </div>
-    );
-  }
-
-  let countries = getCountries(area || "");
-  if (questionFieldParam === "domain" || answerFieldParam === "domain") {
-    countries = countries.filter((c) => c.tld);
-  }
-  const questionField =
-    questionFieldParam === "capital" ||
-    questionFieldParam === "flag" ||
-    questionFieldParam === "domain"
-      ? questionFieldParam
-      : "name";
-  const answerField =
-    answerFieldParam === "name" ||
-    answerFieldParam === "capital" ||
-    answerFieldParam === "flag" ||
-    answerFieldParam === "domain"
-      ? answerFieldParam
-      : "flag";
+  const mode = isGameModeId(modeParam) ? modeParam : "countries";
+  const modeConfig = gameModes[mode];
+  const questionField = modeConfig.normalizeQuestionField(questionFieldParam);
+  const answerField = modeConfig.normalizeAnswerField(answerFieldParam);
+  const items = modeConfig.getItems({
+    area: area || "",
+    questionField,
+    answerField,
+  });
 
   return (
     <div className="mx-auto max-w-xl">
@@ -140,19 +53,13 @@ export default function GamePage() {
         onRestart={() => {
           setRandomSeed(Math.floor(Math.random() * 4096));
         }}
-        items={countries}
-        questionField={questionField as keyof Country}
-        answerField={answerField as keyof Country}
-        questionCount={parseCount(countries, countParam || "10")}
+        items={items}
+        questionField={questionField}
+        answerField={answerField}
+        questionCount={parseCount(items, countParam || "10")}
         timeLimitSeconds={parseTimeLimit(timeLimitParam)}
         stopOnMistake={stopOnMistakeParam === "on"}
-        fieldDisplayTypes={{
-          id: "id",
-          name: "text",
-          capital: "text",
-          tld: "text",
-          flag: "img",
-        }}
+        fieldDisplayTypes={modeConfig.fieldDisplayTypes}
       />
     </div>
   );
