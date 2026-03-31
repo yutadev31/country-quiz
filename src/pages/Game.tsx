@@ -3,6 +3,7 @@ import { useState } from "react";
 import Game from "@/components/Game";
 import type { Country } from "@/data/countries";
 import getCountries from "@/data/countries";
+import getFRRegions, { type FRRegion } from "@/data/fr-regions";
 import getUSStates, { type USState } from "@/data/us-states";
 
 export default function GamePage() {
@@ -37,7 +38,10 @@ export default function GamePage() {
     }
   };
 
-  const mode = modeParam === "us-states" ? "us-states" : "countries";
+  const mode =
+    modeParam === "us-states" || modeParam === "fr-regions"
+      ? modeParam
+      : "countries";
 
   if (mode === "us-states") {
     const states = getUSStates();
@@ -71,6 +75,39 @@ export default function GamePage() {
             name: "text",
             capital: "text",
             flag: "img",
+          }}
+        />
+      </div>
+    );
+  }
+
+  if (mode === "fr-regions") {
+    const regions = getFRRegions();
+    const questionField = questionFieldParam === "capital" ? "capital" : "name";
+    const answerField =
+      answerFieldParam === "name" ||
+      answerFieldParam === "capital"
+        ? answerFieldParam
+        : "name";
+
+    return (
+      <div className="mx-auto max-w-xl">
+        <Game
+          key={randomSeed}
+          randomSeed={randomSeed}
+          onRestart={() => {
+            setRandomSeed(Math.floor(Math.random() * 4096));
+          }}
+          items={regions}
+          questionField={questionField as keyof FRRegion}
+          answerField={answerField as keyof FRRegion}
+          questionCount={parseCount(regions, countParam || "10")}
+          timeLimitSeconds={parseTimeLimit(timeLimitParam)}
+          stopOnMistake={stopOnMistakeParam === "on"}
+          fieldDisplayTypes={{
+            id: "id",
+            name: "text",
+            capital: "text",
           }}
         />
       </div>

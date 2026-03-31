@@ -69,8 +69,8 @@ function ModeSection({
   mode,
   onModeChange,
 }: {
-  mode: "countries" | "us-states";
-  onModeChange: (mode: "countries" | "us-states") => void;
+  mode: "countries" | "us-states" | "fr-regions";
+  onModeChange: (mode: "countries" | "us-states" | "fr-regions") => void;
 }) {
   const { t } = useTranslation();
 
@@ -82,7 +82,7 @@ function ModeSection({
         description={t("description.mode")}
       />
 
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-1">
         <label
           className={`cursor-pointer rounded-xl border p-4 transition ${
             mode === "countries"
@@ -130,6 +130,31 @@ function ModeSection({
             }`}
           >
             {t("mode.us-states.description")}
+          </p>
+        </label>
+
+        <label
+          className={`cursor-pointer rounded-xl border p-4 transition ${
+            mode === "fr-regions"
+              ? "border-blue-400 bg-blue-600"
+              : "border-zinc-700 bg-zinc-800"
+          }`}
+        >
+          <input
+            type="radio"
+            name="mode"
+            value="fr-regions"
+            checked={mode === "fr-regions"}
+            onChange={() => onModeChange("fr-regions")}
+            className="hidden"
+          />
+          <div className="font-bold text-lg">{t("mode.fr-regions.title")}</div>
+          <p
+            className={`mt-1 text-sm ${
+              mode === "fr-regions" ? "text-blue-100" : "text-zinc-300"
+            }`}
+          >
+            {t("mode.fr-regions.description")}
           </p>
         </label>
       </div>
@@ -250,7 +275,9 @@ function RuleSection() {
 
 export default function GameLauncher() {
   const { t } = useTranslation();
-  const [mode, setMode] = useState<"countries" | "us-states">("countries");
+  const [mode, setMode] = useState<"countries" | "us-states" | "fr-regions">(
+    "countries",
+  );
   const contentTypeOptions =
     mode === "countries"
       ? [
@@ -259,18 +286,23 @@ export default function GameLauncher() {
           { label: t("content-type.flag"), value: "flag" },
           { label: t("content-type.domain"), value: "domain" },
         ]
-      : [
-          { label: t("content-type.state-name"), value: "name" },
-          { label: t("content-type.state-capital"), value: "capital" },
-          { label: t("content-type.state-flag"), value: "flag" },
-        ];
+      : mode === "fr-regions"
+        ? [
+            { label: t("content-type.fr-region-name"), value: "name" },
+            { label: t("content-type.fr-region-capital"), value: "capital" },
+          ]
+        : [
+            { label: t("content-type.state-name"), value: "name" },
+            { label: t("content-type.state-capital"), value: "capital" },
+            { label: t("content-type.state-flag"), value: "flag" },
+          ];
 
   return (
     <form action="/country-quiz" className="space-y-6 py-4">
       <h2 className="text-center text-2xl">{t("title")}</h2>
 
       <input type="hidden" name="page" value="game" />
-      {mode === "us-states" && <input type="hidden" name="area" value="all" />}
+      {mode !== "countries" && <input type="hidden" name="area" value="all" />}
 
       <ModeSection mode={mode} onModeChange={setMode} />
 
@@ -289,7 +321,7 @@ export default function GameLauncher() {
         <RadioGroup
           key={`choice-${mode}`}
           name="choice"
-          defaultValue="flag"
+          defaultValue={mode === "fr-regions" ? "capital" : "flag"}
           options={contentTypeOptions}
         />
       </section>

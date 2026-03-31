@@ -34,6 +34,10 @@
     "us-states": {
       "title": "U.S. States",
       "description": "A mode for state names, capitals, flags, and more."
+    },
+    "fr-regions": {
+      "title": "French Regions",
+      "description": "A mode for region names, capitals, and flags."
     }
   },
   "content-type": {
@@ -43,7 +47,9 @@
     "domain": "Domain (TLD)",
     "state-name": "State Name",
     "state-capital": "State Capital",
-    "state-flag": "State Flag"
+    "state-flag": "State Flag",
+    "fr-region-name": "Region Name",
+    "fr-region-capital": "Regional Capital"
   },
   "area": {
     "all": "All",
