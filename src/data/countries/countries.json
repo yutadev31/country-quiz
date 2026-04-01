@@ -4,1406 +4,1695 @@
     "capital": "レイキャヴィーク",
     "continent": ["europe"],
     "code": "is",
-    "tld": ".is"
+    "tld": ".is",
+    "nameNative": ["Ísland"]
   },
   {
     "name": "アイルランド",
     "capital": "ダブリン",
     "continent": ["europe"],
     "code": "ie",
-    "tld": ".ie"
+    "tld": ".ie",
+    "nameNative": ["Ireland", "Éire"]
   },
   {
     "name": "アゼルバイジャン",
     "capital": "バクー",
     "continent": ["asia"],
     "code": "az",
-    "tld": ".az"
+    "tld": ".az",
+    "nameNative": ["Azərbaycan", "Azərbaycan Respublikası"]
   },
   {
     "name": "アフガニスタン",
     "capital": "カーブル",
     "continent": ["asia"],
     "code": "af",
-    "tld": ".af"
+    "tld": ".af",
+    "nameNative": ["افغانستان"]
   },
   {
     "name": "アメリカ合衆国",
     "capital": "ワシントンD.C.",
     "continent": ["north-america"],
     "code": "us",
-    "tld": ".us"
+    "tld": ".us",
+    "nameNative": [
+      "United States of America",
+      "Estados Unidos de América",
+      "Estados Unidus",
+      "ᏌᏊᎢᏳᎾᎵᏍᏔᏅᏍᎦᏚᎩ ᎾᎿ ᎠᎺᏰᏟ",
+      "Wááshindoon Bikéyah Ałhidadiidzooígíí",
+      "Iunaite Sitete o Amerika"
+    ]
   },
   {
     "name": "アラブ首長国連邦",
     "capital": "アブダビ",
     "continent": ["asia"],
     "code": "ae",
-    "tld": ".ae"
+    "tld": ".ae",
+    "nameNative": ["الإِمَارات العربِيَّة المُتَّحِدة"]
   },
   {
     "name": "アルジェリア",
     "capital": "アルジェ",
     "continent": ["africa"],
     "code": "dz",
-    "tld": ".dz"
+    "tld": ".dz",
+    "nameNative": ["الجزائر", "الجمهورية الجزائرية الديمقراطية الشعبية"]
   },
   {
     "name": "アルゼンチン",
     "capital": "ブエノスアイレス",
     "continent": ["south-america"],
     "code": "ar",
-    "tld": ".ar"
-  },
-  {
-    "name": "アルバ",
-    "capital": "オラニエスタッド",
-    "continent": ["north-america"],
-    "code": "aw",
-    "tld": ".aw"
+    "tld": ".ar",
+    "nameNative": ["República Argentina"]
   },
   {
     "name": "アルバニア",
     "capital": "ティラナ",
     "continent": ["europe"],
     "code": "al",
-    "tld": ".al"
+    "tld": ".al",
+    "nameNative": ["Republika e Shqipërisë"]
   },
   {
     "name": "アルメニア",
     "capital": "イェレヴァン",
     "continent": ["asia"],
     "code": "am",
-    "tld": ".am"
+    "tld": ".am",
+    "nameNative": ["Հայաստան"]
   },
   {
     "name": "アンゴラ",
     "capital": "ルアンダ",
     "continent": ["africa"],
     "code": "ao",
-    "tld": ".ao"
+    "tld": ".ao",
+    "nameNative": ["Angola", "República de Angola"]
   },
   {
     "name": "アンティグア・バーブーダ",
     "capital": "セントジョンズ",
     "continent": ["north-america"],
     "code": "ag",
-    "tld": ".ag"
+    "tld": ".ag",
+    "nameNative": ["Antigua and Barbuda", "Aanteega an' Baabyuuda"]
   },
   {
     "name": "アンドラ",
     "capital": "アンドラ・ラ・ベリャ",
     "continent": ["europe"],
     "code": "ad",
-    "tld": ".ad"
+    "tld": ".ad",
+    "nameNative": ["Andorra"]
   },
   {
     "name": "イエメン",
     "capital": "サヌア,アデン",
     "continent": ["asia"],
     "code": "ye",
-    "tld": ".ye"
+    "tld": ".ye",
+    "nameNative": ["الجمهوريّة اليمنية"]
   },
   {
     "name": "イギリス",
     "capital": "ロンドン",
     "continent": ["europe"],
     "code": "gb",
-    "tld": ".uk"
-  },
-  {
-    "name": "イスラエル",
-    "capital": "エルサレム",
-    "continent": ["asia"],
-    "code": "il",
-    "tld": ".il"
+    "tld": ".uk",
+    "nameNative": ["United Kingdom of Great Britain and Northern Ireland"]
   },
   {
     "name": "イタリア",
     "capital": "ローマ",
     "continent": ["europe"],
     "code": "it",
-    "tld": ".it"
+    "tld": ".it",
+    "nameNative": ["Italia", "Repubblica Italiana"]
   },
   {
     "name": "イラク",
     "capital": "バグダード",
     "continent": ["asia"],
     "code": "iq",
-    "tld": ".iq"
+    "tld": ".iq",
+    "nameNative": [
+      "Iraq",
+      "Iraq",
+      "العراق",
+      "جمهورية العراق",
+      "Republic of Iraq",
+      "Republik Iraq"
+    ]
   },
   {
     "name": "イラン",
     "capital": "テヘラン",
     "continent": ["asia"],
     "code": "ir",
-    "tld": ".ir"
+    "tld": ".ir",
+    "nameNative": ["ایران"]
   },
   {
     "name": "インド",
     "capital": "ニューデリー",
     "continent": ["asia"],
     "code": "in",
-    "tld": ".in"
+    "tld": ".in",
+    "nameNative": [
+      "भारत",
+      "ভারত",
+      "بھارت",
+      "ہندوستان",
+      "இந்தியா",
+      "भारत",
+      "ভারত",
+      "भारत",
+      "भारत",
+      "ꠄꠘ꠆ꠒꠤꠀ"
+    ]
   },
   {
     "name": "インドネシア",
     "capital": "ジャカルタ",
     "continent": ["asia"],
     "code": "id",
-    "tld": ".id"
+    "tld": ".id",
+    "nameNative": [
+      "Indonesia",
+      "Indonesia",
+      "Indonesia",
+      "Republic of Indonesia",
+      "Unitary State of the Republic of Indonesia",
+      "Negara Kesatuan Republik Indonesia",
+      "Republik Indonesia",
+      "Negara Kesatuan Republik Indonesia",
+      "Republik Indonesia"
+    ]
   },
   {
     "name": "ウガンダ",
     "capital": "カンパラ",
     "continent": ["africa"],
     "code": "ug",
-    "tld": ".ug"
+    "tld": ".ug",
+    "nameNative": ["Republic of Uganda", "Jamhuri ya Uganda"]
   },
   {
     "name": "ウクライナ",
     "capital": "キーウ",
     "continent": ["europe"],
     "code": "ua",
-    "tld": ".ua"
+    "tld": ".ua",
+    "nameNative": ["Україна"]
   },
   {
     "name": "ウズベキスタン",
     "capital": "タシュケント",
     "continent": ["asia"],
     "code": "uz",
-    "tld": ".uz"
+    "tld": ".uz",
+    "nameNative": ["Oʻzbekiston", "Oʻzbekiston Respublikasi"]
   },
   {
     "name": "ウルグアイ",
     "capital": "モンテビデオ",
     "continent": ["south-america"],
     "code": "uy",
-    "tld": ".uy"
+    "tld": ".uy",
+    "nameNative": ["República Oriental del Uruguay"]
   },
   {
     "name": "エクアドル",
     "capital": "キト",
     "continent": ["south-america"],
     "code": "ec",
-    "tld": ".ec"
+    "tld": ".ec",
+    "nameNative": ["República del Ecuador"]
   },
   {
     "name": "エジプト",
     "capital": "カイロ",
     "continent": ["africa"],
     "code": "eg",
-    "tld": ".eg"
+    "tld": ".eg",
+    "nameNative": [
+      "Egypt",
+      "مصر",
+      "Mesir",
+      "جُمهورِيّةُ مِصرَ العَرَبيّةِ",
+      "Arab Republic of Egypt",
+      "Republik Arab Mesir"
+    ]
   },
   {
     "name": "エストニア",
     "capital": "タリン",
     "continent": ["europe"],
     "code": "ee",
-    "tld": ".ee"
+    "tld": ".ee",
+    "nameNative": ["Eesti Vabariik"]
   },
   {
     "name": "エスワティニ",
     "capital": "ムババーネ,ロバンバ",
     "continent": ["africa"],
     "code": "sz",
-    "tld": ".sz"
+    "tld": ".sz",
+    "nameNative": ["Umbuso weSwatini"]
   },
   {
     "name": "エチオピア",
     "capital": "アディスアベバ",
     "continent": ["africa"],
     "code": "et",
-    "tld": ".et"
+    "tld": ".et",
+    "nameNative": [
+      "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",
+      "Federaalawaa Dimokraatawaa Repabliikii Itoophiyaa",
+      "ናይኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ",
+      "Toophphiya Federaalle Dimokkiraatike Ripaabilike"
+    ]
   },
   {
     "name": "エリトリア",
     "capital": "アスマラ",
     "continent": ["africa"],
     "code": "er",
-    "tld": ".er"
+    "tld": ".er",
+    "nameNative": ["إرترة", "ኤርትራ"]
   },
   {
     "name": "エルサルバドル",
     "capital": "サンサルバドル",
     "continent": ["north-america"],
     "code": "sv",
-    "tld": ".sv"
+    "tld": ".sv",
+    "nameNative": ["República de El Salvador"]
   },
   {
     "name": "オマーン",
     "capital": "マスカット",
     "continent": ["asia"],
     "code": "om",
-    "tld": ".om"
+    "tld": ".om",
+    "nameNative": ["سلطنة عُمان"]
   },
   {
     "name": "オランダ王国",
     "capital": "アムステルダム",
     "continent": ["europe"],
     "code": "nl",
-    "tld": ".nl"
+    "tld": ".nl",
+    "nameNative": ["Koninkrijk der Nederlanden"]
   },
   {
     "name": "オーストラリア",
     "capital": "キャンベラ",
     "continent": ["oceania"],
     "code": "au",
-    "tld": ".au"
+    "tld": ".au",
+    "nameNative": ["Australia"]
   },
   {
     "name": "オーストリア",
     "capital": "ウィーン",
     "continent": ["europe"],
     "code": "at",
-    "tld": ".at"
+    "tld": ".at",
+    "nameNative": ["Österreich", "Republik Österreich"]
   },
   {
     "name": "カザフスタン",
     "capital": "アスタナ",
     "continent": ["europe", "asia"],
     "code": "kz",
-    "tld": ".kz"
-  },
-  {
-    "name": "カタール",
-    "capital": "ドーハ",
-    "continent": ["asia"],
-    "code": "qa",
-    "tld": ".qa"
+    "tld": ".kz",
+    "nameNative": ["Қазақстан", "قزاقستان", "Қазақстан Республикасы"]
   },
   {
     "name": "カメルーン",
     "capital": "ヤウンデ",
     "continent": ["africa"],
     "code": "cm",
-    "tld": ".cm"
+    "tld": ".cm",
+    "nameNative": ["République du Cameroun"]
   },
   {
     "name": "カンボジア",
     "capital": "プノンペン",
     "continent": ["asia"],
     "code": "kh",
-    "tld": ".kh"
+    "tld": ".kh",
+    "nameNative": ["កម្ពុជា"]
   },
   {
     "name": "カーボベルデ",
     "capital": "プライア",
     "continent": ["africa"],
     "code": "cv",
-    "tld": ".cv"
+    "tld": ".cv",
+    "nameNative": ["República de Cabo Verde"]
   },
   {
     "name": "ガイアナ",
     "capital": "ジョージタウン",
     "continent": ["south-america"],
     "code": "gy",
-    "tld": ".gy"
+    "tld": ".gy",
+    "nameNative": ["Co-operative Republic of Guyana"]
   },
   {
     "name": "ガボン",
     "capital": "リーブルヴィル",
     "continent": ["africa"],
     "code": "ga",
-    "tld": ".ga"
+    "tld": ".ga",
+    "nameNative": ["République gabonaise"]
   },
   {
     "name": "ガンビア",
     "capital": "バンジュール",
     "continent": ["africa"],
     "code": "gm",
-    "tld": ".gm"
+    "tld": ".gm",
+    "nameNative": ["Republic of The Gambia"]
   },
   {
     "name": "ガーナ",
     "capital": "アクラ",
     "continent": ["africa"],
     "code": "gh",
-    "tld": ".gh"
+    "tld": ".gh",
+    "nameNative": ["Ghana", "Gana", "Gaana"]
   },
   {
     "name": "キプロス",
     "capital": "ニコシア",
     "continent": ["europe"],
     "code": "cy",
-    "tld": ".cy"
-  },
-  {
-    "name": "キュラソー",
-    "capital": "ウィレムスタッド",
-    "continent": ["north-america"],
-    "code": "cw",
-    "tld": ".cw"
+    "tld": ".cy",
+    "nameNative": ["Κυπριακή Δημοκρατία", "Kıbrıs Cumhuriyeti"]
   },
   {
     "name": "キューバ",
     "capital": "ハバナ",
     "continent": ["north-america"],
     "code": "cu",
-    "tld": ".cu"
+    "tld": ".cu",
+    "nameNative": ["República de Cuba"]
   },
   {
     "name": "キリバス",
     "capital": "タラワ,サウス・タラワ",
     "continent": ["oceania"],
     "code": "ki",
-    "tld": ".ki"
+    "tld": ".ki",
+    "nameNative": ["Ribaberiki ni Kiribati"]
   },
   {
     "name": "キルギス",
     "capital": "ビシュケク",
     "continent": ["asia"],
     "code": "kg",
-    "tld": ".kg"
+    "tld": ".kg",
+    "nameNative": ["Кыргызстан"]
   },
   {
     "name": "ギニア",
     "capital": "コナクリ",
     "continent": ["africa"],
     "code": "gn",
-    "tld": ".gn"
+    "tld": ".gn",
+    "nameNative": ["République de Guinée"]
   },
   {
     "name": "ギニアビサウ共和国",
     "capital": "ビサウ",
     "continent": ["africa"],
     "code": "gw",
-    "tld": ".gw"
+    "tld": ".gw",
+    "nameNative": ["República da Guiné-Bissau"]
   },
   {
     "name": "ギリシャ",
     "capital": "アテネ",
     "continent": ["europe"],
     "code": "gr",
-    "tld": ".gr"
+    "tld": ".gr",
+    "nameNative": ["Ελλάδα", "Ελληνική Δημοκρατία", "Ελλάς"]
   },
   {
     "name": "クウェート",
     "capital": "クウェート市",
     "continent": ["asia"],
     "code": "kw",
-    "tld": ".kw"
-  },
-  {
-    "name": "クック諸島",
-    "capital": "アバルア",
-    "continent": ["oceania"],
-    "code": "ck",
-    "tld": ".ck"
+    "tld": ".kw",
+    "nameNative": ["الكويت"]
   },
   {
     "name": "クロアチア",
     "capital": "ザグレブ",
     "continent": ["europe"],
     "code": "hr",
-    "tld": ".hr"
+    "tld": ".hr",
+    "nameNative": ["Hrvatska"]
   },
   {
     "name": "グアテマラ",
     "capital": "グアテマラシティ",
     "continent": ["north-america"],
     "code": "gt",
-    "tld": ".gt"
-  },
-  {
-    "name": "グリーンランド",
-    "capital": "ヌーク",
-    "continent": ["north-america"],
-    "code": "gl",
-    "tld": ".gl"
+    "tld": ".gt",
+    "nameNative": ["República de Guatemala"]
   },
   {
     "name": "グレナダ",
     "capital": "セントジョージズ",
     "continent": ["north-america"],
     "code": "gd",
-    "tld": ".gd"
+    "tld": ".gd",
+    "nameNative": ["State of Grenada"]
   },
   {
     "name": "ケニア",
     "capital": "ナイロビ",
     "continent": ["africa"],
     "code": "ke",
-    "tld": ".ke"
+    "tld": ".ke",
+    "nameNative": ["Republic of Kenya"]
   },
   {
     "name": "コスタリカ",
     "capital": "サンホセ",
     "continent": ["north-america"],
     "code": "cr",
-    "tld": ".cr"
+    "tld": ".cr",
+    "nameNative": ["República de Costa Rica"]
   },
   {
     "name": "コモロ",
     "capital": "モロニ",
     "continent": ["africa"],
     "code": "km",
-    "tld": ".km"
+    "tld": ".km",
+    "nameNative": ["الاتحاد القمري", "Union des Comores"]
   },
   {
     "name": "コロンビア",
     "capital": "ボゴタ",
     "continent": ["south-america"],
     "code": "co",
-    "tld": ".co"
+    "tld": ".co",
+    "nameNative": ["Colombia"]
   },
   {
     "name": "コンゴ共和国",
     "capital": "ブラザヴィル",
     "continent": ["africa"],
     "code": "cg",
-    "tld": ".cg"
+    "tld": ".cg",
+    "nameNative": [
+      "République du Congo",
+      "Repubilika ya Kongo",
+      "Republíki ya Kongó"
+    ]
   },
   {
     "name": "コンゴ民主共和国",
     "capital": "キンシャサ",
     "continent": ["africa"],
     "code": "cd",
-    "tld": ".cd"
+    "tld": ".cd",
+    "nameNative": ["République démocratique du Congo"]
   },
   {
     "name": "コートジボワール",
     "capital": "ヤムスクロ",
     "continent": ["africa"],
     "code": "ci",
-    "tld": ".ci"
+    "tld": ".ci",
+    "nameNative": ["République de Côte d'Ivoire"]
   },
   {
     "name": "サウジアラビア",
     "capital": "リヤド",
     "continent": ["asia"],
     "code": "sa",
-    "tld": ".sa"
+    "tld": ".sa",
+    "nameNative": [
+      "Saudi Arabia",
+      "Kingdom of Saudi Arabia",
+      "السعودية",
+      "المملكة العربية السعودية",
+      "Arab Saudi",
+      "Kerajaan Arab Saudi"
+    ]
   },
   {
     "name": "サモア",
     "capital": "アピア",
     "continent": ["oceania"],
     "code": "ws",
-    "tld": ".ws"
+    "tld": ".ws",
+    "nameNative": [
+      "Western Samoa",
+      "Independent State of Samoa",
+      "Malo Sa’oloto Tuto’atasi o Samoa",
+      "Sāmoa"
+    ]
   },
   {
     "name": "サントメ・プリンシペ",
     "capital": "サントメ",
     "continent": ["africa"],
     "code": "st",
-    "tld": ".st"
+    "tld": ".st",
+    "nameNative": ["República Democrática de São Tomé e Príncipe"]
   },
   {
     "name": "サンマリノ",
     "capital": "サンマリノ市",
     "continent": ["europe"],
     "code": "sm",
-    "tld": ".sm"
+    "tld": ".sm",
+    "nameNative": ["San Marco", "Repubblica di San Marino"]
   },
   {
     "name": "ザンビア",
     "capital": "ルサカ",
     "continent": ["africa"],
     "code": "zm",
-    "tld": ".zm"
+    "tld": ".zm",
+    "nameNative": ["Republic of Zambia"]
   },
   {
     "name": "シエラレオネ",
     "capital": "フリータウン",
     "continent": ["africa"],
     "code": "sl",
-    "tld": ".sl"
+    "tld": ".sl",
+    "nameNative": ["Republic of Sierra Leone"]
   },
   {
     "name": "シリア",
     "capital": "ダマスカス",
     "continent": ["asia"],
     "code": "sy",
-    "tld": ".sy"
+    "tld": ".sy",
+    "nameNative": [
+      "الجمهورية العربية السورية",
+      "سوريا",
+      "Komara Erebî ya Sûriyê"
+    ]
   },
   {
     "name": "シンガポール",
     "capital": "シンガポール",
     "continent": ["asia"],
     "code": "sg",
-    "tld": ".sg"
-  },
-  {
-    "name": "シント・マールテン",
-    "capital": "フィリップスブルフ",
-    "continent": ["north-america"],
-    "code": "sx",
-    "tld": ".sx"
+    "tld": ".sg",
+    "nameNative": [
+      "Republic of Singapore",
+      "Republik Singapura",
+      "சிங்கப்பூர் குடியரசு",
+      "新加坡共和国"
+    ]
   },
   {
     "name": "ジブチ",
     "capital": "ジブチ市",
     "continent": ["africa"],
     "code": "dj",
-    "tld": ".dj"
+    "tld": ".dj",
+    "nameNative": ["Jabuuti", "جمهورية جيبوتي", "République de Djibouti"]
   },
   {
     "name": "ジャマイカ",
     "capital": "キングストン",
     "continent": ["north-america"],
     "code": "jm",
-    "tld": ".jm"
+    "tld": ".jm",
+    "nameNative": ["Jamaica", "Jumieka", "Xaymaca", "Yamaye"]
   },
   {
     "name": "ジョージア",
     "capital": "トビリシ",
     "continent": ["europe"],
     "code": "ge",
-    "tld": ".ge"
+    "tld": ".ge",
+    "nameNative": ["საქართველო"]
   },
   {
     "name": "ジンバブエ",
     "capital": "ハラレ",
     "continent": ["africa"],
     "code": "zw",
-    "tld": ".zw"
+    "tld": ".zw",
+    "nameNative": ["Zimbabwe"]
   },
   {
     "name": "スイス",
     "capital": "ベルン",
     "continent": ["europe"],
     "code": "ch",
-    "tld": ".ch"
+    "tld": ".ch",
+    "nameNative": [
+      "Schweizerische Eidgenossenschaft",
+      "Confédération suisse",
+      "Confederazione Svizzera",
+      "Confederaziun svizra"
+    ]
   },
   {
     "name": "スウェーデン",
     "capital": "ストックホルム",
     "continent": ["europe"],
     "code": "se",
-    "tld": ".se"
+    "tld": ".se",
+    "nameNative": ["Sverige"]
   },
   {
     "name": "スペイン",
     "capital": "マドリード",
     "continent": ["europe"],
     "code": "es",
-    "tld": ".es"
+    "tld": ".es",
+    "nameNative": ["Reino de España"]
   },
   {
     "name": "スリナム",
     "capital": "パラマリボ",
     "continent": ["south-america"],
     "code": "sr",
-    "tld": ".sr"
+    "tld": ".sr",
+    "nameNative": ["Republiek Suriname", "Ripoliku Sranan"]
   },
   {
     "name": "スリランカ",
     "capital": "コロンボ,スリジャヤワルダナプラコッテ",
     "continent": ["asia"],
     "code": "lk",
-    "tld": ".lk"
+    "tld": ".lk",
+    "nameNative": [
+      "ශ්රී ලංකා ප්රජාතාන්ත්රික සමාජවාදී ජනරජය",
+      "ශ්රී ලංකාව",
+      "இலங்கை சனநாயக சோசலிசக் குடியரசு"
+    ]
   },
   {
     "name": "スロバキア",
     "capital": "ブラチスラヴァ",
     "continent": ["europe"],
     "code": "sk",
-    "tld": ".sk"
+    "tld": ".sk",
+    "nameNative": ["Slovenská republika"]
   },
   {
     "name": "スロベニア",
     "capital": "リュブリャナ",
     "continent": ["europe"],
     "code": "si",
-    "tld": ".si"
+    "tld": ".si",
+    "nameNative": ["Slovenija"]
   },
   {
     "name": "スーダン",
     "capital": "ハルツーム",
     "continent": ["africa"],
     "code": "sd",
-    "tld": ".sd"
+    "tld": ".sd",
+    "nameNative": ["جمهورية السودان", "Land of the blacks"]
   },
   {
     "name": "セネガル",
     "capital": "ダカール",
     "continent": ["africa"],
     "code": "sn",
-    "tld": ".sn"
+    "tld": ".sn",
+    "nameNative": ["Senegaal"]
   },
   {
     "name": "セルビア",
     "capital": "ベオグラード",
     "continent": ["europe"],
     "code": "rs",
-    "tld": ".rs"
+    "tld": ".rs",
+    "nameNative": ["Србија"]
   },
   {
     "name": "セントクリストファー・ネイビス",
     "capital": "バセテール",
     "continent": ["north-america"],
     "code": "kn",
-    "tld": ".kn"
+    "tld": ".kn",
+    "nameNative": ["Federation of Saint Kitts and Nevis"]
   },
   {
     "name": "セントビンセント・グレナディーン",
     "capital": "キングスタウン",
     "continent": ["north-america"],
     "code": "vc",
-    "tld": ".vc"
+    "tld": ".vc",
+    "nameNative": ["Saint Vincent and the Grenadines"]
   },
   {
     "name": "セントルシア",
     "capital": "カストリーズ",
     "continent": ["north-america"],
     "code": "lc",
-    "tld": ".lc"
+    "tld": ".lc",
+    "nameNative": ["Saint Lucia"]
   },
   {
     "name": "セーシェル",
     "capital": "ヴィクトリア",
     "continent": ["africa"],
     "code": "sc",
-    "tld": ".sc"
+    "tld": ".sc",
+    "nameNative": ["République des Seychelles"]
   },
   {
     "name": "ソマリア",
     "capital": "モガディシュ",
     "continent": ["africa"],
     "code": "so",
-    "tld": ".so"
+    "tld": ".so",
+    "nameNative": [
+      "جمهورية الصومال الفدرالية",
+      "Jamhuuriyadda Federaalka Soomaaliya",
+      "Soomaaliya",
+      "𐒈𐒝𐒑𐒛𐒐𐒘𐒕𐒖"
+    ]
   },
   {
     "name": "ソロモン諸島",
     "capital": "ホニアラ",
     "continent": ["oceania"],
     "code": "sb",
-    "tld": ".sb"
+    "tld": ".sb",
+    "nameNative": ["Solomon Islands"]
   },
   {
     "name": "タイ王国",
     "capital": "バンコク",
     "continent": ["asia"],
     "code": "th",
-    "tld": ".th"
+    "tld": ".th",
+    "nameNative": ["ราชอาณาจักรไทย"]
   },
   {
     "name": "タジキスタン",
     "capital": "ドゥシャンベ",
     "continent": ["asia"],
     "code": "tj",
-    "tld": ".tj"
+    "tld": ".tj",
+    "nameNative": ["Тоҷикистон", "Ҷумҳурии Тоҷикистон"]
   },
   {
     "name": "タンザニア",
     "capital": "ドドマ",
     "continent": ["africa"],
     "code": "tz",
-    "tld": ".tz"
+    "tld": ".tz",
+    "nameNative": [
+      "United Republic of Tanzania",
+      "Jamhuri ya Muungano wa Tanzania"
+    ]
   },
   {
     "name": "チェコ共和国",
     "capital": "プラハ",
     "continent": ["europe"],
     "code": "cz",
-    "tld": ".cz"
+    "tld": ".cz",
+    "nameNative": ["Česko", "Česká republika"]
   },
   {
     "name": "チャド",
     "capital": "ンジャメナ",
     "continent": ["africa"],
     "code": "td",
-    "tld": ".td"
+    "tld": ".td",
+    "nameNative": ["جُمْهُورِيَّة تشاد", "République du Tchad"]
   },
   {
     "name": "チュニジア",
     "capital": "チュニス",
     "continent": ["africa"],
     "code": "tn",
-    "tld": ".tn"
+    "tld": ".tn",
+    "nameNative": [
+      "Tunisia",
+      "تونس",
+      "الجمهورية التونسية",
+      "Republic of Tunisia",
+      "Republik Tunisia",
+      "Tunisia"
+    ]
   },
   {
     "name": "チリ",
     "capital": "サンティアゴ",
     "continent": ["south-america"],
     "code": "cl",
-    "tld": ".cl"
-  },
-  {
-    "name": "ツバル",
-    "capital": "フナフティ島",
-    "continent": ["oceania"],
-    "code": "tv",
-    "tld": ".tv"
-  },
-  {
-    "name": "デンマーク",
-    "capital": "コペンハーゲン",
-    "continent": ["europe"],
-    "code": "dk",
-    "tld": ".dk"
+    "tld": ".cl",
+    "nameNative": ["Chile", "República de Chile"]
   },
   {
     "name": "トリニダード・トバゴ",
     "capital": "ポートオブスペイン",
     "continent": ["north-america"],
     "code": "tt",
-    "tld": ".tt"
+    "tld": ".tt",
+    "nameNative": ["Republic of Trinidad and Tobago"]
   },
   {
     "name": "トルクメニスタン",
     "capital": "アシガバート",
     "continent": ["asia"],
     "code": "tm",
-    "tld": ".tm"
+    "tld": ".tm",
+    "nameNative": ["Türkmenistan", "Türkmenistan Respublikasi"]
   },
   {
     "name": "トルコ",
     "capital": "アンカラ",
     "continent": ["asia"],
     "code": "tr",
-    "tld": ".tr"
+    "tld": ".tr",
+    "nameNative": ["Türkiye", "Türkiye Cumhuriyeti"]
   },
   {
     "name": "トンガ",
     "capital": "ヌクアロファ",
     "continent": ["oceania"],
     "code": "to",
-    "tld": ".to"
+    "tld": ".to",
+    "nameNative": ["Tonga"]
   },
   {
     "name": "トーゴ",
     "capital": "ロメ",
     "continent": ["africa"],
     "code": "tg",
-    "tld": ".tg"
+    "tld": ".tg",
+    "nameNative": ["Togo"]
   },
   {
     "name": "ドイツ",
     "capital": "ベルリン",
     "continent": ["europe"],
     "code": "de",
-    "tld": ".de"
+    "tld": ".de",
+    "nameNative": ["Deutschland", "Bundesrepublik Deutschland"]
   },
   {
     "name": "ドミニカ共和国",
     "capital": "サント・ドミンゴ",
     "continent": ["north-america"],
     "code": "do",
-    "tld": ".do"
+    "tld": ".do",
+    "nameNative": ["República Dominicana"]
   },
   {
     "name": "ドミニカ国",
     "capital": "ロゾー",
     "continent": ["north-america"],
     "code": "dm",
-    "tld": ".dm"
+    "tld": ".dm",
+    "nameNative": ["Commonwealth of Dominica", "Commonwealth Dominica"]
   },
   {
     "name": "ナイジェリア",
     "capital": "アブジャ",
     "continent": ["africa"],
     "code": "ng",
-    "tld": ".ng"
+    "tld": ".ng",
+    "nameNative": ["Nijeriya", "Naigeria", "Nàìjíríà"]
   },
   {
     "name": "ナウル",
     "capital": "ヤレン地区",
     "continent": ["oceania"],
     "code": "nr",
-    "tld": ".nr"
+    "tld": ".nr",
+    "nameNative": ["Naoero", "Ripublik Naoero"]
   },
   {
     "name": "ナミビア",
     "capital": "ウィントフック",
     "continent": ["africa"],
     "code": "na",
-    "tld": ".na"
-  },
-  {
-    "name": "ニウエ",
-    "capital": "アロフィ",
-    "continent": ["oceania"],
-    "code": "nu",
-    "tld": ".nu"
+    "tld": ".na",
+    "nameNative": [
+      "Republiek van Namibië",
+      "Republik Namibia",
+      "Republic of Namibia"
+    ]
   },
   {
     "name": "ニカラグア",
     "capital": "マナグア",
     "continent": ["north-america"],
     "code": "ni",
-    "tld": ".ni"
+    "tld": ".ni",
+    "nameNative": ["República de Nicaragua"]
   },
   {
     "name": "ニジェール",
     "capital": "ニアメ",
     "continent": ["africa"],
     "code": "ne",
-    "tld": ".ne"
+    "tld": ".ne",
+    "nameNative": ["Nijar"]
   },
   {
     "name": "ニュージーランド",
     "capital": "ウェリントン",
     "continent": ["oceania"],
     "code": "nz",
-    "tld": ".nz"
+    "tld": ".nz",
+    "nameNative": ["Aotearoa"]
   },
   {
     "name": "ネパール",
     "capital": "カトマンズ",
     "continent": ["asia"],
     "code": "np",
-    "tld": ".np"
+    "tld": ".np",
+    "nameNative": ["नेपाल"]
   },
   {
     "name": "ノルウェー",
     "capital": "オスロ",
     "continent": ["europe"],
     "code": "no",
-    "tld": ".no"
+    "tld": ".no",
+    "nameNative": ["Kongeriket Norge", "Kongeriket Noreg"]
   },
   {
     "name": "ハイチ",
     "capital": "ポルトープランス",
     "continent": ["north-america"],
     "code": "ht",
-    "tld": ".ht"
+    "tld": ".ht",
+    "nameNative": ["Ayiti", "Ayiti"]
   },
   {
     "name": "ハンガリー",
     "capital": "ブダペスト",
     "continent": ["europe"],
     "code": "hu",
-    "tld": ".hu"
+    "tld": ".hu",
+    "nameNative": ["Magyarország"]
   },
   {
     "name": "バチカン",
     "capital": "",
     "continent": ["europe"],
     "code": "va",
-    "tld": ".va"
+    "tld": ".va",
+    "nameNative": ["Civitas Vaticana"]
   },
   {
     "name": "バヌアツ",
     "capital": "ポートビラ",
     "continent": ["oceania"],
     "code": "vu",
-    "tld": ".vu"
+    "tld": ".vu",
+    "nameNative": [
+      "Ripablik blong Vanuatu",
+      "Vanuatu",
+      "Republic of Vanuatu",
+      "République du Vanuatu"
+    ]
   },
   {
     "name": "バハマ",
     "capital": "ナッソー",
     "continent": ["north-america"],
     "code": "bs",
-    "tld": ".bs"
+    "tld": ".bs",
+    "nameNative": ["Commonwealth of the Bahamas"]
   },
   {
     "name": "バルバドス",
     "capital": "ブリッジタウン",
     "continent": ["north-america"],
     "code": "bb",
-    "tld": ".bb"
+    "tld": ".bb",
+    "nameNative": ["Barbados"]
   },
   {
     "name": "バングラデシュ",
     "capital": "ダッカ",
     "continent": ["asia"],
     "code": "bd",
-    "tld": ".bd"
-  },
-  {
-    "name": "バーレーン",
-    "capital": "マナーマ",
-    "continent": ["asia"],
-    "code": "bh",
-    "tld": ".bh"
+    "tld": ".bd",
+    "nameNative": ["বাংলাদেশ", "গণপ্রজাতন্ত্রী বাংলাদেশ"]
   },
   {
     "name": "パキスタン",
     "capital": "イスラマバード",
     "continent": ["asia"],
     "code": "pk",
-    "tld": ".pk"
+    "tld": ".pk",
+    "nameNative": [
+      "Pakistan",
+      "پاکستان",
+      "پاکستان",
+      "Pákistán",
+      "پاکستان",
+      "پٲکِستان",
+      "پاکستان",
+      "پاکستان",
+      "پاڪستان",
+      "پاڪستان"
+    ]
   },
   {
     "name": "パナマ",
     "capital": "パナマ市",
     "continent": ["north-america"],
     "code": "pa",
-    "tld": ".pa"
+    "tld": ".pa",
+    "nameNative": ["República de Panamá"]
   },
   {
     "name": "パプアニューギニア",
     "capital": "ポートモレスビー",
     "continent": ["oceania"],
     "code": "pg",
-    "tld": ".pg"
+    "tld": ".pg",
+    "nameNative": [
+      "Independent State of Papua New Guinea",
+      "Independen Stet bilong Papua Niugini"
+    ]
   },
   {
     "name": "パラオ",
     "capital": "ンゲルルムッド",
     "continent": ["oceania"],
     "code": "pw",
-    "tld": ".pw"
+    "tld": ".pw",
+    "nameNative": ["Republic of Palau", "Belau"]
   },
   {
     "name": "パラグアイ",
     "capital": "アスンシオン",
     "continent": ["south-america"],
     "code": "py",
-    "tld": ".py"
+    "tld": ".py",
+    "nameNative": ["República del Paraguay", "Paraguái Tavakuairetã"]
   },
   {
     "name": "パレスチナ国",
     "capital": "ラマッラー,エルサレム",
     "continent": ["asia"],
     "code": "ps",
-    "tld": ".ps"
+    "tld": ".ps",
+    "nameNative": ["دولة فلسطين"]
   },
   {
     "name": "フィジー",
     "capital": "スバ",
     "continent": ["oceania"],
     "code": "fj",
-    "tld": ".fj"
+    "tld": ".fj",
+    "nameNative": [
+      "Viti",
+      "Republic of Fiji",
+      "Matanitu Tugalala o Viti",
+      "Fidźi Ganaradźja"
+    ]
   },
   {
     "name": "フィリピン",
     "capital": "マニラ",
     "continent": ["asia"],
     "code": "ph",
-    "tld": ".ph"
+    "tld": ".ph",
+    "nameNative": ["Philippines", "Pilipinas", "Philippines"]
   },
   {
     "name": "フィンランド",
     "capital": "ヘルシンキ",
     "continent": ["europe"],
     "code": "fi",
-    "tld": ".fi"
+    "tld": ".fi",
+    "nameNative": ["Finland", "Suomi"]
   },
   {
     "name": "フランス",
     "capital": "パリ",
     "continent": ["europe"],
     "code": "fr",
-    "tld": ".fr"
+    "tld": ".fr",
+    "nameNative": ["France", "République française"]
   },
   {
     "name": "ブラジル",
     "capital": "ブラジリア",
     "continent": ["south-america"],
     "code": "br",
-    "tld": ".br"
+    "tld": ".br",
+    "nameNative": ["República Federativa do Brasil"]
   },
   {
     "name": "ブルガリア",
     "capital": "ソフィア",
     "continent": ["europe"],
     "code": "bg",
-    "tld": ".bg"
+    "tld": ".bg",
+    "nameNative": ["България"]
   },
   {
     "name": "ブルキナファソ",
     "capital": "ワガドゥグー",
     "continent": ["africa"],
     "code": "bf",
-    "tld": ".bf"
+    "tld": ".bf",
+    "nameNative": ["Burkina Faso"]
   },
   {
     "name": "ブルネイ",
     "capital": "バンダルスリブガワン",
     "continent": ["asia"],
     "code": "bn",
-    "tld": ".bn"
+    "tld": ".bn",
+    "nameNative": ["Brunei Darussalam", "Negara Brunei Darussalam"]
   },
   {
     "name": "ブルンジ",
     "capital": "ギテガ",
     "continent": ["africa"],
     "code": "bi",
-    "tld": ".bi"
-  },
-  {
-    "name": "ブータン",
-    "capital": "ティンプー",
-    "continent": ["asia"],
-    "code": "bt",
-    "tld": ".bt"
+    "tld": ".bi",
+    "nameNative": ["Uburundi"]
   },
   {
     "name": "ベトナム",
     "capital": "ハノイ",
     "continent": ["asia"],
     "code": "vn",
-    "tld": ".vn"
-  },
-  {
-    "name": "ベナン",
-    "capital": "ポルトノボ",
-    "continent": ["africa"],
-    "code": "bj",
-    "tld": ".bj"
+    "tld": ".vn",
+    "nameNative": ["Việt Nam"]
   },
   {
     "name": "ベネズエラ",
     "capital": "カラカス",
     "continent": ["south-america"],
     "code": "ve",
-    "tld": ".ve"
+    "tld": ".ve",
+    "nameNative": ["Venezuela"]
   },
   {
     "name": "ベラルーシ",
     "capital": "ミンスク",
     "continent": ["europe"],
     "code": "by",
-    "tld": ".by"
+    "tld": ".by",
+    "nameNative": ["Беларусь", "Рэспубліка Беларусь", "Республика Беларусь"]
   },
   {
     "name": "ベリーズ",
     "capital": "ベルモパン",
     "continent": ["north-america"],
     "code": "bz",
-    "tld": ".bz"
+    "tld": ".bz",
+    "nameNative": ["Belize"]
   },
   {
     "name": "ベルギー",
     "capital": "ブリュッセル市",
     "continent": ["europe"],
     "code": "be",
-    "tld": ".be"
+    "tld": ".be",
+    "nameNative": [
+      "Königreich Belgien",
+      "Royaume de Belgique",
+      "Koninkrijk België"
+    ]
   },
   {
     "name": "ペルー",
     "capital": "リマ",
     "continent": ["south-america"],
     "code": "pe",
-    "tld": ".pe"
+    "tld": ".pe",
+    "nameNative": ["República del Perú"]
   },
   {
     "name": "ホンジュラス",
     "capital": "テグシガルパ",
     "continent": ["north-america"],
     "code": "hn",
-    "tld": ".hn"
+    "tld": ".hn",
+    "nameNative": ["República de Honduras"]
   },
   {
     "name": "ボスニア・ヘルツェゴビナ",
     "capital": "サラエヴォ",
     "continent": ["europe"],
     "code": "ba",
-    "tld": ".ba"
+    "tld": ".ba",
+    "nameNative": ["Bosna i Hercegovina", "Bosna i Hercegovina"]
   },
   {
     "name": "ボツワナ",
     "capital": "ハボローネ",
     "continent": ["africa"],
     "code": "bw",
-    "tld": ".bw"
+    "tld": ".bw",
+    "nameNative": ["Botswana"]
   },
   {
     "name": "ボリビア",
     "capital": "ラパス,スクレ",
     "continent": ["south-america"],
     "code": "bo",
-    "tld": ".bo"
+    "tld": ".bo",
+    "nameNative": [
+      "Wuliwya Suyu",
+      "Estado Plurinacional de Bolivia",
+      "Tetã Volívia",
+      "Buliwya Achka nasyunkunap Mama llaqta"
+    ]
   },
   {
     "name": "ポルトガル",
     "capital": "リスボン",
     "continent": ["europe"],
     "code": "pt",
-    "tld": ".pt"
+    "tld": ".pt",
+    "nameNative": ["Portugal", "República Portuguesa"]
   },
   {
     "name": "ポーランド",
     "capital": "ワルシャワ",
     "continent": ["europe"],
     "code": "pl",
-    "tld": ".pl"
+    "tld": ".pl",
+    "nameNative": ["Polska", "Rzeczpospolita Polska"]
   },
   {
     "name": "マダガスカル",
     "capital": "アンタナナリボ",
     "continent": ["africa"],
     "code": "mg",
-    "tld": ".mg"
+    "tld": ".mg",
+    "nameNative": ["République de Madagascar", "Repoblikan'i Madagaskar"]
   },
   {
     "name": "マラウイ",
     "capital": "リロングウェ",
     "continent": ["africa"],
     "code": "mw",
-    "tld": ".mw"
+    "tld": ".mw",
+    "nameNative": ["Republic of Malawi", "Charu cha Malaŵi"]
   },
   {
     "name": "マリ共和国",
     "capital": "バマコ",
     "continent": ["africa"],
     "code": "ml",
-    "tld": ".ml"
+    "tld": ".ml",
+    "nameNative": ["Mali"]
   },
   {
     "name": "マルタ",
     "capital": "バレッタ",
     "continent": ["europe"],
     "code": "mt",
-    "tld": ".mt"
+    "tld": ".mt",
+    "nameNative": ["Malta"]
   },
   {
     "name": "マレーシア",
     "capital": "クアラルンプール",
     "continent": ["asia"],
     "code": "my",
-    "tld": ".my"
+    "tld": ".my",
+    "nameNative": ["Malaysia"]
   },
   {
     "name": "マーシャル諸島",
     "capital": "マジュロ",
     "continent": ["oceania"],
     "code": "mh",
-    "tld": ".mh"
+    "tld": ".mh",
+    "nameNative": ["Aolepān Aorōkin M̧ajeļ", "Aolepān Aorōkin Ṃajeḷ"]
   },
   {
     "name": "ミクロネシア連邦",
     "capital": "パリキール",
     "continent": ["oceania"],
     "code": "fm",
-    "tld": ".fm"
+    "tld": ".fm",
+    "nameNative": ["Federated States of Micronesia", "Mikronesia"]
   },
   {
     "name": "ミャンマー",
     "capital": "ネピドー",
     "continent": ["asia"],
     "code": "mm",
-    "tld": ".mm"
+    "tld": ".mm",
+    "nameNative": ["မြန်မာ", "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်", "မြန်မာနိုင်ငံ", "မြန်မာပြည်"]
   },
   {
     "name": "メキシコ",
     "capital": "メキシコシティ",
     "continent": ["north-america"],
     "code": "mx",
-    "tld": ".mx"
+    "tld": ".mx",
+    "nameNative": ["Mexico", "México", "Mexko"]
   },
   {
     "name": "モザンビーク",
     "capital": "マプト",
     "continent": ["africa"],
     "code": "mz",
-    "tld": ".mz"
+    "tld": ".mz",
+    "nameNative": ["República de Moçambique", "مْسُمْبِيجِ"]
   },
   {
     "name": "モナコ",
     "capital": "モナコ市",
     "continent": ["europe"],
     "code": "mc",
-    "tld": ".mc"
+    "tld": ".mc",
+    "nameNative": [
+      "Monaco",
+      "Principauté de Monaco",
+      "Prinçipato de Mónego",
+      "Prinçipatu de Mu̍negu",
+      "Principat de Mónegue"
+    ]
   },
   {
     "name": "モルディブ",
     "capital": "マレ",
     "continent": ["asia"],
     "code": "mv",
-    "tld": ".mv"
+    "tld": ".mv",
+    "nameNative": ["ދިވެހިރާއްޖެ", "ދިވެހިރާއްޖޭގެ ޖުމުހޫރިއްޔާ"]
   },
   {
     "name": "モルドバ",
     "capital": "キシナウ",
     "continent": ["europe"],
     "code": "md",
-    "tld": ".md"
+    "tld": ".md",
+    "nameNative": ["Moldova"]
   },
   {
     "name": "モロッコ",
     "capital": "ラバト",
     "continent": ["africa"],
     "code": "ma",
-    "tld": ".ma"
+    "tld": ".ma",
+    "nameNative": ["المملكة المغربية", "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ"]
   },
   {
     "name": "モンゴル国",
     "capital": "ウランバートル",
     "continent": ["asia"],
     "code": "mn",
-    "tld": ".mn"
+    "tld": ".mn",
+    "nameNative": ["Монгол Улс", "ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ"]
   },
   {
     "name": "モンテネグロ",
     "capital": "ポドゴリツァ,ツェティニェ",
     "continent": ["europe"],
     "code": "me",
-    "tld": ".me"
+    "tld": ".me",
+    "nameNative": ["Crna Gora", "Црна Гора"]
   },
   {
     "name": "モーリシャス",
     "capital": "ポートルイス",
     "continent": ["africa"],
     "code": "mu",
-    "tld": ".mu"
+    "tld": ".mu",
+    "nameNative": ["République de Maurice"]
   },
   {
     "name": "モーリタニア",
     "capital": "ヌアクショット",
     "continent": ["africa"],
     "code": "mr",
-    "tld": ".mr"
+    "tld": ".mr",
+    "nameNative": [
+      "الجمهورية الإسلامية الموريتانية",
+      "Ndenndaandi Lislameeri Muritani",
+      "République islamique de Mauritanie",
+      "Moritani Silaamin Jamaane",
+      "Réewu lislaam bu Muritani"
+    ]
   },
   {
     "name": "ヨルダン",
     "capital": "アンマン",
     "continent": ["asia"],
     "code": "jo",
-    "tld": ".jo"
+    "tld": ".jo",
+    "nameNative": ["االْمَمْلَكَةُ الْأُرْدُنِيَةُ الْهَاشِمِيَة"]
   },
   {
     "name": "ラオス",
     "capital": "ヴィエンチャン",
     "continent": ["asia"],
     "code": "la",
-    "tld": ".la"
+    "tld": ".la",
+    "nameNative": ["ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ"]
   },
   {
     "name": "ラトビア",
     "capital": "リガ",
     "continent": ["europe"],
     "code": "lv",
-    "tld": ".lv"
+    "tld": ".lv",
+    "nameNative": ["Latvija"]
   },
   {
     "name": "リトアニア",
     "capital": "ヴィルニュス",
     "continent": ["europe"],
     "code": "lt",
-    "tld": ".lt"
+    "tld": ".lt",
+    "nameNative": ["Lietuva"]
   },
   {
     "name": "リヒテンシュタイン",
     "capital": "ファドゥーツ",
     "continent": ["europe"],
     "code": "li",
-    "tld": ".li"
+    "tld": ".li",
+    "nameNative": ["Liechtenstein", "Fürstentum Liechtenstein"]
   },
   {
     "name": "リビア",
     "capital": "トリポリ",
     "continent": ["africa"],
     "code": "ly",
-    "tld": ".ly"
+    "tld": ".ly",
+    "nameNative": ["دولة ليبيا"]
   },
   {
     "name": "リベリア",
     "capital": "モンロビア",
     "continent": ["africa"],
     "code": "lr",
-    "tld": ".lr"
+    "tld": ".lr",
+    "nameNative": ["Republic of Liberia"]
   },
   {
     "name": "ルクセンブルク",
     "capital": "ルクセンブルク市",
     "continent": ["europe"],
     "code": "lu",
-    "tld": ".lu"
+    "tld": ".lu",
+    "nameNative": ["Luxembourg", "Luxemburg", "Lëtzebuerg"]
   },
   {
     "name": "ルワンダ",
     "capital": "キガリ",
     "continent": ["africa"],
     "code": "rw",
-    "tld": ".rw"
+    "tld": ".rw",
+    "nameNative": [
+      "Republic of Rwanda",
+      "Repubulika y'u Rwanda",
+      "Rwanda",
+      "Jamhuri ya Rwanda",
+      "République du Rwanda"
+    ]
   },
   {
     "name": "ルーマニア",
     "capital": "ブカレスト",
     "continent": ["europe"],
     "code": "ro",
-    "tld": ".ro"
+    "tld": ".ro",
+    "nameNative": ["România"]
   },
   {
     "name": "レソト",
     "capital": "マセル",
     "continent": ["africa"],
     "code": "ls",
-    "tld": ".ls"
+    "tld": ".ls",
+    "nameNative": ["Lesotho"]
   },
   {
     "name": "レバノン",
     "capital": "ベイルート",
     "continent": ["asia"],
     "code": "lb",
-    "tld": ".lb"
+    "tld": ".lb",
+    "nameNative": [
+      "Lebanon",
+      "لبنان",
+      "الجمهورية اللبنانية",
+      "Republic of Lebanon",
+      "Lubnan",
+      "Republik Lubnan"
+    ]
   },
   {
     "name": "ロシア",
     "capital": "モスクワ",
     "continent": ["europe"],
     "code": "ru",
-    "tld": ".ru"
+    "tld": ".ru",
+    "nameNative": ["Россия", "Российская Федерация"]
   },
   {
     "name": "中央アフリカ共和国",
     "capital": "バンギ",
     "continent": ["africa"],
     "code": "cf",
-    "tld": ".cf"
+    "tld": ".cf",
+    "nameNative": ["Republique Centrafricaine", "Ködörösêse tî Bêafrîka"]
   },
   {
     "name": "中華人民共和国",
     "capital": "北京市",
     "continent": ["asia"],
     "code": "cn",
-    "tld": ".cn"
+    "tld": ".cn",
+    "nameNative": ["中华人民共和国"]
   },
   {
     "name": "台湾",
     "capital": "台北市",
     "continent": ["asia"],
     "code": "tw",
-    "tld": ".tw"
+    "tld": ".tw",
+    "nameNative": [
+      "Tâi-oân",
+      "taiwan",
+      "中華民國",
+      "Chûng-fà Mìn-koet",
+      "臺灣",
+      "中華民國",
+      "台灣",
+      "Tiong-hoâ Bîn-kok",
+      "Tiong-huâ-bîn-kok"
+    ]
   },
   {
     "name": "北マケドニア",
     "capital": "スコピエ",
     "continent": ["europe"],
     "code": "mk",
-    "tld": ".mk"
+    "tld": ".mk",
+    "nameNative": ["Република Северна Македонија"]
   },
   {
     "name": "南アフリカ共和国",
     "capital": "プレトリア,ケープタウン,ブルームフォンテーン",
     "continent": ["africa"],
     "code": "za",
-    "tld": ".za"
+    "tld": ".za",
+    "nameNative": [
+      "South Africa",
+      "Suid-Afrika",
+      "iSewula Afrika",
+      "Afrika Borwa",
+      "iNingizimu Afrika",
+      "Afrika Borwa",
+      "Aforika Borwa",
+      "Afrika-Dzonga",
+      "Afurika Tshipembe",
+      "uMzantsi Afrika",
+      "iNingizimu Afrika"
+    ]
   },
   {
     "name": "南スーダン",
     "capital": "ジュバ",
     "continent": ["africa"],
     "code": "ss",
-    "tld": ".ss"
+    "tld": ".ss",
+    "nameNative": [
+      "South Sudan",
+      "جنوب السودان",
+      "جمهورية جنوب السودان",
+      "Republic of South Sudan"
+    ]
   },
   {
     "name": "大韓民国",
     "capital": "ソウル特別市",
     "continent": ["asia"],
     "code": "kr",
-    "tld": ".kr"
+    "tld": ".kr",
+    "nameNative": ["대한민국"]
   },
   {
     "name": "日本",
     "capital": "東京都",
     "continent": ["asia"],
     "code": "jp",
-    "tld": ".jp"
+    "tld": ".jp",
+    "nameNative": ["日本"]
   },
   {
     "name": "北朝鮮",
     "capital": "平壌市",
     "continent": ["asia"],
     "code": "kp",
-    "tld": ".kp"
+    "tld": ".kp",
+    "nameNative": ["조선민주주의인민공화국"]
   },
   {
     "name": "東ティモール",
     "capital": "ディリ",
     "continent": ["asia"],
     "code": "tl",
-    "tld": ".tl"
+    "tld": ".tl",
+    "nameNative": [
+      "República Democrática de Timor-Leste",
+      "Repúblika Demokrátika Timor-Leste"
+    ]
   },
   {
     "name": "赤道ギニア",
     "capital": "ラパス",
     "continent": ["africa"],
     "code": "gq",
-    "tld": ".gq"
+    "tld": ".gq",
+    "nameNative": [
+      "República de Guinea Ecuatorial",
+      "République de Guinée équatoriale",
+      "República da Guiné Equatorial"
+    ]
   }
 ]

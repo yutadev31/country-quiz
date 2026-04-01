@@ -48,6 +48,7 @@
   },
   "content-type": {
     "name": "国名",
+    "nameNative": "国名 (現地語)",
     "capital": "首都",
     "flag": "国旗",
     "domain": "ドメイン (TLD)",
