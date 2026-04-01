@@ -151,23 +151,36 @@ export default function Game<T extends Record<string, string | null>>({
   }, [questionCount, randomSeed, items]);
 
   const choices = useMemo(() => {
-    return questions.map((q, index) =>
-      shuffleArray(
-        [
-          q,
-          ...shuffleArray(
-            items.filter(
-              (c) =>
-                c.id !== q.id &&
-                c[questionField] !== q[questionField] &&
-                c[answerField] !== q[answerField],
-            ),
-            randomSeed + index + 1024,
-          ).slice(0, 3),
-        ],
-        randomSeed + index,
-      ),
-    );
+    return questions.map((q, index) => {
+      const usedAnswerValues = new Set<string>();
+      const questionAnswerValue = q[answerField];
+
+      if (questionAnswerValue !== null) {
+        usedAnswerValues.add(questionAnswerValue);
+      }
+
+      const distractors = shuffleArray(
+        items.filter(
+          (c) =>
+            c.id !== q.id &&
+            c[questionField] !== q[questionField] &&
+            c[answerField] !== q[answerField],
+        ),
+        randomSeed + index + 1024,
+      )
+        .filter((choice) => {
+          const answerValue = choice[answerField];
+          if (answerValue === null || usedAnswerValues.has(answerValue)) {
+            return false;
+          }
+
+          usedAnswerValues.add(answerValue);
+          return true;
+        })
+        .slice(0, 3);
+
+      return shuffleArray([q, ...distractors], randomSeed + index);
+    });
   }, [questions, randomSeed, items, answerField, questionField]);
 
   const [current, setCurrent] = useState(-1);

@@ -11,6 +11,7 @@ export type FieldOption = {
 
 export type GetItemsArgs = {
   area: string;
+  randomSeed?: number;
 };
 
 export type GameModeConfig = {

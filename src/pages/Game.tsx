@@ -42,6 +42,7 @@ export default function GamePage() {
   const items = modeConfig
     .getItems({
       area: area || "",
+      randomSeed,
     })
     .filter((item) => item[questionField] && item[answerField]);
 
