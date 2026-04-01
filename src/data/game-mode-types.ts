@@ -1,4 +1,4 @@
-export type GameModeId = "countries" | "us-states" | "fr-regions";
+export type GameModeId = "countries" | "us-states" | "fr-regions" | "de-states";
 
 export type FieldDisplayType = "text" | "img" | "id";
 

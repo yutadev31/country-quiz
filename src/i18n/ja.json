@@ -32,12 +32,16 @@
       "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
     },
     "us-states": {
-      "title": "アメリカ50州",
+      "title": "アメリカの州",
       "description": "州名・州都・州旗などで遊ぶモード"
     },
     "fr-regions": {
-      "title": "フランス地域圏",
+      "title": "フランスの地域圏",
       "description": "地域圏名・首府で遊ぶモード"
+    },
+    "de-states": {
+      "title": "ドイツの州",
+      "description": "州名・州都で遊ぶモード"
     }
   },
   "content-type": {
