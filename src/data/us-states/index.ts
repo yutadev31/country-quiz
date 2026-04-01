@@ -32,14 +32,12 @@ export const usStatesMode: GameModeConfig = {
     flag: "img",
   },
   getItems: () =>
-    states.map((state) => {
-      return {
-        id: state.code,
-        name: state.name,
-        capital: state.capital,
-        flag: `https://flagcdn.com/${state.code}.svg`,
-      };
-    }),
+    states.map((state) => ({
+      id: state.code,
+      name: state.name,
+      capital: state.capital,
+      flag: `https://flagcdn.com/${state.code}.svg`,
+    })),
   normalizeQuestionField: (value) => {
     if (value === "capital" || value === "flag") {
       return value;

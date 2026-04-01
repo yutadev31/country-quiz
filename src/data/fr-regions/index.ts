@@ -1,4 +1,4 @@
-import regions from "@/data/fr-regions/fr-regions.json";
+import regions from "@/data/fr-regions/regions.json";
 import type { GameModeConfig } from "@/data/game-mode-types";
 
 export interface FRRegion {
@@ -28,13 +28,11 @@ export const frRegionsMode: GameModeConfig = {
     capital: "text",
   },
   getItems: () =>
-    regions.map((region) => {
-      return {
-        id: region.code,
-        name: region.name,
-        capital: region.capital,
-      };
-    }),
+    regions.map((region, index) => ({
+      id: `${index}`,
+      name: region.name,
+      capital: region.capital,
+    })),
   normalizeQuestionField: (value) => {
     if (value === "capital") {
       return value;
