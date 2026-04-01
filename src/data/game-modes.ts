@@ -14,10 +14,5 @@ export const gameModes: Record<GameModeId, GameModeConfig> = {
 export const gameModeList = Object.values(gameModes);
 
 export function isGameModeId(value: string | null): value is GameModeId {
-  return (
-    value === "countries" ||
-    value === "us-states" ||
-    value === "fr-regions" ||
-    value === "de-states"
-  );
+  return value ? Object.keys(gameModes).includes(value) : false;
 }
