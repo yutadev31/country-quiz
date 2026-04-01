@@ -20,11 +20,13 @@
   "button": {
     "start": "スタート",
     "restart": "もう一度",
-    "back-to-mode-selection": "モード選択に戻る"
+    "back-to-mode-selection": "モード選択に戻る",
+    "open-study-list": "一覧表で覚える"
   },
   "description": {
     "mode": "遊ぶクイズのモードを選択",
-    "one-shot-mode": "1問でも間違えたら即終了"
+    "one-shot-mode": "1問でも間違えたら即終了",
+    "study": "国や州などを一覧で確認して覚えるためのページ"
   },
   "mode": {
     "countries": {
@@ -73,5 +75,12 @@
   },
   "result": {
     "title": "結果"
+  },
+  "study": {
+    "title": "一覧表",
+    "mode": "一覧の種類",
+    "empty": "表示できるデータがありません",
+    "count": "{{count}}件",
+    "back-home": "クイズに戻る"
   }
 }

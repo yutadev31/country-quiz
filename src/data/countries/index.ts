@@ -60,7 +60,7 @@ export const countriesMode: GameModeConfig = {
     id: "id",
     name: "text",
     capital: "text",
-    tld: "text",
+    domain: "text",
     flag: "img",
   },
   getItems: ({ area }) => getCountries(area),

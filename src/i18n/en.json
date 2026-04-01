@@ -20,11 +20,13 @@
   "button": {
     "start": "Start",
     "restart": "Restart",
-    "back-to-mode-selection": "Back to Mode Selection"
+    "back-to-mode-selection": "Back to Mode Selection",
+    "open-study-list": "Study with Table"
   },
   "description": {
     "mode": "Choose which quiz mode to play.",
-    "one-shot-mode": "One mistake and it's game over."
+    "one-shot-mode": "One mistake and it's game over.",
+    "study": "Browse countries, states, and regions in a reference table for memorization."
   },
   "mode": {
     "countries": {
@@ -37,7 +39,11 @@
     },
     "fr-regions": {
       "title": "French Regions",
-      "description": "A mode for region names, capitals, and flags."
+      "description": "A mode for region names and capitals."
+    },
+    "de-states": {
+      "title": "German States",
+      "description": "A mode for state names and capitals."
     }
   },
   "content-type": {
@@ -71,5 +77,12 @@
   },
   "result": {
     "title": "Result"
+  },
+  "study": {
+    "title": "Study Table",
+    "mode": "List Type",
+    "empty": "No data available.",
+    "count": "{{count}} items",
+    "back-home": "Back to Quiz"
   }
 }
