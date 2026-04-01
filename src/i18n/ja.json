@@ -52,6 +52,7 @@
     "flag": "国旗",
     "domain": "ドメイン (TLD)",
     "state-name": "州名",
+    "us-state-nameNative": "州名 (英語)",
     "state-capital": "州都",
     "state-flag": "州旗",
     "fr-region-name": "地域圏名",

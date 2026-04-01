@@ -1,68 +1,302 @@
 [
-  { "name": "アイオワ州", "capital": "デ・モイン", "code": "us-ia" },
-  { "name": "アイダホ州", "capital": "ボイシ", "code": "us-id" },
-  { "name": "アラスカ州", "capital": "ジュノー", "code": "us-ak" },
-  { "name": "アラバマ州", "capital": "モンゴメリー", "code": "us-al" },
-  { "name": "アリゾナ州", "capital": "フェニックス", "code": "us-az" },
-  { "name": "アーカンソー州", "capital": "リトル・ロック", "code": "us-ar" },
-  { "name": "イリノイ州", "capital": "スプリングフィールド", "code": "us-il" },
+  {
+    "name": "アイオワ州",
+    "nameNative": "Iowa",
+    "capital": "デ・モイン",
+    "code": "us-ia"
+  },
+  {
+    "name": "アイダホ州",
+    "nameNative": "Idaho",
+    "capital": "ボイシ",
+    "code": "us-id"
+  },
+  {
+    "name": "アラスカ州",
+    "nameNative": "Alaska",
+    "capital": "ジュノー",
+    "code": "us-ak"
+  },
+  {
+    "name": "アラバマ州",
+    "nameNative": "Alabama",
+    "capital": "モンゴメリー",
+    "code": "us-al"
+  },
+  {
+    "name": "アリゾナ州",
+    "nameNative": "Arizona",
+    "capital": "フェニックス",
+    "code": "us-az"
+  },
+  {
+    "name": "アーカンソー州",
+    "nameNative": "Arkansas",
+    "capital": "リトル・ロック",
+    "code": "us-ar"
+  },
+  {
+    "name": "イリノイ州",
+    "nameNative": "Illinois",
+    "capital": "スプリングフィールド",
+    "code": "us-il"
+  },
   {
     "name": "インディアナ州",
+    "nameNative": "Indiana",
     "capital": "インディアナポリス",
     "code": "us-in"
   },
-  { "name": "ウィスコンシン州", "capital": "マディソン", "code": "us-wi" },
+  {
+    "name": "ウィスコンシン州",
+    "nameNative": "Wisconsin",
+    "capital": "マディソン",
+    "code": "us-wi"
+  },
   {
     "name": "ウェストバージニア州",
+    "nameNative": "West Virginia",
     "capital": "チャールストン",
     "code": "us-wv"
   },
-  { "name": "オクラホマ州", "capital": "オクラホマシティ", "code": "us-ok" },
-  { "name": "オハイオ州", "capital": "コロンバス", "code": "us-oh" },
-  { "name": "オレゴン州", "capital": "セイラム", "code": "us-or" },
-  { "name": "カリフォルニア州", "capital": "サクラメント", "code": "us-ca" },
-  { "name": "カンザス州", "capital": "トピカ", "code": "us-ks" },
-  { "name": "ケンタッキー州", "capital": "フランクフォート", "code": "us-ky" },
-  { "name": "コネチカット州", "capital": "ハートフォード", "code": "us-ct" },
-  { "name": "コロラド州", "capital": "デンバー", "code": "us-co" },
-  { "name": "サウスカロライナ州", "capital": "コロンビア", "code": "us-sc" },
-  { "name": "サウスダコタ州", "capital": "ピア", "code": "us-sd" },
-  { "name": "ジョージア州", "capital": "アトランタ", "code": "us-ga" },
-  { "name": "テキサス州", "capital": "オースティン", "code": "us-tx" },
-  { "name": "テネシー州", "capital": "ナッシュヴィル", "code": "us-tn" },
-  { "name": "デラウェア州", "capital": "ドーヴァー", "code": "us-de" },
-  { "name": "ニュージャージー州", "capital": "トレントン", "code": "us-nj" },
-  { "name": "ニューハンプシャー州", "capital": "コンコード", "code": "us-nh" },
-  { "name": "ニューメキシコ州", "capital": "サンタ・フェ", "code": "us-nm" },
-  { "name": "ニューヨーク州", "capital": "オールバニ", "code": "us-ny" },
-  { "name": "ネバダ州", "capital": "カーソンシティ", "code": "us-nv" },
-  { "name": "ネブラスカ州", "capital": "リンカーン", "code": "us-ne" },
-  { "name": "ノースカロライナ州", "capital": "ローリー", "code": "us-nc" },
-  { "name": "ノースダコタ州", "capital": "ビスマーク", "code": "us-nd" },
-  { "name": "ハワイ州", "capital": "ホノルル", "code": "us-hi" },
-  { "name": "バージニア州", "capital": "リッチモンド", "code": "us-va" },
-  { "name": "バーモント州", "capital": "モントピリア", "code": "us-vt" },
-  { "name": "フロリダ州", "capital": "タラハシー", "code": "us-fl" },
-  { "name": "ペンシルベニア州", "capital": "ハリスバーグ", "code": "us-pa" },
-  { "name": "マサチューセッツ州", "capital": "ボストン", "code": "us-ma" },
-  { "name": "ミシガン州", "capital": "ランシング", "code": "us-mi" },
-  { "name": "ミシシッピ州", "capital": "ジャクソン", "code": "us-ms" },
-  { "name": "ミズーリ州", "capital": "ジェファーソンシティ", "code": "us-mo" },
-  { "name": "ミネソタ州", "capital": "セイント・ポール", "code": "us-mn" },
-  { "name": "メイン州", "capital": "オーガスタ", "code": "us-me" },
-  { "name": "メリーランド州", "capital": "アナポリス", "code": "us-md" },
-  { "name": "モンタナ州", "capital": "ヘレナ", "code": "us-mt" },
-  { "name": "ユタ州", "capital": "ソルトレイクシティ", "code": "us-ut" },
+  {
+    "name": "オクラホマ州",
+    "nameNative": "Oklahoma",
+    "capital": "オクラホマシティ",
+    "code": "us-ok"
+  },
+  {
+    "name": "オハイオ州",
+    "nameNative": "Ohio",
+    "capital": "コロンバス",
+    "code": "us-oh"
+  },
+  {
+    "name": "オレゴン州",
+    "nameNative": "Oregon",
+    "capital": "セイラム",
+    "code": "us-or"
+  },
+  {
+    "name": "カリフォルニア州",
+    "nameNative": "California",
+    "capital": "サクラメント",
+    "code": "us-ca"
+  },
+  {
+    "name": "カンザス州",
+    "nameNative": "Kansas",
+    "capital": "トピカ",
+    "code": "us-ks"
+  },
+  {
+    "name": "ケンタッキー州",
+    "nameNative": "Kentucky",
+    "capital": "フランクフォート",
+    "code": "us-ky"
+  },
+  {
+    "name": "コネチカット州",
+    "nameNative": "Connecticut",
+    "capital": "ハートフォード",
+    "code": "us-ct"
+  },
+  {
+    "name": "コロラド州",
+    "nameNative": "Colorado",
+    "capital": "デンバー",
+    "code": "us-co"
+  },
+  {
+    "name": "サウスカロライナ州",
+    "nameNative": "South Carolina",
+    "capital": "コロンビア",
+    "code": "us-sc"
+  },
+  {
+    "name": "サウスダコタ州",
+    "nameNative": "South Dakota",
+    "capital": "ピア",
+    "code": "us-sd"
+  },
+  {
+    "name": "ジョージア州",
+    "nameNative": "Georgia",
+    "capital": "アトランタ",
+    "code": "us-ga"
+  },
+  {
+    "name": "テキサス州",
+    "nameNative": "Texas",
+    "capital": "オースティン",
+    "code": "us-tx"
+  },
+  {
+    "name": "テネシー州",
+    "nameNative": "Tennessee",
+    "capital": "ナッシュヴィル",
+    "code": "us-tn"
+  },
+  {
+    "name": "デラウェア州",
+    "nameNative": "Delaware",
+    "capital": "ドーヴァー",
+    "code": "us-de"
+  },
+  {
+    "name": "ニュージャージー州",
+    "nameNative": "New Jersey",
+    "capital": "トレントン",
+    "code": "us-nj"
+  },
+  {
+    "name": "ニューハンプシャー州",
+    "nameNative": "New Hampshire",
+    "capital": "コンコード",
+    "code": "us-nh"
+  },
+  {
+    "name": "ニューメキシコ州",
+    "nameNative": "New Mexico",
+    "capital": "サンタ・フェ",
+    "code": "us-nm"
+  },
+  {
+    "name": "ニューヨーク州",
+    "nameNative": "New York",
+    "capital": "オールバニ",
+    "code": "us-ny"
+  },
+  {
+    "name": "ネバダ州",
+    "nameNative": "Nevada",
+    "capital": "カーソンシティ",
+    "code": "us-nv"
+  },
+  {
+    "name": "ネブラスカ州",
+    "nameNative": "Nebraska",
+    "capital": "リンカーン",
+    "code": "us-ne"
+  },
+  {
+    "name": "ノースカロライナ州",
+    "nameNative": "North Carolina",
+    "capital": "ローリー",
+    "code": "us-nc"
+  },
+  {
+    "name": "ノースダコタ州",
+    "nameNative": "North Dakota",
+    "capital": "ビスマーク",
+    "code": "us-nd"
+  },
+  {
+    "name": "ハワイ州",
+    "nameNative": "Hawaii",
+    "capital": "ホノルル",
+    "code": "us-hi"
+  },
+  {
+    "name": "バージニア州",
+    "nameNative": "Virginia",
+    "capital": "リッチモンド",
+    "code": "us-va"
+  },
+  {
+    "name": "バーモント州",
+    "nameNative": "Vermont",
+    "capital": "モントピリア",
+    "code": "us-vt"
+  },
+  {
+    "name": "フロリダ州",
+    "nameNative": "Florida",
+    "capital": "タラハシー",
+    "code": "us-fl"
+  },
+  {
+    "name": "ペンシルベニア州",
+    "nameNative": "Pennsylvania",
+    "capital": "ハリスバーグ",
+    "code": "us-pa"
+  },
+  {
+    "name": "マサチューセッツ州",
+    "nameNative": "Massachusetts",
+    "capital": "ボストン",
+    "code": "us-ma"
+  },
+  {
+    "name": "ミシガン州",
+    "nameNative": "Michigan",
+    "capital": "ランシング",
+    "code": "us-mi"
+  },
+  {
+    "name": "ミシシッピ州",
+    "nameNative": "Mississippi",
+    "capital": "ジャクソン",
+    "code": "us-ms"
+  },
+  {
+    "name": "ミズーリ州",
+    "nameNative": "Missouri",
+    "capital": "ジェファーソンシティ",
+    "code": "us-mo"
+  },
+  {
+    "name": "ミネソタ州",
+    "nameNative": "Minnesota",
+    "capital": "セイント・ポール",
+    "code": "us-mn"
+  },
+  {
+    "name": "メイン州",
+    "nameNative": "Maine",
+    "capital": "オーガスタ",
+    "code": "us-me"
+  },
+  {
+    "name": "メリーランド州",
+    "nameNative": "Maryland",
+    "capital": "アナポリス",
+    "code": "us-md"
+  },
+  {
+    "name": "モンタナ州",
+    "nameNative": "Montana",
+    "capital": "ヘレナ",
+    "code": "us-mt"
+  },
+  {
+    "name": "ユタ州",
+    "nameNative": "Utah",
+    "capital": "ソルトレイクシティ",
+    "code": "us-ut"
+  },
   {
     "name": "ルイジアナ州",
+    "nameNative": "Louisiana",
     "capital": "バトン・ルージュ,ニュー・オーリンズ",
     "code": "us-la"
   },
   {
     "name": "ロードアイランド州",
+    "nameNative": "Rhode Island",
     "capital": "プロヴィデンス",
     "code": "us-ri"
   },
-  { "name": "ワイオミング州", "capital": "シャイアン", "code": "us-wy" },
-  { "name": "ワシントン州", "capital": "オリンピア", "code": "us-wa" }
+  {
+    "name": "ワイオミング州",
+    "nameNative": "Wyoming",
+    "capital": "シャイアン",
+    "code": "us-wy"
+  },
+  {
+    "name": "ワシントン州",
+    "nameNative": "Washington",
+    "capital": "オリンピア",
+    "code": "us-wa"
+  }
 ]
