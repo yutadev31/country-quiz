@@ -41,7 +41,7 @@ function StudyCell({
     return <img alt="" src={value} className="h-10 min-w-14 object-contain" />;
   }
 
-  return <p>{value}</p>;
+  return <p className="text-nowrap">{value}</p>;
 }
 
 function StudyTable({
