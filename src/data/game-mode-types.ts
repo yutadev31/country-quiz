@@ -2,7 +2,9 @@ export type GameModeId = "countries" | "us-states" | "fr-regions" | "de-states";
 
 export type FieldDisplayType = "text" | "img" | "id";
 
-export type QuizItem = Record<string, string | null> & { id: string };
+export type QuizItem = Record<string, string | string[] | null> & {
+  id: string;
+};
 
 export type FieldOption = {
   labelKey: string;
@@ -11,7 +13,6 @@ export type FieldOption = {
 
 export type GetItemsArgs = {
   area: string;
-  randomSeed?: number;
 };
 
 export type GameModeConfig = {

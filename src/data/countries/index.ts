@@ -1,6 +1,5 @@
 import countries from "@/data/countries/countries.json";
 import type { GameModeConfig } from "@/data/game-mode-types";
-import { shuffleArray } from "@/utils/array";
 
 interface Item {
   code: string;
@@ -20,7 +19,7 @@ export interface Country {
   flag: string;
 }
 
-export default function getCountries(area: string, randomSeed?: number) {
+export default function getCountries(area: string) {
   const filterRegion = (countries: Item[], continent: string) =>
     countries.filter((country) => country.continent.indexOf(continent) !== -1);
 
@@ -29,18 +28,11 @@ export default function getCountries(area: string, randomSeed?: number) {
     return filterRegion(countries, area);
   };
 
-  return filter(countries, area).map((country, index) => {
-    const nameNative =
-      randomSeed === undefined
-        ? (country.nameNative.find((candidate) => candidate) ?? country.name)
-        : (shuffleArray(country.nameNative, randomSeed + index).find(
-            (candidate) => candidate,
-          ) ?? country.name);
-
+  return filter(countries, area).map((country) => {
     return {
       id: country.code,
       name: country.name,
-      nameNative,
+      nameNative: country.nameNative,
       capital: country.capital,
       domain: country.tld,
       flag: `https://flagcdn.com/${country.code}.svg`,
@@ -77,7 +69,7 @@ export const countriesMode: GameModeConfig = {
     domain: "text",
     flag: "img",
   },
-  getItems: ({ area, randomSeed }) => getCountries(area, randomSeed),
+  getItems: ({ area }) => getCountries(area),
   normalizeQuestionField: (value) => {
     if (
       value === "capital" ||

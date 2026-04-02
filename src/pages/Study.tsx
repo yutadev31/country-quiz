@@ -18,9 +18,21 @@ function StudyCell({
   value,
   displayType,
 }: {
-  value: string | null;
+  value: string | string[] | null;
   displayType: "text" | "img" | "id";
 }) {
+  if (Array.isArray(value)) {
+    return (
+      <>
+        {value.map((item) => {
+          return (
+            <StudyCell key={item} value={item} displayType={displayType} />
+          );
+        })}
+      </>
+    );
+  }
+
   if (!value) {
     return <span className="text-zinc-500">-</span>;
   }
@@ -29,7 +41,7 @@ function StudyCell({
     return <img alt="" src={value} className="h-10 min-w-14 object-contain" />;
   }
 
-  return <span>{value}</span>;
+  return <p>{value}</p>;
 }
 
 function StudyTable({
@@ -73,7 +85,7 @@ function StudyTable({
                     className="border-zinc-800 border-t px-4 py-3 align-middle"
                   >
                     <StudyCell
-                      value={item[field.value] as string | null}
+                      value={item[field.value]}
                       displayType={fieldDisplayTypes[field.value]}
                     />
                   </td>

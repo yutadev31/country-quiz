@@ -2,6 +2,7 @@ import { useQueryState } from "nuqs";
 import { useState } from "react";
 import Game from "@/components/Game";
 import { gameModes, isGameModeId } from "@/data/game-modes";
+import { shuffleArray } from "@/utils/array";
 
 export default function GamePage() {
   const [area] = useQueryState("area");
@@ -42,9 +43,21 @@ export default function GamePage() {
   const items = modeConfig
     .getItems({
       area: area || "",
-      randomSeed,
     })
-    .filter((item) => item[questionField] && item[answerField]);
+    .filter((item) => item[questionField] && item[answerField])
+    .map((item) => {
+      const result: Record<string, string | null> & { id: string } = {
+        id: item.id,
+      };
+
+      for (const key in item) {
+        result[key] = Array.isArray(item[key])
+          ? shuffleArray(item[key]).find((candidate) => candidate) || null
+          : item[key];
+      }
+
+      return result;
+    });
 
   return (
     <div className="mx-auto max-w-xl">
