@@ -101,6 +101,7 @@ function StudyTable({
 
 export default function StudyPage() {
   const { t } = useTranslation();
+  const [, setPage] = useQueryState("page");
   const [modeParam] = useQueryState("mode");
   const [areaParam] = useQueryState("area");
   const mode = isGameModeId(modeParam) ? modeParam : "countries";
@@ -131,6 +132,10 @@ export default function StudyPage() {
 
           <a
             href="/country-quiz"
+            onClick={(e) => {
+              setPage("");
+              e.preventDefault();
+            }}
             className="inline-flex items-center gap-2 self-start rounded-full border border-zinc-700 bg-zinc-900/80 px-4 py-2 text-sm text-zinc-100 transition hover:border-blue-400 hover:bg-zinc-800"
           >
             <LuArrowLeft className="text-base" />
