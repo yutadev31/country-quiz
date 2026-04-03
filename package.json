@@ -26,10 +26,13 @@
   "devDependencies": {
     "@biomejs/biome": "^2.4.9",
     "@tauri-apps/cli": "^2.10.1",
+    "@types/d3": "^7.4.3",
     "@types/node": "^25.5.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.2.0",
+    "d3": "^7.9.0",
+    "sharp": "^0.34.5",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.57.2",
     "vite": "^7.3.1"

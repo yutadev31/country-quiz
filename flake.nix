@@ -41,6 +41,10 @@
           webkitgtk_4_1
         ];
 
+        LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [
+          pkgs.stdenv.cc.cc.lib
+        ];
+
         shellHook = ''
           export XDG_DATA_DIRS="$GSETTINGS_SCHEMAS_PATH"
 

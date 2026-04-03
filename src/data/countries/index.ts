@@ -17,6 +17,7 @@ export interface Country {
   capital: string | null;
   domain: string | null;
   flag: string;
+  map: string;
 }
 
 export default function getCountries(area: string) {
@@ -36,6 +37,7 @@ export default function getCountries(area: string) {
       capital: country.capital,
       domain: country.tld,
       flag: `https://flagcdn.com/${country.code}.svg`,
+      map: `/country-quiz/maps/${country.code}.png`,
     };
   });
 }
@@ -51,6 +53,7 @@ export const countriesMode: GameModeConfig = {
     { labelKey: "content-type.capital", value: "capital" },
     { labelKey: "content-type.flag", value: "flag" },
     { labelKey: "content-type.domain", value: "domain" },
+    { labelKey: "content-type.map", value: "map" },
   ],
   answerOptions: [
     { labelKey: "content-type.name", value: "name" },
@@ -68,6 +71,7 @@ export const countriesMode: GameModeConfig = {
     capital: "text",
     domain: "text",
     flag: "img",
+    map: "img",
   },
   getItems: ({ area }) => getCountries(area),
   normalizeQuestionField: (value) => {
@@ -75,7 +79,8 @@ export const countriesMode: GameModeConfig = {
       value === "capital" ||
       value === "nameNative" ||
       value === "flag" ||
-      value === "domain"
+      value === "domain" ||
+      value === "map"
     ) {
       return value;
     }
@@ -86,7 +91,8 @@ export const countriesMode: GameModeConfig = {
       value === "name" ||
       value === "nameNative" ||
       value === "capital" ||
-      value === "domain"
+      value === "domain" ||
+      value === "map"
     ) {
       return value;
     }

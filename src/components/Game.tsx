@@ -20,7 +20,7 @@ function QuestionContent<T extends Record<string, string | null>>({
         <img
           alt=""
           src={`${question[field]}`}
-          className="mx-auto h-32 object-contain drop-shadow-xl"
+          className="mx-auto h-48 object-contain drop-shadow-xl"
         />
       );
     case "id":
