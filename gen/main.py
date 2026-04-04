@@ -164,6 +164,7 @@ def process_fr_regions(path: str):
         },
         rename_map={
             "regionLabel": "name",
+            "regionLabel_fr": "nameNative",
             "capitalLabel": "capital",
             "iso2": "code",
         },

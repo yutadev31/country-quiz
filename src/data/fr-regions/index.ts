@@ -1,9 +1,10 @@
-import regions from "@/data/fr-regions/regions.json";
 import type { GameModeConfig } from "@/data/game-mode-types";
+import regions from "./regions.json";
 
 export interface FRRegion {
   id: string;
   name: string;
+  nameNative: string;
   capital: string;
 }
 
@@ -14,10 +15,12 @@ export const frRegionsMode: GameModeConfig = {
   hasAreaSelection: false,
   questionOptions: [
     { labelKey: "content-type.fr-region-name", value: "name" },
+    { labelKey: "content-type.fr-region-nameNative", value: "nameNative" },
     { labelKey: "content-type.fr-region-capital", value: "capital" },
   ],
   answerOptions: [
     { labelKey: "content-type.fr-region-name", value: "name" },
+    { labelKey: "content-type.fr-region-nameNative", value: "nameNative" },
     { labelKey: "content-type.fr-region-capital", value: "capital" },
   ],
   defaultQuestionField: "name",
@@ -25,12 +28,14 @@ export const frRegionsMode: GameModeConfig = {
   fieldDisplayTypes: {
     id: "id",
     name: "text",
+    nameNative: "text",
     capital: "text",
   },
   getItems: () =>
-    regions.map((region, index) => ({
-      id: `${index}`,
+    regions.map((region) => ({
+      id: region.code,
       name: region.name,
+      nameNative: region.nameNative,
       capital: region.capital,
     })),
   normalizeQuestionField: (value) => {

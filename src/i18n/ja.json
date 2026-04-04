@@ -37,6 +37,10 @@
       "title": "アメリカの州",
       "description": "州名・州都・州旗などで遊ぶモード"
     },
+    "ca-provinces": {
+      "title": "カナダの州",
+      "description": "州名・州都などで遊ぶモード"
+    },
     "fr-regions": {
       "title": "フランスの地域圏",
       "description": "地域圏名・首府で遊ぶモード"
@@ -52,12 +56,19 @@
     "capital": "首都",
     "flag": "国旗",
     "domain": "ドメイン (TLD)",
-    "state-name": "州名",
+    "us-state-name": "州名",
     "us-state-nameNative": "州名 (英語)",
-    "state-capital": "州都",
-    "state-flag": "州旗",
+    "us-state-capital": "州都",
+    "us-state-flag": "州旗",
+    "ca-provinces-name": "州名",
+    "ca-provinces-nameNative": "州名 (英語)",
+    "ca-provinces-capital": "州都",
     "fr-region-name": "地域圏名",
-    "fr-region-capital": "首府"
+    "fr-region-nameNative": "地域圏名 (フランス語)",
+    "fr-region-capital": "首府",
+    "de-state-name": "州名",
+    "de-state-nameNative": "州名 (ドイツ語)",
+    "de-state-capital": "州都"
   },
   "area": {
     "all": "すべて",

@@ -1,5 +1,5 @@
 import type { GameModeConfig } from "@/data/game-mode-types";
-import states from "@/data/us-states/states.json";
+import states from "./states.json";
 
 export interface USState {
   id: string;
@@ -15,16 +15,16 @@ export const usStatesMode: GameModeConfig = {
   descriptionKey: "mode.us-states.description",
   hasAreaSelection: false,
   questionOptions: [
-    { labelKey: "content-type.state-name", value: "name" },
+    { labelKey: "content-type.us-state-name", value: "name" },
     { labelKey: "content-type.us-state-nameNative", value: "nameNative" },
-    { labelKey: "content-type.state-capital", value: "capital" },
-    { labelKey: "content-type.state-flag", value: "flag" },
+    { labelKey: "content-type.us-state-capital", value: "capital" },
+    { labelKey: "content-type.us-state-flag", value: "flag" },
   ],
   answerOptions: [
-    { labelKey: "content-type.state-name", value: "name" },
+    { labelKey: "content-type.us-state-name", value: "name" },
     { labelKey: "content-type.us-state-nameNative", value: "nameNative" },
-    { labelKey: "content-type.state-capital", value: "capital" },
-    { labelKey: "content-type.state-flag", value: "flag" },
+    { labelKey: "content-type.us-state-capital", value: "capital" },
+    { labelKey: "content-type.us-state-flag", value: "flag" },
   ],
   defaultQuestionField: "name",
   defaultAnswerField: "flag",
@@ -44,7 +44,7 @@ export const usStatesMode: GameModeConfig = {
       flag: `https://flagcdn.com/${state.code}.svg`,
     })),
   normalizeQuestionField: (value) => {
-    if (value === "capital" || value === "nameNative" || value === "flag") {
+    if (value === "nameNative" || value === "capital" || value === "flag") {
       return value;
     }
     return "name";

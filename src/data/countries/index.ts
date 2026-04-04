@@ -1,5 +1,5 @@
-import countries from "@/data/countries/countries.json";
 import type { GameModeConfig } from "@/data/game-mode-types";
+import countries from "./countries.json";
 
 interface Item {
   code: string;

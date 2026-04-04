@@ -1,9 +1,10 @@
-import states from "@/data/de-states/states.json";
 import type { GameModeConfig } from "@/data/game-mode-types";
+import states from "./states.json";
 
-export interface FRRegion {
+export interface DERegion {
   id: string;
   name: string;
+  nameNative: string;
   capital: string;
 }
 
@@ -13,34 +14,38 @@ export const deStatesMode: GameModeConfig = {
   descriptionKey: "mode.de-states.description",
   hasAreaSelection: false,
   questionOptions: [
-    { labelKey: "content-type.state-name", value: "name" },
-    { labelKey: "content-type.state-capital", value: "capital" },
+    { labelKey: "content-type.de-state-name", value: "name" },
+    { labelKey: "content-type.de-state-nameNative", value: "nameNative" },
+    { labelKey: "content-type.de-state-capital", value: "capital" },
   ],
   answerOptions: [
-    { labelKey: "content-type.state-name", value: "name" },
-    { labelKey: "content-type.state-capital", value: "capital" },
+    { labelKey: "content-type.de-state-name", value: "name" },
+    { labelKey: "content-type.de-state-nameNative", value: "nameNative" },
+    { labelKey: "content-type.de-state-capital", value: "capital" },
   ],
   defaultQuestionField: "name",
   defaultAnswerField: "capital",
   fieldDisplayTypes: {
     id: "id",
     name: "text",
+    nameNative: "text",
     capital: "text",
   },
   getItems: () =>
-    states.map((region, index) => ({
-      id: `${index}`,
-      name: region.name,
-      capital: region.capital,
+    states.map((state) => ({
+      id: state.code,
+      name: state.name,
+      nameNative: state.nameNative,
+      capital: state.capital,
     })),
   normalizeQuestionField: (value) => {
-    if (value === "capital") {
+    if (value === "nameNative" || value === "capital") {
       return value;
     }
     return "name";
   },
   normalizeAnswerField: (value) => {
-    if (value === "name") {
+    if (value === "name" || value === "nameNative") {
       return value;
     }
     return "capital";
