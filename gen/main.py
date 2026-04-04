@@ -224,6 +224,31 @@ def process_us_states(path: str):
 
 
 # ----------------------------
+# Canada Provinces
+# ----------------------------
+def process_ca_provinces(path: str):
+    data = load_json(path)
+
+    df = transform_data(
+        data,
+        group_key="provinceLabel",
+        agg_map={
+            "provinceLabel_en": "first",
+            "capitalLabel": join_unique_str,
+            "iso2": "first",
+        },
+        rename_map={
+            "provinceLabel": "name",
+            "provinceLabel_en": "nameNative",
+            "capitalLabel": "capital",
+            "iso2": "code",
+        },
+    )
+
+    save_and_format(df, "src/data/ca-provinces/provinces.json")
+
+
+# ----------------------------
 # エントリポイント
 # ----------------------------
 if __name__ == "__main__":
@@ -231,3 +256,4 @@ if __name__ == "__main__":
     process_fr_regions("gen/data/fr-regions.json")
     process_de_states("gen/data/de-states.json")
     process_us_states("gen/data/us-states.json")
+    process_ca_provinces("gen/data/ca-provinces.json")

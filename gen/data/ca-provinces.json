@@ -1,0 +1,62 @@
+[
+  {
+    "provinceLabel": "アルバータ州",
+    "provinceLabel_en": "Alberta",
+    "capitalLabel": "エドモントン",
+    "iso2": "CA-AB"
+  },
+  {
+    "provinceLabel": "ブリティッシュコロンビア州",
+    "provinceLabel_en": "British Columbia",
+    "capitalLabel": "ビクトリア",
+    "iso2": "CA-BC"
+  },
+  {
+    "provinceLabel": "マニトバ州",
+    "provinceLabel_en": "Manitoba",
+    "capitalLabel": "ウィニペグ",
+    "iso2": "CA-MB"
+  },
+  {
+    "provinceLabel": "ニューブランズウィック州",
+    "provinceLabel_en": "New Brunswick",
+    "capitalLabel": "フレデリクトン",
+    "iso2": "CA-NB"
+  },
+  {
+    "provinceLabel": "ニューファンドランド・ラブラドール州",
+    "provinceLabel_en": "Newfoundland and Labrador",
+    "capitalLabel": "セイント・ジョンズ",
+    "iso2": "CA-NL"
+  },
+  {
+    "provinceLabel": "ノバスコシア州",
+    "provinceLabel_en": "Nova Scotia",
+    "capitalLabel": "ハリファックス",
+    "iso2": "CA-NS"
+  },
+  {
+    "provinceLabel": "オンタリオ州",
+    "provinceLabel_en": "Ontario",
+    "capitalLabel": "トロント",
+    "iso2": "CA-ON"
+  },
+  {
+    "provinceLabel": "プリンスエドワードアイランド州",
+    "provinceLabel_en": "Prince Edward Island",
+    "capitalLabel": "シャーロットタウン",
+    "iso2": "CA-PE"
+  },
+  {
+    "provinceLabel": "ケベック州",
+    "provinceLabel_en": "Quebec",
+    "capitalLabel": "ケベック市",
+    "iso2": "CA-QC"
+  },
+  {
+    "provinceLabel": "サスカチュワン州",
+    "provinceLabel_en": "Saskatchewan",
+    "capitalLabel": "レジャイナ",
+    "iso2": "CA-SK"
+  }
+]

@@ -1,3 +1,4 @@
+import { caStateMode } from "@/data/ca-provinces";
 import { countriesMode } from "@/data/countries";
 import { deStatesMode } from "@/data/de-states";
 import { frRegionsMode } from "@/data/fr-regions";
@@ -7,6 +8,7 @@ import { usStatesMode } from "@/data/us-states";
 export const gameModes: Record<GameModeId, GameModeConfig> = {
   countries: countriesMode,
   "us-states": usStatesMode,
+  "ca-provinces": caStateMode,
   "fr-regions": frRegionsMode,
   "de-states": deStatesMode,
 };
