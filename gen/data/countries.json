@@ -1,0 +1,4753 @@
+[
+  {
+    "countryLabel": "アンドラ",
+    "countryLabel_native": "Andorra",
+    "capitalLabel": "アンドラ・ラ・ベリャ",
+    "iso2": "AD",
+    "tldLabel": ".ad",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "アラブ首長国連邦",
+    "countryLabel_native": "الإِمَارات العربِيَّة المُتَّحِدة",
+    "capitalLabel": "アブダビ",
+    "iso2": "AE",
+    "tldLabel": ".ae",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "アラブ首長国連邦",
+    "countryLabel_native": "الإِمَارات العربِيَّة المُتَّحِدة",
+    "capitalLabel": "アブダビ",
+    "iso2": "AE",
+    "tldLabel": ".امارات",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "アフガニスタン",
+    "countryLabel_native": "افغانستان",
+    "capitalLabel": "カーブル",
+    "iso2": "AF",
+    "tldLabel": ".af",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "アンティグア・バーブーダ",
+    "countryLabel_native": "Antigua and Barbuda",
+    "capitalLabel": "セントジョンズ",
+    "iso2": "AG",
+    "tldLabel": ".ag",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "アンティグア・バーブーダ",
+    "countryLabel_native": "Aanteega an' Baabyuuda",
+    "capitalLabel": "セントジョンズ",
+    "iso2": "AG",
+    "tldLabel": ".ag",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "アルバニア",
+    "countryLabel_native": "Republika e Shqipërisë",
+    "capitalLabel": "ティラナ",
+    "iso2": "AL",
+    "tldLabel": ".al",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "アルメニア",
+    "countryLabel_native": "Հայաստան",
+    "capitalLabel": "イェレヴァン",
+    "iso2": "AM",
+    "tldLabel": ".am",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "アルメニア",
+    "countryLabel_native": "Հայաստան",
+    "capitalLabel": "イェレヴァン",
+    "iso2": "AM",
+    "tldLabel": ".հայ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "アンゴラ",
+    "countryLabel_native": "Angola",
+    "capitalLabel": "ルアンダ",
+    "iso2": "AO",
+    "tldLabel": ".ao",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "アンゴラ",
+    "countryLabel_native": "República de Angola",
+    "capitalLabel": "ルアンダ",
+    "iso2": "AO",
+    "tldLabel": ".ao",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "アルゼンチン",
+    "countryLabel_native": "República Argentina",
+    "capitalLabel": "ブエノスアイレス",
+    "iso2": "AR",
+    "tldLabel": ".ar",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "オーストリア",
+    "countryLabel_native": "Österreich",
+    "capitalLabel": "ウィーン",
+    "iso2": "AT",
+    "tldLabel": ".at",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "オーストリア",
+    "countryLabel_native": "Republik Österreich",
+    "capitalLabel": "ウィーン",
+    "iso2": "AT",
+    "tldLabel": ".at",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "オーストラリア",
+    "countryLabel_native": "Australia",
+    "capitalLabel": "キャンベラ",
+    "iso2": "AU",
+    "tldLabel": ".au",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "アゼルバイジャン",
+    "countryLabel_native": "Azərbaycan",
+    "capitalLabel": "バクー",
+    "iso2": "AZ",
+    "tldLabel": ".az",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "アゼルバイジャン",
+    "countryLabel_native": "Azərbaycan Respublikası",
+    "capitalLabel": "バクー",
+    "iso2": "AZ",
+    "tldLabel": ".az",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ボスニア・ヘルツェゴビナ",
+    "countryLabel_native": "Bosna i Hercegovina",
+    "capitalLabel": "サラエヴォ",
+    "iso2": "BA",
+    "tldLabel": ".ba",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ボスニア・ヘルツェゴビナ",
+    "countryLabel_native": "Bosna i Hercegovina",
+    "capitalLabel": "サラエヴォ",
+    "iso2": "BA",
+    "tldLabel": ".ba",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "バルバドス",
+    "countryLabel_native": "Barbados",
+    "capitalLabel": "ブリッジタウン",
+    "iso2": "BB",
+    "tldLabel": ".bb",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "バングラデシュ",
+    "countryLabel_native": "বাংলাদেশ",
+    "capitalLabel": "ダッカ",
+    "iso2": "BD",
+    "tldLabel": ".bd",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "バングラデシュ",
+    "countryLabel_native": "বাংলাদেশ",
+    "capitalLabel": "ダッカ",
+    "iso2": "BD",
+    "tldLabel": ".বাংলা",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "バングラデシュ",
+    "countryLabel_native": "গণপ্রজাতন্ত্রী বাংলাদেশ",
+    "capitalLabel": "ダッカ",
+    "iso2": "BD",
+    "tldLabel": ".bd",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "バングラデシュ",
+    "countryLabel_native": "গণপ্রজাতন্ত্রী বাংলাদেশ",
+    "capitalLabel": "ダッカ",
+    "iso2": "BD",
+    "tldLabel": ".বাংলা",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ベルギー",
+    "countryLabel_native": "Königreich Belgien",
+    "capitalLabel": "ブリュッセル市",
+    "iso2": "BE",
+    "tldLabel": ".be",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ベルギー",
+    "countryLabel_native": "Royaume de Belgique",
+    "capitalLabel": "ブリュッセル市",
+    "iso2": "BE",
+    "tldLabel": ".be",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ベルギー",
+    "countryLabel_native": "Koninkrijk België",
+    "capitalLabel": "ブリュッセル市",
+    "iso2": "BE",
+    "tldLabel": ".be",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ブルキナファソ",
+    "countryLabel_native": "Burkina Faso",
+    "capitalLabel": "ワガドゥグー",
+    "iso2": "BF",
+    "tldLabel": ".bf",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ブルガリア",
+    "countryLabel_native": "България",
+    "capitalLabel": "ソフィア",
+    "iso2": "BG",
+    "tldLabel": ".bg",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ブルガリア",
+    "countryLabel_native": "България",
+    "capitalLabel": "ソフィア",
+    "iso2": "BG",
+    "tldLabel": ".бг",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ブルンジ",
+    "countryLabel_native": "Uburundi",
+    "capitalLabel": "ギテガ",
+    "iso2": "BI",
+    "tldLabel": ".bi",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ブルネイ",
+    "countryLabel_native": "Brunei Darussalam",
+    "capitalLabel": "バンダルスリブガワン",
+    "iso2": "BN",
+    "tldLabel": ".bn",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ブルネイ",
+    "countryLabel_native": "Negara Brunei Darussalam",
+    "capitalLabel": "バンダルスリブガワン",
+    "iso2": "BN",
+    "tldLabel": ".bn",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ボリビア",
+    "countryLabel_native": "Wuliwya Suyu",
+    "capitalLabel": "ラパス",
+    "iso2": "BO",
+    "tldLabel": ".bo",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "ボリビア",
+    "countryLabel_native": "Estado Plurinacional de Bolivia",
+    "capitalLabel": "ラパス",
+    "iso2": "BO",
+    "tldLabel": ".bo",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "ボリビア",
+    "countryLabel_native": "Tetã Volívia",
+    "capitalLabel": "ラパス",
+    "iso2": "BO",
+    "tldLabel": ".bo",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "ボリビア",
+    "countryLabel_native": "Buliwya Achka nasyunkunap Mama llaqta",
+    "capitalLabel": "ラパス",
+    "iso2": "BO",
+    "tldLabel": ".bo",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "ボリビア",
+    "countryLabel_native": "Wuliwya Suyu",
+    "capitalLabel": "スクレ",
+    "iso2": "BO",
+    "tldLabel": ".bo",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "ボリビア",
+    "countryLabel_native": "Estado Plurinacional de Bolivia",
+    "capitalLabel": "スクレ",
+    "iso2": "BO",
+    "tldLabel": ".bo",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "ボリビア",
+    "countryLabel_native": "Tetã Volívia",
+    "capitalLabel": "スクレ",
+    "iso2": "BO",
+    "tldLabel": ".bo",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "ボリビア",
+    "countryLabel_native": "Buliwya Achka nasyunkunap Mama llaqta",
+    "capitalLabel": "スクレ",
+    "iso2": "BO",
+    "tldLabel": ".bo",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "ブラジル",
+    "countryLabel_native": "República Federativa do Brasil",
+    "capitalLabel": "ブラジリア",
+    "iso2": "BR",
+    "tldLabel": ".br",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "バハマ",
+    "countryLabel_native": "Commonwealth of the Bahamas",
+    "capitalLabel": "ナッソー",
+    "iso2": "BS",
+    "tldLabel": ".bs",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "ボツワナ",
+    "countryLabel_native": "Botswana",
+    "capitalLabel": "ハボローネ",
+    "iso2": "BW",
+    "tldLabel": ".bw",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ベラルーシ",
+    "countryLabel_native": "Беларусь",
+    "capitalLabel": "ミンスク",
+    "iso2": "BY",
+    "tldLabel": ".by",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ベラルーシ",
+    "countryLabel_native": "Беларусь",
+    "capitalLabel": "ミンスク",
+    "iso2": "BY",
+    "tldLabel": ".бел",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ベラルーシ",
+    "countryLabel_native": "Рэспубліка Беларусь",
+    "capitalLabel": "ミンスク",
+    "iso2": "BY",
+    "tldLabel": ".by",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ベラルーシ",
+    "countryLabel_native": "Рэспубліка Беларусь",
+    "capitalLabel": "ミンスク",
+    "iso2": "BY",
+    "tldLabel": ".бел",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ベラルーシ",
+    "countryLabel_native": "Республика Беларусь",
+    "capitalLabel": "ミンスク",
+    "iso2": "BY",
+    "tldLabel": ".by",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ベラルーシ",
+    "countryLabel_native": "Республика Беларусь",
+    "capitalLabel": "ミンスク",
+    "iso2": "BY",
+    "tldLabel": ".бел",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ベリーズ",
+    "countryLabel_native": "Belize",
+    "capitalLabel": "ベルモパン",
+    "iso2": "BZ",
+    "tldLabel": ".bz",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "カナダ",
+    "countryLabel_native": "Canada",
+    "capitalLabel": "オタワ",
+    "iso2": "CA",
+    "tldLabel": ".ca",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "カナダ",
+    "countryLabel_native": "Canada",
+    "capitalLabel": "オタワ",
+    "iso2": "CA",
+    "tldLabel": ".ca",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "コンゴ民主共和国",
+    "countryLabel_native": "République démocratique du Congo",
+    "capitalLabel": "キンシャサ",
+    "iso2": "CD",
+    "tldLabel": ".cd",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "中央アフリカ共和国",
+    "countryLabel_native": "Republique Centrafricaine",
+    "capitalLabel": "バンギ",
+    "iso2": "CF",
+    "tldLabel": ".cf",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "中央アフリカ共和国",
+    "countryLabel_native": "Ködörösêse tî Bêafrîka",
+    "capitalLabel": "バンギ",
+    "iso2": "CF",
+    "tldLabel": ".cf",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "コンゴ共和国",
+    "countryLabel_native": "République du Congo",
+    "capitalLabel": "ブラザヴィル",
+    "iso2": "CG",
+    "tldLabel": ".cg",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "コンゴ共和国",
+    "countryLabel_native": "Repubilika ya Kongo",
+    "capitalLabel": "ブラザヴィル",
+    "iso2": "CG",
+    "tldLabel": ".cg",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "コンゴ共和国",
+    "countryLabel_native": "Republíki ya Kongó",
+    "capitalLabel": "ブラザヴィル",
+    "iso2": "CG",
+    "tldLabel": ".cg",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "スイス",
+    "countryLabel_native": "Schweizerische Eidgenossenschaft",
+    "capitalLabel": "ベルン",
+    "iso2": "CH",
+    "tldLabel": ".ch",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "スイス",
+    "countryLabel_native": "Schweizerische Eidgenossenschaft",
+    "capitalLabel": "ベルン",
+    "iso2": "CH",
+    "tldLabel": ".swiss",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "スイス",
+    "countryLabel_native": "Confédération suisse",
+    "capitalLabel": "ベルン",
+    "iso2": "CH",
+    "tldLabel": ".ch",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "スイス",
+    "countryLabel_native": "Confédération suisse",
+    "capitalLabel": "ベルン",
+    "iso2": "CH",
+    "tldLabel": ".swiss",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "スイス",
+    "countryLabel_native": "Confederazione Svizzera",
+    "capitalLabel": "ベルン",
+    "iso2": "CH",
+    "tldLabel": ".ch",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "スイス",
+    "countryLabel_native": "Confederazione Svizzera",
+    "capitalLabel": "ベルン",
+    "iso2": "CH",
+    "tldLabel": ".swiss",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "スイス",
+    "countryLabel_native": "Confederaziun svizra",
+    "capitalLabel": "ベルン",
+    "iso2": "CH",
+    "tldLabel": ".ch",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "スイス",
+    "countryLabel_native": "Confederaziun svizra",
+    "capitalLabel": "ベルン",
+    "iso2": "CH",
+    "tldLabel": ".swiss",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "コートジボワール",
+    "countryLabel_native": "République de Côte d'Ivoire",
+    "capitalLabel": "ヤムスクロ",
+    "iso2": "CI",
+    "tldLabel": ".ci",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "チリ",
+    "countryLabel_native": "Chile",
+    "capitalLabel": "サンティアゴ",
+    "iso2": "CL",
+    "tldLabel": ".cl",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "チリ",
+    "countryLabel_native": "República de Chile",
+    "capitalLabel": "サンティアゴ",
+    "iso2": "CL",
+    "tldLabel": ".cl",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "カメルーン",
+    "countryLabel_native": "République du Cameroun",
+    "capitalLabel": "ヤウンデ",
+    "iso2": "CM",
+    "tldLabel": ".cm",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "中華人民共和国",
+    "countryLabel_native": "中华人民共和国",
+    "capitalLabel": "北京市",
+    "iso2": "CN",
+    "tldLabel": ".cn",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "中華人民共和国",
+    "countryLabel_native": "中华人民共和国",
+    "capitalLabel": "北京市",
+    "iso2": "CN",
+    "tldLabel": ".公司",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "中華人民共和国",
+    "countryLabel_native": "中华人民共和国",
+    "capitalLabel": "北京市",
+    "iso2": "CN",
+    "tldLabel": ".中国",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "中華人民共和国",
+    "countryLabel_native": "中华人民共和国",
+    "capitalLabel": "北京市",
+    "iso2": "CN",
+    "tldLabel": ".中國",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "コロンビア",
+    "countryLabel_native": "Colombia",
+    "capitalLabel": "ボゴタ",
+    "iso2": "CO",
+    "tldLabel": ".co",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "コスタリカ",
+    "countryLabel_native": "República de Costa Rica",
+    "capitalLabel": "サンホセ",
+    "iso2": "CR",
+    "tldLabel": ".cr",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "キューバ",
+    "countryLabel_native": "República de Cuba",
+    "capitalLabel": "ハバナ",
+    "iso2": "CU",
+    "tldLabel": ".cu",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "カーボベルデ",
+    "countryLabel_native": "República de Cabo Verde",
+    "capitalLabel": "プライア",
+    "iso2": "CV",
+    "tldLabel": ".cv",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "キプロス",
+    "countryLabel_native": "Κυπριακή Δημοκρατία",
+    "capitalLabel": "ニコシア",
+    "iso2": "CY",
+    "tldLabel": ".cy",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "キプロス",
+    "countryLabel_native": "Kıbrıs Cumhuriyeti",
+    "capitalLabel": "ニコシア",
+    "iso2": "CY",
+    "tldLabel": ".cy",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "チェコ共和国",
+    "countryLabel_native": "Česko",
+    "capitalLabel": "プラハ",
+    "iso2": "CZ",
+    "tldLabel": ".cz",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "チェコ共和国",
+    "countryLabel_native": "Česká republika",
+    "capitalLabel": "プラハ",
+    "iso2": "CZ",
+    "tldLabel": ".cz",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ドイツ",
+    "countryLabel_native": "Deutschland",
+    "capitalLabel": "ベルリン",
+    "iso2": "DE",
+    "tldLabel": ".de",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ドイツ",
+    "countryLabel_native": "Bundesrepublik Deutschland",
+    "capitalLabel": "ベルリン",
+    "iso2": "DE",
+    "tldLabel": ".de",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ジブチ",
+    "countryLabel_native": "Jabuuti",
+    "capitalLabel": "ジブチ市",
+    "iso2": "DJ",
+    "tldLabel": ".dj",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ジブチ",
+    "countryLabel_native": "جمهورية جيبوتي",
+    "capitalLabel": "ジブチ市",
+    "iso2": "DJ",
+    "tldLabel": ".dj",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ジブチ",
+    "countryLabel_native": "République de Djibouti",
+    "capitalLabel": "ジブチ市",
+    "iso2": "DJ",
+    "tldLabel": ".dj",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ドミニカ国",
+    "countryLabel_native": "Commonwealth of Dominica",
+    "capitalLabel": "ロゾー",
+    "iso2": "DM",
+    "tldLabel": ".dm",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "ドミニカ国",
+    "countryLabel_native": "Commonwealth Dominica",
+    "capitalLabel": "ロゾー",
+    "iso2": "DM",
+    "tldLabel": ".dm",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "ドミニカ共和国",
+    "countryLabel_native": "República Dominicana",
+    "capitalLabel": "サント・ドミンゴ",
+    "iso2": "DO",
+    "tldLabel": ".do",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "アルジェリア",
+    "countryLabel_native": "الجزائر",
+    "capitalLabel": "アルジェ",
+    "iso2": "DZ",
+    "tldLabel": ".dz",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "アルジェリア",
+    "countryLabel_native": "الجمهورية الجزائرية الديمقراطية الشعبية",
+    "capitalLabel": "アルジェ",
+    "iso2": "DZ",
+    "tldLabel": ".dz",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エクアドル",
+    "countryLabel_native": "República del Ecuador",
+    "capitalLabel": "キト",
+    "iso2": "EC",
+    "tldLabel": ".ec",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "エストニア",
+    "countryLabel_native": "Eesti Vabariik",
+    "capitalLabel": "タリン",
+    "iso2": "EE",
+    "tldLabel": ".ee",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "エジプト",
+    "countryLabel_native": "Egypt",
+    "capitalLabel": "カイロ",
+    "iso2": "EG",
+    "tldLabel": ".eg",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エジプト",
+    "countryLabel_native": "Egypt",
+    "capitalLabel": "カイロ",
+    "iso2": "EG",
+    "tldLabel": ".مصر",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エジプト",
+    "countryLabel_native": "مصر",
+    "capitalLabel": "カイロ",
+    "iso2": "EG",
+    "tldLabel": ".eg",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エジプト",
+    "countryLabel_native": "مصر",
+    "capitalLabel": "カイロ",
+    "iso2": "EG",
+    "tldLabel": ".مصر",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エジプト",
+    "countryLabel_native": "Mesir",
+    "capitalLabel": "カイロ",
+    "iso2": "EG",
+    "tldLabel": ".eg",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エジプト",
+    "countryLabel_native": "Mesir",
+    "capitalLabel": "カイロ",
+    "iso2": "EG",
+    "tldLabel": ".مصر",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エジプト",
+    "countryLabel_native": "جُمهورِيّةُ مِصرَ العَرَبيّةِ",
+    "capitalLabel": "カイロ",
+    "iso2": "EG",
+    "tldLabel": ".eg",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エジプト",
+    "countryLabel_native": "جُمهورِيّةُ مِصرَ العَرَبيّةِ",
+    "capitalLabel": "カイロ",
+    "iso2": "EG",
+    "tldLabel": ".مصر",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エジプト",
+    "countryLabel_native": "Arab Republic of Egypt",
+    "capitalLabel": "カイロ",
+    "iso2": "EG",
+    "tldLabel": ".eg",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エジプト",
+    "countryLabel_native": "Arab Republic of Egypt",
+    "capitalLabel": "カイロ",
+    "iso2": "EG",
+    "tldLabel": ".مصر",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エジプト",
+    "countryLabel_native": "Republik Arab Mesir",
+    "capitalLabel": "カイロ",
+    "iso2": "EG",
+    "tldLabel": ".eg",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エジプト",
+    "countryLabel_native": "Republik Arab Mesir",
+    "capitalLabel": "カイロ",
+    "iso2": "EG",
+    "tldLabel": ".مصر",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エリトリア",
+    "countryLabel_native": "إرترة",
+    "capitalLabel": "アスマラ",
+    "iso2": "ER",
+    "tldLabel": ".er",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エリトリア",
+    "countryLabel_native": "ኤርትራ",
+    "capitalLabel": "アスマラ",
+    "iso2": "ER",
+    "tldLabel": ".er",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "スペイン",
+    "countryLabel_native": "Reino de España",
+    "capitalLabel": "マドリード",
+    "iso2": "ES",
+    "tldLabel": ".es",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "エチオピア",
+    "countryLabel_native": "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",
+    "capitalLabel": "アディスアベバ",
+    "iso2": "ET",
+    "tldLabel": ".et",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エチオピア",
+    "countryLabel_native": "Federaalawaa Dimokraatawaa Repabliikii Itoophiyaa",
+    "capitalLabel": "アディスアベバ",
+    "iso2": "ET",
+    "tldLabel": ".et",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エチオピア",
+    "countryLabel_native": "ናይኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ",
+    "capitalLabel": "アディスアベバ",
+    "iso2": "ET",
+    "tldLabel": ".et",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エチオピア",
+    "countryLabel_native": "Toophphiya Federaalle Dimokkiraatike Ripaabilike",
+    "capitalLabel": "アディスアベバ",
+    "iso2": "ET",
+    "tldLabel": ".et",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "フィンランド",
+    "countryLabel_native": "Finland",
+    "capitalLabel": "ヘルシンキ",
+    "iso2": "FI",
+    "tldLabel": ".fi",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "フィンランド",
+    "countryLabel_native": "Suomi",
+    "capitalLabel": "ヘルシンキ",
+    "iso2": "FI",
+    "tldLabel": ".fi",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "フィジー",
+    "countryLabel_native": "Viti",
+    "capitalLabel": "スバ",
+    "iso2": "FJ",
+    "tldLabel": ".fj",
+    "continentLabel": "オセアニア島嶼部"
+  },
+  {
+    "countryLabel": "フィジー",
+    "countryLabel_native": "Republic of Fiji",
+    "capitalLabel": "スバ",
+    "iso2": "FJ",
+    "tldLabel": ".fj",
+    "continentLabel": "オセアニア島嶼部"
+  },
+  {
+    "countryLabel": "フィジー",
+    "countryLabel_native": "Matanitu Tugalala o Viti",
+    "capitalLabel": "スバ",
+    "iso2": "FJ",
+    "tldLabel": ".fj",
+    "continentLabel": "オセアニア島嶼部"
+  },
+  {
+    "countryLabel": "フィジー",
+    "countryLabel_native": "Fidźi Ganaradźja",
+    "capitalLabel": "スバ",
+    "iso2": "FJ",
+    "tldLabel": ".fj",
+    "continentLabel": "オセアニア島嶼部"
+  },
+  {
+    "countryLabel": "ミクロネシア連邦",
+    "countryLabel_native": "Federated States of Micronesia",
+    "capitalLabel": "パリキール",
+    "iso2": "FM",
+    "tldLabel": ".fm",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "ミクロネシア連邦",
+    "countryLabel_native": "Mikronesia",
+    "capitalLabel": "パリキール",
+    "iso2": "FM",
+    "tldLabel": ".fm",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "フランス",
+    "countryLabel_native": "France",
+    "capitalLabel": "パリ",
+    "iso2": "FR",
+    "tldLabel": ".fr",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "フランス",
+    "countryLabel_native": "République française",
+    "capitalLabel": "パリ",
+    "iso2": "FR",
+    "tldLabel": ".fr",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ガボン",
+    "countryLabel_native": "République gabonaise",
+    "capitalLabel": "リーブルヴィル",
+    "iso2": "GA",
+    "tldLabel": ".ga",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "イギリス",
+    "countryLabel_native": "United Kingdom of Great Britain and Northern Ireland",
+    "capitalLabel": "ロンドン",
+    "iso2": "GB",
+    "tldLabel": ".uk",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "グレナダ",
+    "countryLabel_native": "State of Grenada",
+    "capitalLabel": "セントジョージズ",
+    "iso2": "GD",
+    "tldLabel": ".gd",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "ジョージア",
+    "countryLabel_native": "საქართველო",
+    "capitalLabel": "トビリシ",
+    "iso2": "GE",
+    "tldLabel": ".ge",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ガーナ",
+    "countryLabel_native": "Ghana",
+    "capitalLabel": "アクラ",
+    "iso2": "GH",
+    "tldLabel": ".gh",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ガーナ",
+    "countryLabel_native": "Gana",
+    "capitalLabel": "アクラ",
+    "iso2": "GH",
+    "tldLabel": ".gh",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ガーナ",
+    "countryLabel_native": "Gaana",
+    "capitalLabel": "アクラ",
+    "iso2": "GH",
+    "tldLabel": ".gh",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ガンビア",
+    "countryLabel_native": "Republic of The Gambia",
+    "capitalLabel": "バンジュール",
+    "iso2": "GM",
+    "tldLabel": ".gm",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ギニア",
+    "countryLabel_native": "République de Guinée",
+    "capitalLabel": "コナクリ",
+    "iso2": "GN",
+    "tldLabel": ".gn",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "赤道ギニア",
+    "countryLabel_native": "República de Guinea Ecuatorial",
+    "capitalLabel": "ラパス",
+    "iso2": "GQ",
+    "tldLabel": ".gq",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "赤道ギニア",
+    "countryLabel_native": "République de Guinée équatoriale",
+    "capitalLabel": "ラパス",
+    "iso2": "GQ",
+    "tldLabel": ".gq",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "赤道ギニア",
+    "countryLabel_native": "República da Guiné Equatorial",
+    "capitalLabel": "ラパス",
+    "iso2": "GQ",
+    "tldLabel": ".gq",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ギリシャ",
+    "countryLabel_native": "Ελλάδα",
+    "capitalLabel": "アテネ",
+    "iso2": "GR",
+    "tldLabel": ".gr",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ギリシャ",
+    "countryLabel_native": "Ελλάδα",
+    "capitalLabel": "アテネ",
+    "iso2": "GR",
+    "tldLabel": ".ελ",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ギリシャ",
+    "countryLabel_native": "Ελληνική Δημοκρατία",
+    "capitalLabel": "アテネ",
+    "iso2": "GR",
+    "tldLabel": ".gr",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ギリシャ",
+    "countryLabel_native": "Ελληνική Δημοκρατία",
+    "capitalLabel": "アテネ",
+    "iso2": "GR",
+    "tldLabel": ".ελ",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ギリシャ",
+    "countryLabel_native": "Ελλάς",
+    "capitalLabel": "アテネ",
+    "iso2": "GR",
+    "tldLabel": ".gr",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ギリシャ",
+    "countryLabel_native": "Ελλάς",
+    "capitalLabel": "アテネ",
+    "iso2": "GR",
+    "tldLabel": ".ελ",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "グアテマラ",
+    "countryLabel_native": "República de Guatemala",
+    "capitalLabel": "グアテマラシティ",
+    "iso2": "GT",
+    "tldLabel": ".gt",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "ギニアビサウ共和国",
+    "countryLabel_native": "República da Guiné-Bissau",
+    "capitalLabel": "ビサウ",
+    "iso2": "GW",
+    "tldLabel": ".gw",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ガイアナ",
+    "countryLabel_native": "Co-operative Republic of Guyana",
+    "capitalLabel": "ジョージタウン",
+    "iso2": "GY",
+    "tldLabel": ".gy",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "ホンジュラス",
+    "countryLabel_native": "República de Honduras",
+    "capitalLabel": "テグシガルパ",
+    "iso2": "HN",
+    "tldLabel": ".hn",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "クロアチア",
+    "countryLabel_native": "Hrvatska",
+    "capitalLabel": "ザグレブ",
+    "iso2": "HR",
+    "tldLabel": ".hr",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ハイチ",
+    "countryLabel_native": "Ayiti",
+    "capitalLabel": "ポルトープランス",
+    "iso2": "HT",
+    "tldLabel": ".ht",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "ハイチ",
+    "countryLabel_native": "Ayiti",
+    "capitalLabel": "ポルトープランス",
+    "iso2": "HT",
+    "tldLabel": ".ht",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "ハンガリー",
+    "countryLabel_native": "Magyarország",
+    "capitalLabel": "ブダペスト",
+    "iso2": "HU",
+    "tldLabel": ".hu",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "インドネシア",
+    "countryLabel_native": "Indonesia",
+    "capitalLabel": "ジャカルタ",
+    "iso2": "ID",
+    "tldLabel": ".id",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インドネシア",
+    "countryLabel_native": "Indonesia",
+    "capitalLabel": "ジャカルタ",
+    "iso2": "ID",
+    "tldLabel": ".id",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インドネシア",
+    "countryLabel_native": "Indonesia",
+    "capitalLabel": "ジャカルタ",
+    "iso2": "ID",
+    "tldLabel": ".id",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インドネシア",
+    "countryLabel_native": "Republic of Indonesia",
+    "capitalLabel": "ジャカルタ",
+    "iso2": "ID",
+    "tldLabel": ".id",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インドネシア",
+    "countryLabel_native": "Unitary State of the Republic of Indonesia",
+    "capitalLabel": "ジャカルタ",
+    "iso2": "ID",
+    "tldLabel": ".id",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インドネシア",
+    "countryLabel_native": "Negara Kesatuan Republik Indonesia",
+    "capitalLabel": "ジャカルタ",
+    "iso2": "ID",
+    "tldLabel": ".id",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インドネシア",
+    "countryLabel_native": "Republik Indonesia",
+    "capitalLabel": "ジャカルタ",
+    "iso2": "ID",
+    "tldLabel": ".id",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インドネシア",
+    "countryLabel_native": "Negara Kesatuan Republik Indonesia",
+    "capitalLabel": "ジャカルタ",
+    "iso2": "ID",
+    "tldLabel": ".id",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インドネシア",
+    "countryLabel_native": "Republik Indonesia",
+    "capitalLabel": "ジャカルタ",
+    "iso2": "ID",
+    "tldLabel": ".id",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "アイルランド",
+    "countryLabel_native": "Ireland",
+    "capitalLabel": "ダブリン",
+    "iso2": "IE",
+    "tldLabel": ".ie",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "アイルランド",
+    "countryLabel_native": "Éire",
+    "capitalLabel": "ダブリン",
+    "iso2": "IE",
+    "tldLabel": ".ie",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ഭാരതം",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ಭಾರತ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভাৰত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ഭാരതം",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ಭಾರತ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভাৰত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "بھارت",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ഭാരതം",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "بھارت",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ಭಾರತ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "بھارت",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভাৰত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ہندوستان",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ഭാരതം",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ہندوستان",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ಭಾರತ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ہندوستان",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভাৰত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "இந்தியா",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ഭാരതം",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "இந்தியா",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ಭಾರತ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "இந்தியா",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভাৰত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ഭാരതം",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ಭಾರತ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভাৰত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ഭാരതം",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ಭಾರತ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভাৰত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ഭാരതം",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ಭಾರತ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভাৰত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ഭാരതം",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ಭಾರತ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভাৰত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ꠄꠘ꠆ꠒꠤꠀ",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ഭാരതം",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ꠄꠘ꠆ꠒꠤꠀ",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ಭಾರತ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ꠄꠘ꠆ꠒꠤꠀ",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভাৰত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ਭਾਰਤ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".இந்தியா",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".భారత్",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভারত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ભારત",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".بھارت",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "بھارت",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".in",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "بھارت",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ਭਾਰਤ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "بھارت",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".இந்தியா",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "بھارت",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".భారత్",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "بھارت",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভারত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "بھارت",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ભારત",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "بھارت",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".بھارت",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ہندوستان",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".in",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ہندوستان",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ਭਾਰਤ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ہندوستان",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".இந்தியா",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ہندوستان",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".భారత్",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ہندوستان",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভারত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ہندوستان",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ભારત",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ہندوستان",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".بھارت",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "இந்தியா",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".in",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "இந்தியா",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ਭਾਰਤ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "இந்தியா",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".இந்தியா",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "இந்தியா",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".భారత్",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "இந்தியா",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভারত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "இந்தியா",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ભારત",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "இந்தியா",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".بھارت",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".in",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ਭਾਰਤ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".இந்தியா",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".భారత్",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভারত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ભારત",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".بھارت",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".in",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ਭਾਰਤ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".இந்தியா",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".భారత్",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভারত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ભારત",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".بھارت",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".in",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ਭਾਰਤ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".இந்தியா",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".భారత్",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভারত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ભારત",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".بھارت",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".in",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ਭਾਰਤ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".இந்தியா",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".భారత్",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভারত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ભારત",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".بھارت",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ꠄꠘ꠆ꠒꠤꠀ",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".in",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ꠄꠘ꠆ꠒꠤꠀ",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ਭਾਰਤ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ꠄꠘ꠆ꠒꠤꠀ",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".இந்தியா",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ꠄꠘ꠆ꠒꠤꠀ",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".భారత్",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ꠄꠘ꠆ꠒꠤꠀ",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভারত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ꠄꠘ꠆ꠒꠤꠀ",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ભારત",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ꠄꠘ꠆ꠒꠤꠀ",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".بھارت",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".भारत",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ଭାରତ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".भारत",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ଭାରତ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "بھارت",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".भारत",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "بھارت",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ଭାରତ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ہندوستان",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".भारत",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ہندوستان",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ଭାରତ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "இந்தியா",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".भारत",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "இந்தியா",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ଭାରତ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".भारत",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ଭାରତ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".भारत",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ଭାରତ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".भारत",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ଭାରତ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".भारत",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ଭାରତ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ꠄꠘ꠆ꠒꠤꠀ",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".भारत",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ꠄꠘ꠆ꠒꠤꠀ",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ଭାରତ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".in",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ਭਾਰਤ",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".இந்தியா",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".భారత్",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ভারত",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".ભારત",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "भारत",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".بھارت",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "インド",
+    "countryLabel_native": "ভারত",
+    "capitalLabel": "ニューデリー",
+    "iso2": "IN",
+    "tldLabel": ".in",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "イラク",
+    "countryLabel_native": "Iraq",
+    "capitalLabel": "バグダード",
+    "iso2": "IQ",
+    "tldLabel": ".iq",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "イラク",
+    "countryLabel_native": "Iraq",
+    "capitalLabel": "バグダード",
+    "iso2": "IQ",
+    "tldLabel": ".iq",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "イラク",
+    "countryLabel_native": "العراق",
+    "capitalLabel": "バグダード",
+    "iso2": "IQ",
+    "tldLabel": ".iq",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "イラク",
+    "countryLabel_native": "جمهورية العراق",
+    "capitalLabel": "バグダード",
+    "iso2": "IQ",
+    "tldLabel": ".iq",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "イラク",
+    "countryLabel_native": "Republic of Iraq",
+    "capitalLabel": "バグダード",
+    "iso2": "IQ",
+    "tldLabel": ".iq",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "イラク",
+    "countryLabel_native": "Republik Iraq",
+    "capitalLabel": "バグダード",
+    "iso2": "IQ",
+    "tldLabel": ".iq",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "イラン",
+    "countryLabel_native": "ایران",
+    "capitalLabel": "テヘラン",
+    "iso2": "IR",
+    "tldLabel": ".ir",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "イラン",
+    "countryLabel_native": "ایران",
+    "capitalLabel": "テヘラン",
+    "iso2": "IR",
+    "tldLabel": "ایران.",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "アイスランド",
+    "countryLabel_native": "Ísland",
+    "capitalLabel": "レイキャヴィーク",
+    "iso2": "IS",
+    "tldLabel": ".is",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "イタリア",
+    "countryLabel_native": "Italia",
+    "capitalLabel": "ローマ",
+    "iso2": "IT",
+    "tldLabel": ".it",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "イタリア",
+    "countryLabel_native": "Repubblica Italiana",
+    "capitalLabel": "ローマ",
+    "iso2": "IT",
+    "tldLabel": ".it",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ジャマイカ",
+    "countryLabel_native": "Jamaica",
+    "capitalLabel": "キングストン",
+    "iso2": "JM",
+    "tldLabel": ".jm",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "ジャマイカ",
+    "countryLabel_native": "Jumieka",
+    "capitalLabel": "キングストン",
+    "iso2": "JM",
+    "tldLabel": ".jm",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "ジャマイカ",
+    "countryLabel_native": "Xaymaca",
+    "capitalLabel": "キングストン",
+    "iso2": "JM",
+    "tldLabel": ".jm",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "ジャマイカ",
+    "countryLabel_native": "Yamaye",
+    "capitalLabel": "キングストン",
+    "iso2": "JM",
+    "tldLabel": ".jm",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "ヨルダン",
+    "countryLabel_native": "االْمَمْلَكَةُ الْأُرْدُنِيَةُ الْهَاشِمِيَة",
+    "capitalLabel": "アンマン",
+    "iso2": "JO",
+    "tldLabel": ".jo",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ヨルダン",
+    "countryLabel_native": "االْمَمْلَكَةُ الْأُرْدُنِيَةُ الْهَاشِمِيَة",
+    "capitalLabel": "アンマン",
+    "iso2": "JO",
+    "tldLabel": ".الاردن",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "日本",
+    "countryLabel_native": "日本",
+    "capitalLabel": "東京都",
+    "iso2": "JP",
+    "tldLabel": ".jp",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ケニア",
+    "countryLabel_native": "Republic of Kenya",
+    "capitalLabel": "ナイロビ",
+    "iso2": "KE",
+    "tldLabel": ".ke",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "キルギス",
+    "countryLabel_native": "Кыргызстан",
+    "capitalLabel": "ビシュケク",
+    "iso2": "KG",
+    "tldLabel": ".kg",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "カンボジア",
+    "countryLabel_native": "កម្ពុជា",
+    "capitalLabel": "プノンペン",
+    "iso2": "KH",
+    "tldLabel": ".kh",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "キリバス",
+    "countryLabel_native": "Ribaberiki ni Kiribati",
+    "capitalLabel": "タラワ",
+    "iso2": "KI",
+    "tldLabel": ".ki",
+    "continentLabel": "オセアニア島嶼部"
+  },
+  {
+    "countryLabel": "キリバス",
+    "countryLabel_native": "Ribaberiki ni Kiribati",
+    "capitalLabel": "タラワ",
+    "iso2": "KI",
+    "tldLabel": ".ki",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "キリバス",
+    "countryLabel_native": "Ribaberiki ni Kiribati",
+    "capitalLabel": "サウス・タラワ",
+    "iso2": "KI",
+    "tldLabel": ".ki",
+    "continentLabel": "オセアニア島嶼部"
+  },
+  {
+    "countryLabel": "キリバス",
+    "countryLabel_native": "Ribaberiki ni Kiribati",
+    "capitalLabel": "サウス・タラワ",
+    "iso2": "KI",
+    "tldLabel": ".ki",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "コモロ",
+    "countryLabel_native": "الاتحاد القمري",
+    "capitalLabel": "モロニ",
+    "iso2": "KM",
+    "tldLabel": ".km",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "コモロ",
+    "countryLabel_native": "Union des Comores",
+    "capitalLabel": "モロニ",
+    "iso2": "KM",
+    "tldLabel": ".km",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "セントクリストファー・ネイビス",
+    "countryLabel_native": "Federation of Saint Kitts and Nevis",
+    "capitalLabel": "バセテール",
+    "iso2": "KN",
+    "tldLabel": ".kn",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "朝鮮民主主義人民共和国",
+    "countryLabel_native": "조선민주주의인민공화국",
+    "capitalLabel": "平壌市",
+    "iso2": "KP",
+    "tldLabel": ".kp",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "大韓民国",
+    "countryLabel_native": "대한민국",
+    "capitalLabel": "ソウル特別市",
+    "iso2": "KR",
+    "tldLabel": ".kr",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "大韓民国",
+    "countryLabel_native": "대한민국",
+    "capitalLabel": "ソウル特別市",
+    "iso2": "KR",
+    "tldLabel": ".한국",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "クウェート",
+    "countryLabel_native": "الكويت",
+    "capitalLabel": "クウェート市",
+    "iso2": "KW",
+    "tldLabel": ".kw",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "カザフスタン",
+    "countryLabel_native": "Қазақстан",
+    "capitalLabel": "アスタナ",
+    "iso2": "KZ",
+    "tldLabel": ".kz",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "カザフスタン",
+    "countryLabel_native": "Қазақстан",
+    "capitalLabel": "アスタナ",
+    "iso2": "KZ",
+    "tldLabel": ".қаз",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "カザフスタン",
+    "countryLabel_native": "Қазақстан",
+    "capitalLabel": "アスタナ",
+    "iso2": "KZ",
+    "tldLabel": ".kz",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "カザフスタン",
+    "countryLabel_native": "Қазақстан",
+    "capitalLabel": "アスタナ",
+    "iso2": "KZ",
+    "tldLabel": ".қаз",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "カザフスタン",
+    "countryLabel_native": "قزاقستان",
+    "capitalLabel": "アスタナ",
+    "iso2": "KZ",
+    "tldLabel": ".kz",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "カザフスタン",
+    "countryLabel_native": "قزاقستان",
+    "capitalLabel": "アスタナ",
+    "iso2": "KZ",
+    "tldLabel": ".қаз",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "カザフスタン",
+    "countryLabel_native": "قزاقستان",
+    "capitalLabel": "アスタナ",
+    "iso2": "KZ",
+    "tldLabel": ".kz",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "カザフスタン",
+    "countryLabel_native": "قزاقستان",
+    "capitalLabel": "アスタナ",
+    "iso2": "KZ",
+    "tldLabel": ".қаз",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "カザフスタン",
+    "countryLabel_native": "Қазақстан Республикасы",
+    "capitalLabel": "アスタナ",
+    "iso2": "KZ",
+    "tldLabel": ".kz",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "カザフスタン",
+    "countryLabel_native": "Қазақстан Республикасы",
+    "capitalLabel": "アスタナ",
+    "iso2": "KZ",
+    "tldLabel": ".қаз",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "カザフスタン",
+    "countryLabel_native": "Қазақстан Республикасы",
+    "capitalLabel": "アスタナ",
+    "iso2": "KZ",
+    "tldLabel": ".kz",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "カザフスタン",
+    "countryLabel_native": "Қазақстан Республикасы",
+    "capitalLabel": "アスタナ",
+    "iso2": "KZ",
+    "tldLabel": ".қаз",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ラオス",
+    "countryLabel_native": "ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ",
+    "capitalLabel": "ヴィエンチャン",
+    "iso2": "LA",
+    "tldLabel": ".la",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "レバノン",
+    "countryLabel_native": "Lebanon",
+    "capitalLabel": "ベイルート",
+    "iso2": "LB",
+    "tldLabel": ".lb",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "レバノン",
+    "countryLabel_native": "لبنان",
+    "capitalLabel": "ベイルート",
+    "iso2": "LB",
+    "tldLabel": ".lb",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "レバノン",
+    "countryLabel_native": "الجمهورية اللبنانية",
+    "capitalLabel": "ベイルート",
+    "iso2": "LB",
+    "tldLabel": ".lb",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "レバノン",
+    "countryLabel_native": "Republic of Lebanon",
+    "capitalLabel": "ベイルート",
+    "iso2": "LB",
+    "tldLabel": ".lb",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "レバノン",
+    "countryLabel_native": "Lubnan",
+    "capitalLabel": "ベイルート",
+    "iso2": "LB",
+    "tldLabel": ".lb",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "レバノン",
+    "countryLabel_native": "Republik Lubnan",
+    "capitalLabel": "ベイルート",
+    "iso2": "LB",
+    "tldLabel": ".lb",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "セントルシア",
+    "countryLabel_native": "Saint Lucia",
+    "capitalLabel": "カストリーズ",
+    "iso2": "LC",
+    "tldLabel": ".lc",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "リヒテンシュタイン",
+    "countryLabel_native": "Liechtenstein",
+    "capitalLabel": "ファドゥーツ",
+    "iso2": "LI",
+    "tldLabel": ".li",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "リヒテンシュタイン",
+    "countryLabel_native": "Fürstentum Liechtenstein",
+    "capitalLabel": "ファドゥーツ",
+    "iso2": "LI",
+    "tldLabel": ".li",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "スリランカ",
+    "countryLabel_native": "ශ්රී ලංකා ප්රජාතාන්ත්රික සමාජවාදී ජනරජය",
+    "capitalLabel": "コロンボ",
+    "iso2": "LK",
+    "tldLabel": ".lk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "スリランカ",
+    "countryLabel_native": "ශ්රී ලංකා ප්රජාතාන්ත්රික සමාජවාදී ජනරජය",
+    "capitalLabel": "コロンボ",
+    "iso2": "LK",
+    "tldLabel": ".இலங்கை",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "スリランカ",
+    "countryLabel_native": "ශ්රී ලංකාව",
+    "capitalLabel": "コロンボ",
+    "iso2": "LK",
+    "tldLabel": ".lk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "スリランカ",
+    "countryLabel_native": "ශ්රී ලංකාව",
+    "capitalLabel": "コロンボ",
+    "iso2": "LK",
+    "tldLabel": ".இலங்கை",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "スリランカ",
+    "countryLabel_native": "இலங்கை சனநாயக சோசலிசக் குடியரசு",
+    "capitalLabel": "コロンボ",
+    "iso2": "LK",
+    "tldLabel": ".lk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "スリランカ",
+    "countryLabel_native": "இலங்கை சனநாயக சோசலிசக் குடியரசு",
+    "capitalLabel": "コロンボ",
+    "iso2": "LK",
+    "tldLabel": ".இலங்கை",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "スリランカ",
+    "countryLabel_native": "ශ්රී ලංකා ප්රජාතාන්ත්රික සමාජවාදී ජනරජය",
+    "capitalLabel": "スリジャヤワルダナプラコッテ",
+    "iso2": "LK",
+    "tldLabel": ".lk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "スリランカ",
+    "countryLabel_native": "ශ්රී ලංකා ප්රජාතාන්ත්රික සමාජවාදී ජනරජය",
+    "capitalLabel": "スリジャヤワルダナプラコッテ",
+    "iso2": "LK",
+    "tldLabel": ".இலங்கை",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "スリランカ",
+    "countryLabel_native": "ශ්රී ලංකාව",
+    "capitalLabel": "スリジャヤワルダナプラコッテ",
+    "iso2": "LK",
+    "tldLabel": ".lk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "スリランカ",
+    "countryLabel_native": "ශ්රී ලංකාව",
+    "capitalLabel": "スリジャヤワルダナプラコッテ",
+    "iso2": "LK",
+    "tldLabel": ".இலங்கை",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "スリランカ",
+    "countryLabel_native": "இலங்கை சனநாயக சோசலிசக் குடியரசு",
+    "capitalLabel": "スリジャヤワルダナプラコッテ",
+    "iso2": "LK",
+    "tldLabel": ".lk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "スリランカ",
+    "countryLabel_native": "இலங்கை சனநாயக சோசலிசக் குடியரசு",
+    "capitalLabel": "スリジャヤワルダナプラコッテ",
+    "iso2": "LK",
+    "tldLabel": ".இலங்கை",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "リベリア",
+    "countryLabel_native": "Republic of Liberia",
+    "capitalLabel": "モンロビア",
+    "iso2": "LR",
+    "tldLabel": ".lr",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "レソト",
+    "countryLabel_native": "Lesotho",
+    "capitalLabel": "マセル",
+    "iso2": "LS",
+    "tldLabel": ".ls",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "リトアニア",
+    "countryLabel_native": "Lietuva",
+    "capitalLabel": "ヴィルニュス",
+    "iso2": "LT",
+    "tldLabel": ".lt",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ルクセンブルク",
+    "countryLabel_native": "Luxembourg",
+    "capitalLabel": "ルクセンブルク市",
+    "iso2": "LU",
+    "tldLabel": ".lu",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ルクセンブルク",
+    "countryLabel_native": "Luxemburg",
+    "capitalLabel": "ルクセンブルク市",
+    "iso2": "LU",
+    "tldLabel": ".lu",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ルクセンブルク",
+    "countryLabel_native": "Lëtzebuerg",
+    "capitalLabel": "ルクセンブルク市",
+    "iso2": "LU",
+    "tldLabel": ".lu",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ラトビア",
+    "countryLabel_native": "Latvija",
+    "capitalLabel": "リガ",
+    "iso2": "LV",
+    "tldLabel": ".lv",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "リビア",
+    "countryLabel_native": "دولة ليبيا",
+    "capitalLabel": "トリポリ",
+    "iso2": "LY",
+    "tldLabel": ".ly",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "モロッコ",
+    "countryLabel_native": "المملكة المغربية",
+    "capitalLabel": "ラバト",
+    "iso2": "MA",
+    "tldLabel": ".ma",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "モロッコ",
+    "countryLabel_native": "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ",
+    "capitalLabel": "ラバト",
+    "iso2": "MA",
+    "tldLabel": ".ma",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "モナコ",
+    "countryLabel_native": "Monaco",
+    "capitalLabel": "モナコ市",
+    "iso2": "MC",
+    "tldLabel": ".mc",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "モナコ",
+    "countryLabel_native": "Principauté de Monaco",
+    "capitalLabel": "モナコ市",
+    "iso2": "MC",
+    "tldLabel": ".mc",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "モナコ",
+    "countryLabel_native": "Prinçipato de Mónego",
+    "capitalLabel": "モナコ市",
+    "iso2": "MC",
+    "tldLabel": ".mc",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "モナコ",
+    "countryLabel_native": "Prinçipatu de Mu̍negu",
+    "capitalLabel": "モナコ市",
+    "iso2": "MC",
+    "tldLabel": ".mc",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "モナコ",
+    "countryLabel_native": "Principat de Mónegue",
+    "capitalLabel": "モナコ市",
+    "iso2": "MC",
+    "tldLabel": ".mc",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "モルドバ",
+    "countryLabel_native": "Moldova",
+    "capitalLabel": "キシナウ",
+    "iso2": "MD",
+    "tldLabel": ".md",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "モンテネグロ",
+    "countryLabel_native": "Crna Gora",
+    "capitalLabel": "ポドゴリツァ",
+    "iso2": "ME",
+    "tldLabel": ".me",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "モンテネグロ",
+    "countryLabel_native": "Црна Гора",
+    "capitalLabel": "ポドゴリツァ",
+    "iso2": "ME",
+    "tldLabel": ".me",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "モンテネグロ",
+    "countryLabel_native": "Crna Gora",
+    "capitalLabel": "ツェティニェ",
+    "iso2": "ME",
+    "tldLabel": ".me",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "モンテネグロ",
+    "countryLabel_native": "Црна Гора",
+    "capitalLabel": "ツェティニェ",
+    "iso2": "ME",
+    "tldLabel": ".me",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "マダガスカル",
+    "countryLabel_native": "République de Madagascar",
+    "capitalLabel": "アンタナナリボ",
+    "iso2": "MG",
+    "tldLabel": ".mg",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "マダガスカル",
+    "countryLabel_native": "Repoblikan'i Madagaskar",
+    "capitalLabel": "アンタナナリボ",
+    "iso2": "MG",
+    "tldLabel": ".mg",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "マーシャル諸島",
+    "countryLabel_native": "Aolepān Aorōkin M̧ajeļ",
+    "capitalLabel": "マジュロ",
+    "iso2": "MH",
+    "tldLabel": ".mh",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "マーシャル諸島",
+    "countryLabel_native": "Aolepān Aorōkin Ṃajeḷ",
+    "capitalLabel": "マジュロ",
+    "iso2": "MH",
+    "tldLabel": ".mh",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "北マケドニア",
+    "countryLabel_native": "Република Северна Македонија",
+    "capitalLabel": "スコピエ",
+    "iso2": "MK",
+    "tldLabel": ".mk",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "マリ共和国",
+    "countryLabel_native": "Mali",
+    "capitalLabel": "バマコ",
+    "iso2": "ML",
+    "tldLabel": ".ml",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ミャンマー",
+    "countryLabel_native": "မြန်မာ",
+    "capitalLabel": "ネピドー",
+    "iso2": "MM",
+    "tldLabel": ".mm",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ミャンマー",
+    "countryLabel_native": "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်",
+    "capitalLabel": "ネピドー",
+    "iso2": "MM",
+    "tldLabel": ".mm",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ミャンマー",
+    "countryLabel_native": "မြန်မာနိုင်ငံ",
+    "capitalLabel": "ネピドー",
+    "iso2": "MM",
+    "tldLabel": ".mm",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ミャンマー",
+    "countryLabel_native": "မြန်မာပြည်",
+    "capitalLabel": "ネピドー",
+    "iso2": "MM",
+    "tldLabel": ".mm",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "モンゴル国",
+    "countryLabel_native": "Монгол Улс",
+    "capitalLabel": "ウランバートル",
+    "iso2": "MN",
+    "tldLabel": ".mn",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "モンゴル国",
+    "countryLabel_native": "ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ",
+    "capitalLabel": "ウランバートル",
+    "iso2": "MN",
+    "tldLabel": ".mn",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "モーリタニア",
+    "countryLabel_native": "الجمهورية الإسلامية الموريتانية",
+    "capitalLabel": "ヌアクショット",
+    "iso2": "MR",
+    "tldLabel": ".mr",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "モーリタニア",
+    "countryLabel_native": "Ndenndaandi Lislameeri Muritani",
+    "capitalLabel": "ヌアクショット",
+    "iso2": "MR",
+    "tldLabel": ".mr",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "モーリタニア",
+    "countryLabel_native": "République islamique de Mauritanie",
+    "capitalLabel": "ヌアクショット",
+    "iso2": "MR",
+    "tldLabel": ".mr",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "モーリタニア",
+    "countryLabel_native": "Moritani Silaamin Jamaane",
+    "capitalLabel": "ヌアクショット",
+    "iso2": "MR",
+    "tldLabel": ".mr",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "モーリタニア",
+    "countryLabel_native": "Réewu lislaam bu Muritani",
+    "capitalLabel": "ヌアクショット",
+    "iso2": "MR",
+    "tldLabel": ".mr",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "マルタ",
+    "countryLabel_native": "Malta",
+    "capitalLabel": "バレッタ",
+    "iso2": "MT",
+    "tldLabel": ".mt",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "モーリシャス",
+    "countryLabel_native": "République de Maurice",
+    "capitalLabel": "ポートルイス",
+    "iso2": "MU",
+    "tldLabel": ".mu",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "モルディブ",
+    "countryLabel_native": "ދިވެހިރާއްޖެ",
+    "capitalLabel": "マレ",
+    "iso2": "MV",
+    "tldLabel": ".mv",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "モルディブ",
+    "countryLabel_native": "ދިވެހިރާއްޖޭގެ ޖުމުހޫރިއްޔާ",
+    "capitalLabel": "マレ",
+    "iso2": "MV",
+    "tldLabel": ".mv",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "マラウイ",
+    "countryLabel_native": "Republic of Malawi",
+    "capitalLabel": "リロングウェ",
+    "iso2": "MW",
+    "tldLabel": ".mw",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "マラウイ",
+    "countryLabel_native": "Charu cha Malaŵi",
+    "capitalLabel": "リロングウェ",
+    "iso2": "MW",
+    "tldLabel": ".mw",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "メキシコ",
+    "countryLabel_native": "Mexico",
+    "capitalLabel": "メキシコシティ",
+    "iso2": "MX",
+    "tldLabel": ".mx",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "メキシコ",
+    "countryLabel_native": "México",
+    "capitalLabel": "メキシコシティ",
+    "iso2": "MX",
+    "tldLabel": ".mx",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "メキシコ",
+    "countryLabel_native": "Mexko",
+    "capitalLabel": "メキシコシティ",
+    "iso2": "MX",
+    "tldLabel": ".mx",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "マレーシア",
+    "countryLabel_native": "Malaysia",
+    "capitalLabel": "クアラルンプール",
+    "iso2": "MY",
+    "tldLabel": ".my",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "モザンビーク",
+    "countryLabel_native": "República de Moçambique",
+    "capitalLabel": "マプト",
+    "iso2": "MZ",
+    "tldLabel": ".mz",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "モザンビーク",
+    "countryLabel_native": "مْسُمْبِيجِ",
+    "capitalLabel": "マプト",
+    "iso2": "MZ",
+    "tldLabel": ".mz",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ナミビア",
+    "countryLabel_native": "Republiek van Namibië",
+    "capitalLabel": "ウィントフック",
+    "iso2": "NA",
+    "tldLabel": ".na",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ナミビア",
+    "countryLabel_native": "Republik Namibia",
+    "capitalLabel": "ウィントフック",
+    "iso2": "NA",
+    "tldLabel": ".na",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ナミビア",
+    "countryLabel_native": "Republic of Namibia",
+    "capitalLabel": "ウィントフック",
+    "iso2": "NA",
+    "tldLabel": ".na",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ニジェール",
+    "countryLabel_native": "Nijar",
+    "capitalLabel": "ニアメ",
+    "iso2": "NE",
+    "tldLabel": ".ne",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ナイジェリア",
+    "countryLabel_native": "Nijeriya",
+    "capitalLabel": "アブジャ",
+    "iso2": "NG",
+    "tldLabel": ".ng",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ナイジェリア",
+    "countryLabel_native": "Naigeria",
+    "capitalLabel": "アブジャ",
+    "iso2": "NG",
+    "tldLabel": ".ng",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ナイジェリア",
+    "countryLabel_native": "Nàìjíríà",
+    "capitalLabel": "アブジャ",
+    "iso2": "NG",
+    "tldLabel": ".ng",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ニカラグア",
+    "countryLabel_native": "República de Nicaragua",
+    "capitalLabel": "マナグア",
+    "iso2": "NI",
+    "tldLabel": ".ni",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "オランダ王国",
+    "countryLabel_native": "Koninkrijk der Nederlanden",
+    "capitalLabel": "アムステルダム",
+    "iso2": "NL",
+    "tldLabel": ".nl",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ノルウェー",
+    "countryLabel_native": "Kongeriket Norge",
+    "capitalLabel": "オスロ",
+    "iso2": "NO",
+    "tldLabel": ".no",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ノルウェー",
+    "countryLabel_native": "Kongeriket Noreg",
+    "capitalLabel": "オスロ",
+    "iso2": "NO",
+    "tldLabel": ".no",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ネパール",
+    "countryLabel_native": "नेपाल",
+    "capitalLabel": "カトマンズ",
+    "iso2": "NP",
+    "tldLabel": ".np",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ナウル",
+    "countryLabel_native": "Naoero",
+    "capitalLabel": "ヤレン地区",
+    "iso2": "NR",
+    "tldLabel": ".nr",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "ナウル",
+    "countryLabel_native": "Ripublik Naoero",
+    "capitalLabel": "ヤレン地区",
+    "iso2": "NR",
+    "tldLabel": ".nr",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "ニュージーランド",
+    "countryLabel_native": "Aotearoa",
+    "capitalLabel": "ウェリントン",
+    "iso2": "NZ",
+    "tldLabel": ".nz",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "オマーン",
+    "countryLabel_native": "سلطنة عُمان",
+    "capitalLabel": "マスカット",
+    "iso2": "OM",
+    "tldLabel": ".om",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "パナマ",
+    "countryLabel_native": "República de Panamá",
+    "capitalLabel": "パナマ市",
+    "iso2": "PA",
+    "tldLabel": ".pa",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "ペルー",
+    "countryLabel_native": "República del Perú",
+    "capitalLabel": "リマ",
+    "iso2": "PE",
+    "tldLabel": ".pe",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "パプアニューギニア",
+    "countryLabel_native": "Independent State of Papua New Guinea",
+    "capitalLabel": "ポートモレスビー",
+    "iso2": "PG",
+    "tldLabel": ".pg",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "パプアニューギニア",
+    "countryLabel_native": "Independen Stet bilong Papua Niugini",
+    "capitalLabel": "ポートモレスビー",
+    "iso2": "PG",
+    "tldLabel": ".pg",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "フィリピン",
+    "countryLabel_native": "Philippines",
+    "capitalLabel": "マニラ",
+    "iso2": "PH",
+    "tldLabel": ".ph",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "フィリピン",
+    "countryLabel_native": "Pilipinas",
+    "capitalLabel": "マニラ",
+    "iso2": "PH",
+    "tldLabel": ".ph",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "フィリピン",
+    "countryLabel_native": "Philippines",
+    "capitalLabel": "マニラ",
+    "iso2": "PH",
+    "tldLabel": ".ph",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "パキスタン",
+    "countryLabel_native": "Pakistan",
+    "capitalLabel": "イスラマバード",
+    "iso2": "PK",
+    "tldLabel": ".pk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "パキスタン",
+    "countryLabel_native": "پاکستان",
+    "capitalLabel": "イスラマバード",
+    "iso2": "PK",
+    "tldLabel": ".pk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "パキスタン",
+    "countryLabel_native": "پاکستان",
+    "capitalLabel": "イスラマバード",
+    "iso2": "PK",
+    "tldLabel": ".pk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "パキスタン",
+    "countryLabel_native": "Pákistán",
+    "capitalLabel": "イスラマバード",
+    "iso2": "PK",
+    "tldLabel": ".pk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "パキスタン",
+    "countryLabel_native": "پاکستان",
+    "capitalLabel": "イスラマバード",
+    "iso2": "PK",
+    "tldLabel": ".pk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "パキスタン",
+    "countryLabel_native": "پٲکِستان",
+    "capitalLabel": "イスラマバード",
+    "iso2": "PK",
+    "tldLabel": ".pk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "パキスタン",
+    "countryLabel_native": "پاکستان",
+    "capitalLabel": "イスラマバード",
+    "iso2": "PK",
+    "tldLabel": ".pk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "パキスタン",
+    "countryLabel_native": "پاکستان",
+    "capitalLabel": "イスラマバード",
+    "iso2": "PK",
+    "tldLabel": ".pk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "パキスタン",
+    "countryLabel_native": "پاڪستان",
+    "capitalLabel": "イスラマバード",
+    "iso2": "PK",
+    "tldLabel": ".pk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "パキスタン",
+    "countryLabel_native": "پاڪستان",
+    "capitalLabel": "イスラマバード",
+    "iso2": "PK",
+    "tldLabel": ".pk",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ポーランド",
+    "countryLabel_native": "Polska",
+    "capitalLabel": "ワルシャワ",
+    "iso2": "PL",
+    "tldLabel": ".pl",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ポーランド",
+    "countryLabel_native": "Rzeczpospolita Polska",
+    "capitalLabel": "ワルシャワ",
+    "iso2": "PL",
+    "tldLabel": ".pl",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "パレスチナ国",
+    "countryLabel_native": "دولة فلسطين",
+    "capitalLabel": "ラマッラー",
+    "iso2": "PS",
+    "tldLabel": ".ps",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "パレスチナ国",
+    "countryLabel_native": "دولة فلسطين",
+    "capitalLabel": "エルサレム",
+    "iso2": "PS",
+    "tldLabel": ".ps",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ポルトガル",
+    "countryLabel_native": "Portugal",
+    "capitalLabel": "リスボン",
+    "iso2": "PT",
+    "tldLabel": ".pt",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ポルトガル",
+    "countryLabel_native": "República Portuguesa",
+    "capitalLabel": "リスボン",
+    "iso2": "PT",
+    "tldLabel": ".pt",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "パラオ",
+    "countryLabel_native": "Republic of Palau",
+    "capitalLabel": "ンゲルルムッド",
+    "iso2": "PW",
+    "tldLabel": ".pw",
+    "continentLabel": "オセアニア島嶼部"
+  },
+  {
+    "countryLabel": "パラオ",
+    "countryLabel_native": "Republic of Palau",
+    "capitalLabel": "ンゲルルムッド",
+    "iso2": "PW",
+    "tldLabel": ".pw",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "パラオ",
+    "countryLabel_native": "Belau",
+    "capitalLabel": "ンゲルルムッド",
+    "iso2": "PW",
+    "tldLabel": ".pw",
+    "continentLabel": "オセアニア島嶼部"
+  },
+  {
+    "countryLabel": "パラオ",
+    "countryLabel_native": "Belau",
+    "capitalLabel": "ンゲルルムッド",
+    "iso2": "PW",
+    "tldLabel": ".pw",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "パラグアイ",
+    "countryLabel_native": "República del Paraguay",
+    "capitalLabel": "アスンシオン",
+    "iso2": "PY",
+    "tldLabel": ".py",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "パラグアイ",
+    "countryLabel_native": "Paraguái Tavakuairetã",
+    "capitalLabel": "アスンシオン",
+    "iso2": "PY",
+    "tldLabel": ".py",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "ルーマニア",
+    "countryLabel_native": "România",
+    "capitalLabel": "ブカレスト",
+    "iso2": "RO",
+    "tldLabel": ".ro",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "セルビア",
+    "countryLabel_native": "Србија",
+    "capitalLabel": "ベオグラード",
+    "iso2": "RS",
+    "tldLabel": ".rs",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "セルビア",
+    "countryLabel_native": "Србија",
+    "capitalLabel": "ベオグラード",
+    "iso2": "RS",
+    "tldLabel": ".срб",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ロシア",
+    "countryLabel_native": "Россия",
+    "capitalLabel": "モスクワ",
+    "iso2": "RU",
+    "tldLabel": ".ru",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ロシア",
+    "countryLabel_native": "Россия",
+    "capitalLabel": "モスクワ",
+    "iso2": "RU",
+    "tldLabel": ".su",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ロシア",
+    "countryLabel_native": "Россия",
+    "capitalLabel": "モスクワ",
+    "iso2": "RU",
+    "tldLabel": ".рф",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ロシア",
+    "countryLabel_native": "Россия",
+    "capitalLabel": "モスクワ",
+    "iso2": "RU",
+    "tldLabel": ".рус",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ロシア",
+    "countryLabel_native": "Российская Федерация",
+    "capitalLabel": "モスクワ",
+    "iso2": "RU",
+    "tldLabel": ".ru",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ロシア",
+    "countryLabel_native": "Российская Федерация",
+    "capitalLabel": "モスクワ",
+    "iso2": "RU",
+    "tldLabel": ".su",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ロシア",
+    "countryLabel_native": "Российская Федерация",
+    "capitalLabel": "モスクワ",
+    "iso2": "RU",
+    "tldLabel": ".рф",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ロシア",
+    "countryLabel_native": "Российская Федерация",
+    "capitalLabel": "モスクワ",
+    "iso2": "RU",
+    "tldLabel": ".рус",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ルワンダ",
+    "countryLabel_native": "Republic of Rwanda",
+    "capitalLabel": "キガリ",
+    "iso2": "RW",
+    "tldLabel": ".rw",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ルワンダ",
+    "countryLabel_native": "Repubulika y'u Rwanda",
+    "capitalLabel": "キガリ",
+    "iso2": "RW",
+    "tldLabel": ".rw",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ルワンダ",
+    "countryLabel_native": "Rwanda",
+    "capitalLabel": "キガリ",
+    "iso2": "RW",
+    "tldLabel": ".rw",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ルワンダ",
+    "countryLabel_native": "Jamhuri ya Rwanda",
+    "capitalLabel": "キガリ",
+    "iso2": "RW",
+    "tldLabel": ".rw",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ルワンダ",
+    "countryLabel_native": "République du Rwanda",
+    "capitalLabel": "キガリ",
+    "iso2": "RW",
+    "tldLabel": ".rw",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "サウジアラビア",
+    "countryLabel_native": "Saudi Arabia",
+    "capitalLabel": "リヤド",
+    "iso2": "SA",
+    "tldLabel": ".sa",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "サウジアラビア",
+    "countryLabel_native": "Saudi Arabia",
+    "capitalLabel": "リヤド",
+    "iso2": "SA",
+    "tldLabel": "AlSaudiah",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "サウジアラビア",
+    "countryLabel_native": "Kingdom of Saudi Arabia",
+    "capitalLabel": "リヤド",
+    "iso2": "SA",
+    "tldLabel": ".sa",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "サウジアラビア",
+    "countryLabel_native": "Kingdom of Saudi Arabia",
+    "capitalLabel": "リヤド",
+    "iso2": "SA",
+    "tldLabel": "AlSaudiah",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "サウジアラビア",
+    "countryLabel_native": "السعودية",
+    "capitalLabel": "リヤド",
+    "iso2": "SA",
+    "tldLabel": ".sa",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "サウジアラビア",
+    "countryLabel_native": "السعودية",
+    "capitalLabel": "リヤド",
+    "iso2": "SA",
+    "tldLabel": "AlSaudiah",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "サウジアラビア",
+    "countryLabel_native": "المملكة العربية السعودية",
+    "capitalLabel": "リヤド",
+    "iso2": "SA",
+    "tldLabel": ".sa",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "サウジアラビア",
+    "countryLabel_native": "المملكة العربية السعودية",
+    "capitalLabel": "リヤド",
+    "iso2": "SA",
+    "tldLabel": "AlSaudiah",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "サウジアラビア",
+    "countryLabel_native": "Arab Saudi",
+    "capitalLabel": "リヤド",
+    "iso2": "SA",
+    "tldLabel": ".sa",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "サウジアラビア",
+    "countryLabel_native": "Arab Saudi",
+    "capitalLabel": "リヤド",
+    "iso2": "SA",
+    "tldLabel": "AlSaudiah",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "サウジアラビア",
+    "countryLabel_native": "Kerajaan Arab Saudi",
+    "capitalLabel": "リヤド",
+    "iso2": "SA",
+    "tldLabel": ".sa",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "サウジアラビア",
+    "countryLabel_native": "Kerajaan Arab Saudi",
+    "capitalLabel": "リヤド",
+    "iso2": "SA",
+    "tldLabel": "AlSaudiah",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ソロモン諸島",
+    "countryLabel_native": "Solomon Islands",
+    "capitalLabel": "ホニアラ",
+    "iso2": "SB",
+    "tldLabel": ".sb",
+    "continentLabel": "オセアニア島嶼部"
+  },
+  {
+    "countryLabel": "ソロモン諸島",
+    "countryLabel_native": "Solomon Islands",
+    "capitalLabel": "ホニアラ",
+    "iso2": "SB",
+    "tldLabel": ".sb",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "セーシェル",
+    "countryLabel_native": "République des Seychelles",
+    "capitalLabel": "ヴィクトリア",
+    "iso2": "SC",
+    "tldLabel": ".sc",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "スーダン",
+    "countryLabel_native": "جمهورية السودان",
+    "capitalLabel": "ハルツーム",
+    "iso2": "SD",
+    "tldLabel": ".sd",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "スーダン",
+    "countryLabel_native": "Land of the blacks",
+    "capitalLabel": "ハルツーム",
+    "iso2": "SD",
+    "tldLabel": ".sd",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "スウェーデン",
+    "countryLabel_native": "Sverige",
+    "capitalLabel": "ストックホルム",
+    "iso2": "SE",
+    "tldLabel": ".se",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "シンガポール",
+    "countryLabel_native": "Republic of Singapore",
+    "capitalLabel": "シンガポール",
+    "iso2": "SG",
+    "tldLabel": ".sg",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "シンガポール",
+    "countryLabel_native": "Republik Singapura",
+    "capitalLabel": "シンガポール",
+    "iso2": "SG",
+    "tldLabel": ".sg",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "シンガポール",
+    "countryLabel_native": "சிங்கப்பூர் குடியரசு",
+    "capitalLabel": "シンガポール",
+    "iso2": "SG",
+    "tldLabel": ".sg",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "シンガポール",
+    "countryLabel_native": "新加坡共和国",
+    "capitalLabel": "シンガポール",
+    "iso2": "SG",
+    "tldLabel": ".sg",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "スロベニア",
+    "countryLabel_native": "Slovenija",
+    "capitalLabel": "リュブリャナ",
+    "iso2": "SI",
+    "tldLabel": ".si",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "スロバキア",
+    "countryLabel_native": "Slovenská republika",
+    "capitalLabel": "ブラチスラヴァ",
+    "iso2": "SK",
+    "tldLabel": ".sk",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "シエラレオネ",
+    "countryLabel_native": "Republic of Sierra Leone",
+    "capitalLabel": "フリータウン",
+    "iso2": "SL",
+    "tldLabel": ".sl",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "サンマリノ",
+    "countryLabel_native": "San Marco",
+    "capitalLabel": "サンマリノ市",
+    "iso2": "SM",
+    "tldLabel": ".sm",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "サンマリノ",
+    "countryLabel_native": "Repubblica di San Marino",
+    "capitalLabel": "サンマリノ市",
+    "iso2": "SM",
+    "tldLabel": ".sm",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "セネガル",
+    "countryLabel_native": "Senegaal",
+    "capitalLabel": "ダカール",
+    "iso2": "SN",
+    "tldLabel": ".sn",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ソマリア",
+    "countryLabel_native": "جمهورية الصومال الفدرالية",
+    "capitalLabel": "モガディシュ",
+    "iso2": "SO",
+    "tldLabel": ".so",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ソマリア",
+    "countryLabel_native": "Jamhuuriyadda Federaalka Soomaaliya",
+    "capitalLabel": "モガディシュ",
+    "iso2": "SO",
+    "tldLabel": ".so",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ソマリア",
+    "countryLabel_native": "Soomaaliya",
+    "capitalLabel": "モガディシュ",
+    "iso2": "SO",
+    "tldLabel": ".so",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ソマリア",
+    "countryLabel_native": "𐒈𐒝𐒑𐒛𐒐𐒘𐒕𐒖",
+    "capitalLabel": "モガディシュ",
+    "iso2": "SO",
+    "tldLabel": ".so",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "スリナム",
+    "countryLabel_native": "Republiek Suriname",
+    "capitalLabel": "パラマリボ",
+    "iso2": "SR",
+    "tldLabel": ".sr",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "スリナム",
+    "countryLabel_native": "Ripoliku Sranan",
+    "capitalLabel": "パラマリボ",
+    "iso2": "SR",
+    "tldLabel": ".sr",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "南スーダン",
+    "countryLabel_native": "South Sudan",
+    "capitalLabel": "ジュバ",
+    "iso2": "SS",
+    "tldLabel": ".ss",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南スーダン",
+    "countryLabel_native": "جنوب السودان",
+    "capitalLabel": "ジュバ",
+    "iso2": "SS",
+    "tldLabel": ".ss",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南スーダン",
+    "countryLabel_native": "جمهورية جنوب السودان",
+    "capitalLabel": "ジュバ",
+    "iso2": "SS",
+    "tldLabel": ".ss",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南スーダン",
+    "countryLabel_native": "Republic of South Sudan",
+    "capitalLabel": "ジュバ",
+    "iso2": "SS",
+    "tldLabel": ".ss",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "サントメ・プリンシペ",
+    "countryLabel_native": "República Democrática de São Tomé e Príncipe",
+    "capitalLabel": "サントメ",
+    "iso2": "ST",
+    "tldLabel": ".st",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エルサルバドル",
+    "countryLabel_native": "República de El Salvador",
+    "capitalLabel": "サンサルバドル",
+    "iso2": "SV",
+    "tldLabel": ".sv",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "シリア",
+    "countryLabel_native": "الجمهورية العربية السورية",
+    "capitalLabel": "ダマスカス",
+    "iso2": "SY",
+    "tldLabel": ".sy",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "シリア",
+    "countryLabel_native": "سوريا",
+    "capitalLabel": "ダマスカス",
+    "iso2": "SY",
+    "tldLabel": ".sy",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "シリア",
+    "countryLabel_native": "Komara Erebî ya Sûriyê",
+    "capitalLabel": "ダマスカス",
+    "iso2": "SY",
+    "tldLabel": ".sy",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "エスワティニ",
+    "countryLabel_native": "Umbuso weSwatini",
+    "capitalLabel": "ムババーネ",
+    "iso2": "SZ",
+    "tldLabel": ".sz",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "エスワティニ",
+    "countryLabel_native": "Umbuso weSwatini",
+    "capitalLabel": "ロバンバ",
+    "iso2": "SZ",
+    "tldLabel": ".sz",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "チャド",
+    "countryLabel_native": "جُمْهُورِيَّة تشاد",
+    "capitalLabel": "ンジャメナ",
+    "iso2": "TD",
+    "tldLabel": ".td",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "チャド",
+    "countryLabel_native": "République du Tchad",
+    "capitalLabel": "ンジャメナ",
+    "iso2": "TD",
+    "tldLabel": ".td",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "トーゴ",
+    "countryLabel_native": "Togo",
+    "capitalLabel": "ロメ",
+    "iso2": "TG",
+    "tldLabel": ".tg",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "タイ王国",
+    "countryLabel_native": "ราชอาณาจักรไทย",
+    "capitalLabel": "バンコク",
+    "iso2": "TH",
+    "tldLabel": ".th",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "タジキスタン",
+    "countryLabel_native": "Тоҷикистон",
+    "capitalLabel": "ドゥシャンベ",
+    "iso2": "TJ",
+    "tldLabel": ".tj",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "タジキスタン",
+    "countryLabel_native": "Ҷумҳурии Тоҷикистон",
+    "capitalLabel": "ドゥシャンベ",
+    "iso2": "TJ",
+    "tldLabel": ".tj",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "東ティモール",
+    "countryLabel_native": "República Democrática de Timor-Leste",
+    "capitalLabel": "ディリ",
+    "iso2": "TL",
+    "tldLabel": ".tl",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "東ティモール",
+    "countryLabel_native": "Repúblika Demokrátika Timor-Leste",
+    "capitalLabel": "ディリ",
+    "iso2": "TL",
+    "tldLabel": ".tl",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "トルクメニスタン",
+    "countryLabel_native": "Türkmenistan",
+    "capitalLabel": "アシガバート",
+    "iso2": "TM",
+    "tldLabel": ".tm",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "トルクメニスタン",
+    "countryLabel_native": "Türkmenistan Respublikasi",
+    "capitalLabel": "アシガバート",
+    "iso2": "TM",
+    "tldLabel": ".tm",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "チュニジア",
+    "countryLabel_native": "Tunisia",
+    "capitalLabel": "チュニス",
+    "iso2": "TN",
+    "tldLabel": ".tn",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "チュニジア",
+    "countryLabel_native": "تونس",
+    "capitalLabel": "チュニス",
+    "iso2": "TN",
+    "tldLabel": ".tn",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "チュニジア",
+    "countryLabel_native": "الجمهورية التونسية",
+    "capitalLabel": "チュニス",
+    "iso2": "TN",
+    "tldLabel": ".tn",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "チュニジア",
+    "countryLabel_native": "Republic of Tunisia",
+    "capitalLabel": "チュニス",
+    "iso2": "TN",
+    "tldLabel": ".tn",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "チュニジア",
+    "countryLabel_native": "Republik Tunisia",
+    "capitalLabel": "チュニス",
+    "iso2": "TN",
+    "tldLabel": ".tn",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "チュニジア",
+    "countryLabel_native": "Tunisia",
+    "capitalLabel": "チュニス",
+    "iso2": "TN",
+    "tldLabel": ".tn",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "トンガ",
+    "countryLabel_native": "Tonga",
+    "capitalLabel": "ヌクアロファ",
+    "iso2": "TO",
+    "tldLabel": ".to",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "トルコ",
+    "countryLabel_native": "Türkiye",
+    "capitalLabel": "アンカラ",
+    "iso2": "TR",
+    "tldLabel": ".tr",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "トルコ",
+    "countryLabel_native": "Türkiye Cumhuriyeti",
+    "capitalLabel": "アンカラ",
+    "iso2": "TR",
+    "tldLabel": ".tr",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "トリニダード・トバゴ",
+    "countryLabel_native": "Republic of Trinidad and Tobago",
+    "capitalLabel": "ポートオブスペイン",
+    "iso2": "TT",
+    "tldLabel": ".tt",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "中華民国",
+    "countryLabel_native": "Tâi-oân",
+    "capitalLabel": "台北市",
+    "iso2": "TW",
+    "tldLabel": ".tw",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "中華民国",
+    "countryLabel_native": "taiwan",
+    "capitalLabel": "台北市",
+    "iso2": "TW",
+    "tldLabel": ".tw",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "中華民国",
+    "countryLabel_native": "中華民國",
+    "capitalLabel": "台北市",
+    "iso2": "TW",
+    "tldLabel": ".tw",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "中華民国",
+    "countryLabel_native": "Chûng-fà Mìn-koet",
+    "capitalLabel": "台北市",
+    "iso2": "TW",
+    "tldLabel": ".tw",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "中華民国",
+    "countryLabel_native": "臺灣",
+    "capitalLabel": "台北市",
+    "iso2": "TW",
+    "tldLabel": ".tw",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "中華民国",
+    "countryLabel_native": "中華民國",
+    "capitalLabel": "台北市",
+    "iso2": "TW",
+    "tldLabel": ".tw",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "中華民国",
+    "countryLabel_native": "台灣",
+    "capitalLabel": "台北市",
+    "iso2": "TW",
+    "tldLabel": ".tw",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "中華民国",
+    "countryLabel_native": "Tiong-hoâ Bîn-kok",
+    "capitalLabel": "台北市",
+    "iso2": "TW",
+    "tldLabel": ".tw",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "中華民国",
+    "countryLabel_native": "Tiong-huâ-bîn-kok",
+    "capitalLabel": "台北市",
+    "iso2": "TW",
+    "tldLabel": ".tw",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "タンザニア",
+    "countryLabel_native": "United Republic of Tanzania",
+    "capitalLabel": "ドドマ",
+    "iso2": "TZ",
+    "tldLabel": ".tz",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "タンザニア",
+    "countryLabel_native": "Jamhuri ya Muungano wa Tanzania",
+    "capitalLabel": "ドドマ",
+    "iso2": "TZ",
+    "tldLabel": ".tz",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ウクライナ",
+    "countryLabel_native": "Україна",
+    "capitalLabel": "キーウ",
+    "iso2": "UA",
+    "tldLabel": ".ua",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "ウガンダ",
+    "countryLabel_native": "Republic of Uganda",
+    "capitalLabel": "カンパラ",
+    "iso2": "UG",
+    "tldLabel": ".ug",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ウガンダ",
+    "countryLabel_native": "Jamhuri ya Uganda",
+    "capitalLabel": "カンパラ",
+    "iso2": "UG",
+    "tldLabel": ".ug",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "アメリカ合衆国",
+    "countryLabel_native": "United States of America",
+    "capitalLabel": "ワシントンD.C.",
+    "iso2": "US",
+    "tldLabel": ".us",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "アメリカ合衆国",
+    "countryLabel_native": "Estados Unidos de América",
+    "capitalLabel": "ワシントンD.C.",
+    "iso2": "US",
+    "tldLabel": ".us",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "アメリカ合衆国",
+    "countryLabel_native": "Estados Unidus",
+    "capitalLabel": "ワシントンD.C.",
+    "iso2": "US",
+    "tldLabel": ".us",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "アメリカ合衆国",
+    "countryLabel_native": "ᏌᏊᎢᏳᎾᎵᏍᏔᏅᏍᎦᏚᎩ ᎾᎿ ᎠᎺᏰᏟ",
+    "capitalLabel": "ワシントンD.C.",
+    "iso2": "US",
+    "tldLabel": ".us",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "アメリカ合衆国",
+    "countryLabel_native": "Wááshindoon Bikéyah Ałhidadiidzooígíí",
+    "capitalLabel": "ワシントンD.C.",
+    "iso2": "US",
+    "tldLabel": ".us",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "アメリカ合衆国",
+    "countryLabel_native": "Iunaite Sitete o Amerika",
+    "capitalLabel": "ワシントンD.C.",
+    "iso2": "US",
+    "tldLabel": ".us",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "ウルグアイ",
+    "countryLabel_native": "República Oriental del Uruguay",
+    "capitalLabel": "モンテビデオ",
+    "iso2": "UY",
+    "tldLabel": ".uy",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "ウズベキスタン",
+    "countryLabel_native": "Oʻzbekiston",
+    "capitalLabel": "タシュケント",
+    "iso2": "UZ",
+    "tldLabel": ".uz",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "ウズベキスタン",
+    "countryLabel_native": "Oʻzbekiston Respublikasi",
+    "capitalLabel": "タシュケント",
+    "iso2": "UZ",
+    "tldLabel": ".uz",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "バチカン",
+    "countryLabel_native": "Civitas Vaticana",
+    "iso2": "VA",
+    "tldLabel": ".va",
+    "continentLabel": "ヨーロッパ"
+  },
+  {
+    "countryLabel": "セントビンセント・グレナディーン",
+    "countryLabel_native": "Saint Vincent and the Grenadines",
+    "capitalLabel": "キングスタウン",
+    "iso2": "VC",
+    "tldLabel": ".vc",
+    "continentLabel": "北アメリカ"
+  },
+  {
+    "countryLabel": "ベネズエラ",
+    "countryLabel_native": "Venezuela",
+    "capitalLabel": "カラカス",
+    "iso2": "VE",
+    "tldLabel": ".ve",
+    "continentLabel": "南アメリカ"
+  },
+  {
+    "countryLabel": "ベトナム",
+    "countryLabel_native": "Việt Nam",
+    "capitalLabel": "ハノイ",
+    "iso2": "VN",
+    "tldLabel": ".vn",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "バヌアツ",
+    "countryLabel_native": "Ripablik blong Vanuatu",
+    "capitalLabel": "ポートビラ",
+    "iso2": "VU",
+    "tldLabel": ".vu",
+    "continentLabel": "オセアニア島嶼部"
+  },
+  {
+    "countryLabel": "バヌアツ",
+    "countryLabel_native": "Vanuatu",
+    "capitalLabel": "ポートビラ",
+    "iso2": "VU",
+    "tldLabel": ".vu",
+    "continentLabel": "オセアニア島嶼部"
+  },
+  {
+    "countryLabel": "バヌアツ",
+    "countryLabel_native": "Republic of Vanuatu",
+    "capitalLabel": "ポートビラ",
+    "iso2": "VU",
+    "tldLabel": ".vu",
+    "continentLabel": "オセアニア島嶼部"
+  },
+  {
+    "countryLabel": "バヌアツ",
+    "countryLabel_native": "République du Vanuatu",
+    "capitalLabel": "ポートビラ",
+    "iso2": "VU",
+    "tldLabel": ".vu",
+    "continentLabel": "オセアニア島嶼部"
+  },
+  {
+    "countryLabel": "サモア",
+    "countryLabel_native": "Western Samoa",
+    "capitalLabel": "アピア",
+    "iso2": "WS",
+    "tldLabel": ".ws",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "サモア",
+    "countryLabel_native": "Independent State of Samoa",
+    "capitalLabel": "アピア",
+    "iso2": "WS",
+    "tldLabel": ".ws",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "サモア",
+    "countryLabel_native": "Malo Sa’oloto Tuto’atasi o Samoa",
+    "capitalLabel": "アピア",
+    "iso2": "WS",
+    "tldLabel": ".ws",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "サモア",
+    "countryLabel_native": "Sāmoa",
+    "capitalLabel": "アピア",
+    "iso2": "WS",
+    "tldLabel": ".ws",
+    "continentLabel": "オセアニア"
+  },
+  {
+    "countryLabel": "イエメン",
+    "countryLabel_native": "الجمهوريّة اليمنية",
+    "capitalLabel": "サヌア",
+    "iso2": "YE",
+    "tldLabel": ".ye",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "イエメン",
+    "countryLabel_native": "الجمهوريّة اليمنية",
+    "capitalLabel": "アデン",
+    "iso2": "YE",
+    "tldLabel": ".ye",
+    "continentLabel": "アジア"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "South Africa",
+    "capitalLabel": "プレトリア",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Suid-Afrika",
+    "capitalLabel": "プレトリア",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "iSewula Afrika",
+    "capitalLabel": "プレトリア",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Afrika Borwa",
+    "capitalLabel": "プレトリア",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "iNingizimu Afrika",
+    "capitalLabel": "プレトリア",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Afrika Borwa",
+    "capitalLabel": "プレトリア",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Aforika Borwa",
+    "capitalLabel": "プレトリア",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Afrika-Dzonga",
+    "capitalLabel": "プレトリア",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Afurika Tshipembe",
+    "capitalLabel": "プレトリア",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "uMzantsi Afrika",
+    "capitalLabel": "プレトリア",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "iNingizimu Afrika",
+    "capitalLabel": "プレトリア",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "South Africa",
+    "capitalLabel": "ケープタウン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Suid-Afrika",
+    "capitalLabel": "ケープタウン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "iSewula Afrika",
+    "capitalLabel": "ケープタウン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Afrika Borwa",
+    "capitalLabel": "ケープタウン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "iNingizimu Afrika",
+    "capitalLabel": "ケープタウン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Afrika Borwa",
+    "capitalLabel": "ケープタウン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Aforika Borwa",
+    "capitalLabel": "ケープタウン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Afrika-Dzonga",
+    "capitalLabel": "ケープタウン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Afurika Tshipembe",
+    "capitalLabel": "ケープタウン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "uMzantsi Afrika",
+    "capitalLabel": "ケープタウン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "iNingizimu Afrika",
+    "capitalLabel": "ケープタウン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "South Africa",
+    "capitalLabel": "ブルームフォンテーン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Suid-Afrika",
+    "capitalLabel": "ブルームフォンテーン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "iSewula Afrika",
+    "capitalLabel": "ブルームフォンテーン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Afrika Borwa",
+    "capitalLabel": "ブルームフォンテーン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "iNingizimu Afrika",
+    "capitalLabel": "ブルームフォンテーン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Afrika Borwa",
+    "capitalLabel": "ブルームフォンテーン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Aforika Borwa",
+    "capitalLabel": "ブルームフォンテーン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Afrika-Dzonga",
+    "capitalLabel": "ブルームフォンテーン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "Afurika Tshipembe",
+    "capitalLabel": "ブルームフォンテーン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "uMzantsi Afrika",
+    "capitalLabel": "ブルームフォンテーン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "南アフリカ共和国",
+    "countryLabel_native": "iNingizimu Afrika",
+    "capitalLabel": "ブルームフォンテーン",
+    "iso2": "ZA",
+    "tldLabel": ".za",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ザンビア",
+    "countryLabel_native": "Republic of Zambia",
+    "capitalLabel": "ルサカ",
+    "iso2": "ZM",
+    "tldLabel": ".zm",
+    "continentLabel": "アフリカ"
+  },
+  {
+    "countryLabel": "ジンバブエ",
+    "countryLabel_native": "Zimbabwe",
+    "capitalLabel": "ハラレ",
+    "iso2": "ZW",
+    "tldLabel": ".zw",
+    "continentLabel": "アフリカ"
+  }
+]

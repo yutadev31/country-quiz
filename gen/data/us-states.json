@@ -1,0 +1,308 @@
+[
+  {
+    "stateLabel": "アラスカ州",
+    "stateLabel_en": "Alaska",
+    "capitalLabel": "ジュノー",
+    "iso2": "US-AK"
+  },
+  {
+    "stateLabel": "アラバマ州",
+    "stateLabel_en": "Alabama",
+    "capitalLabel": "モンゴメリー",
+    "iso2": "US-AL"
+  },
+  {
+    "stateLabel": "アーカンソー州",
+    "stateLabel_en": "Arkansas",
+    "capitalLabel": "リトル・ロック",
+    "iso2": "US-AR"
+  },
+  {
+    "stateLabel": "アリゾナ州",
+    "stateLabel_en": "Arizona",
+    "capitalLabel": "フェニックス",
+    "iso2": "US-AZ"
+  },
+  {
+    "stateLabel": "カリフォルニア州",
+    "stateLabel_en": "California",
+    "capitalLabel": "サクラメント",
+    "iso2": "US-CA"
+  },
+  {
+    "stateLabel": "コロラド州",
+    "stateLabel_en": "Colorado",
+    "capitalLabel": "デンバー",
+    "iso2": "US-CO"
+  },
+  {
+    "stateLabel": "コネチカット州",
+    "stateLabel_en": "Connecticut",
+    "capitalLabel": "ハートフォード",
+    "iso2": "US-CT"
+  },
+  {
+    "stateLabel": "デラウェア州",
+    "stateLabel_en": "Delaware",
+    "capitalLabel": "ドーヴァー",
+    "iso2": "US-DE"
+  },
+  {
+    "stateLabel": "フロリダ州",
+    "stateLabel_en": "Florida",
+    "capitalLabel": "タラハシー",
+    "iso2": "US-FL"
+  },
+  {
+    "stateLabel": "ジョージア州",
+    "stateLabel_en": "Georgia",
+    "capitalLabel": "アトランタ",
+    "iso2": "US-GA"
+  },
+  {
+    "stateLabel": "ハワイ州",
+    "stateLabel_en": "Hawaii",
+    "capitalLabel": "ホノルル",
+    "iso2": "US-HI"
+  },
+  {
+    "stateLabel": "アイオワ州",
+    "stateLabel_en": "Iowa",
+    "capitalLabel": "デ・モイン",
+    "iso2": "US-IA"
+  },
+  {
+    "stateLabel": "アイダホ州",
+    "stateLabel_en": "Idaho",
+    "capitalLabel": "ボイシ",
+    "iso2": "US-ID"
+  },
+  {
+    "stateLabel": "イリノイ州",
+    "stateLabel_en": "Illinois",
+    "capitalLabel": "スプリングフィールド",
+    "iso2": "US-IL"
+  },
+  {
+    "stateLabel": "インディアナ州",
+    "stateLabel_en": "Indiana",
+    "capitalLabel": "インディアナポリス",
+    "iso2": "US-IN"
+  },
+  {
+    "stateLabel": "カンザス州",
+    "stateLabel_en": "Kansas",
+    "capitalLabel": "トピカ",
+    "iso2": "US-KS"
+  },
+  {
+    "stateLabel": "ケンタッキー州",
+    "stateLabel_en": "Kentucky",
+    "capitalLabel": "フランクフォート",
+    "iso2": "US-KY"
+  },
+  {
+    "stateLabel": "ルイジアナ州",
+    "stateLabel_en": "Louisiana",
+    "capitalLabel": "ニュー・オーリンズ",
+    "iso2": "US-LA"
+  },
+  {
+    "stateLabel": "ルイジアナ州",
+    "stateLabel_en": "Louisiana",
+    "capitalLabel": "バトン・ルージュ",
+    "iso2": "US-LA"
+  },
+  {
+    "stateLabel": "マサチューセッツ州",
+    "stateLabel_en": "Massachusetts",
+    "capitalLabel": "ボストン",
+    "iso2": "US-MA"
+  },
+  {
+    "stateLabel": "メリーランド州",
+    "stateLabel_en": "Maryland",
+    "capitalLabel": "アナポリス",
+    "iso2": "US-MD"
+  },
+  {
+    "stateLabel": "メイン州",
+    "stateLabel_en": "Maine",
+    "capitalLabel": "オーガスタ",
+    "iso2": "US-ME"
+  },
+  {
+    "stateLabel": "ミシガン州",
+    "stateLabel_en": "Michigan",
+    "capitalLabel": "ランシング",
+    "iso2": "US-MI"
+  },
+  {
+    "stateLabel": "ミネソタ州",
+    "stateLabel_en": "Minnesota",
+    "capitalLabel": "セイント・ポール",
+    "iso2": "US-MN"
+  },
+  {
+    "stateLabel": "ミズーリ州",
+    "stateLabel_en": "Missouri",
+    "capitalLabel": "ジェファーソンシティ",
+    "iso2": "US-MO"
+  },
+  {
+    "stateLabel": "ミシシッピ州",
+    "stateLabel_en": "Mississippi",
+    "capitalLabel": "ジャクソン",
+    "iso2": "US-MS"
+  },
+  {
+    "stateLabel": "モンタナ州",
+    "stateLabel_en": "Montana",
+    "capitalLabel": "ヘレナ",
+    "iso2": "US-MT"
+  },
+  {
+    "stateLabel": "ノースカロライナ州",
+    "stateLabel_en": "North Carolina",
+    "capitalLabel": "ローリー",
+    "iso2": "US-NC"
+  },
+  {
+    "stateLabel": "ノースダコタ州",
+    "stateLabel_en": "North Dakota",
+    "capitalLabel": "ビスマーク",
+    "iso2": "US-ND"
+  },
+  {
+    "stateLabel": "ネブラスカ州",
+    "stateLabel_en": "Nebraska",
+    "capitalLabel": "リンカーン",
+    "iso2": "US-NE"
+  },
+  {
+    "stateLabel": "ニューハンプシャー州",
+    "stateLabel_en": "New Hampshire",
+    "capitalLabel": "コンコード",
+    "iso2": "US-NH"
+  },
+  {
+    "stateLabel": "ニュージャージー州",
+    "stateLabel_en": "New Jersey",
+    "capitalLabel": "トレントン",
+    "iso2": "US-NJ"
+  },
+  {
+    "stateLabel": "ニューメキシコ州",
+    "stateLabel_en": "New Mexico",
+    "capitalLabel": "サンタ・フェ",
+    "iso2": "US-NM"
+  },
+  {
+    "stateLabel": "ネバダ州",
+    "stateLabel_en": "Nevada",
+    "capitalLabel": "カーソンシティ",
+    "iso2": "US-NV"
+  },
+  {
+    "stateLabel": "ニューヨーク州",
+    "stateLabel_en": "New York",
+    "capitalLabel": "オールバニ",
+    "iso2": "US-NY"
+  },
+  {
+    "stateLabel": "オハイオ州",
+    "stateLabel_en": "Ohio",
+    "capitalLabel": "コロンバス",
+    "iso2": "US-OH"
+  },
+  {
+    "stateLabel": "オクラホマ州",
+    "stateLabel_en": "Oklahoma",
+    "capitalLabel": "オクラホマシティ",
+    "iso2": "US-OK"
+  },
+  {
+    "stateLabel": "オレゴン州",
+    "stateLabel_en": "Oregon",
+    "capitalLabel": "セイラム",
+    "iso2": "US-OR"
+  },
+  {
+    "stateLabel": "ペンシルベニア州",
+    "stateLabel_en": "Pennsylvania",
+    "capitalLabel": "ハリスバーグ",
+    "iso2": "US-PA"
+  },
+  {
+    "stateLabel": "ロードアイランド州",
+    "stateLabel_en": "Rhode Island",
+    "capitalLabel": "プロヴィデンス",
+    "iso2": "US-RI"
+  },
+  {
+    "stateLabel": "サウスカロライナ州",
+    "stateLabel_en": "South Carolina",
+    "capitalLabel": "コロンビア",
+    "iso2": "US-SC"
+  },
+  {
+    "stateLabel": "サウスダコタ州",
+    "stateLabel_en": "South Dakota",
+    "capitalLabel": "ピア",
+    "iso2": "US-SD"
+  },
+  {
+    "stateLabel": "テネシー州",
+    "stateLabel_en": "Tennessee",
+    "capitalLabel": "ナッシュヴィル",
+    "iso2": "US-TN"
+  },
+  {
+    "stateLabel": "テキサス州",
+    "stateLabel_en": "Texas",
+    "capitalLabel": "オースティン",
+    "iso2": "US-TX"
+  },
+  {
+    "stateLabel": "ユタ州",
+    "stateLabel_en": "Utah",
+    "capitalLabel": "ソルトレイクシティ",
+    "iso2": "US-UT"
+  },
+  {
+    "stateLabel": "バージニア州",
+    "stateLabel_en": "Virginia",
+    "capitalLabel": "リッチモンド",
+    "iso2": "US-VA"
+  },
+  {
+    "stateLabel": "バーモント州",
+    "stateLabel_en": "Vermont",
+    "capitalLabel": "モントピリア",
+    "iso2": "US-VT"
+  },
+  {
+    "stateLabel": "ワシントン州",
+    "stateLabel_en": "Washington",
+    "capitalLabel": "オリンピア",
+    "iso2": "US-WA"
+  },
+  {
+    "stateLabel": "ウィスコンシン州",
+    "stateLabel_en": "Wisconsin",
+    "capitalLabel": "マディソン",
+    "iso2": "US-WI"
+  },
+  {
+    "stateLabel": "ウェストバージニア州",
+    "stateLabel_en": "West Virginia",
+    "capitalLabel": "チャールストン",
+    "iso2": "US-WV"
+  },
+  {
+    "stateLabel": "ワイオミング州",
+    "stateLabel_en": "Wyoming",
+    "capitalLabel": "シャイアン",
+    "iso2": "US-WY"
+  }
+]

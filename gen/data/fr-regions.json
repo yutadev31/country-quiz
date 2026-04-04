@@ -1,0 +1,157 @@
+[
+  {
+    "regionLabel": "コルシカ島",
+    "regionLabel_fr": "Corse",
+    "capitalLabel": "アジャクシオ",
+    "iso2": "FR-20R"
+  },
+  {
+    "regionLabel": "グアドループ",
+    "regionLabel_fr": "Guadeloupe",
+    "capitalLabel": "バステール",
+    "iso2": "FR-971"
+  },
+  {
+    "regionLabel": "マルティニーク",
+    "regionLabel_fr": "Martinique",
+    "capitalLabel": "フォール＝ド＝フランス",
+    "iso2": "FR-972"
+  },
+  {
+    "regionLabel": "フランス領ギアナ",
+    "regionLabel_fr": "Guyane",
+    "capitalLabel": "カイエンヌ",
+    "iso2": "FR-973"
+  },
+  {
+    "regionLabel": "レユニオン",
+    "regionLabel_fr": "La Réunion",
+    "capitalLabel": "サン＝ドニ",
+    "iso2": "FR-974"
+  },
+  {
+    "regionLabel": "マヨット",
+    "regionLabel_fr": "Mayotte",
+    "capitalLabel": "ザウジ",
+    "iso2": "FR-976"
+  },
+  {
+    "regionLabel": "マヨット",
+    "regionLabel_fr": "Mayotte",
+    "capitalLabel": "マムズ",
+    "iso2": "FR-976"
+  },
+  {
+    "regionLabel": "オーヴェルニュ＝ローヌ＝アルプ地域圏",
+    "regionLabel_fr": "Auvergne-Rhône-Alpes",
+    "capitalLabel": "リヨン",
+    "iso2": "FR-ARA"
+  },
+  {
+    "regionLabel": "ブルゴーニュ＝フランシュ＝コンテ地域圏",
+    "regionLabel_fr": "Bourgogne-Franche-Comté",
+    "capitalLabel": "ブザンソン",
+    "iso2": "FR-BFC"
+  },
+  {
+    "regionLabel": "ブルゴーニュ＝フランシュ＝コンテ地域圏",
+    "regionLabel_fr": "Bourgogne-Franche-Comté",
+    "capitalLabel": "ディジョン",
+    "iso2": "FR-BFC"
+  },
+  {
+    "regionLabel": "ブルターニュ地域圏",
+    "regionLabel_fr": "Bretagne",
+    "capitalLabel": "レンヌ",
+    "iso2": "FR-BRE"
+  },
+  {
+    "regionLabel": "オーヴェルニュ地域圏",
+    "regionLabel_fr": "Auvergne",
+    "iso2": "FR-C"
+  },
+  {
+    "regionLabel": "サントル＝ヴァル・ド・ロワール地域圏",
+    "regionLabel_fr": "Centre-Val de Loire",
+    "capitalLabel": "オルレアン",
+    "iso2": "FR-CVL"
+  },
+  {
+    "regionLabel": "ブルゴーニュ地域圏",
+    "regionLabel_fr": "Bourgogne",
+    "capitalLabel": "ディジョン",
+    "iso2": "FR-D"
+  },
+  {
+    "regionLabel": "グラン・テスト地域圏",
+    "regionLabel_fr": "Grand Est",
+    "capitalLabel": "ストラスブール",
+    "iso2": "FR-GES"
+  },
+  {
+    "regionLabel": "オー＝ド＝フランス地域圏",
+    "regionLabel_fr": "Hauts-de-France",
+    "capitalLabel": "リール",
+    "iso2": "FR-HDF"
+  },
+  {
+    "regionLabel": "Franche-Comté",
+    "regionLabel_fr": "Franche-Comté",
+    "capitalLabel": "ブザンソン",
+    "iso2": "FR-I"
+  },
+  {
+    "regionLabel": "イル＝ド＝フランス地域圏",
+    "regionLabel_fr": "Île-de-France",
+    "capitalLabel": "パリ",
+    "iso2": "FR-IDF"
+  },
+  {
+    "regionLabel": "ラングドック＝ルシヨン地域圏",
+    "regionLabel_fr": "Languedoc-Roussillon",
+    "capitalLabel": "モンペリエ",
+    "iso2": "FR-K"
+  },
+  {
+    "regionLabel": "ミディ＝ピレネー地域圏",
+    "regionLabel_fr": "Midi-Pyrénées",
+    "capitalLabel": "トゥールーズ",
+    "iso2": "FR-N"
+  },
+  {
+    "regionLabel": "ヌーヴェル＝アキテーヌ地域圏",
+    "regionLabel_fr": "Nouvelle-Aquitaine",
+    "capitalLabel": "ボルドー",
+    "iso2": "FR-NAQ"
+  },
+  {
+    "regionLabel": "ノルマンディー地域圏",
+    "regionLabel_fr": "Normandie",
+    "capitalLabel": "ルーアン",
+    "iso2": "FR-NOR"
+  },
+  {
+    "regionLabel": "オクシタニー地域圏",
+    "regionLabel_fr": "Occitanie",
+    "capitalLabel": "トゥールーズ",
+    "iso2": "FR-OCC"
+  },
+  {
+    "regionLabel": "プロヴァンス＝アルプ＝コート・ダジュール地域圏",
+    "regionLabel_fr": "Provence-Alpes-Côte d'Azur",
+    "capitalLabel": "マルセイユ",
+    "iso2": "FR-PAC"
+  },
+  {
+    "regionLabel": "ペイ・ド・ラ・ロワール地域圏",
+    "regionLabel_fr": "Pays de la Loire",
+    "capitalLabel": "ナント",
+    "iso2": "FR-PDL"
+  },
+  {
+    "regionLabel": "ピカルディ地域圏",
+    "regionLabel_fr": "Picardie",
+    "capitalLabel": "アミアン",
+    "iso2": "FR-S"
+  }
+]

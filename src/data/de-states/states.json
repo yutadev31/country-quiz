@@ -1,18 +1,98 @@
 [
-  { "name": "バーデン＝ヴュルテンベルク州", "capital": "シュトゥットガルト" },
-  { "name": "バイエルン自由州", "capital": "ミュンヘン" },
-  { "name": "ブランデンブルク州", "capital": "ポツダム" },
-  { "name": "ヘッセン州", "capital": "ヴィースバーデン" },
-  { "name": "メクレンブルク＝フォアポンメルン州", "capital": "シュヴェリーン" },
-  { "name": "ニーダーザクセン州", "capital": "ハノーファー" },
+  {
+    "name": "ザクセン州",
+    "nameNative": "Sachsen",
+    "capital": "ドレスデン",
+    "code": "de-sn"
+  },
+  {
+    "name": "ザクセン＝アンハルト州",
+    "nameNative": "Sachsen-Anhalt",
+    "capital": "マクデブルク",
+    "code": "de-st"
+  },
+  {
+    "name": "ザールラント州",
+    "nameNative": "Saarland",
+    "capital": "ザールブリュッケン",
+    "code": "de-sl"
+  },
+  {
+    "name": "シュレースヴィヒ＝ホルシュタイン州",
+    "nameNative": "Schleswig-Holstein",
+    "capital": "キール",
+    "code": "de-sh"
+  },
+  {
+    "name": "テューリンゲン州",
+    "nameNative": "Thüringen",
+    "capital": "エアフルト",
+    "code": "de-th"
+  },
+  {
+    "name": "ニーダーザクセン州",
+    "nameNative": "Niedersachsen",
+    "capital": "ハノーファー",
+    "code": "de-ni"
+  },
   {
     "name": "ノルトライン＝ヴェストファーレン州",
-    "capital": "デュッセルドルフ"
+    "nameNative": "Nordrhein-Westfalen",
+    "capital": "デュッセルドルフ",
+    "code": "de-nw"
   },
-  { "name": "ラインラント＝プファルツ州", "capital": "マインツ" },
-  { "name": "ザールラント州", "capital": "ザールブリュッケン" },
-  { "name": "ザクセン自由州", "capital": "ドレスデン" },
-  { "name": "ザクセン＝アンハルト州", "capital": "マクデブルク" },
-  { "name": "シュレースヴィヒ＝ホルシュタイン州", "capital": "キール" },
-  { "name": "テューリンゲン自由州", "capital": "エアフルト" }
+  {
+    "name": "ハンブルク",
+    "nameNative": "Hamburg",
+    "capital": "",
+    "code": "de-hh"
+  },
+  {
+    "name": "バイエルン",
+    "nameNative": "Bayern",
+    "capital": "ミュンヘン",
+    "code": "de-by"
+  },
+  {
+    "name": "バーデン＝ヴュルテンベルク州",
+    "nameNative": "Baden-Württemberg",
+    "capital": "シュトゥットガルト",
+    "code": "de-bw"
+  },
+  {
+    "name": "ブランデンブルク州",
+    "nameNative": "Brandenburg",
+    "capital": "ポツダム",
+    "code": "de-bb"
+  },
+  {
+    "name": "ブレーメン州",
+    "nameNative": "Freie Hansestadt Bremen",
+    "capital": "ブレーメン",
+    "code": "de-hb"
+  },
+  {
+    "name": "ヘッセン州",
+    "nameNative": "Hessen",
+    "capital": "ヴィースバーデン",
+    "code": "de-he"
+  },
+  {
+    "name": "ベルリン",
+    "nameNative": "Berlin",
+    "capital": "",
+    "code": "de-be"
+  },
+  {
+    "name": "メクレンブルク＝フォアポンメルン州",
+    "nameNative": "Mecklenburg-Vorpommern",
+    "capital": "シュヴェリーン",
+    "code": "de-mv"
+  },
+  {
+    "name": "ラインラント＝プファルツ州",
+    "nameNative": "Rheinland-Pfalz",
+    "capital": "マインツ",
+    "code": "de-rp"
+  }
 ]

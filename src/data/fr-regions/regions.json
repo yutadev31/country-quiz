@@ -1,23 +1,146 @@
 [
-  { "name": "グラン・テスト地域圏", "capital": "ストラスブール" },
-  { "name": "ヌーヴェル＝アキテーヌ地域圏", "capital": "ボルドー" },
-  { "name": "オーヴェルニュ＝ローヌ＝アルプ地域圏", "capital": "リヨン" },
-  { "name": "ブルゴーニュ＝フランシュ＝コンテ地域圏", "capital": "ディジョン" },
-  { "name": "ブルターニュ地域圏", "capital": "レンヌ" },
-  { "name": "サントル＝ヴァル・ド・ロワール地域圏", "capital": "オルレアン" },
-  { "name": "イル＝ド＝フランス地域圏", "capital": "パリ" },
-  { "name": "オクシタニー地域圏", "capital": "トゥールーズ" },
-  { "name": "オー＝ド＝フランス地域圏", "capital": "リール" },
-  { "name": "ノルマンディー地域圏", "capital": "ルーアン" },
-  { "name": "ペイ・ド・ラ・ロワール地域圏", "capital": "ナント" },
+  {
+    "name": "フランシュ＝コンテ地域圏",
+    "regionLabel_fr": "Franche-Comté",
+    "capital": "ブザンソン",
+    "code": "fr-i"
+  },
+  {
+    "name": "イル＝ド＝フランス地域圏",
+    "regionLabel_fr": "Île-de-France",
+    "capital": "パリ",
+    "code": "fr-idf"
+  },
+  {
+    "name": "オクシタニー地域圏",
+    "regionLabel_fr": "Occitanie",
+    "capital": "トゥールーズ",
+    "code": "fr-occ"
+  },
+  {
+    "name": "オーヴェルニュ地域圏",
+    "regionLabel_fr": "Auvergne",
+    "capital": "クレルモン＝フェラン",
+    "code": "fr-c"
+  },
+  {
+    "name": "オーヴェルニュ＝ローヌ＝アルプ地域圏",
+    "regionLabel_fr": "Auvergne-Rhône-Alpes",
+    "capital": "リヨン",
+    "code": "fr-ara"
+  },
+  {
+    "name": "オー＝ド＝フランス地域圏",
+    "regionLabel_fr": "Hauts-de-France",
+    "capital": "リール",
+    "code": "fr-hdf"
+  },
+  {
+    "name": "グアドループ",
+    "regionLabel_fr": "Guadeloupe",
+    "capital": "バステール",
+    "code": "fr-971"
+  },
+  {
+    "name": "グラン・テスト地域圏",
+    "regionLabel_fr": "Grand Est",
+    "capital": "ストラスブール",
+    "code": "fr-ges"
+  },
+  {
+    "name": "コルシカ島",
+    "regionLabel_fr": "Corse",
+    "capital": "アジャクシオ",
+    "code": "fr-20r"
+  },
+  {
+    "name": "サントル＝ヴァル・ド・ロワール地域圏",
+    "regionLabel_fr": "Centre-Val de Loire",
+    "capital": "オルレアン",
+    "code": "fr-cvl"
+  },
+  {
+    "name": "ヌーヴェル＝アキテーヌ地域圏",
+    "regionLabel_fr": "Nouvelle-Aquitaine",
+    "capital": "ボルドー",
+    "code": "fr-naq"
+  },
+  {
+    "name": "ノルマンディー地域圏",
+    "regionLabel_fr": "Normandie",
+    "capital": "ルーアン",
+    "code": "fr-nor"
+  },
+  {
+    "name": "ピカルディ地域圏",
+    "regionLabel_fr": "Picardie",
+    "capital": "アミアン",
+    "code": "fr-s"
+  },
+  {
+    "name": "フランス領ギアナ",
+    "regionLabel_fr": "Guyane",
+    "capital": "カイエンヌ",
+    "code": "fr-973"
+  },
+  {
+    "name": "ブルゴーニュ地域圏",
+    "regionLabel_fr": "Bourgogne",
+    "capital": "ディジョン",
+    "code": "fr-d"
+  },
+  {
+    "name": "ブルゴーニュ＝フランシュ＝コンテ地域圏",
+    "regionLabel_fr": "Bourgogne-Franche-Comté",
+    "capital": "ブザンソン,ディジョン",
+    "code": "fr-bfc"
+  },
+  {
+    "name": "ブルターニュ地域圏",
+    "regionLabel_fr": "Bretagne",
+    "capital": "レンヌ",
+    "code": "fr-bre"
+  },
   {
     "name": "プロヴァンス＝アルプ＝コート・ダジュール地域圏",
-    "capital": "マルセイユ"
+    "regionLabel_fr": "Provence-Alpes-Côte d'Azur",
+    "capital": "マルセイユ",
+    "code": "fr-pac"
   },
-  { "name": "コルス地方公共団体", "capital": "アジャクシオ" },
-  { "name": "ギュイヤンヌ", "capital": "カイエンヌ" },
-  { "name": "グアドループ", "capital": "バステール" },
-  { "name": "マルティニーク", "capital": "フォール・ド・フランス" },
-  { "name": "マヨット", "capital": "マムズ" },
-  { "name": "レユニオン", "capital": "サン＝ドニ" }
+  {
+    "name": "ペイ・ド・ラ・ロワール地域圏",
+    "regionLabel_fr": "Pays de la Loire",
+    "capital": "ナント",
+    "code": "fr-pdl"
+  },
+  {
+    "name": "マヨット",
+    "regionLabel_fr": "Mayotte",
+    "capital": "ザウジ,マムズ",
+    "code": "fr-976"
+  },
+  {
+    "name": "マルティニーク",
+    "regionLabel_fr": "Martinique",
+    "capital": "フォール＝ド＝フランス",
+    "code": "fr-972"
+  },
+  {
+    "name": "ミディ＝ピレネー地域圏",
+    "regionLabel_fr": "Midi-Pyrénées",
+    "capital": "トゥールーズ",
+    "code": "fr-n"
+  },
+  {
+    "name": "ラングドック＝ルシヨン地域圏",
+    "regionLabel_fr": "Languedoc-Roussillon",
+    "capital": "モンペリエ",
+    "code": "fr-k"
+  },
+  {
+    "name": "レユニオン",
+    "regionLabel_fr": "La Réunion",
+    "capital": "サン＝ドニ",
+    "code": "fr-974"
+  }
 ]

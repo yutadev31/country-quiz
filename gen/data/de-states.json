@@ -1,0 +1,88 @@
+[
+  {
+    "stateLabel": "ブランデンブルク州",
+    "stateLabel_de": "Brandenburg",
+    "capitalLabel": "ポツダム",
+    "iso2": "DE-BB"
+  },
+  { "stateLabel": "ベルリン", "stateLabel_de": "Berlin", "iso2": "DE-BE" },
+  {
+    "stateLabel": "バーデン＝ヴュルテンベルク州",
+    "stateLabel_de": "Baden-Württemberg",
+    "capitalLabel": "シュトゥットガルト",
+    "iso2": "DE-BW"
+  },
+  {
+    "stateLabel": "バイエルン",
+    "stateLabel_de": "Bayern",
+    "capitalLabel": "ミュンヘン",
+    "iso2": "DE-BY"
+  },
+  {
+    "stateLabel": "ブレーメン州",
+    "stateLabel_de": "Freie Hansestadt Bremen",
+    "capitalLabel": "ブレーメン",
+    "iso2": "DE-HB"
+  },
+  {
+    "stateLabel": "ヘッセン州",
+    "stateLabel_de": "Hessen",
+    "capitalLabel": "ヴィースバーデン",
+    "iso2": "DE-HE"
+  },
+  { "stateLabel": "ハンブルク", "stateLabel_de": "Hamburg", "iso2": "DE-HH" },
+  {
+    "stateLabel": "メクレンブルク＝フォアポンメルン州",
+    "stateLabel_de": "Mecklenburg-Vorpommern",
+    "capitalLabel": "シュヴェリーン",
+    "iso2": "DE-MV"
+  },
+  {
+    "stateLabel": "ニーダーザクセン州",
+    "stateLabel_de": "Niedersachsen",
+    "capitalLabel": "ハノーファー",
+    "iso2": "DE-NI"
+  },
+  {
+    "stateLabel": "ノルトライン＝ヴェストファーレン州",
+    "stateLabel_de": "Nordrhein-Westfalen",
+    "capitalLabel": "デュッセルドルフ",
+    "iso2": "DE-NW"
+  },
+  {
+    "stateLabel": "ラインラント＝プファルツ州",
+    "stateLabel_de": "Rheinland-Pfalz",
+    "capitalLabel": "マインツ",
+    "iso2": "DE-RP"
+  },
+  {
+    "stateLabel": "シュレースヴィヒ＝ホルシュタイン州",
+    "stateLabel_de": "Schleswig-Holstein",
+    "capitalLabel": "キール",
+    "iso2": "DE-SH"
+  },
+  {
+    "stateLabel": "ザールラント州",
+    "stateLabel_de": "Saarland",
+    "capitalLabel": "ザールブリュッケン",
+    "iso2": "DE-SL"
+  },
+  {
+    "stateLabel": "ザクセン州",
+    "stateLabel_de": "Sachsen",
+    "capitalLabel": "ドレスデン",
+    "iso2": "DE-SN"
+  },
+  {
+    "stateLabel": "ザクセン＝アンハルト州",
+    "stateLabel_de": "Sachsen-Anhalt",
+    "capitalLabel": "マクデブルク",
+    "iso2": "DE-ST"
+  },
+  {
+    "stateLabel": "テューリンゲン州",
+    "stateLabel_de": "Thüringen",
+    "capitalLabel": "エアフルト",
+    "iso2": "DE-TH"
+  }
+]

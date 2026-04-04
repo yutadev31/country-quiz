@@ -1,11 +1,13 @@
 SELECT
   ?countryLabel
+  ?countryLabel_native
   ?capitalLabel
   ?iso2
   ?tldLabel
   ?continentLabel
 WHERE {
   ?country wdt:P31 wd:Q3624078;
+           wdt:P1705 ?countryLabel_native;
            wdt:P297 ?iso2;
            wdt:P78 ?tld;
            wdt:P30 ?continent.
