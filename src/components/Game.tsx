@@ -3,29 +3,61 @@ import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { shuffleArray } from "@/utils/array";
 
-function QuestionContent<T extends Record<string, string | null>>({
-  question,
+type QuizItem<T extends Record<string, string | null>> = T & { id: string };
+
+type AnswerRecord<T extends Record<string, string | null>> = {
+  question: QuizItem<T>;
+  selectedAnswer: QuizItem<T> | null;
+  isCorrect: boolean;
+};
+
+function FieldContent<T extends Record<string, string | null>>({
+  item,
   field,
   fieldDisplayTypes,
+  imageClassName = "h-32",
+  textClassName = "",
 }: {
-  question: T & { id: string };
+  item: QuizItem<T>;
   field: keyof T;
   fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
+  imageClassName?: string;
+  textClassName?: string;
 }) {
   switch (fieldDisplayTypes[field]) {
     case "text":
-      return <p className="font-bold text-3xl">{`${question[field]}`}</p>;
+      return <span className={textClassName}>{`${item[field]}`}</span>;
     case "img":
       return (
         <img
           alt=""
-          src={`${question[field]}`}
-          className="mx-auto h-32 object-contain drop-shadow-xl"
+          src={`${item[field]}`}
+          className={`object-contain drop-shadow-xl ${imageClassName}`}
         />
       );
     case "id":
       throw Error("");
   }
+}
+
+function QuestionContent<T extends Record<string, string | null>>({
+  question,
+  field,
+  fieldDisplayTypes,
+}: {
+  question: QuizItem<T>;
+  field: keyof T;
+  fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
+}) {
+  return (
+    <FieldContent
+      item={question}
+      field={field}
+      fieldDisplayTypes={fieldDisplayTypes}
+      imageClassName="mx-auto h-32"
+      textClassName="font-bold text-3xl"
+    />
+  );
 }
 
 function ChoiceContent<T extends Record<string, string | null>>({
@@ -34,10 +66,10 @@ function ChoiceContent<T extends Record<string, string | null>>({
   fieldDisplayTypes,
   onSelect,
 }: {
-  options: (T & { id: string })[];
+  options: QuizItem<T>[];
   field: keyof T;
   fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
-  onSelect: (option: T & { id: string }) => void;
+  onSelect: (option: QuizItem<T>) => void;
 }) {
   const layout =
     fieldDisplayTypes[field] === "img"
@@ -65,7 +97,7 @@ function ChoiceContentItem<T extends Record<string, string | null>>({
   fieldDisplayTypes,
   onSelect,
 }: {
-  option: T & { id: string };
+  option: QuizItem<T>;
   field: keyof T;
   fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
   onSelect: () => void;
@@ -105,24 +137,18 @@ function CorrectContent<T extends Record<string, string | null>>({
   field,
   fieldDisplayTypes,
 }: {
-  correctAnswer: T & { id: string };
+  correctAnswer: QuizItem<T>;
   field: keyof T;
   fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
 }) {
-  switch (fieldDisplayTypes[field]) {
-    case "text":
-      return <span>{`${correctAnswer[field]}`}</span>;
-    case "img":
-      return (
-        <img
-          alt=""
-          src={`${correctAnswer[field]}`}
-          className="inline h-6 object-contain align-middle"
-        />
-      );
-    case "id":
-      throw Error("");
-  }
+  return (
+    <FieldContent
+      item={correctAnswer}
+      field={field}
+      fieldDisplayTypes={fieldDisplayTypes}
+      imageClassName="inline h-6 align-middle"
+    />
+  );
 }
 
 export default function Game<T extends Record<string, string | null>>({
@@ -137,7 +163,7 @@ export default function Game<T extends Record<string, string | null>>({
   onRestart,
 }: {
   fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
-  items: (T & { id: string })[];
+  items: QuizItem<T>[];
   questionField: keyof T;
   answerField: keyof T;
   questionCount: number;
@@ -186,7 +212,8 @@ export default function Game<T extends Record<string, string | null>>({
   const [current, setCurrent] = useState(-1);
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
-  const [correct, setCorrect] = useState<(T & { id: string }) | null>(null);
+  const [correct, setCorrect] = useState<QuizItem<T> | null>(null);
+  const [answerRecords, setAnswerRecords] = useState<AnswerRecord<T>[]>([]);
 
   const [correctCount, setCorrectCount] = useState(0);
   const [incorrectCount, setIncorrectCount] = useState(0);
@@ -234,10 +261,20 @@ export default function Game<T extends Record<string, string | null>>({
     }
 
     if (timeLeft <= 0) {
+      const currentQuestion = questions[current];
+
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setIncorrectCount((c) => c + 1);
       setIsCorrect(false);
-      setCorrect(questions[current]);
+      setCorrect(currentQuestion);
+      setAnswerRecords((records) => [
+        ...records,
+        {
+          question: currentQuestion,
+          selectedAnswer: null,
+          isCorrect: false,
+        },
+      ]);
       setShowResult(true);
 
       if (stopOnMistake) {
@@ -347,6 +384,80 @@ export default function Game<T extends Record<string, string | null>>({
             <p className="mb-4 font-bold text-2xl">{t("result.title")}</p>
             <p className="text-green-500">正解: {correctCount}</p>
             <p className="text-red-500">不正解: {incorrectCount}</p>
+            <details className="mt-6 rounded-lg bg-zinc-900/80 p-4">
+              <summary className="cursor-pointer font-semibold">
+                {t("result.details-summary")}
+              </summary>
+              <div className="mt-4 space-y-3">
+                {answerRecords.map((record, index) => (
+                  <div
+                    key={`${record.question.id}-${index}`}
+                    className="rounded-lg border border-zinc-700 bg-zinc-800 p-4"
+                  >
+                    <p
+                      className={`font-bold ${record.isCorrect ? "text-green-400" : "text-red-400"}`}
+                    >
+                      {index + 1}.{" "}
+                      {record.isCorrect
+                        ? t("result.correct-label")
+                        : t("result.incorrect-label")}
+                    </p>
+                    <div className="mt-3 space-y-2 text-sm">
+                      <div>
+                        <p className="text-zinc-400">
+                          {t("result.question-label")}
+                        </p>
+                        <div className="mt-1">
+                          <FieldContent
+                            item={record.question}
+                            field={questionField}
+                            fieldDisplayTypes={fieldDisplayTypes}
+                            imageClassName="h-20"
+                            textClassName="font-medium text-base"
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <p className="text-zinc-400">
+                          {t("result.your-answer-label")}
+                        </p>
+                        <div className="mt-1">
+                          {record.selectedAnswer ? (
+                            <FieldContent
+                              item={record.selectedAnswer}
+                              field={answerField}
+                              fieldDisplayTypes={fieldDisplayTypes}
+                              imageClassName="h-16"
+                              textClassName="font-medium text-base"
+                            />
+                          ) : (
+                            <span className="text-zinc-300">
+                              {t("result.no-answer")}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                      {!record.isCorrect && (
+                        <div>
+                          <p className="text-zinc-400">
+                            {t("result.correct-answer-label")}
+                          </p>
+                          <div className="mt-1">
+                            <FieldContent
+                              item={record.question}
+                              field={answerField}
+                              fieldDisplayTypes={fieldDisplayTypes}
+                              imageClassName="h-16"
+                              textClassName="font-medium text-base"
+                            />
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </details>
           </div>
           <button
             type="button"
@@ -373,7 +484,8 @@ export default function Game<T extends Record<string, string | null>>({
             field={answerField}
             fieldDisplayTypes={fieldDisplayTypes}
             onSelect={(choice) => {
-              const isCorrect = questions[current].id === choice.id;
+              const currentQuestion = questions[current];
+              const isCorrect = currentQuestion.id === choice.id;
 
               if (isCorrect) {
                 setCorrectCount((c) => c + 1);
@@ -382,7 +494,15 @@ export default function Game<T extends Record<string, string | null>>({
               }
 
               setIsCorrect(isCorrect);
-              setCorrect(questions[current]);
+              setCorrect(currentQuestion);
+              setAnswerRecords((records) => [
+                ...records,
+                {
+                  question: currentQuestion,
+                  selectedAnswer: choice,
+                  isCorrect,
+                },
+              ]);
               setShowResult(true);
 
               if (stopOnMistake && !isCorrect) {

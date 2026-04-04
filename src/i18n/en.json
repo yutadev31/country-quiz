@@ -76,7 +76,14 @@
     "custom": "Custom"
   },
   "result": {
-    "title": "Result"
+    "title": "Result",
+    "details-summary": "View per-question results",
+    "correct-label": "Correct",
+    "incorrect-label": "Incorrect",
+    "question-label": "Question",
+    "your-answer-label": "Your answer",
+    "correct-answer-label": "Correct answer",
+    "no-answer": "No answer"
   },
   "study": {
     "title": "Study Table",

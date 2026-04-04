@@ -76,7 +76,14 @@
     "custom": "カスタム"
   },
   "result": {
-    "title": "結果"
+    "title": "結果",
+    "details-summary": "問題ごとの結果を見る",
+    "correct-label": "正解",
+    "incorrect-label": "不正解",
+    "question-label": "問題",
+    "your-answer-label": "あなたの回答",
+    "correct-answer-label": "正解",
+    "no-answer": "未回答"
   },
   "study": {
     "title": "一覧表",
