@@ -124,7 +124,9 @@ def process_countries(path: str):
                     "朝鮮民主主義人民共和国": "北朝鮮",
                 }
             ),
-            flag=df["id"].map(lambda country_id: f"https://flagcdn.com/{country_id}.svg"),
+            flag=df["id"].map(
+                lambda country_id: f"https://flagcdn.com/{country_id}.svg"
+            ),
         ),
     )
 
@@ -133,6 +135,7 @@ def process_countries(path: str):
     # areas.json
     with open("src/data/countries/areas.json", "w", encoding="utf-8") as f:
         json.dump(list(dict.fromkeys(continent_map.values())), f, ensure_ascii=False)
+    run_biome_format("src/data/countries/areas.json")
 
 
 # ----------------------------
