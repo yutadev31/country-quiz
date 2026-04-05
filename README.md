@@ -1,92 +1,92 @@
 # Country Quiz
 
-Country Quiz is a React + Vite quiz app for memorizing countries and first-level administrative divisions. It includes a quiz mode for fast recall and a study table for browsing the underlying data.
+Country Quiz は、国名や各国の第一級行政区分を覚えるための React + Vite 製クイズアプリです。素早く反復できるクイズ画面と、一覧で確認できる学習用テーブル画面を備えています。
 
-The project also contains a Tauri setup, so the same frontend can be packaged as a desktop app and used as a base for Android builds.
+Tauri の設定も含まれているため、同じフロントエンドをデスクトップアプリとしてパッケージしたり、Android ビルドの土台として利用したりできます。
 
-## Features
+## 主な機能
 
-- Multiple quiz domains: countries, US states, Canadian provinces, Mexican states, French regions, and German states
-- Region-specific country modes: Asia, Europe, Africa, North America, South America, and Oceania
-- Configurable question and answer formats such as name, native name, capital, flag, and top-level domain
-- Rule presets plus custom settings for question count and time limit
-- One-shot mode that ends the run immediately after the first mistake
-- Study page with a searchable-style overview table for each supported mode
-- Japanese UI via `react-i18next`
+- 国、アメリカの州、カナダの州、メキシコの州、フランスの地域圏、ドイツの州に対応
+- 国モードはアジア、ヨーロッパ、アフリカ、北アメリカ、南アメリカ、オセアニアごとに出題可能
+- 国名、現地語名、首都、旗、トップレベルドメインなど、出題形式と選択肢形式を切り替え可能
+- 問題数と制限時間を含むプリセットルールとカスタム設定
+- 1問でも間違えると終了する一発勝負モード
+- 各モードのデータを表形式で確認できる学習ページ
+- `react-i18next` による日本語 UI
 
-## Tech Stack
+## 技術スタック
 
 - React 19
 - TypeScript
 - Vite
 - Tailwind CSS v4
 - Motion
-- `nuqs` for URL query state
-- Biome for formatting and linting
-- Tauri 2 for desktop/mobile packaging
+- URL クエリ状態管理のための `nuqs`
+- フォーマットと lint のための Biome
+- デスクトップ/モバイル向けパッケージングのための Tauri 2
 
-## Supported Modes
+## 対応モード
 
-### Countries
+### 国
 
-- All countries
-- Asia
-- Europe
-- Africa
-- North America
-- South America
-- Oceania
+- 全世界
+- アジア
+- ヨーロッパ
+- アフリカ
+- 北アメリカ
+- 南アメリカ
+- オセアニア
 
-### Administrative divisions
+### 行政区分
 
-- United States states
-- Canada provinces
-- Mexico states
-- France regions
-- Germany states
+- アメリカの州
+- カナダの州
+- メキシコの州
+- フランスの地域圏
+- ドイツの州
 
-## Project Structure
+## ディレクトリ構成
 
 ```text
 src/
-  components/     UI for the launcher and quiz flow
-  data/           Quiz datasets and mode definitions
-  i18n/           Translation setup
-  pages/          Home, game, and study pages
-src-tauri/        Tauri application config and Rust entrypoints
-gen/              Dataset source files and generation scripts
+  components/     ランチャーとクイズ本体の UI
+  data/           クイズ用データセットとモード定義
+  i18n/           翻訳設定
+  pages/          Home、Game、Study の各ページ
+src-tauri/        Tauri の設定と Rust エントリポイント
+gen/              データ生成用の元データとスクリプト
 ```
 
-## Requirements
+## 必要環境
 
 - Bun
 - Node.js
-- Rust toolchain and Tauri prerequisites if you want to build the desktop app
-- Python 3 with `pandas` if you want to regenerate datasets
+- デスクトップアプリをビルドする場合は Rust toolchain と Tauri の前提ツール
+- データ再生成を行う場合は Python 3 と `pandas`
 
-If you use Nix, this repository includes [`flake.nix`](./flake.nix) for a development shell with Rust, Java, Python, and related tooling.
+Nix を使う場合は、Rust、Java、Python などを含む開発シェルが [`flake.nix`](./flake.nix) に用意されています。
 
-## Development
+## 開発
 
-Install dependencies:
+依存関係のインストール:
 
 ```bash
 bun install
 ```
 
-Start the web app:
+Web アプリの開発サーバー起動:
 
 ```bash
 bun run dev
 ```
 
-Build the web app:
+Web アプリのビルド:
 
 ```bash
 bun run build
 ```
 
-Preview the production build:
+本番ビルドのプレビュー:
 
 ```bash
 bun run preview
@@ -94,33 +94,33 @@ bun run preview
 
 ## Tauri
 
-Run the Tauri app in development:
+Tauri アプリを開発モードで起動:
 
 ```bash
 bun run tauri dev
 ```
 
-Build the Tauri app:
+Tauri アプリをビルド:
 
 ```bash
 bun run tauri build
 ```
 
-The Tauri configuration is defined in [`src-tauri/tauri.conf.json`](./src-tauri/tauri.conf.json).
+Tauri の設定は [`src-tauri/tauri.conf.json`](./src-tauri/tauri.conf.json) にあります。
 
-## Data Generation
+## データ生成
 
-The quiz data lives under `src/data/`. Raw source data used for transformation is stored in `gen/data/`, and the conversion logic is implemented in [`gen/main.py`](./gen/main.py).
+クイズで使うデータは `src/data/` にあります。変換元のデータは `gen/data/` にあり、変換処理は [`gen/main.py`](./gen/main.py) に実装されています。
 
-To regenerate the JSON datasets:
+JSON データを再生成するには次を実行します。
 
 ```bash
 python gen/main.py
 ```
 
-The generator formats the output with Biome after writing each file.
+生成後、各ファイルには Biome のフォーマットが自動で適用されます。
 
-## Linting and Formatting
+## Lint とフォーマット
 
 ```bash
 bun run format
@@ -128,16 +128,16 @@ bun run lint
 bun run check
 ```
 
-Note: in this project, `lint` and `check` are configured with `--write`, so they may modify files.
+注意: このプロジェクトでは `lint` と `check` に `--write` が付いているため、実行時にファイルが書き換わる可能性があります。
 
-## Routing and Deployment Notes
+## ルーティングとデプロイ時の注意
 
-The Vite `base` path is set to `/country-quiz` in [`vite.config.ts`](./vite.config.ts). If you deploy the app under a different subpath or at the domain root, update that setting accordingly.
+[`vite.config.ts`](./vite.config.ts) で Vite の `base` は `/country-quiz` に設定されています。別のサブパスやドメイン直下に配置する場合は、この値を調整してください。
 
-## Localization
+## ローカライズ
 
-The current UI resources are stored in [`src/i18n/ja.json`](./src/i18n/ja.json), and the app currently initializes Japanese as the default language.
+現在の UI 文言は [`src/i18n/ja.json`](./src/i18n/ja.json) にあり、アプリは日本語を既定言語として初期化します。
 
-## License
+## ライセンス
 
-MIT. See [`LICENSE`](./LICENSE).
+MIT。詳細は [`LICENSE`](./LICENSE) を参照してください。
