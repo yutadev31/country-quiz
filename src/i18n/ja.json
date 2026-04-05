@@ -18,6 +18,12 @@
     "correct": "正解！",
     "incorrect": "不正解"
   },
+  "game": {
+    "ready-title": "この設定で始めます",
+    "no-time-limit": "なし",
+    "enabled": "オン",
+    "disabled": "オフ"
+  },
   "button": {
     "start": "スタート",
     "restart": "もう一度",

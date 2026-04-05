@@ -1,10 +1,12 @@
 import { useQueryState } from "nuqs";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import Game from "@/components/Game";
 import { gameModes, isGameModeId } from "@/data/game-modes";
 import { shuffleArray } from "@/utils/array";
 
 export default function GamePage() {
+  const { t } = useTranslation();
   const [modeParam] = useQueryState("mode");
   const [questionFieldParam] = useQueryState("question");
   const [answerFieldParam] = useQueryState("choice");
@@ -40,6 +42,14 @@ export default function GamePage() {
   const area = modeConfig.fixedArea ?? "all";
   const questionField = modeConfig.normalizeQuestionField(questionFieldParam);
   const answerField = modeConfig.normalizeAnswerField(answerFieldParam);
+  const questionType = modeConfig.questionOptions.find(
+    (option) => option.value === questionField,
+  );
+  const choiceType = modeConfig.answerOptions.find(
+    (option) => option.value === answerField,
+  );
+  const timeLimitSeconds = parseTimeLimit(timeLimitParam);
+  const stopOnMistake = stopOnMistakeParam === "on";
   const items = modeConfig
     .getItems({
       area,
@@ -58,6 +68,33 @@ export default function GamePage() {
 
       return result;
     });
+  const questionCount = parseCount(items, countParam || "10");
+  const summaryItems = [
+    {
+      label: t("heading.mode"),
+      value: t(modeConfig.titleKey),
+    },
+    {
+      label: t("label.question-type"),
+      value: questionType ? t(questionType.labelKey) : String(questionField),
+    },
+    {
+      label: t("label.choice-type"),
+      value: choiceType ? t(choiceType.labelKey) : String(answerField),
+    },
+    {
+      label: t("label.number-of-questions"),
+      value: `${questionCount}`,
+    },
+    {
+      label: t("label.time-limit"),
+      value: timeLimitSeconds === null ? t("game.no-time-limit") : `${timeLimitSeconds}`,
+    },
+    {
+      label: t("heading.one-shot-mode"),
+      value: stopOnMistake ? t("game.enabled") : t("game.disabled"),
+    },
+  ];
 
   return (
     <div className="mx-auto max-w-xl">
@@ -70,10 +107,11 @@ export default function GamePage() {
         items={items}
         questionField={questionField}
         answerField={answerField}
-        questionCount={parseCount(items, countParam || "10")}
-        timeLimitSeconds={parseTimeLimit(timeLimitParam)}
-        stopOnMistake={stopOnMistakeParam === "on"}
+        questionCount={questionCount}
+        timeLimitSeconds={timeLimitSeconds}
+        stopOnMistake={stopOnMistake}
         fieldDisplayTypes={modeConfig.fieldDisplayTypes}
+        summaryItems={summaryItems}
       />
     </div>
   );

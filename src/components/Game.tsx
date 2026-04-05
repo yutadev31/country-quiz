@@ -11,6 +11,11 @@ type AnswerRecord<T extends Record<string, string | null>> = {
   isCorrect: boolean;
 };
 
+type GameSummaryItem = {
+  label: string;
+  value: string;
+};
+
 function FieldContent<T extends Record<string, string | null>>({
   item,
   field,
@@ -161,6 +166,7 @@ export default function Game<T extends Record<string, string | null>>({
   timeLimitSeconds,
   randomSeed,
   onRestart,
+  summaryItems,
 }: {
   fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
   items: QuizItem<T>[];
@@ -171,6 +177,7 @@ export default function Game<T extends Record<string, string | null>>({
   timeLimitSeconds: number | null;
   randomSeed: number;
   onRestart: () => void;
+  summaryItems: GameSummaryItem[];
 }) {
   const questions = useMemo(() => {
     return shuffleArray(items, randomSeed).slice(0, questionCount);
@@ -363,7 +370,23 @@ export default function Game<T extends Record<string, string | null>>({
 
       {/* Main */}
       {current === -1 ? (
-        <div className="mt-16 flex flex-col items-center gap-6">
+        <div className="mt-12 flex w-full flex-col items-center gap-6">
+          <div className="w-full rounded-xl border border-zinc-700 bg-zinc-800 p-5 shadow-xl">
+            <p className="mb-4 font-bold text-xl">{t("game.ready-title")}</p>
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+              {summaryItems.map((item) => (
+                <div
+                  key={item.label}
+                  className="rounded-lg border border-zinc-700 bg-zinc-900/80 px-4 py-3"
+                >
+                  <p className="text-sm text-zinc-400">{item.label}</p>
+                  <p className="mt-1 font-semibold text-zinc-100">
+                    {item.value}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
           <button
             type="button"
             onClick={() => {
