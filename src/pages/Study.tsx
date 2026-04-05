@@ -1,7 +1,6 @@
 import { useQueryState } from "nuqs";
 import { useTranslation } from "react-i18next";
 import { LuArrowLeft, LuGlobe } from "react-icons/lu";
-import areas from "@/data/countries/areas.json";
 import type { FieldOption, GameModeId, QuizItem } from "@/data/game-mode-types";
 import { gameModeList, gameModes, isGameModeId } from "@/data/game-modes";
 
@@ -103,10 +102,9 @@ export default function StudyPage() {
   const { t } = useTranslation();
   const [, setPage] = useQueryState("page");
   const [modeParam] = useQueryState("mode");
-  const [areaParam] = useQueryState("area");
   const mode = isGameModeId(modeParam) ? modeParam : "countries";
   const activeMode = gameModes[mode];
-  const area = activeMode.hasAreaSelection ? (areaParam ?? "all") : "all";
+  const area = activeMode.fixedArea ?? "all";
   const items = activeMode.getItems({ area });
   const fields = getListFields([
     ...activeMode.questionOptions,
@@ -147,7 +145,7 @@ export default function StudyPage() {
           {gameModeList.map((gameMode) => (
             <a
               key={gameMode.id}
-              href={`/country-quiz?page=study&mode=${gameMode.id}${gameMode.hasAreaSelection ? `&area=${area}` : ""}`}
+              href={`/country-quiz?page=study&mode=${gameMode.id}`}
               className={`rounded-full border px-4 py-2 text-sm transition ${
                 mode === gameMode.id
                   ? "border-blue-400 bg-blue-500 text-white"
@@ -158,34 +156,6 @@ export default function StudyPage() {
             </a>
           ))}
         </div>
-
-        {activeMode.hasAreaSelection && (
-          <div className="flex flex-wrap gap-2">
-            <a
-              href={`/country-quiz?page=study&mode=${mode}&area=all`}
-              className={`rounded-full border px-4 py-2 text-sm transition ${
-                area === "all"
-                  ? "border-emerald-400 bg-emerald-500 text-white"
-                  : "border-zinc-700 bg-zinc-900/80 text-zinc-200 hover:border-zinc-500 hover:bg-zinc-800"
-              }`}
-            >
-              {t("area.all")}
-            </a>
-            {areas.map((areaId) => (
-              <a
-                key={areaId}
-                href={`/country-quiz?page=study&mode=${mode}&area=${areaId}`}
-                className={`rounded-full border px-4 py-2 text-sm transition ${
-                  area === areaId
-                    ? "border-emerald-400 bg-emerald-500 text-white"
-                    : "border-zinc-700 bg-zinc-900/80 text-zinc-200 hover:border-zinc-500 hover:bg-zinc-800"
-                }`}
-              >
-                {t(`area.${areaId}`)}
-              </a>
-            ))}
-          </div>
-        )}
 
         <p className="text-sm text-zinc-400">
           {t("study.count", { count: items.length })}

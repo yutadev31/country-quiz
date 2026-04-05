@@ -32,8 +32,31 @@
   "mode": {
     "countries": {
       "title": "国",
-      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード",
-      "all-title": "世界"
+      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
+    },
+    "countries-asia": {
+      "title": "アジア",
+      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
+    },
+    "countries-europe": {
+      "title": "ヨーロッパ",
+      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
+    },
+    "countries-africa": {
+      "title": "アフリカ",
+      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
+    },
+    "countries-north-america": {
+      "title": "北アメリカ",
+      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
+    },
+    "countries-south-america": {
+      "title": "南アメリカ",
+      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
+    },
+    "countries-oceania": {
+      "title": "オセアニア",
+      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
     },
     "us-states": {
       "title": "アメリカの州",

@@ -5,7 +5,6 @@ import { gameModes, isGameModeId } from "@/data/game-modes";
 import { shuffleArray } from "@/utils/array";
 
 export default function GamePage() {
-  const [area] = useQueryState("area");
   const [modeParam] = useQueryState("mode");
   const [questionFieldParam] = useQueryState("question");
   const [answerFieldParam] = useQueryState("choice");
@@ -38,11 +37,12 @@ export default function GamePage() {
 
   const mode = isGameModeId(modeParam) ? modeParam : "countries";
   const modeConfig = gameModes[mode];
+  const area = modeConfig.fixedArea ?? "all";
   const questionField = modeConfig.normalizeQuestionField(questionFieldParam);
   const answerField = modeConfig.normalizeAnswerField(answerFieldParam);
   const items = modeConfig
     .getItems({
-      area: area || "",
+      area,
     })
     .filter((item) => item[questionField] && item[answerField])
     .map((item) => {

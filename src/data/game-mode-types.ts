@@ -1,10 +1,25 @@
 export type GameModeId =
   | "countries"
+  | "countries-asia"
+  | "countries-europe"
+  | "countries-africa"
+  | "countries-north-america"
+  | "countries-south-america"
+  | "countries-oceania"
   | "us-states"
   | "ca-provinces"
   | "mx-states"
   | "fr-regions"
   | "de-states";
+
+export type GameModeCategoryId =
+  | "countries"
+  | "asia"
+  | "europe"
+  | "africa"
+  | "north-america"
+  | "south-america"
+  | "oceania";
 
 export type FieldDisplayType = "text" | "img" | "id";
 
@@ -26,6 +41,7 @@ export type GameModeConfig = {
   titleKey: string;
   descriptionKey: string;
   hasAreaSelection: boolean;
+  fixedArea?: string;
   questionOptions: FieldOption[];
   answerOptions: FieldOption[];
   defaultQuestionField: string;
@@ -34,4 +50,9 @@ export type GameModeConfig = {
   getItems: (args: GetItemsArgs) => QuizItem[];
   normalizeQuestionField: (value: string | null) => string;
   normalizeAnswerField: (value: string | null) => string;
+};
+
+export type GameModeCategory = {
+  id: GameModeCategoryId;
+  modeIds: GameModeId[];
 };
