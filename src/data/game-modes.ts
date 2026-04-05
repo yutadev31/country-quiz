@@ -20,7 +20,6 @@ function createCountryAreaMode(area: Exclude<GameModeCategoryId, "countries">): 
     ...countriesMode,
     id: `countries-${area}` as GameModeId,
     titleKey: `mode.countries-${area}.title`,
-    descriptionKey: "mode.countries.description",
     hasAreaSelection: false,
     fixedArea: area,
   };

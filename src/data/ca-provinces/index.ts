@@ -11,7 +11,6 @@ export interface CAProvinces {
 export const caStateMode: GameModeConfig = {
   id: "ca-provinces",
   titleKey: "mode.ca-provinces.title",
-  descriptionKey: "mode.ca-provinces.description",
   hasAreaSelection: false,
   questionOptions: [
     { labelKey: "content-type.ca-province-name", value: "name" },

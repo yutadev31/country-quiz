@@ -120,9 +120,7 @@ function ModeSection({
               className="hidden"
             />
             <div className="font-bold">
-              {category.id === "countries"
-                ? t("mode-category.countries.title")
-                : t(`area.${category.id}`)}
+              {category.id === "countries" ? t("mode.countries.title") : t(`area.${category.id}`)}
             </div>
           </label>
         ))}
@@ -150,13 +148,6 @@ function ModeSection({
                 className="hidden"
               />
               <div className="font-bold text-lg">{t(gameMode.titleKey)}</div>
-              <p
-                className={`mt-1 text-sm ${
-                  mode === gameMode.id ? "text-blue-100" : "text-zinc-300"
-                }`}
-              >
-                {t(gameMode.descriptionKey)}
-              </p>
             </label>
           ))}
         </div>

@@ -11,7 +11,6 @@ export interface FRRegion {
 export const frRegionsMode: GameModeConfig = {
   id: "fr-regions",
   titleKey: "mode.fr-regions.title",
-  descriptionKey: "mode.fr-regions.description",
   hasAreaSelection: false,
   questionOptions: [
     { labelKey: "content-type.fr-region-name", value: "name" },

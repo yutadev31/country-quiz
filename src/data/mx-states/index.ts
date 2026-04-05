@@ -11,7 +11,6 @@ export interface MXState {
 export const mxStatesMode: GameModeConfig = {
   id: "mx-states",
   titleKey: "mode.mx-states.title",
-  descriptionKey: "mode.mx-states.description",
   hasAreaSelection: false,
   questionOptions: [
     { labelKey: "content-type.mx-state-name", value: "name" },

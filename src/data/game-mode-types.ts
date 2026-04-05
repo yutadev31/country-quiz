@@ -39,7 +39,6 @@ export type GetItemsArgs = {
 export type GameModeConfig = {
   id: GameModeId;
   titleKey: string;
-  descriptionKey: string;
   hasAreaSelection: boolean;
   fixedArea?: string;
   questionOptions: FieldOption[];

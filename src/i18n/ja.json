@@ -31,63 +31,40 @@
   },
   "mode": {
     "countries": {
-      "title": "国",
-      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
-    },
-    "countries-asia": {
-      "title": "アジア",
-      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
-    },
-    "countries-europe": {
-      "title": "ヨーロッパ",
-      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
-    },
-    "countries-africa": {
-      "title": "アフリカ",
-      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
-    },
-    "countries-north-america": {
-      "title": "北アメリカ",
-      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
-    },
-    "countries-south-america": {
-      "title": "南アメリカ",
-      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
-    },
-    "countries-oceania": {
-      "title": "オセアニア",
-      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
-    },
-    "us-states": {
-      "title": "アメリカの州",
-      "description": "州名・州都・州旗などで遊ぶモード"
-    },
-    "ca-provinces": {
-      "title": "カナダの州",
-      "description": "州名・州都などで遊ぶモード"
-    },
-    "mx-states": {
-      "title": "メキシコの州",
-      "description": "州名・州都などで遊ぶモード"
-    },
-    "fr-regions": {
-      "title": "フランスの地域圏",
-      "description": "地域圏名・首府で遊ぶモード"
-    },
-    "de-states": {
-      "title": "ドイツの州",
-      "description": "州名・州都で遊ぶモード"
-    }
-  },
-  "mode-category": {
-    "countries": {
       "title": "国"
     },
-    "north-america": {
-      "title": "北米"
+    "countries-asia": {
+      "title": "アジア"
     },
-    "europe": {
+    "countries-europe": {
       "title": "ヨーロッパ"
+    },
+    "countries-africa": {
+      "title": "アフリカ"
+    },
+    "countries-north-america": {
+      "title": "北アメリカ"
+    },
+    "countries-south-america": {
+      "title": "南アメリカ"
+    },
+    "countries-oceania": {
+      "title": "オセアニア"
+    },
+    "us-states": {
+      "title": "アメリカの州"
+    },
+    "ca-provinces": {
+      "title": "カナダの州"
+    },
+    "mx-states": {
+      "title": "メキシコの州"
+    },
+    "fr-regions": {
+      "title": "フランスの地域圏"
+    },
+    "de-states": {
+      "title": "ドイツの州"
     }
   },
   "content-type": {

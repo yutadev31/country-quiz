@@ -53,7 +53,6 @@ export default function getCountries(area: string) {
 export const countriesMode: GameModeConfig = {
   id: "countries",
   titleKey: "mode.countries.title",
-  descriptionKey: "mode.countries.description",
   hasAreaSelection: true,
   questionOptions: [
     { labelKey: "content-type.name", value: "name" },
