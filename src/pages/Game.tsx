@@ -2,8 +2,8 @@ import { useQueryState } from "nuqs";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Game from "@/components/Game";
-import { gameModes, isGameModeId } from "@/data/game-modes";
 import type { FieldDisplayType } from "@/data/game-mode-types";
+import { gameModes, isGameModeId } from "@/data/game-modes";
 import { shuffleArray } from "@/utils/array";
 
 function normalizeField(
