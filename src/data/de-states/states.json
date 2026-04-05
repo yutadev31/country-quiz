@@ -3,96 +3,91 @@
     "name": "ザクセン州",
     "nameNative": "Sachsen",
     "capital": "ドレスデン",
-    "code": "de-sn"
+    "id": "de-sn"
   },
   {
     "name": "ザクセン＝アンハルト州",
     "nameNative": "Sachsen-Anhalt",
     "capital": "マクデブルク",
-    "code": "de-st"
+    "id": "de-st"
   },
   {
     "name": "ザールラント州",
     "nameNative": "Saarland",
     "capital": "ザールブリュッケン",
-    "code": "de-sl"
+    "id": "de-sl"
   },
   {
     "name": "シュレースヴィヒ＝ホルシュタイン州",
     "nameNative": "Schleswig-Holstein",
     "capital": "キール",
-    "code": "de-sh"
+    "id": "de-sh"
   },
   {
     "name": "テューリンゲン州",
     "nameNative": "Thüringen",
     "capital": "エアフルト",
-    "code": "de-th"
+    "id": "de-th"
   },
   {
     "name": "ニーダーザクセン州",
     "nameNative": "Niedersachsen",
     "capital": "ハノーファー",
-    "code": "de-ni"
+    "id": "de-ni"
   },
   {
     "name": "ノルトライン＝ヴェストファーレン州",
     "nameNative": "Nordrhein-Westfalen",
     "capital": "デュッセルドルフ",
-    "code": "de-nw"
+    "id": "de-nw"
   },
   {
     "name": "ハンブルク",
     "nameNative": "Hamburg",
     "capital": "",
-    "code": "de-hh"
+    "id": "de-hh"
   },
   {
     "name": "バイエルン",
     "nameNative": "Bayern",
     "capital": "ミュンヘン",
-    "code": "de-by"
+    "id": "de-by"
   },
   {
     "name": "バーデン＝ヴュルテンベルク州",
     "nameNative": "Baden-Württemberg",
     "capital": "シュトゥットガルト",
-    "code": "de-bw"
+    "id": "de-bw"
   },
   {
     "name": "ブランデンブルク州",
     "nameNative": "Brandenburg",
     "capital": "ポツダム",
-    "code": "de-bb"
+    "id": "de-bb"
   },
   {
     "name": "ブレーメン州",
     "nameNative": "Freie Hansestadt Bremen",
     "capital": "ブレーメン",
-    "code": "de-hb"
+    "id": "de-hb"
   },
   {
     "name": "ヘッセン州",
     "nameNative": "Hessen",
     "capital": "ヴィースバーデン",
-    "code": "de-he"
+    "id": "de-he"
   },
-  {
-    "name": "ベルリン",
-    "nameNative": "Berlin",
-    "capital": "",
-    "code": "de-be"
-  },
+  { "name": "ベルリン", "nameNative": "Berlin", "capital": "", "id": "de-be" },
   {
     "name": "メクレンブルク＝フォアポンメルン州",
     "nameNative": "Mecklenburg-Vorpommern",
     "capital": "シュヴェリーン",
-    "code": "de-mv"
+    "id": "de-mv"
   },
   {
     "name": "ラインラント＝プファルツ州",
     "nameNative": "Rheinland-Pfalz",
     "capital": "マインツ",
-    "code": "de-rp"
+    "id": "de-rp"
   }
 ]

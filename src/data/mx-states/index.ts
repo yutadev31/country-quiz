@@ -30,13 +30,7 @@ export const mxStatesMode: GameModeConfig = {
     nameNative: "text",
     capital: "text",
   },
-  getItems: () =>
-    states.map((state) => ({
-      id: state.code,
-      name: state.name,
-      nameNative: state.nameNative,
-      capital: state.capital,
-    })),
+  getItems: () => states,
   normalizeQuestionField: (value) => {
     if (value === "nameNative" || value === "capital") {
       return value;

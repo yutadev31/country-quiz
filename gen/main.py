@@ -60,8 +60,8 @@ def transform_data(
     df = df.rename(columns=rename_map)
 
     # 共通処理
-    if "code" in df.columns:
-        df["code"] = df["code"].str.lower()
+    if "id" in df.columns:
+        df["id"] = df["id"].str.lower()
 
     # カスタム処理
     if post_process:
@@ -114,8 +114,8 @@ def process_countries(path: str):
             "countryLabel_native": "nameNative",
             "capitalLabel": "capital",
             "continentLabel": "continent",
-            "iso2": "code",
-            "tldLabel": "tld",
+            "iso2": "id",
+            "tldLabel": "domain",
         },
         post_process=lambda df: df.assign(
             name=df["name"].replace(
@@ -165,7 +165,7 @@ def process_fr_regions(path: str):
             "regionLabel": "name",
             "regionLabel_fr": "nameNative",
             "capitalLabel": "capital",
-            "iso2": "code",
+            "iso2": "id",
         },
         post_process=post_process,
     )
@@ -191,7 +191,7 @@ def process_de_states(path: str):
             "stateLabel": "name",
             "stateLabel_de": "nameNative",
             "capitalLabel": "capital",
-            "iso2": "code",
+            "iso2": "id",
         },
     )
 
@@ -216,7 +216,7 @@ def process_us_states(path: str):
             "stateLabel": "name",
             "stateLabel_en": "nameNative",
             "capitalLabel": "capital",
-            "iso2": "code",
+            "iso2": "id",
         },
     )
 
@@ -241,7 +241,7 @@ def process_ca_provinces(path: str):
             "provinceLabel": "name",
             "provinceLabel_en": "nameNative",
             "capitalLabel": "capital",
-            "iso2": "code",
+            "iso2": "id",
         },
     )
 
@@ -266,7 +266,7 @@ def process_mx_states(path: str):
             "stateLabel": "name",
             "stateLabel_es": "nameNative",
             "capitalLabel": "capital",
-            "iso2": "code",
+            "iso2": "id",
         },
     )
 

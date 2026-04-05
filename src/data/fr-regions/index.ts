@@ -30,13 +30,7 @@ export const frRegionsMode: GameModeConfig = {
     nameNative: "text",
     capital: "text",
   },
-  getItems: () =>
-    regions.map((region) => ({
-      id: region.code,
-      name: region.name,
-      nameNative: region.nameNative,
-      capital: region.capital,
-    })),
+  getItems: () => regions,
   normalizeQuestionField: (value) => {
     if (value === "capital") {
       return value;

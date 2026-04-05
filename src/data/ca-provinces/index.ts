@@ -30,13 +30,7 @@ export const caStateMode: GameModeConfig = {
     nameNative: "text",
     capital: "text",
   },
-  getItems: () =>
-    provinces.map((province) => ({
-      id: province.code,
-      name: province.name,
-      nameNative: province.nameNative,
-      capital: province.capital,
-    })),
+  getItems: () => provinces,
   normalizeQuestionField: (value) => {
     if (value === "capital" || value === "nameNative") {
       return value;

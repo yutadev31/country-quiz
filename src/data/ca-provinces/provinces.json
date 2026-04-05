@@ -3,60 +3,60 @@
     "name": "アルバータ州",
     "nameNative": "Alberta",
     "capital": "エドモントン",
-    "code": "ca-ab"
+    "id": "ca-ab"
   },
   {
     "name": "オンタリオ州",
     "nameNative": "Ontario",
     "capital": "トロント",
-    "code": "ca-on"
+    "id": "ca-on"
   },
   {
     "name": "ケベック州",
     "nameNative": "Quebec",
     "capital": "ケベック市",
-    "code": "ca-qc"
+    "id": "ca-qc"
   },
   {
     "name": "サスカチュワン州",
     "nameNative": "Saskatchewan",
     "capital": "レジャイナ",
-    "code": "ca-sk"
+    "id": "ca-sk"
   },
   {
     "name": "ニューファンドランド・ラブラドール州",
     "nameNative": "Newfoundland and Labrador",
     "capital": "セイント・ジョンズ",
-    "code": "ca-nl"
+    "id": "ca-nl"
   },
   {
     "name": "ニューブランズウィック州",
     "nameNative": "New Brunswick",
     "capital": "フレデリクトン",
-    "code": "ca-nb"
+    "id": "ca-nb"
   },
   {
     "name": "ノバスコシア州",
     "nameNative": "Nova Scotia",
     "capital": "ハリファックス",
-    "code": "ca-ns"
+    "id": "ca-ns"
   },
   {
     "name": "ブリティッシュコロンビア州",
     "nameNative": "British Columbia",
     "capital": "ビクトリア",
-    "code": "ca-bc"
+    "id": "ca-bc"
   },
   {
     "name": "プリンスエドワードアイランド州",
     "nameNative": "Prince Edward Island",
     "capital": "シャーロットタウン",
-    "code": "ca-pe"
+    "id": "ca-pe"
   },
   {
     "name": "マニトバ州",
     "nameNative": "Manitoba",
     "capital": "ウィニペグ",
-    "code": "ca-mb"
+    "id": "ca-mb"
   }
 ]

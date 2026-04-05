@@ -2,12 +2,12 @@ import type { GameModeConfig } from "@/data/game-mode-types";
 import countries from "./countries.json";
 
 interface Item {
-  code: string;
+  id: string;
   name: string;
   nameNative: string[];
   capital: string | null;
   continent: string[];
-  tld: string | null;
+  domain: string | null;
 }
 
 export interface Country {
@@ -22,7 +22,7 @@ export interface Country {
 const countryAreaMap = new Map(
   countries
     .filter((country) => country.continent.length > 0)
-    .map((country) => [country.code, country.continent[0]]),
+    .map((country) => [country.id, country.continent[0]]),
 );
 
 export function getCountryAreaById(id: string) {
@@ -40,12 +40,8 @@ export default function getCountries(area: string) {
 
   return filter(countries, area).map((country) => {
     return {
-      id: country.code,
-      name: country.name,
-      nameNative: country.nameNative,
-      capital: country.capital,
-      domain: country.tld,
-      flag: `https://flagcdn.com/${country.code}.svg`,
+      ...country,
+      flag: `https://flagcdn.com/${country.id}.svg`,
     };
   });
 }
