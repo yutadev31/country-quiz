@@ -1,7 +1,6 @@
-import areas from "@/data/countries/areas.json";
-import { getCountryAreaById } from "@/data/countries";
 import { caStateMode } from "@/data/ca-provinces";
-import { countriesMode } from "@/data/countries";
+import { countriesMode, getCountryAreaById } from "@/data/countries";
+import areas from "@/data/countries/areas.json";
 import { deStatesMode } from "@/data/de-states";
 import { frRegionsMode } from "@/data/fr-regions";
 import type {
@@ -15,7 +14,9 @@ import { mxStatesMode } from "./mx-states";
 
 const gameModeAreaIds = areas as Exclude<GameModeCategoryId, "countries">[];
 
-function createCountryAreaMode(area: Exclude<GameModeCategoryId, "countries">): GameModeConfig {
+function createCountryAreaMode(
+  area: Exclude<GameModeCategoryId, "countries">,
+): GameModeConfig {
   return {
     ...countriesMode,
     id: `countries-${area}` as GameModeId,
@@ -45,12 +46,18 @@ export const gameModeList = Object.values(gameModes);
 export const gameModeCategories: GameModeCategory[] = [
   {
     id: "countries",
-    modeIds: ["countries", ...gameModeAreaIds.map((area) => `countries-${area}` as GameModeId)],
+    modeIds: [
+      "countries",
+      ...gameModeAreaIds.map((area) => `countries-${area}` as GameModeId),
+    ],
   },
   ...gameModeAreaIds.flatMap((area) => {
     const modeIds = gameModeList
       .filter((gameMode) => {
-        if (gameMode.id === "countries" || gameMode.id.startsWith("countries-")) {
+        if (
+          gameMode.id === "countries" ||
+          gameMode.id.startsWith("countries-")
+        ) {
           return false;
         }
         return getCountryAreaById(gameMode.id.slice(0, 2)) === area;
@@ -62,8 +69,8 @@ export const gameModeCategories: GameModeCategory[] = [
 
 export function getGameModeCategoryId(mode: GameModeId) {
   return (
-    gameModeCategories.find((category) => category.modeIds.includes(mode))?.id ??
-    "countries"
+    gameModeCategories.find((category) => category.modeIds.includes(mode))
+      ?.id ?? "countries"
   );
 }
 

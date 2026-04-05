@@ -9,6 +9,7 @@
     "build": "tsc -b && vite build",
     "format": "biome format --write",
     "lint": "biome lint --write",
+    "check": "biome check --write",
     "preview": "vite preview",
     "tauri": "tauri"
   },

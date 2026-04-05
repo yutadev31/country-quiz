@@ -88,7 +88,10 @@ export default function GamePage() {
     },
     {
       label: t("label.time-limit"),
-      value: timeLimitSeconds === null ? t("game.no-time-limit") : `${timeLimitSeconds}`,
+      value:
+        timeLimitSeconds === null
+          ? t("game.no-time-limit")
+          : `${timeLimitSeconds}`,
     },
     {
       label: t("heading.one-shot-mode"),
