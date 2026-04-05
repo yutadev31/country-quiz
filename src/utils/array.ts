@@ -9,7 +9,13 @@ function mulberry32(seed: number) {
 }
 
 export function shuffleArray<T>(array: T[], seed?: number): T[] {
-  const rand = mulberry32(seed || Math.floor(Math.random() * 4096));
+  const rand = mulberry32(seed ?? Math.floor(Math.random() * 4096));
+  const result = [...array];
 
-  return [...array].sort(() => rand() - 0.5);
+  for (let i = result.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(rand() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+
+  return result;
 }
