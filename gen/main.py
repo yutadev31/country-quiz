@@ -123,7 +123,8 @@ def process_countries(path: str):
                     "中華民国": "台湾",
                     "朝鮮民主主義人民共和国": "北朝鮮",
                 }
-            )
+            ),
+            flag=df["id"].map(lambda country_id: f"https://flagcdn.com/{country_id}.svg"),
         ),
     )
 
@@ -218,6 +219,9 @@ def process_us_states(path: str):
             "capitalLabel": "capital",
             "iso2": "id",
         },
+        post_process=lambda df: df.assign(
+            flag=df["id"].map(lambda state_id: f"https://flagcdn.com/{state_id}.svg")
+        ),
     )
 
     save_and_format(df, "src/data/us-states/states.json")

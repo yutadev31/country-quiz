@@ -8,12 +8,13 @@ interface Item {
   capital: string | null;
   continent: string[];
   domain: string | null;
+  flag: string;
 }
 
 export interface Country {
   id: string;
   name: string;
-  nameNative: string;
+  nameNative: string[];
   capital: string | null;
   domain: string | null;
   flag: string;
@@ -38,12 +39,9 @@ export default function getCountries(area: string) {
     return filterRegion(countries, area);
   };
 
-  return filter(countries, area).map((country) => {
-    return {
-      ...country,
-      flag: `https://flagcdn.com/${country.id}.svg`,
-    };
-  });
+  return filter(countries, area).map((country) => ({
+    ...country,
+  }));
 }
 
 export const countriesMode: GameModeConfig = {

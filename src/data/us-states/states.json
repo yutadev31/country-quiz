@@ -3,300 +3,350 @@
     "name": "アイオワ州",
     "nameNative": "Iowa",
     "capital": "デ・モイン",
-    "id": "us-ia"
+    "id": "us-ia",
+    "flag": "https:\/\/flagcdn.com\/us-ia.svg"
   },
   {
     "name": "アイダホ州",
     "nameNative": "Idaho",
     "capital": "ボイシ",
-    "id": "us-id"
+    "id": "us-id",
+    "flag": "https:\/\/flagcdn.com\/us-id.svg"
   },
   {
     "name": "アラスカ州",
     "nameNative": "Alaska",
     "capital": "ジュノー",
-    "id": "us-ak"
+    "id": "us-ak",
+    "flag": "https:\/\/flagcdn.com\/us-ak.svg"
   },
   {
     "name": "アラバマ州",
     "nameNative": "Alabama",
     "capital": "モンゴメリー",
-    "id": "us-al"
+    "id": "us-al",
+    "flag": "https:\/\/flagcdn.com\/us-al.svg"
   },
   {
     "name": "アリゾナ州",
     "nameNative": "Arizona",
     "capital": "フェニックス",
-    "id": "us-az"
+    "id": "us-az",
+    "flag": "https:\/\/flagcdn.com\/us-az.svg"
   },
   {
     "name": "アーカンソー州",
     "nameNative": "Arkansas",
     "capital": "リトル・ロック",
-    "id": "us-ar"
+    "id": "us-ar",
+    "flag": "https:\/\/flagcdn.com\/us-ar.svg"
   },
   {
     "name": "イリノイ州",
     "nameNative": "Illinois",
     "capital": "スプリングフィールド",
-    "id": "us-il"
+    "id": "us-il",
+    "flag": "https:\/\/flagcdn.com\/us-il.svg"
   },
   {
     "name": "インディアナ州",
     "nameNative": "Indiana",
     "capital": "インディアナポリス",
-    "id": "us-in"
+    "id": "us-in",
+    "flag": "https:\/\/flagcdn.com\/us-in.svg"
   },
   {
     "name": "ウィスコンシン州",
     "nameNative": "Wisconsin",
     "capital": "マディソン",
-    "id": "us-wi"
+    "id": "us-wi",
+    "flag": "https:\/\/flagcdn.com\/us-wi.svg"
   },
   {
     "name": "ウェストバージニア州",
     "nameNative": "West Virginia",
     "capital": "チャールストン",
-    "id": "us-wv"
+    "id": "us-wv",
+    "flag": "https:\/\/flagcdn.com\/us-wv.svg"
   },
   {
     "name": "オクラホマ州",
     "nameNative": "Oklahoma",
     "capital": "オクラホマシティ",
-    "id": "us-ok"
+    "id": "us-ok",
+    "flag": "https:\/\/flagcdn.com\/us-ok.svg"
   },
   {
     "name": "オハイオ州",
     "nameNative": "Ohio",
     "capital": "コロンバス",
-    "id": "us-oh"
+    "id": "us-oh",
+    "flag": "https:\/\/flagcdn.com\/us-oh.svg"
   },
   {
     "name": "オレゴン州",
     "nameNative": "Oregon",
     "capital": "セイラム",
-    "id": "us-or"
+    "id": "us-or",
+    "flag": "https:\/\/flagcdn.com\/us-or.svg"
   },
   {
     "name": "カリフォルニア州",
     "nameNative": "California",
     "capital": "サクラメント",
-    "id": "us-ca"
+    "id": "us-ca",
+    "flag": "https:\/\/flagcdn.com\/us-ca.svg"
   },
   {
     "name": "カンザス州",
     "nameNative": "Kansas",
     "capital": "トピカ",
-    "id": "us-ks"
+    "id": "us-ks",
+    "flag": "https:\/\/flagcdn.com\/us-ks.svg"
   },
   {
     "name": "ケンタッキー州",
     "nameNative": "Kentucky",
     "capital": "フランクフォート",
-    "id": "us-ky"
+    "id": "us-ky",
+    "flag": "https:\/\/flagcdn.com\/us-ky.svg"
   },
   {
     "name": "コネチカット州",
     "nameNative": "Connecticut",
     "capital": "ハートフォード",
-    "id": "us-ct"
+    "id": "us-ct",
+    "flag": "https:\/\/flagcdn.com\/us-ct.svg"
   },
   {
     "name": "コロラド州",
     "nameNative": "Colorado",
     "capital": "デンバー",
-    "id": "us-co"
+    "id": "us-co",
+    "flag": "https:\/\/flagcdn.com\/us-co.svg"
   },
   {
     "name": "サウスカロライナ州",
     "nameNative": "South Carolina",
     "capital": "コロンビア",
-    "id": "us-sc"
+    "id": "us-sc",
+    "flag": "https:\/\/flagcdn.com\/us-sc.svg"
   },
   {
     "name": "サウスダコタ州",
     "nameNative": "South Dakota",
     "capital": "ピア",
-    "id": "us-sd"
+    "id": "us-sd",
+    "flag": "https:\/\/flagcdn.com\/us-sd.svg"
   },
   {
     "name": "ジョージア州",
     "nameNative": "Georgia",
     "capital": "アトランタ",
-    "id": "us-ga"
+    "id": "us-ga",
+    "flag": "https:\/\/flagcdn.com\/us-ga.svg"
   },
   {
     "name": "テキサス州",
     "nameNative": "Texas",
     "capital": "オースティン",
-    "id": "us-tx"
+    "id": "us-tx",
+    "flag": "https:\/\/flagcdn.com\/us-tx.svg"
   },
   {
     "name": "テネシー州",
     "nameNative": "Tennessee",
     "capital": "ナッシュヴィル",
-    "id": "us-tn"
+    "id": "us-tn",
+    "flag": "https:\/\/flagcdn.com\/us-tn.svg"
   },
   {
     "name": "デラウェア州",
     "nameNative": "Delaware",
     "capital": "ドーヴァー",
-    "id": "us-de"
+    "id": "us-de",
+    "flag": "https:\/\/flagcdn.com\/us-de.svg"
   },
   {
     "name": "ニュージャージー州",
     "nameNative": "New Jersey",
     "capital": "トレントン",
-    "id": "us-nj"
+    "id": "us-nj",
+    "flag": "https:\/\/flagcdn.com\/us-nj.svg"
   },
   {
     "name": "ニューハンプシャー州",
     "nameNative": "New Hampshire",
     "capital": "コンコード",
-    "id": "us-nh"
+    "id": "us-nh",
+    "flag": "https:\/\/flagcdn.com\/us-nh.svg"
   },
   {
     "name": "ニューメキシコ州",
     "nameNative": "New Mexico",
     "capital": "サンタ・フェ",
-    "id": "us-nm"
+    "id": "us-nm",
+    "flag": "https:\/\/flagcdn.com\/us-nm.svg"
   },
   {
     "name": "ニューヨーク州",
     "nameNative": "New York",
     "capital": "オールバニ",
-    "id": "us-ny"
+    "id": "us-ny",
+    "flag": "https:\/\/flagcdn.com\/us-ny.svg"
   },
   {
     "name": "ネバダ州",
     "nameNative": "Nevada",
     "capital": "カーソンシティ",
-    "id": "us-nv"
+    "id": "us-nv",
+    "flag": "https:\/\/flagcdn.com\/us-nv.svg"
   },
   {
     "name": "ネブラスカ州",
     "nameNative": "Nebraska",
     "capital": "リンカーン",
-    "id": "us-ne"
+    "id": "us-ne",
+    "flag": "https:\/\/flagcdn.com\/us-ne.svg"
   },
   {
     "name": "ノースカロライナ州",
     "nameNative": "North Carolina",
     "capital": "ローリー",
-    "id": "us-nc"
+    "id": "us-nc",
+    "flag": "https:\/\/flagcdn.com\/us-nc.svg"
   },
   {
     "name": "ノースダコタ州",
     "nameNative": "North Dakota",
     "capital": "ビスマーク",
-    "id": "us-nd"
+    "id": "us-nd",
+    "flag": "https:\/\/flagcdn.com\/us-nd.svg"
   },
   {
     "name": "ハワイ州",
     "nameNative": "Hawaii",
     "capital": "ホノルル",
-    "id": "us-hi"
+    "id": "us-hi",
+    "flag": "https:\/\/flagcdn.com\/us-hi.svg"
   },
   {
     "name": "バージニア州",
     "nameNative": "Virginia",
     "capital": "リッチモンド",
-    "id": "us-va"
+    "id": "us-va",
+    "flag": "https:\/\/flagcdn.com\/us-va.svg"
   },
   {
     "name": "バーモント州",
     "nameNative": "Vermont",
     "capital": "モントピリア",
-    "id": "us-vt"
+    "id": "us-vt",
+    "flag": "https:\/\/flagcdn.com\/us-vt.svg"
   },
   {
     "name": "フロリダ州",
     "nameNative": "Florida",
     "capital": "タラハシー",
-    "id": "us-fl"
+    "id": "us-fl",
+    "flag": "https:\/\/flagcdn.com\/us-fl.svg"
   },
   {
     "name": "ペンシルベニア州",
     "nameNative": "Pennsylvania",
     "capital": "ハリスバーグ",
-    "id": "us-pa"
+    "id": "us-pa",
+    "flag": "https:\/\/flagcdn.com\/us-pa.svg"
   },
   {
     "name": "マサチューセッツ州",
     "nameNative": "Massachusetts",
     "capital": "ボストン",
-    "id": "us-ma"
+    "id": "us-ma",
+    "flag": "https:\/\/flagcdn.com\/us-ma.svg"
   },
   {
     "name": "ミシガン州",
     "nameNative": "Michigan",
     "capital": "ランシング",
-    "id": "us-mi"
+    "id": "us-mi",
+    "flag": "https:\/\/flagcdn.com\/us-mi.svg"
   },
   {
     "name": "ミシシッピ州",
     "nameNative": "Mississippi",
     "capital": "ジャクソン",
-    "id": "us-ms"
+    "id": "us-ms",
+    "flag": "https:\/\/flagcdn.com\/us-ms.svg"
   },
   {
     "name": "ミズーリ州",
     "nameNative": "Missouri",
     "capital": "ジェファーソンシティ",
-    "id": "us-mo"
+    "id": "us-mo",
+    "flag": "https:\/\/flagcdn.com\/us-mo.svg"
   },
   {
     "name": "ミネソタ州",
     "nameNative": "Minnesota",
     "capital": "セイント・ポール",
-    "id": "us-mn"
+    "id": "us-mn",
+    "flag": "https:\/\/flagcdn.com\/us-mn.svg"
   },
   {
     "name": "メイン州",
     "nameNative": "Maine",
     "capital": "オーガスタ",
-    "id": "us-me"
+    "id": "us-me",
+    "flag": "https:\/\/flagcdn.com\/us-me.svg"
   },
   {
     "name": "メリーランド州",
     "nameNative": "Maryland",
     "capital": "アナポリス",
-    "id": "us-md"
+    "id": "us-md",
+    "flag": "https:\/\/flagcdn.com\/us-md.svg"
   },
   {
     "name": "モンタナ州",
     "nameNative": "Montana",
     "capital": "ヘレナ",
-    "id": "us-mt"
+    "id": "us-mt",
+    "flag": "https:\/\/flagcdn.com\/us-mt.svg"
   },
   {
     "name": "ユタ州",
     "nameNative": "Utah",
     "capital": "ソルトレイクシティ",
-    "id": "us-ut"
+    "id": "us-ut",
+    "flag": "https:\/\/flagcdn.com\/us-ut.svg"
   },
   {
     "name": "ルイジアナ州",
     "nameNative": "Louisiana",
     "capital": "ニュー・オーリンズ,バトン・ルージュ",
-    "id": "us-la"
+    "id": "us-la",
+    "flag": "https:\/\/flagcdn.com\/us-la.svg"
   },
   {
     "name": "ロードアイランド州",
     "nameNative": "Rhode Island",
     "capital": "プロヴィデンス",
-    "id": "us-ri"
+    "id": "us-ri",
+    "flag": "https:\/\/flagcdn.com\/us-ri.svg"
   },
   {
     "name": "ワイオミング州",
     "nameNative": "Wyoming",
     "capital": "シャイアン",
-    "id": "us-wy"
+    "id": "us-wy",
+    "flag": "https:\/\/flagcdn.com\/us-wy.svg"
   },
   {
     "name": "ワシントン州",
     "nameNative": "Washington",
     "capital": "オリンピア",
-    "id": "us-wa"
+    "id": "us-wa",
+    "flag": "https:\/\/flagcdn.com\/us-wa.svg"
   }
 ]
