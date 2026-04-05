@@ -105,10 +105,14 @@ function SectionTitle({
 
 function ModeSection({
   mode,
+  area,
   onModeChange,
+  onAreaChange,
 }: {
   mode: GameModeId;
+  area: string;
   onModeChange: (mode: GameModeId) => void;
+  onAreaChange: (area: string) => void;
 }) {
   const { t } = useTranslation();
   const activeCategoryId = getModeCategory(mode);
@@ -158,33 +162,61 @@ function ModeSection({
         <p className="mb-2 text-sm text-zinc-400">{t("label.mode-detail")}</p>
 
         <div className="grid grid-cols-1 gap-3">
-          {visibleModes.map((gameMode) => (
-            <label
-              key={gameMode.id}
-              className={`cursor-pointer rounded-xl border p-4 transition ${
-                mode === gameMode.id
-                  ? "border-blue-400 bg-blue-600"
-                  : "border-zinc-700 bg-zinc-800"
-              }`}
-            >
-              <input
-                type="radio"
-                name="mode"
-                value={gameMode.id}
-                checked={mode === gameMode.id}
-                onChange={() => onModeChange(gameMode.id)}
-                className="hidden"
-              />
-              <div className="font-bold text-lg">{t(gameMode.titleKey)}</div>
-              <p
-                className={`mt-1 text-sm ${
-                  mode === gameMode.id ? "text-blue-100" : "text-zinc-300"
-                }`}
-              >
-                {t(gameMode.descriptionKey)}
-              </p>
-            </label>
-          ))}
+          {activeCategoryId === "countries"
+            ? ["all", ...areas].map((areaId) => (
+                <label
+                  key={areaId}
+                  className={`cursor-pointer rounded-xl border p-4 transition ${
+                    area === areaId
+                      ? "border-blue-400 bg-blue-600"
+                      : "border-zinc-700 bg-zinc-800"
+                  }`}
+                >
+                  <input
+                    type="radio"
+                    name="countryArea"
+                    value={areaId}
+                    checked={area === areaId}
+                    onChange={() => {
+                      onModeChange("countries");
+                      onAreaChange(areaId);
+                    }}
+                    className="hidden"
+                  />
+                  <div className="font-bold text-lg">
+                    {areaId === "all"
+                      ? t("mode.countries.all-title")
+                      : t(`area.${areaId}`)}
+                  </div>
+                </label>
+              ))
+            : visibleModes.map((gameMode) => (
+                <label
+                  key={gameMode.id}
+                  className={`cursor-pointer rounded-xl border p-4 transition ${
+                    mode === gameMode.id
+                      ? "border-blue-400 bg-blue-600"
+                      : "border-zinc-700 bg-zinc-800"
+                  }`}
+                >
+                  <input
+                    type="radio"
+                    name="modeDetail"
+                    value={gameMode.id}
+                    checked={mode === gameMode.id}
+                    onChange={() => onModeChange(gameMode.id)}
+                    className="hidden"
+                  />
+                  <div className="font-bold text-lg">{t(gameMode.titleKey)}</div>
+                  <p
+                    className={`mt-1 text-sm ${
+                      mode === gameMode.id ? "text-blue-100" : "text-zinc-300"
+                    }`}
+                  >
+                    {t(gameMode.descriptionKey)}
+                  </p>
+                </label>
+              ))}
         </div>
       </div>
     </section>
@@ -305,6 +337,7 @@ function RuleSection() {
 export default function GameLauncher() {
   const { t } = useTranslation();
   const [mode, setMode] = useState<GameModeId>("countries");
+  const [area, setArea] = useState("all");
   const activeMode = gameModes[mode];
   const questionOptions = activeMode.questionOptions.map((option) => ({
     label: t(option.labelKey),
@@ -320,11 +353,19 @@ export default function GameLauncher() {
       <h2 className="text-center text-2xl">{t("title")}</h2>
 
       <input type="hidden" name="page" value="game" />
-      {!activeMode.hasAreaSelection && (
-        <input type="hidden" name="area" value="all" />
-      )}
+      <input type="hidden" name="mode" value={mode} />
+      <input
+        type="hidden"
+        name="area"
+        value={activeMode.hasAreaSelection ? area : "all"}
+      />
 
-      <ModeSection mode={mode} onModeChange={setMode} />
+      <ModeSection
+        mode={mode}
+        area={area}
+        onModeChange={setMode}
+        onAreaChange={setArea}
+      />
 
       <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
         <SectionTitle icon={LuBrain} title={t("heading.content")} />
@@ -345,23 +386,6 @@ export default function GameLauncher() {
           options={answerOptions}
         />
       </section>
-
-      {activeMode.hasAreaSelection && (
-        <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
-          <SectionTitle icon={LuGlobe} title={t("heading.area")} />
-          <RadioGroup
-            name="area"
-            defaultValue="all"
-            containerClassName="grid grid-cols-[repeat(auto-fit,minmax(110px,1fr))] gap-3"
-            optionClassName="p-3"
-            labelClassName="text-center text-sm whitespace-nowrap"
-            options={["all", ...areas].map((area) => ({
-              label: t(`area.${area}`),
-              value: area,
-            }))}
-          />
-        </section>
-      )}
 
       <RuleSection />
 

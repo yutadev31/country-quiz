@@ -32,7 +32,8 @@
   "mode": {
     "countries": {
       "title": "国",
-      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード"
+      "description": "国名・首都・国旗・ドメインで遊ぶ標準モード",
+      "all-title": "世界"
     },
     "us-states": {
       "title": "アメリカの州",
