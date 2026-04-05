@@ -1,4 +1,5 @@
 import { AnimatePresence, motion } from "motion/react";
+import { useQueryState } from "nuqs";
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { shuffleArray } from "@/utils/array";
@@ -227,6 +228,7 @@ export default function Game<T extends Record<string, string | null>>({
   const [timeLeft, setTimeLeft] = useState(timeLimitSeconds ?? null);
 
   const { t } = useTranslation();
+  const [, setPage] = useQueryState("page");
 
   useEffect(() => {
     if (fieldDisplayTypes[questionField] === "img") {
@@ -491,6 +493,16 @@ export default function Game<T extends Record<string, string | null>>({
           >
             {t("button.restart")}
           </button>
+          <a
+            href="/country-quiz"
+            onClick={(e) => {
+              setPage("");
+              e.preventDefault();
+            }}
+            className="text-blue-500 underline underline-offset-4"
+          >
+            {t("button.back-to-mode-selection")}
+          </a>
         </>
       ) : (
         <div className="w-full">
