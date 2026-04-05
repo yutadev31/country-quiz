@@ -28,23 +28,10 @@ export const usStatesMode: GameModeConfig = {
   defaultQuestionField: "name",
   defaultAnswerField: "flag",
   fieldDisplayTypes: {
-    id: "id",
     name: "text",
     nameNative: "text",
     capital: "text",
     flag: "img",
   },
   getItems: () => states,
-  normalizeQuestionField: (value) => {
-    if (value === "nameNative" || value === "capital" || value === "flag") {
-      return value;
-    }
-    return "name";
-  },
-  normalizeAnswerField: (value) => {
-    if (value === "name" || value === "nameNative" || value === "capital") {
-      return value;
-    }
-    return "flag";
-  },
 };

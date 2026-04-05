@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useQueryState } from "nuqs";
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
+import type { FieldDisplayType } from "@/data/game-mode-types";
 import { shuffleArray } from "@/utils/array";
 
 type QuizItem<T extends Record<string, string | null>> = T & { id: string };
@@ -26,7 +27,7 @@ function FieldContent<T extends Record<string, string | null>>({
 }: {
   item: QuizItem<T>;
   field: keyof T;
-  fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
+  fieldDisplayTypes: { [K in keyof T]: FieldDisplayType };
   imageClassName?: string;
   textClassName?: string;
 }) {
@@ -41,8 +42,6 @@ function FieldContent<T extends Record<string, string | null>>({
           className={`object-contain drop-shadow-xl ${imageClassName}`}
         />
       );
-    case "id":
-      throw Error("");
   }
 }
 
@@ -53,7 +52,7 @@ function QuestionContent<T extends Record<string, string | null>>({
 }: {
   question: QuizItem<T>;
   field: keyof T;
-  fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
+  fieldDisplayTypes: { [K in keyof T]: FieldDisplayType };
 }) {
   return (
     <FieldContent
@@ -74,7 +73,7 @@ function ChoiceContent<T extends Record<string, string | null>>({
 }: {
   options: QuizItem<T>[];
   field: keyof T;
-  fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
+  fieldDisplayTypes: { [K in keyof T]: FieldDisplayType };
   onSelect: (option: QuizItem<T>) => void;
 }) {
   const layout =
@@ -105,7 +104,7 @@ function ChoiceContentItem<T extends Record<string, string | null>>({
 }: {
   option: QuizItem<T>;
   field: keyof T;
-  fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
+  fieldDisplayTypes: { [K in keyof T]: FieldDisplayType };
   onSelect: () => void;
 }) {
   switch (fieldDisplayTypes[field]) {
@@ -133,8 +132,6 @@ function ChoiceContentItem<T extends Record<string, string | null>>({
           />
         </button>
       );
-    case "id":
-      throw Error("");
   }
 }
 
@@ -145,7 +142,7 @@ function CorrectContent<T extends Record<string, string | null>>({
 }: {
   correctAnswer: QuizItem<T>;
   field: keyof T;
-  fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
+  fieldDisplayTypes: { [K in keyof T]: FieldDisplayType };
 }) {
   return (
     <FieldContent
@@ -169,7 +166,7 @@ export default function Game<T extends Record<string, string | null>>({
   onRestart,
   summaryItems,
 }: {
-  fieldDisplayTypes: { [K in keyof T]: "text" | "img" | "id" };
+  fieldDisplayTypes: { [K in keyof T]: FieldDisplayType };
   items: QuizItem<T>[];
   questionField: keyof T;
   answerField: keyof T;

@@ -25,22 +25,9 @@ export const mxStatesMode: GameModeConfig = {
   defaultQuestionField: "name",
   defaultAnswerField: "capital",
   fieldDisplayTypes: {
-    id: "id",
     name: "text",
     nameNative: "text",
     capital: "text",
   },
   getItems: () => states,
-  normalizeQuestionField: (value) => {
-    if (value === "nameNative" || value === "capital") {
-      return value;
-    }
-    return "name";
-  },
-  normalizeAnswerField: (value) => {
-    if (value === "name" || value === "nameNative") {
-      return value;
-    }
-    return "capital";
-  },
 };

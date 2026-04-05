@@ -25,22 +25,9 @@ export const caStateMode: GameModeConfig = {
   defaultQuestionField: "name",
   defaultAnswerField: "capital",
   fieldDisplayTypes: {
-    id: "id",
     name: "text",
     nameNative: "text",
     capital: "text",
   },
   getItems: () => provinces,
-  normalizeQuestionField: (value) => {
-    if (value === "capital" || value === "nameNative") {
-      return value;
-    }
-    return "name";
-  },
-  normalizeAnswerField: (value) => {
-    if (value === "name" || value === "nameNative") {
-      return value;
-    }
-    return "capital";
-  },
 };

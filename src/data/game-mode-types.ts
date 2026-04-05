@@ -21,7 +21,7 @@ export type GameModeCategoryId =
   | "south-america"
   | "oceania";
 
-export type FieldDisplayType = "text" | "img" | "id";
+export type FieldDisplayType = "text" | "img";
 
 export type QuizItem = Record<string, string | string[] | null> & {
   id: string;
@@ -47,8 +47,6 @@ export type GameModeConfig = {
   defaultAnswerField: string;
   fieldDisplayTypes: Record<string, FieldDisplayType>;
   getItems: (args: GetItemsArgs) => QuizItem[];
-  normalizeQuestionField: (value: string | null) => string;
-  normalizeAnswerField: (value: string | null) => string;
 };
 
 export type GameModeCategory = {

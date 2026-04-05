@@ -65,7 +65,6 @@ export const countriesMode: GameModeConfig = {
   defaultQuestionField: "name",
   defaultAnswerField: "flag",
   fieldDisplayTypes: {
-    id: "id",
     name: "text",
     nameNative: "text",
     capital: "text",
@@ -73,26 +72,4 @@ export const countriesMode: GameModeConfig = {
     flag: "img",
   },
   getItems: ({ area }) => getCountries(area),
-  normalizeQuestionField: (value) => {
-    if (
-      value === "capital" ||
-      value === "nameNative" ||
-      value === "flag" ||
-      value === "domain"
-    ) {
-      return value;
-    }
-    return "name";
-  },
-  normalizeAnswerField: (value) => {
-    if (
-      value === "name" ||
-      value === "nameNative" ||
-      value === "capital" ||
-      value === "domain"
-    ) {
-      return value;
-    }
-    return "flag";
-  },
 };

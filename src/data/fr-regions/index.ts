@@ -25,22 +25,9 @@ export const frRegionsMode: GameModeConfig = {
   defaultQuestionField: "name",
   defaultAnswerField: "capital",
   fieldDisplayTypes: {
-    id: "id",
     name: "text",
     nameNative: "text",
     capital: "text",
   },
   getItems: () => regions,
-  normalizeQuestionField: (value) => {
-    if (value === "capital") {
-      return value;
-    }
-    return "name";
-  },
-  normalizeAnswerField: (value) => {
-    if (value === "name") {
-      return value;
-    }
-    return "capital";
-  },
 };

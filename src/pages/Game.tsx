@@ -3,7 +3,20 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Game from "@/components/Game";
 import { gameModes, isGameModeId } from "@/data/game-modes";
+import type { FieldDisplayType } from "@/data/game-mode-types";
 import { shuffleArray } from "@/utils/array";
+
+function normalizeField(
+  value: string | null,
+  defaultField: string,
+  fieldDisplayTypes: Record<string, FieldDisplayType>,
+) {
+  if (value && fieldDisplayTypes[value]) {
+    return value;
+  }
+
+  return defaultField;
+}
 
 export default function GamePage() {
   const { t } = useTranslation();
@@ -40,8 +53,16 @@ export default function GamePage() {
   const mode = isGameModeId(modeParam) ? modeParam : "countries";
   const modeConfig = gameModes[mode];
   const area = modeConfig.fixedArea ?? "all";
-  const questionField = modeConfig.normalizeQuestionField(questionFieldParam);
-  const answerField = modeConfig.normalizeAnswerField(answerFieldParam);
+  const questionField = normalizeField(
+    questionFieldParam,
+    modeConfig.defaultQuestionField,
+    modeConfig.fieldDisplayTypes,
+  );
+  const answerField = normalizeField(
+    answerFieldParam,
+    modeConfig.defaultAnswerField,
+    modeConfig.fieldDisplayTypes,
+  );
   const questionType = modeConfig.questionOptions.find(
     (option) => option.value === questionField,
   );

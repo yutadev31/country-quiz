@@ -1,7 +1,12 @@
 import { useQueryState } from "nuqs";
 import { useTranslation } from "react-i18next";
 import { LuArrowLeft, LuGlobe } from "react-icons/lu";
-import type { FieldOption, GameModeId, QuizItem } from "@/data/game-mode-types";
+import type {
+  FieldDisplayType,
+  FieldOption,
+  GameModeId,
+  QuizItem,
+} from "@/data/game-mode-types";
 import { gameModeList, gameModes, isGameModeId } from "@/data/game-modes";
 
 function getListFields(options: FieldOption[]) {
@@ -18,7 +23,7 @@ function StudyCell({
   displayType,
 }: {
   value: string | string[] | null;
-  displayType: "text" | "img" | "id";
+  displayType: FieldDisplayType;
 }) {
   if (Array.isArray(value)) {
     return (
