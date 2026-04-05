@@ -19,6 +19,16 @@ export interface Country {
   flag: string;
 }
 
+const countryAreaMap = new Map(
+  countries
+    .filter((country) => country.continent.length > 0)
+    .map((country) => [country.code, country.continent[0]]),
+);
+
+export function getCountryAreaById(id: string) {
+  return countryAreaMap.get(id);
+}
+
 export default function getCountries(area: string) {
   const filterRegion = (countries: Item[], continent: string) =>
     countries.filter((country) => country.continent.indexOf(continent) !== -1);

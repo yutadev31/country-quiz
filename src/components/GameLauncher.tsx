@@ -2,9 +2,13 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { HiPlay } from "react-icons/hi2";
 import { LuBrain, LuFlame, LuGlobe, LuTimer } from "react-icons/lu";
+import { getCountryAreaById } from "@/data/countries";
 import areas from "@/data/countries/areas.json";
 import type { GameModeId } from "@/data/game-mode-types";
 import { gameModeList, gameModes } from "@/data/game-modes";
+
+type AreaId = (typeof areas)[number];
+type ModeCategoryId = "countries" | AreaId;
 
 type Option = {
   label: string;
@@ -12,21 +16,53 @@ type Option = {
   value: string;
 };
 
+const modeCategories: {
+  id: ModeCategoryId;
+  modeIds: GameModeId[];
+}[] = [
+  {
+    id: "countries",
+    modeIds: ["countries"],
+  },
+  ...areas.flatMap((area) => {
+    const modeIds = gameModeList
+      .filter((gameMode) => {
+        if (gameMode.id === "countries") return false;
+        return getCountryAreaById(gameMode.id.slice(0, 2)) === area;
+      })
+      .map((gameMode) => gameMode.id);
+    return modeIds.length > 0 ? [{ id: area, modeIds }] : [];
+  }),
+];
+
+function getModeCategory(mode: GameModeId): ModeCategoryId {
+  return (
+    modeCategories.find((category) => category.modeIds.includes(mode))?.id ??
+    "countries"
+  );
+}
+
 function RadioGroup({
   name,
   defaultValue,
   options,
+  containerClassName,
+  optionClassName,
+  labelClassName,
 }: {
   name: string;
   defaultValue?: string;
   options: Option[];
+  containerClassName?: string;
+  optionClassName?: string;
+  labelClassName?: string;
 }) {
   return (
-    <div className="grid grid-cols-2 gap-4">
+    <div className={containerClassName ?? "grid grid-cols-2 gap-4"}>
       {options.map(({ label, hiragana, value }) => (
         <label
           key={value}
-          className="cursor-pointer rounded-xl border border-zinc-700 bg-zinc-800 p-4 transition has-checked:border-blue-400 has-checked:bg-blue-600"
+          className={`cursor-pointer rounded-xl border border-zinc-700 bg-zinc-800 p-4 transition has-checked:border-blue-400 has-checked:bg-blue-600 ${optionClassName ?? ""}`}
         >
           <input
             type="radio"
@@ -35,7 +71,7 @@ function RadioGroup({
             defaultChecked={value === defaultValue}
             className="hidden"
           />
-          <div className="font-bold">
+          <div className={`font-bold ${labelClassName ?? ""}`}>
             {label}
             {hiragana && (
               <span className="ml-1 text-sm text-zinc-300">({hiragana})</span>
@@ -75,6 +111,13 @@ function ModeSection({
   onModeChange: (mode: GameModeId) => void;
 }) {
   const { t } = useTranslation();
+  const activeCategoryId = getModeCategory(mode);
+  const activeCategory =
+    modeCategories.find((category) => category.id === activeCategoryId) ??
+    modeCategories[0];
+  const visibleModes = gameModeList.filter((gameMode) =>
+    activeCategory.modeIds.includes(gameMode.id),
+  );
 
   return (
     <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
@@ -84,34 +127,65 @@ function ModeSection({
         description={t("description.mode")}
       />
 
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-1">
-        {gameModeList.map((gameMode) => (
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+        {modeCategories.map((category) => (
           <label
-            key={gameMode.id}
-            className={`cursor-pointer rounded-xl border p-4 transition ${
-              mode === gameMode.id
+            key={category.id}
+            className={`cursor-pointer rounded-xl border p-3 transition ${
+              activeCategoryId === category.id
                 ? "border-blue-400 bg-blue-600"
                 : "border-zinc-700 bg-zinc-800"
             }`}
           >
             <input
               type="radio"
-              name="mode"
-              value={gameMode.id}
-              checked={mode === gameMode.id}
-              onChange={() => onModeChange(gameMode.id)}
+              name="modeCategory"
+              value={category.id}
+              checked={activeCategoryId === category.id}
+              onChange={() => onModeChange(category.modeIds[0])}
               className="hidden"
             />
-            <div className="font-bold text-lg">{t(gameMode.titleKey)}</div>
-            <p
-              className={`mt-1 text-sm ${
-                mode === gameMode.id ? "text-blue-100" : "text-zinc-300"
-              }`}
-            >
-              {t(gameMode.descriptionKey)}
-            </p>
+            <div className="font-bold">
+              {category.id === "countries"
+                ? t("mode-category.countries.title")
+                : t(`area.${category.id}`)}
+            </div>
           </label>
         ))}
+      </div>
+
+      <div className="mt-4">
+        <p className="mb-2 text-sm text-zinc-400">{t("label.mode-detail")}</p>
+
+        <div className="grid grid-cols-1 gap-3">
+          {visibleModes.map((gameMode) => (
+            <label
+              key={gameMode.id}
+              className={`cursor-pointer rounded-xl border p-4 transition ${
+                mode === gameMode.id
+                  ? "border-blue-400 bg-blue-600"
+                  : "border-zinc-700 bg-zinc-800"
+              }`}
+            >
+              <input
+                type="radio"
+                name="mode"
+                value={gameMode.id}
+                checked={mode === gameMode.id}
+                onChange={() => onModeChange(gameMode.id)}
+                className="hidden"
+              />
+              <div className="font-bold text-lg">{t(gameMode.titleKey)}</div>
+              <p
+                className={`mt-1 text-sm ${
+                  mode === gameMode.id ? "text-blue-100" : "text-zinc-300"
+                }`}
+              >
+                {t(gameMode.descriptionKey)}
+              </p>
+            </label>
+          ))}
+        </div>
       </div>
     </section>
   );
@@ -278,6 +352,9 @@ export default function GameLauncher() {
           <RadioGroup
             name="area"
             defaultValue="all"
+            containerClassName="grid grid-cols-[repeat(auto-fit,minmax(110px,1fr))] gap-3"
+            optionClassName="p-3"
+            labelClassName="text-center text-sm whitespace-nowrap"
             options={["all", ...areas].map((area) => ({
               label: t(`area.${area}`),
               value: area,

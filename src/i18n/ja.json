@@ -10,6 +10,7 @@
   "label": {
     "question-type": "問題の種類",
     "choice-type": "選択肢の種類",
+    "mode-detail": "詳細モード",
     "number-of-questions": "問題数",
     "time-limit": "制限時間 (秒)"
   },
@@ -52,6 +53,17 @@
     "de-states": {
       "title": "ドイツの州",
       "description": "州名・州都で遊ぶモード"
+    }
+  },
+  "mode-category": {
+    "countries": {
+      "title": "国"
+    },
+    "north-america": {
+      "title": "北米"
+    },
+    "europe": {
+      "title": "ヨーロッパ"
     }
   },
   "content-type": {
