@@ -120,7 +120,9 @@ function ModeSection({
               className="hidden"
             />
             <div className="font-bold">
-              {category.id === "countries" ? t("mode.countries.title") : t(`area.${category.id}`)}
+              {category.id === "countries"
+                ? t("mode.countries.title")
+                : t(`area.${category.id}`)}
             </div>
           </label>
         ))}
@@ -129,7 +131,7 @@ function ModeSection({
       <div className="mt-4">
         <p className="mb-2 text-sm text-zinc-400">{t("label.mode-detail")}</p>
 
-        <div className="grid grid-cols-1 gap-3">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           {visibleModes.map((gameMode) => (
             <label
               key={gameMode.id}
