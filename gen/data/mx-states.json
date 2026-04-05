@@ -1,0 +1,188 @@
+[
+  {
+    "stateLabel": "アグアスカリエンテス州",
+    "stateLabel_es": "Aguascalientes",
+    "capitalLabel": "アグアスカリエンテス",
+    "iso2": "MX-AGU"
+  },
+  {
+    "stateLabel": "バハ・カリフォルニア州",
+    "stateLabel_es": "Baja California",
+    "capitalLabel": "メヒカリ (バハ・カリフォルニア州)",
+    "iso2": "MX-BCN"
+  },
+  {
+    "stateLabel": "バハ・カリフォルニア・スル州",
+    "stateLabel_es": "Baja California Sur",
+    "capitalLabel": "ラパス (バハ・カリフォルニア・スル州)",
+    "iso2": "MX-BCS"
+  },
+  {
+    "stateLabel": "カンペチェ州",
+    "stateLabel_es": "Campeche",
+    "capitalLabel": "カンペチェ",
+    "iso2": "MX-CAM"
+  },
+  {
+    "stateLabel": "チワワ州",
+    "stateLabel_es": "Chihuahua",
+    "capitalLabel": "チワワ",
+    "iso2": "MX-CHH"
+  },
+  {
+    "stateLabel": "チアパス州",
+    "stateLabel_es": "Chiapas",
+    "capitalLabel": "トゥストラ・グティエレス",
+    "iso2": "MX-CHP"
+  },
+  {
+    "stateLabel": "コアウイラ州",
+    "stateLabel_es": "Coahuila de Zaragoza",
+    "capitalLabel": "サルティーヨ",
+    "iso2": "MX-COA"
+  },
+  {
+    "stateLabel": "コリマ州",
+    "stateLabel_es": "Colima",
+    "capitalLabel": "コリマ",
+    "iso2": "MX-COL"
+  },
+  {
+    "stateLabel": "ドゥランゴ州",
+    "stateLabel_es": "Durango",
+    "capitalLabel": "ドゥランゴ",
+    "iso2": "MX-DUR"
+  },
+  {
+    "stateLabel": "ゲレーロ州",
+    "stateLabel_es": "Guerrero",
+    "capitalLabel": "チルパンシンゴ",
+    "iso2": "MX-GRO"
+  },
+  {
+    "stateLabel": "グアナフアト州",
+    "stateLabel_es": "Guanajuato",
+    "capitalLabel": "グアナフアト",
+    "iso2": "MX-GUA"
+  },
+  {
+    "stateLabel": "イダルゴ州",
+    "stateLabel_es": "Hidalgo",
+    "capitalLabel": "パチューカ",
+    "iso2": "MX-HID"
+  },
+  {
+    "stateLabel": "ハリスコ州",
+    "stateLabel_es": "Jalisco",
+    "capitalLabel": "グアダラハラ",
+    "iso2": "MX-JAL"
+  },
+  {
+    "stateLabel": "メヒコ州",
+    "stateLabel_es": "Estado de México",
+    "capitalLabel": "トルーカ",
+    "iso2": "MX-MEX"
+  },
+  {
+    "stateLabel": "ミチョアカン州",
+    "stateLabel_es": "Michoacán",
+    "capitalLabel": "モレリア",
+    "iso2": "MX-MIC"
+  },
+  {
+    "stateLabel": "モレロス州",
+    "stateLabel_es": "Morelos",
+    "capitalLabel": "クエルナバカ",
+    "iso2": "MX-MOR"
+  },
+  {
+    "stateLabel": "ナヤリット州",
+    "stateLabel_es": "Nayarit",
+    "capitalLabel": "テピク",
+    "iso2": "MX-NAY"
+  },
+  {
+    "stateLabel": "ヌエボ・レオン州",
+    "stateLabel_es": "Nuevo León",
+    "capitalLabel": "モンテレイ",
+    "iso2": "MX-NLE"
+  },
+  {
+    "stateLabel": "オアハカ州",
+    "stateLabel_es": "Estado de Oaxaca",
+    "capitalLabel": "オアハカ",
+    "iso2": "MX-OAX"
+  },
+  {
+    "stateLabel": "プエブラ州",
+    "stateLabel_es": "Puebla",
+    "capitalLabel": "プエブラ",
+    "iso2": "MX-PUE"
+  },
+  {
+    "stateLabel": "ケレタロ州",
+    "stateLabel_es": "Querétaro",
+    "capitalLabel": "ケレタロ",
+    "iso2": "MX-QUE"
+  },
+  {
+    "stateLabel": "キンタナ・ロー州",
+    "stateLabel_es": "Quintana Roo",
+    "capitalLabel": "チェトゥマル",
+    "iso2": "MX-ROO"
+  },
+  {
+    "stateLabel": "シナロア州",
+    "stateLabel_es": "Sinaloa",
+    "capitalLabel": "クリアカン",
+    "iso2": "MX-SIN"
+  },
+  {
+    "stateLabel": "サン・ルイス・ポトシ州",
+    "stateLabel_es": "San Luis Potosí",
+    "capitalLabel": "サン・ルイス・ポトシ",
+    "iso2": "MX-SLP"
+  },
+  {
+    "stateLabel": "ソノラ州",
+    "stateLabel_es": "Sonora",
+    "capitalLabel": "エルモシージョ",
+    "iso2": "MX-SON"
+  },
+  {
+    "stateLabel": "タバスコ州",
+    "stateLabel_es": "Tabasco",
+    "capitalLabel": "ビヤエルモサ",
+    "iso2": "MX-TAB"
+  },
+  {
+    "stateLabel": "タマウリパス州",
+    "stateLabel_es": "Tamaulipas",
+    "capitalLabel": "シウダービクトリア",
+    "iso2": "MX-TAM"
+  },
+  {
+    "stateLabel": "トラスカラ州",
+    "stateLabel_es": "Tlaxcala",
+    "capitalLabel": "トラスカラ・デ・シコテンカトル",
+    "iso2": "MX-TLA"
+  },
+  {
+    "stateLabel": "ベラクルス州",
+    "stateLabel_es": "Estado de Veracruz",
+    "capitalLabel": "ハラパ",
+    "iso2": "MX-VER"
+  },
+  {
+    "stateLabel": "ユカタン州",
+    "stateLabel_es": "Yucatán",
+    "capitalLabel": "メリダ",
+    "iso2": "MX-YUC"
+  },
+  {
+    "stateLabel": "サカテカス州",
+    "stateLabel_es": "Zacatecas",
+    "capitalLabel": "サカテカス",
+    "iso2": "MX-ZAC"
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "name": "アグアスカリエンテス州",
+    "nameNative": "Aguascalientes",
+    "capital": "アグアスカリエンテス",
+    "code": "mx-agu"
+  },
+  {
+    "name": "イダルゴ州",
+    "nameNative": "Hidalgo",
+    "capital": "パチューカ",
+    "code": "mx-hid"
+  },
+  {
+    "name": "オアハカ州",
+    "nameNative": "Estado de Oaxaca",
+    "capital": "オアハカ",
+    "code": "mx-oax"
+  },
+  {
+    "name": "カンペチェ州",
+    "nameNative": "Campeche",
+    "capital": "カンペチェ",
+    "code": "mx-cam"
+  },
+  {
+    "name": "キンタナ・ロー州",
+    "nameNative": "Quintana Roo",
+    "capital": "チェトゥマル",
+    "code": "mx-roo"
+  },
+  {
+    "name": "グアナフアト州",
+    "nameNative": "Guanajuato",
+    "capital": "グアナフアト",
+    "code": "mx-gua"
+  },
+  {
+    "name": "ケレタロ州",
+    "nameNative": "Querétaro",
+    "capital": "ケレタロ",
+    "code": "mx-que"
+  },
+  {
+    "name": "ゲレーロ州",
+    "nameNative": "Guerrero",
+    "capital": "チルパンシンゴ",
+    "code": "mx-gro"
+  },
+  {
+    "name": "コアウイラ州",
+    "nameNative": "Coahuila de Zaragoza",
+    "capital": "サルティーヨ",
+    "code": "mx-coa"
+  },
+  {
+    "name": "コリマ州",
+    "nameNative": "Colima",
+    "capital": "コリマ",
+    "code": "mx-col"
+  },
+  {
+    "name": "サカテカス州",
+    "nameNative": "Zacatecas",
+    "capital": "サカテカス",
+    "code": "mx-zac"
+  },
+  {
+    "name": "サン・ルイス・ポトシ州",
+    "nameNative": "San Luis Potosí",
+    "capital": "サン・ルイス・ポトシ",
+    "code": "mx-slp"
+  },
+  {
+    "name": "シナロア州",
+    "nameNative": "Sinaloa",
+    "capital": "クリアカン",
+    "code": "mx-sin"
+  },
+  {
+    "name": "ソノラ州",
+    "nameNative": "Sonora",
+    "capital": "エルモシージョ",
+    "code": "mx-son"
+  },
+  {
+    "name": "タバスコ州",
+    "nameNative": "Tabasco",
+    "capital": "ビヤエルモサ",
+    "code": "mx-tab"
+  },
+  {
+    "name": "タマウリパス州",
+    "nameNative": "Tamaulipas",
+    "capital": "シウダービクトリア",
+    "code": "mx-tam"
+  },
+  {
+    "name": "チアパス州",
+    "nameNative": "Chiapas",
+    "capital": "トゥストラ・グティエレス",
+    "code": "mx-chp"
+  },
+  {
+    "name": "チワワ州",
+    "nameNative": "Chihuahua",
+    "capital": "チワワ",
+    "code": "mx-chh"
+  },
+  {
+    "name": "トラスカラ州",
+    "nameNative": "Tlaxcala",
+    "capital": "トラスカラ・デ・シコテンカトル",
+    "code": "mx-tla"
+  },
+  {
+    "name": "ドゥランゴ州",
+    "nameNative": "Durango",
+    "capital": "ドゥランゴ",
+    "code": "mx-dur"
+  },
+  {
+    "name": "ナヤリット州",
+    "nameNative": "Nayarit",
+    "capital": "テピク",
+    "code": "mx-nay"
+  },
+  {
+    "name": "ヌエボ・レオン州",
+    "nameNative": "Nuevo León",
+    "capital": "モンテレイ",
+    "code": "mx-nle"
+  },
+  {
+    "name": "ハリスコ州",
+    "nameNative": "Jalisco",
+    "capital": "グアダラハラ",
+    "code": "mx-jal"
+  },
+  {
+    "name": "バハ・カリフォルニア・スル州",
+    "nameNative": "Baja California Sur",
+    "capital": "ラパス (バハ・カリフォルニア・スル州)",
+    "code": "mx-bcs"
+  },
+  {
+    "name": "バハ・カリフォルニア州",
+    "nameNative": "Baja California",
+    "capital": "メヒカリ (バハ・カリフォルニア州)",
+    "code": "mx-bcn"
+  },
+  {
+    "name": "プエブラ州",
+    "nameNative": "Puebla",
+    "capital": "プエブラ",
+    "code": "mx-pue"
+  },
+  {
+    "name": "ベラクルス州",
+    "nameNative": "Estado de Veracruz",
+    "capital": "ハラパ",
+    "code": "mx-ver"
+  },
+  {
+    "name": "ミチョアカン州",
+    "nameNative": "Michoacán",
+    "capital": "モレリア",
+    "code": "mx-mic"
+  },
+  {
+    "name": "メヒコ州",
+    "nameNative": "Estado de México",
+    "capital": "トルーカ",
+    "code": "mx-mex"
+  },
+  {
+    "name": "モレロス州",
+    "nameNative": "Morelos",
+    "capital": "クエルナバカ",
+    "code": "mx-mor"
+  },
+  {
+    "name": "ユカタン州",
+    "nameNative": "Yucatán",
+    "capital": "メリダ",
+    "code": "mx-yuc"
+  }
+]

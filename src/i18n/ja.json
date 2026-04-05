@@ -41,6 +41,10 @@
       "title": "カナダの州",
       "description": "州名・州都などで遊ぶモード"
     },
+    "mx-states": {
+      "title": "メキシコの州",
+      "description": "州名・州都などで遊ぶモード"
+    },
     "fr-regions": {
       "title": "フランスの地域圏",
       "description": "地域圏名・首府で遊ぶモード"
@@ -60,9 +64,12 @@
     "us-state-nameNative": "州名 (英語)",
     "us-state-capital": "州都",
     "us-state-flag": "州旗",
-    "ca-provinces-name": "州名",
-    "ca-provinces-nameNative": "州名 (英語)",
-    "ca-provinces-capital": "州都",
+    "ca-province-name": "州名",
+    "ca-province-nameNative": "州名 (英語)",
+    "ca-province-capital": "州都",
+    "mx-state-name": "州名",
+    "mx-state-nameNative": "州名 (スペイン語)",
+    "mx-state-capital": "州都",
     "fr-region-name": "地域圏名",
     "fr-region-nameNative": "地域圏名 (フランス語)",
     "fr-region-capital": "首府",

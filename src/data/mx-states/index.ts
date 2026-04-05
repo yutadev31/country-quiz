@@ -1,27 +1,27 @@
 import type { GameModeConfig } from "@/data/game-mode-types";
 import states from "./states.json";
 
-export interface DEState {
+export interface MXState {
   id: string;
   name: string;
   nameNative: string;
   capital: string;
 }
 
-export const deStatesMode: GameModeConfig = {
-  id: "de-states",
-  titleKey: "mode.de-states.title",
-  descriptionKey: "mode.de-states.description",
+export const mxStatesMode: GameModeConfig = {
+  id: "mx-states",
+  titleKey: "mode.mx-states.title",
+  descriptionKey: "mode.mx-states.description",
   hasAreaSelection: false,
   questionOptions: [
-    { labelKey: "content-type.de-state-name", value: "name" },
-    { labelKey: "content-type.de-state-nameNative", value: "nameNative" },
-    { labelKey: "content-type.de-state-capital", value: "capital" },
+    { labelKey: "content-type.mx-state-name", value: "name" },
+    { labelKey: "content-type.mx-state-nameNative", value: "nameNative" },
+    { labelKey: "content-type.mx-state-capital", value: "capital" },
   ],
   answerOptions: [
-    { labelKey: "content-type.de-state-name", value: "name" },
-    { labelKey: "content-type.de-state-nameNative", value: "nameNative" },
-    { labelKey: "content-type.de-state-capital", value: "capital" },
+    { labelKey: "content-type.mx-state-name", value: "name" },
+    { labelKey: "content-type.mx-state-nameNative", value: "nameNative" },
+    { labelKey: "content-type.mx-state-capital", value: "capital" },
   ],
   defaultQuestionField: "name",
   defaultAnswerField: "capital",
