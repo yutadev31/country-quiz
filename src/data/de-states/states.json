@@ -3,91 +3,112 @@
     "name": "ザクセン州",
     "nameNative": "Sachsen",
     "capital": "ドレスデン",
+    "capitalNative": "Dresden",
     "id": "de-sn"
   },
   {
     "name": "ザクセン＝アンハルト州",
     "nameNative": "Sachsen-Anhalt",
     "capital": "マクデブルク",
+    "capitalNative": "Magdeburg",
     "id": "de-st"
   },
   {
     "name": "ザールラント州",
     "nameNative": "Saarland",
     "capital": "ザールブリュッケン",
+    "capitalNative": "Saarbrücken",
     "id": "de-sl"
   },
   {
     "name": "シュレースヴィヒ＝ホルシュタイン州",
     "nameNative": "Schleswig-Holstein",
     "capital": "キール",
+    "capitalNative": "Kiel",
     "id": "de-sh"
   },
   {
     "name": "テューリンゲン州",
     "nameNative": "Thüringen",
     "capital": "エアフルト",
+    "capitalNative": "Erfurt",
     "id": "de-th"
   },
   {
     "name": "ニーダーザクセン州",
     "nameNative": "Niedersachsen",
     "capital": "ハノーファー",
+    "capitalNative": "Hannover",
     "id": "de-ni"
   },
   {
     "name": "ノルトライン＝ヴェストファーレン州",
     "nameNative": "Nordrhein-Westfalen",
     "capital": "デュッセルドルフ",
+    "capitalNative": "Düsseldorf",
     "id": "de-nw"
   },
   {
     "name": "ハンブルク",
     "nameNative": "Hamburg",
     "capital": "",
+    "capitalNative": null,
     "id": "de-hh"
   },
   {
     "name": "バイエルン",
     "nameNative": "Bayern",
     "capital": "ミュンヘン",
+    "capitalNative": "München",
     "id": "de-by"
   },
   {
     "name": "バーデン＝ヴュルテンベルク州",
     "nameNative": "Baden-Württemberg",
     "capital": "シュトゥットガルト",
+    "capitalNative": "Stuttgart",
     "id": "de-bw"
   },
   {
     "name": "ブランデンブルク州",
     "nameNative": "Brandenburg",
     "capital": "ポツダム",
+    "capitalNative": "Potsdam",
     "id": "de-bb"
   },
   {
     "name": "ブレーメン州",
     "nameNative": "Freie Hansestadt Bremen",
     "capital": "ブレーメン",
+    "capitalNative": "Bremen",
     "id": "de-hb"
   },
   {
     "name": "ヘッセン州",
     "nameNative": "Hessen",
     "capital": "ヴィースバーデン",
+    "capitalNative": "Wiesbaden",
     "id": "de-he"
   },
-  { "name": "ベルリン", "nameNative": "Berlin", "capital": "", "id": "de-be" },
+  {
+    "name": "ベルリン",
+    "nameNative": "Berlin",
+    "capital": "",
+    "capitalNative": null,
+    "id": "de-be"
+  },
   {
     "name": "メクレンブルク＝フォアポンメルン州",
     "nameNative": "Mecklenburg-Vorpommern",
     "capital": "シュヴェリーン",
+    "capitalNative": "Schwerin",
     "id": "de-mv"
   },
   {
     "name": "ラインラント＝プファルツ州",
     "nameNative": "Rheinland-Pfalz",
     "capital": "マインツ",
+    "capitalNative": "Mainz",
     "id": "de-rp"
   }
 ]

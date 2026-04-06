@@ -3,162 +3,189 @@
     "name": "アクレ州",
     "nameNative": "Acre",
     "capital": "リオブランコ",
+    "capitalNative": "Rio Branco",
     "id": "br-ac"
   },
   {
     "name": "アマゾナス州",
     "nameNative": "Amazonas",
     "capital": "マナウス",
+    "capitalNative": "Manaus",
     "id": "br-am"
   },
   {
     "name": "アマパー州",
     "nameNative": "Amapá",
     "capital": "マカパ",
+    "capitalNative": "Macapá",
     "id": "br-ap"
   },
   {
     "name": "アラゴアス州",
     "nameNative": "Alagoas",
     "capital": "マセイオ",
+    "capitalNative": "Maceió",
     "id": "br-al"
   },
   {
     "name": "エスピリトサント州",
     "nameNative": "Espírito Santo",
     "capital": "ヴィトーリア",
+    "capitalNative": "Vitória",
     "id": "br-es"
   },
   {
     "name": "ゴイアス州",
     "nameNative": "Goiás",
     "capital": "ゴイアニア",
+    "capitalNative": "Goiânia",
     "id": "br-go"
   },
   {
     "name": "サンタカタリーナ州",
     "nameNative": "Santa Catarina",
     "capital": "フロリアノーポリス",
+    "capitalNative": "Florianópolis",
     "id": "br-sc"
   },
   {
     "name": "サンパウロ州",
     "nameNative": "São Paulo",
     "capital": "サンパウロ",
+    "capitalNative": "São Paulo",
     "id": "br-sp"
   },
   {
     "name": "セアラー州",
     "nameNative": "Ceará",
     "capital": "フォルタレザ",
+    "capitalNative": "Fortaleza",
     "id": "br-ce"
   },
   {
     "name": "セルジペ州",
     "nameNative": "Sergipe",
     "capital": "アラカジュ",
+    "capitalNative": "Aracaju",
     "id": "br-se"
   },
   {
     "name": "トカンティンス州",
     "nameNative": "Tocantins",
     "capital": "パルマス",
+    "capitalNative": "Palmas",
     "id": "br-to"
   },
   {
     "name": "バイーア州",
     "nameNative": "Bahia",
     "capital": "サルヴァドール",
+    "capitalNative": "Salvador",
     "id": "br-ba"
   },
   {
     "name": "パライバ州",
     "nameNative": "Paraíba",
     "capital": "ジョアン・ペッソーア",
+    "capitalNative": "João Pessoa",
     "id": "br-pb"
   },
   {
     "name": "パラナ州",
     "nameNative": "Paraná",
     "capital": "クリチバ",
+    "capitalNative": "Curitiba",
     "id": "br-pr"
   },
   {
     "name": "パラー州",
     "nameNative": "Pará",
     "capital": "ベレン",
+    "capitalNative": "Belém",
     "id": "br-pa"
   },
   {
     "name": "ピアウイ州",
     "nameNative": "Piauí",
     "capital": "テレジーナ",
+    "capitalNative": "Teresina",
     "id": "br-pi"
   },
   {
     "name": "ブラジリア連邦直轄区",
     "nameNative": "Distrito Federal",
     "capital": "ブラジリア",
+    "capitalNative": "Brasília",
     "id": "br-df"
   },
   {
     "name": "ペルナンブーコ州",
     "nameNative": "Pernambuco",
     "capital": "レシフェ",
+    "capitalNative": "Recife",
     "id": "br-pe"
   },
   {
     "name": "マットグロッソ・ド・スル州",
     "nameNative": "Mato Grosso do Sul",
     "capital": "カンポ・グランデ",
+    "capitalNative": "Campo Grande",
     "id": "br-ms"
   },
   {
     "name": "マットグロッソ州",
     "nameNative": "Mato Grosso",
     "capital": "クイアバ",
+    "capitalNative": "Cuiabá",
     "id": "br-mt"
   },
   {
     "name": "マラニョン州",
     "nameNative": "Maranhão",
     "capital": "サン・ルイス",
+    "capitalNative": "São Luís",
     "id": "br-ma"
   },
   {
     "name": "ミナス・ジェライス州",
     "nameNative": "Minas Gerais",
     "capital": "ベロオリゾンテ",
+    "capitalNative": "Belo Horizonte",
     "id": "br-mg"
   },
   {
     "name": "リオグランデ・ド・スル州",
     "nameNative": "Rio Grande do Sul",
     "capital": "ポルト・アレグレ",
+    "capitalNative": "Porto Alegre",
     "id": "br-rs"
   },
   {
     "name": "リオグランデ・ド・ノルテ州",
     "nameNative": "Rio Grande do Norte",
     "capital": "ナタール",
+    "capitalNative": "Natal",
     "id": "br-rn"
   },
   {
     "name": "リオデジャネイロ州",
     "nameNative": "Rio de Janeiro",
     "capital": "リオデジャネイロ",
+    "capitalNative": "Rio de Janeiro",
     "id": "br-rj"
   },
   {
     "name": "ロライマ州",
     "nameNative": "Roraima",
     "capital": "ボア・ヴィスタ",
+    "capitalNative": "Boa Vista",
     "id": "br-rr"
   },
   {
     "name": "ロンドニア州",
     "nameNative": "Rondônia",
     "capital": "ポルト・ヴェーリョ",
+    "capitalNative": "Porto Velho",
     "id": "br-ro"
   }
 ]

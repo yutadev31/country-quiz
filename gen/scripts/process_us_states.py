@@ -12,12 +12,14 @@ df = transform_data(
     agg_map={
         "stateLabel_en": "first",
         "capitalLabel": join_unique_str,
+        "capitalLabel_en": "first",
         "iso2": "first",
     },
     rename_map={
         "stateLabel": "name",
         "stateLabel_en": "nameNative",
         "capitalLabel": "capital",
+        "capitalLabel_en": "capitalNative",
         "iso2": "id",
     },
     post_process=lambda df: df.assign(

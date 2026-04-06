@@ -33,6 +33,7 @@ df = transform_data(
     group_key="countryLabel",
     agg_map={
         "capitalLabel": join_unique_str,
+        "capitalLabel_native": unique_list,
         "continentLabel": join_continents,
         "countryLabel_native": unique_list,
         "iso2": "first",
@@ -42,6 +43,7 @@ df = transform_data(
         "countryLabel": "name",
         "countryLabel_native": "nameNative",
         "capitalLabel": "capital",
+        "capitalLabel_native": "capitalNative",
         "continentLabel": "continent",
         "iso2": "id",
         "tldLabel": "domain",

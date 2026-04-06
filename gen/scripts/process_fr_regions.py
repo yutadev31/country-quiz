@@ -25,12 +25,14 @@ df = transform_data(
     agg_map={
         "regionLabel_fr": "first",
         "capitalLabel": join_unique_str,
+        "capitalLabel_fr": "first",
         "iso2": "first",
     },
     rename_map={
         "regionLabel": "name",
         "regionLabel_fr": "nameNative",
         "capitalLabel": "capital",
+        "capitalLabel_fr": "capitalNative",
         "iso2": "id",
     },
     post_process=post_process,

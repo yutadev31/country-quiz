@@ -3,186 +3,217 @@
     "name": "アグアスカリエンテス州",
     "nameNative": "Aguascalientes",
     "capital": "アグアスカリエンテス",
+    "capitalNative": "Aguascalientes",
     "id": "mx-agu"
   },
   {
     "name": "イダルゴ州",
     "nameNative": "Hidalgo",
     "capital": "パチューカ",
+    "capitalNative": "Pachuca de Soto",
     "id": "mx-hid"
   },
   {
     "name": "オアハカ州",
     "nameNative": "Estado de Oaxaca",
     "capital": "オアハカ",
+    "capitalNative": "Oaxaca de Juárez",
     "id": "mx-oax"
   },
   {
     "name": "カンペチェ州",
     "nameNative": "Campeche",
     "capital": "カンペチェ",
+    "capitalNative": "San Francisco de Campeche",
     "id": "mx-cam"
   },
   {
     "name": "キンタナ・ロー州",
     "nameNative": "Quintana Roo",
     "capital": "チェトゥマル",
+    "capitalNative": "Chetumal",
     "id": "mx-roo"
   },
   {
     "name": "グアナフアト州",
     "nameNative": "Guanajuato",
     "capital": "グアナフアト",
+    "capitalNative": "Guanajuato",
     "id": "mx-gua"
   },
   {
     "name": "ケレタロ州",
     "nameNative": "Querétaro",
     "capital": "ケレタロ",
+    "capitalNative": "Santiago de Querétaro",
     "id": "mx-que"
   },
   {
     "name": "ゲレーロ州",
     "nameNative": "Guerrero",
     "capital": "チルパンシンゴ",
+    "capitalNative": "Chilpancingo de los Bravo",
     "id": "mx-gro"
   },
   {
     "name": "コアウイラ州",
     "nameNative": "Coahuila de Zaragoza",
     "capital": "サルティーヨ",
+    "capitalNative": "Saltillo",
     "id": "mx-coa"
   },
   {
     "name": "コリマ州",
     "nameNative": "Colima",
     "capital": "コリマ",
+    "capitalNative": "Colima",
     "id": "mx-col"
   },
   {
     "name": "サカテカス州",
     "nameNative": "Zacatecas",
     "capital": "サカテカス",
+    "capitalNative": "Zacatecas",
     "id": "mx-zac"
   },
   {
     "name": "サン・ルイス・ポトシ州",
     "nameNative": "San Luis Potosí",
     "capital": "サン・ルイス・ポトシ",
+    "capitalNative": "San Luis Potosí",
     "id": "mx-slp"
   },
   {
     "name": "シナロア州",
     "nameNative": "Sinaloa",
     "capital": "クリアカン",
+    "capitalNative": "Culiacán",
     "id": "mx-sin"
   },
   {
     "name": "ソノラ州",
     "nameNative": "Sonora",
     "capital": "エルモシージョ",
+    "capitalNative": "Hermosillo",
     "id": "mx-son"
   },
   {
     "name": "タバスコ州",
     "nameNative": "Tabasco",
     "capital": "ビヤエルモサ",
+    "capitalNative": "Villahermosa",
     "id": "mx-tab"
   },
   {
     "name": "タマウリパス州",
     "nameNative": "Tamaulipas",
     "capital": "シウダービクトリア",
+    "capitalNative": "Ciudad Victoria",
     "id": "mx-tam"
   },
   {
     "name": "チアパス州",
     "nameNative": "Chiapas",
     "capital": "トゥストラ・グティエレス",
+    "capitalNative": "Tuxtla Gutiérrez",
     "id": "mx-chp"
   },
   {
     "name": "チワワ州",
     "nameNative": "Chihuahua",
     "capital": "チワワ",
+    "capitalNative": "Chihuahua",
     "id": "mx-chh"
   },
   {
     "name": "トラスカラ州",
     "nameNative": "Tlaxcala",
     "capital": "トラスカラ・デ・シコテンカトル",
+    "capitalNative": "Tlaxcala de Xicohténcatl",
     "id": "mx-tla"
   },
   {
     "name": "ドゥランゴ州",
     "nameNative": "Durango",
     "capital": "ドゥランゴ",
+    "capitalNative": "Victoria de Durango",
     "id": "mx-dur"
   },
   {
     "name": "ナヤリット州",
     "nameNative": "Nayarit",
     "capital": "テピク",
+    "capitalNative": "Tepic",
     "id": "mx-nay"
   },
   {
     "name": "ヌエボ・レオン州",
     "nameNative": "Nuevo León",
     "capital": "モンテレイ",
+    "capitalNative": "Monterrey",
     "id": "mx-nle"
   },
   {
     "name": "ハリスコ州",
     "nameNative": "Jalisco",
     "capital": "グアダラハラ",
+    "capitalNative": "Guadalajara",
     "id": "mx-jal"
   },
   {
     "name": "バハ・カリフォルニア・スル州",
     "nameNative": "Baja California Sur",
     "capital": "ラパス (バハ・カリフォルニア・スル州)",
+    "capitalNative": "La Paz",
     "id": "mx-bcs"
   },
   {
     "name": "バハ・カリフォルニア州",
     "nameNative": "Baja California",
     "capital": "メヒカリ (バハ・カリフォルニア州)",
+    "capitalNative": "Mexicali",
     "id": "mx-bcn"
   },
   {
     "name": "プエブラ州",
     "nameNative": "Puebla",
     "capital": "プエブラ",
+    "capitalNative": "Heroica Puebla de Zaragoza",
     "id": "mx-pue"
   },
   {
     "name": "ベラクルス州",
     "nameNative": "Estado de Veracruz",
     "capital": "ハラパ",
+    "capitalNative": "Xalapa-Enríquez",
     "id": "mx-ver"
   },
   {
     "name": "ミチョアカン州",
     "nameNative": "Michoacán",
     "capital": "モレリア",
+    "capitalNative": "Morelia",
     "id": "mx-mic"
   },
   {
     "name": "メヒコ州",
     "nameNative": "Estado de México",
     "capital": "トルーカ",
+    "capitalNative": "Toluca de Lerdo",
     "id": "mx-mex"
   },
   {
     "name": "モレロス州",
     "nameNative": "Morelos",
     "capital": "クエルナバカ",
+    "capitalNative": "Cuernavaca",
     "id": "mx-mor"
   },
   {
     "name": "ユカタン州",
     "nameNative": "Yucatán",
     "capital": "メリダ",
+    "capitalNative": "Mérida",
     "id": "mx-yuc"
   }
 ]

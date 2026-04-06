@@ -6,6 +6,7 @@ export interface DEState {
   name: string;
   nameNative: string;
   capital: string;
+  capitalNative: string;
 }
 
 export const deStatesMode: GameModeConfig = {
@@ -15,11 +16,13 @@ export const deStatesMode: GameModeConfig = {
     { labelKey: "content-type.de-state-name", value: "name" },
     { labelKey: "content-type.de-state-nameNative", value: "nameNative" },
     { labelKey: "content-type.de-state-capital", value: "capital" },
+    { labelKey: "content-type.de-state-capitalNative", value: "capitalNative" },
   ],
   answerOptions: [
     { labelKey: "content-type.de-state-name", value: "name" },
     { labelKey: "content-type.de-state-nameNative", value: "nameNative" },
     { labelKey: "content-type.de-state-capital", value: "capital" },
+    { labelKey: "content-type.de-state-capitalNative", value: "capitalNative" },
   ],
   defaultQuestionField: "name",
   defaultAnswerField: "capital",
@@ -27,6 +30,7 @@ export const deStatesMode: GameModeConfig = {
     name: "text",
     nameNative: "text",
     capital: "text",
+    capitalNative: "text",
   },
   getItems: () => states,
 };

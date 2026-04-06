@@ -6,6 +6,7 @@ export interface MXState {
   name: string;
   nameNative: string;
   capital: string;
+  capitalNative: string;
 }
 
 export const mxStatesMode: GameModeConfig = {
@@ -15,11 +16,13 @@ export const mxStatesMode: GameModeConfig = {
     { labelKey: "content-type.mx-state-name", value: "name" },
     { labelKey: "content-type.mx-state-nameNative", value: "nameNative" },
     { labelKey: "content-type.mx-state-capital", value: "capital" },
+    { labelKey: "content-type.mx-state-capitalNative", value: "capitalNative" },
   ],
   answerOptions: [
     { labelKey: "content-type.mx-state-name", value: "name" },
     { labelKey: "content-type.mx-state-nameNative", value: "nameNative" },
     { labelKey: "content-type.mx-state-capital", value: "capital" },
+    { labelKey: "content-type.mx-state-capitalNative", value: "capitalNative" },
   ],
   defaultQuestionField: "name",
   defaultAnswerField: "capital",
@@ -27,6 +30,7 @@ export const mxStatesMode: GameModeConfig = {
     name: "text",
     nameNative: "text",
     capital: "text",
+    capitalNative: "text",
   },
   getItems: () => states,
 };

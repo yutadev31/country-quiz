@@ -6,6 +6,7 @@ export interface CAProvinces {
   name: string;
   nameNative: string;
   capital: string;
+  capitalNative: string;
 }
 
 export const caProvincesMode: GameModeConfig = {
@@ -15,11 +16,13 @@ export const caProvincesMode: GameModeConfig = {
     { labelKey: "content-type.ca-province-name", value: "name" },
     { labelKey: "content-type.ca-province-nameNative", value: "nameNative" },
     { labelKey: "content-type.ca-province-capital", value: "capital" },
+    { labelKey: "content-type.ca-province-capitalNative", value: "capitalNative" },
   ],
   answerOptions: [
     { labelKey: "content-type.ca-province-name", value: "name" },
     { labelKey: "content-type.ca-province-nameNative", value: "nameNative" },
     { labelKey: "content-type.ca-province-capital", value: "capital" },
+    { labelKey: "content-type.ca-province-capitalNative", value: "capitalNative" },
   ],
   defaultQuestionField: "name",
   defaultAnswerField: "capital",
@@ -27,6 +30,7 @@ export const caProvincesMode: GameModeConfig = {
     name: "text",
     nameNative: "text",
     capital: "text",
+    capitalNative: "text",
   },
   getItems: () => provinces,
 };

@@ -2,6 +2,7 @@
   {
     "name": "アイスランド",
     "capital": "レイキャヴィーク",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Ísland"],
     "id": "is",
@@ -11,8 +12,9 @@
   {
     "name": "アイルランド",
     "capital": "ダブリン",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Ireland", "Éire"],
+    "nameNative": ["Éire", "Ireland"],
     "id": "ie",
     "domain": ".ie",
     "flag": "https:\/\/flagcdn.com\/ie.svg"
@@ -20,8 +22,9 @@
   {
     "name": "アゼルバイジャン",
     "capital": "バクー",
+    "capitalNative": [],
     "continent": ["asia"],
-    "nameNative": ["Azərbaycan", "Azərbaycan Respublikası"],
+    "nameNative": ["Azərbaycan Respublikası", "Azərbaycan"],
     "id": "az",
     "domain": ".az",
     "flag": "https:\/\/flagcdn.com\/az.svg"
@@ -29,6 +32,7 @@
   {
     "name": "アフガニスタン",
     "capital": "カーブル",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["افغانستان"],
     "id": "af",
@@ -38,14 +42,15 @@
   {
     "name": "アメリカ合衆国",
     "capital": "ワシントンD.C.",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": [
-      "United States of America",
-      "Estados Unidos de América",
-      "Estados Unidus",
-      "ᏌᏊᎢᏳᎾᎵᏍᏔᏅᏍᎦᏚᎩ ᎾᎿ ᎠᎺᏰᏟ",
+      "Iunaite Sitete o Amerika",
       "Wááshindoon Bikéyah Ałhidadiidzooígíí",
-      "Iunaite Sitete o Amerika"
+      "ᏌᏊᎢᏳᎾᎵᏍᏔᏅᏍᎦᏚᎩ ᎾᎿ ᎠᎺᏰᏟ",
+      "Estados Unidus",
+      "Estados Unidos de América",
+      "United States of America"
     ],
     "id": "us",
     "domain": ".us",
@@ -54,6 +59,7 @@
   {
     "name": "アラブ首長国連邦",
     "capital": "アブダビ",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["الإِمَارات العربِيَّة المُتَّحِدة"],
     "id": "ae",
@@ -63,8 +69,9 @@
   {
     "name": "アルジェリア",
     "capital": "アルジェ",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["الجزائر", "الجمهورية الجزائرية الديمقراطية الشعبية"],
+    "nameNative": ["الجمهورية الجزائرية الديمقراطية الشعبية", "الجزائر"],
     "id": "dz",
     "domain": ".dz",
     "flag": "https:\/\/flagcdn.com\/dz.svg"
@@ -72,6 +79,7 @@
   {
     "name": "アルゼンチン",
     "capital": "ブエノスアイレス",
+    "capitalNative": [],
     "continent": ["south-america"],
     "nameNative": ["República Argentina"],
     "id": "ar",
@@ -81,6 +89,7 @@
   {
     "name": "アルバニア",
     "capital": "ティラナ",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Republika e Shqipërisë"],
     "id": "al",
@@ -90,6 +99,7 @@
   {
     "name": "アルメニア",
     "capital": "イェレヴァン",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["Հայաստան"],
     "id": "am",
@@ -99,8 +109,9 @@
   {
     "name": "アンゴラ",
     "capital": "ルアンダ",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["Angola", "República de Angola"],
+    "nameNative": ["República de Angola", "Angola"],
     "id": "ao",
     "domain": ".ao",
     "flag": "https:\/\/flagcdn.com\/ao.svg"
@@ -108,8 +119,9 @@
   {
     "name": "アンティグア・バーブーダ",
     "capital": "セントジョンズ",
+    "capitalNative": [],
     "continent": ["north-america"],
-    "nameNative": ["Antigua and Barbuda", "Aanteega an' Baabyuuda"],
+    "nameNative": ["Aanteega an' Baabyuuda", "Antigua and Barbuda"],
     "id": "ag",
     "domain": ".ag",
     "flag": "https:\/\/flagcdn.com\/ag.svg"
@@ -117,6 +129,7 @@
   {
     "name": "アンドラ",
     "capital": "アンドラ・ラ・ベリャ",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Andorra"],
     "id": "ad",
@@ -126,6 +139,7 @@
   {
     "name": "イエメン",
     "capital": "サヌア,アデン",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["الجمهوريّة اليمنية"],
     "id": "ye",
@@ -135,6 +149,7 @@
   {
     "name": "イギリス",
     "capital": "ロンドン",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["United Kingdom of Great Britain and Northern Ireland"],
     "id": "gb",
@@ -144,8 +159,9 @@
   {
     "name": "イタリア",
     "capital": "ローマ",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Italia", "Repubblica Italiana"],
+    "nameNative": ["Repubblica Italiana", "Italia"],
     "id": "it",
     "domain": ".it",
     "flag": "https:\/\/flagcdn.com\/it.svg"
@@ -153,13 +169,14 @@
   {
     "name": "イラク",
     "capital": "バグダード",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": [
-      "Iraq",
-      "العراق",
-      "جمهورية العراق",
+      "Republik Iraq",
       "Republic of Iraq",
-      "Republik Iraq"
+      "جمهورية العراق",
+      "العراق",
+      "Iraq"
     ],
     "id": "iq",
     "domain": ".iq",
@@ -168,6 +185,7 @@
   {
     "name": "イラン",
     "capital": "テヘラン",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["ایران"],
     "id": "ir",
@@ -177,8 +195,9 @@
   {
     "name": "インド",
     "capital": "ニューデリー",
+    "capitalNative": [],
     "continent": ["asia"],
-    "nameNative": ["بھارت", "ہندوستان", "இந்தியா", "भारत", "ভারত", "ꠄꠘ꠆ꠒꠤꠀ"],
+    "nameNative": ["ꠄꠘ꠆ꠒꠤꠀ", "भारत", "ভারত", "இந்தியா", "ہندوستان", "بھارت"],
     "id": "in",
     "domain": ".in",
     "flag": "https:\/\/flagcdn.com\/in.svg"
@@ -186,13 +205,14 @@
   {
     "name": "インドネシア",
     "capital": "ジャカルタ",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": [
-      "Indonesia",
-      "Republic of Indonesia",
-      "Unitary State of the Republic of Indonesia",
+      "Republik Indonesia",
       "Negara Kesatuan Republik Indonesia",
-      "Republik Indonesia"
+      "Unitary State of the Republic of Indonesia",
+      "Republic of Indonesia",
+      "Indonesia"
     ],
     "id": "id",
     "domain": ".id",
@@ -201,8 +221,9 @@
   {
     "name": "ウガンダ",
     "capital": "カンパラ",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["Republic of Uganda", "Jamhuri ya Uganda"],
+    "nameNative": ["Jamhuri ya Uganda", "Republic of Uganda"],
     "id": "ug",
     "domain": ".ug",
     "flag": "https:\/\/flagcdn.com\/ug.svg"
@@ -210,6 +231,7 @@
   {
     "name": "ウクライナ",
     "capital": "キーウ",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Україна"],
     "id": "ua",
@@ -219,8 +241,9 @@
   {
     "name": "ウズベキスタン",
     "capital": "タシュケント",
+    "capitalNative": [],
     "continent": ["asia"],
-    "nameNative": ["Oʻzbekiston", "Oʻzbekiston Respublikasi"],
+    "nameNative": ["Oʻzbekiston Respublikasi", "Oʻzbekiston"],
     "id": "uz",
     "domain": ".uz",
     "flag": "https:\/\/flagcdn.com\/uz.svg"
@@ -228,6 +251,7 @@
   {
     "name": "ウルグアイ",
     "capital": "モンテビデオ",
+    "capitalNative": [],
     "continent": ["south-america"],
     "nameNative": ["República Oriental del Uruguay"],
     "id": "uy",
@@ -237,6 +261,7 @@
   {
     "name": "エクアドル",
     "capital": "キト",
+    "capitalNative": [],
     "continent": ["south-america"],
     "nameNative": ["República del Ecuador"],
     "id": "ec",
@@ -246,14 +271,15 @@
   {
     "name": "エジプト",
     "capital": "カイロ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": [
-      "Egypt",
-      "مصر",
-      "Mesir",
-      "جُمهورِيّةُ مِصرَ العَرَبيّةِ",
+      "Republik Arab Mesir",
       "Arab Republic of Egypt",
-      "Republik Arab Mesir"
+      "جُمهورِيّةُ مِصرَ العَرَبيّةِ",
+      "Mesir",
+      "مصر",
+      "Egypt"
     ],
     "id": "eg",
     "domain": ".eg",
@@ -262,6 +288,7 @@
   {
     "name": "エストニア",
     "capital": "タリン",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Eesti Vabariik"],
     "id": "ee",
@@ -271,6 +298,7 @@
   {
     "name": "エスワティニ",
     "capital": "ムババーネ,ロバンバ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Umbuso weSwatini"],
     "id": "sz",
@@ -280,12 +308,13 @@
   {
     "name": "エチオピア",
     "capital": "アディスアベバ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": [
-      "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",
-      "Federaalawaa Dimokraatawaa Repabliikii Itoophiyaa",
+      "Toophphiya Federaalle Dimokkiraatike Ripaabilike",
       "ናይኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ",
-      "Toophphiya Federaalle Dimokkiraatike Ripaabilike"
+      "Federaalawaa Dimokraatawaa Repabliikii Itoophiyaa",
+      "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
     ],
     "id": "et",
     "domain": ".et",
@@ -294,8 +323,9 @@
   {
     "name": "エリトリア",
     "capital": "アスマラ",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["إرترة", "ኤርትራ"],
+    "nameNative": ["ኤርትራ", "إرترة"],
     "id": "er",
     "domain": ".er",
     "flag": "https:\/\/flagcdn.com\/er.svg"
@@ -303,6 +333,7 @@
   {
     "name": "エルサルバドル",
     "capital": "サンサルバドル",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["República de El Salvador"],
     "id": "sv",
@@ -312,6 +343,7 @@
   {
     "name": "オマーン",
     "capital": "マスカット",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["سلطنة عُمان"],
     "id": "om",
@@ -321,6 +353,7 @@
   {
     "name": "オランダ王国",
     "capital": "アムステルダム",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Koninkrijk der Nederlanden"],
     "id": "nl",
@@ -330,6 +363,7 @@
   {
     "name": "オーストラリア",
     "capital": "キャンベラ",
+    "capitalNative": [],
     "continent": ["oceania"],
     "nameNative": ["Australia"],
     "id": "au",
@@ -339,8 +373,9 @@
   {
     "name": "オーストリア",
     "capital": "ウィーン",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Österreich", "Republik Österreich"],
+    "nameNative": ["Republik Österreich", "Österreich"],
     "id": "at",
     "domain": ".at",
     "flag": "https:\/\/flagcdn.com\/at.svg"
@@ -348,8 +383,9 @@
   {
     "name": "カザフスタン",
     "capital": "アスタナ",
-    "continent": ["europe", "asia"],
-    "nameNative": ["Қазақстан", "قزاقستان", "Қазақстан Республикасы"],
+    "capitalNative": [],
+    "continent": ["asia", "europe"],
+    "nameNative": ["Қазақстан", "Қазақстан Республикасы", "قزاقستان"],
     "id": "kz",
     "domain": ".kz",
     "flag": "https:\/\/flagcdn.com\/kz.svg"
@@ -357,6 +393,7 @@
   {
     "name": "カナダ",
     "capital": "オタワ",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["Canada"],
     "id": "ca",
@@ -366,6 +403,7 @@
   {
     "name": "カメルーン",
     "capital": "ヤウンデ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["République du Cameroun"],
     "id": "cm",
@@ -375,6 +413,7 @@
   {
     "name": "カンボジア",
     "capital": "プノンペン",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["កម្ពុជា"],
     "id": "kh",
@@ -384,6 +423,7 @@
   {
     "name": "カーボベルデ",
     "capital": "プライア",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["República de Cabo Verde"],
     "id": "cv",
@@ -393,6 +433,7 @@
   {
     "name": "ガイアナ",
     "capital": "ジョージタウン",
+    "capitalNative": [],
     "continent": ["south-america"],
     "nameNative": ["Co-operative Republic of Guyana"],
     "id": "gy",
@@ -402,6 +443,7 @@
   {
     "name": "ガボン",
     "capital": "リーブルヴィル",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["République gabonaise"],
     "id": "ga",
@@ -411,6 +453,7 @@
   {
     "name": "ガンビア",
     "capital": "バンジュール",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Republic of The Gambia"],
     "id": "gm",
@@ -420,8 +463,9 @@
   {
     "name": "ガーナ",
     "capital": "アクラ",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["Ghana", "Gana", "Gaana"],
+    "nameNative": ["Gaana", "Gana", "Ghana"],
     "id": "gh",
     "domain": ".gh",
     "flag": "https:\/\/flagcdn.com\/gh.svg"
@@ -429,8 +473,9 @@
   {
     "name": "キプロス",
     "capital": "ニコシア",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Κυπριακή Δημοκρατία", "Kıbrıs Cumhuriyeti"],
+    "nameNative": ["Kıbrıs Cumhuriyeti", "Κυπριακή Δημοκρατία"],
     "id": "cy",
     "domain": ".cy",
     "flag": "https:\/\/flagcdn.com\/cy.svg"
@@ -438,6 +483,7 @@
   {
     "name": "キューバ",
     "capital": "ハバナ",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["República de Cuba"],
     "id": "cu",
@@ -447,6 +493,7 @@
   {
     "name": "キリバス",
     "capital": "タラワ,サウス・タラワ",
+    "capitalNative": [],
     "continent": ["oceania"],
     "nameNative": ["Ribaberiki ni Kiribati"],
     "id": "ki",
@@ -456,6 +503,7 @@
   {
     "name": "キルギス",
     "capital": "ビシュケク",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["Кыргызстан"],
     "id": "kg",
@@ -465,6 +513,7 @@
   {
     "name": "ギニア",
     "capital": "コナクリ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["République de Guinée"],
     "id": "gn",
@@ -474,6 +523,7 @@
   {
     "name": "ギニアビサウ共和国",
     "capital": "ビサウ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["República da Guiné-Bissau"],
     "id": "gw",
@@ -483,8 +533,9 @@
   {
     "name": "ギリシャ",
     "capital": "アテネ",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Ελλάδα", "Ελληνική Δημοκρατία", "Ελλάς"],
+    "nameNative": ["Ελλάς", "Ελληνική Δημοκρατία", "Ελλάδα"],
     "id": "gr",
     "domain": ".gr",
     "flag": "https:\/\/flagcdn.com\/gr.svg"
@@ -492,6 +543,7 @@
   {
     "name": "クウェート",
     "capital": "クウェート市",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["الكويت"],
     "id": "kw",
@@ -501,6 +553,7 @@
   {
     "name": "クロアチア",
     "capital": "ザグレブ",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Hrvatska"],
     "id": "hr",
@@ -510,6 +563,7 @@
   {
     "name": "グアテマラ",
     "capital": "グアテマラシティ",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["República de Guatemala"],
     "id": "gt",
@@ -519,6 +573,7 @@
   {
     "name": "グレナダ",
     "capital": "セントジョージズ",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["State of Grenada"],
     "id": "gd",
@@ -528,6 +583,7 @@
   {
     "name": "ケニア",
     "capital": "ナイロビ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Republic of Kenya"],
     "id": "ke",
@@ -537,6 +593,7 @@
   {
     "name": "コスタリカ",
     "capital": "サンホセ",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["República de Costa Rica"],
     "id": "cr",
@@ -546,8 +603,9 @@
   {
     "name": "コモロ",
     "capital": "モロニ",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["الاتحاد القمري", "Union des Comores"],
+    "nameNative": ["Union des Comores", "الاتحاد القمري"],
     "id": "km",
     "domain": ".km",
     "flag": "https:\/\/flagcdn.com\/km.svg"
@@ -555,6 +613,7 @@
   {
     "name": "コロンビア",
     "capital": "ボゴタ",
+    "capitalNative": [],
     "continent": ["south-america"],
     "nameNative": ["Colombia"],
     "id": "co",
@@ -564,11 +623,12 @@
   {
     "name": "コンゴ共和国",
     "capital": "ブラザヴィル",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": [
-      "République du Congo",
+      "Republíki ya Kongó",
       "Repubilika ya Kongo",
-      "Republíki ya Kongó"
+      "République du Congo"
     ],
     "id": "cg",
     "domain": ".cg",
@@ -577,6 +637,7 @@
   {
     "name": "コンゴ民主共和国",
     "capital": "キンシャサ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["République démocratique du Congo"],
     "id": "cd",
@@ -586,6 +647,7 @@
   {
     "name": "コートジボワール",
     "capital": "ヤムスクロ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["République de Côte d'Ivoire"],
     "id": "ci",
@@ -595,14 +657,15 @@
   {
     "name": "サウジアラビア",
     "capital": "リヤド",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": [
-      "Saudi Arabia",
-      "Kingdom of Saudi Arabia",
-      "السعودية",
-      "المملكة العربية السعودية",
+      "Kerajaan Arab Saudi",
       "Arab Saudi",
-      "Kerajaan Arab Saudi"
+      "المملكة العربية السعودية",
+      "السعودية",
+      "Kingdom of Saudi Arabia",
+      "Saudi Arabia"
     ],
     "id": "sa",
     "domain": ".sa",
@@ -611,12 +674,13 @@
   {
     "name": "サモア",
     "capital": "アピア",
+    "capitalNative": [],
     "continent": ["oceania"],
     "nameNative": [
-      "Western Samoa",
-      "Independent State of Samoa",
+      "Sāmoa",
       "Malo Sa’oloto Tuto’atasi o Samoa",
-      "Sāmoa"
+      "Independent State of Samoa",
+      "Western Samoa"
     ],
     "id": "ws",
     "domain": ".ws",
@@ -625,6 +689,7 @@
   {
     "name": "サントメ・プリンシペ",
     "capital": "サントメ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["República Democrática de São Tomé e Príncipe"],
     "id": "st",
@@ -634,8 +699,9 @@
   {
     "name": "サンマリノ",
     "capital": "サンマリノ市",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["San Marco", "Repubblica di San Marino"],
+    "nameNative": ["Repubblica di San Marino", "San Marco"],
     "id": "sm",
     "domain": ".sm",
     "flag": "https:\/\/flagcdn.com\/sm.svg"
@@ -643,6 +709,7 @@
   {
     "name": "ザンビア",
     "capital": "ルサカ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Republic of Zambia"],
     "id": "zm",
@@ -652,6 +719,7 @@
   {
     "name": "シエラレオネ",
     "capital": "フリータウン",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Republic of Sierra Leone"],
     "id": "sl",
@@ -661,11 +729,12 @@
   {
     "name": "シリア",
     "capital": "ダマスカス",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": [
-      "الجمهورية العربية السورية",
+      "Komara Erebî ya Sûriyê",
       "سوريا",
-      "Komara Erebî ya Sûriyê"
+      "الجمهورية العربية السورية"
     ],
     "id": "sy",
     "domain": ".sy",
@@ -674,12 +743,13 @@
   {
     "name": "シンガポール",
     "capital": "シンガポール",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": [
-      "Republic of Singapore",
-      "Republik Singapura",
+      "新加坡共和国",
       "சிங்கப்பூர் குடியரசு",
-      "新加坡共和国"
+      "Republik Singapura",
+      "Republic of Singapore"
     ],
     "id": "sg",
     "domain": ".sg",
@@ -688,8 +758,9 @@
   {
     "name": "ジブチ",
     "capital": "ジブチ市",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["Jabuuti", "جمهورية جيبوتي", "République de Djibouti"],
+    "nameNative": ["République de Djibouti", "جمهورية جيبوتي", "Jabuuti"],
     "id": "dj",
     "domain": ".dj",
     "flag": "https:\/\/flagcdn.com\/dj.svg"
@@ -697,8 +768,9 @@
   {
     "name": "ジャマイカ",
     "capital": "キングストン",
+    "capitalNative": [],
     "continent": ["north-america"],
-    "nameNative": ["Jamaica", "Jumieka", "Xaymaca", "Yamaye"],
+    "nameNative": ["Yamaye", "Xaymaca", "Jumieka", "Jamaica"],
     "id": "jm",
     "domain": ".jm",
     "flag": "https:\/\/flagcdn.com\/jm.svg"
@@ -706,6 +778,7 @@
   {
     "name": "ジョージア",
     "capital": "トビリシ",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["საქართველო"],
     "id": "ge",
@@ -715,6 +788,7 @@
   {
     "name": "ジンバブエ",
     "capital": "ハラレ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Zimbabwe"],
     "id": "zw",
@@ -724,12 +798,13 @@
   {
     "name": "スイス",
     "capital": "ベルン",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": [
-      "Schweizerische Eidgenossenschaft",
-      "Confédération suisse",
+      "Confederaziun svizra",
       "Confederazione Svizzera",
-      "Confederaziun svizra"
+      "Confédération suisse",
+      "Schweizerische Eidgenossenschaft"
     ],
     "id": "ch",
     "domain": ".ch",
@@ -738,6 +813,7 @@
   {
     "name": "スウェーデン",
     "capital": "ストックホルム",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Sverige"],
     "id": "se",
@@ -747,6 +823,7 @@
   {
     "name": "スペイン",
     "capital": "マドリード",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Reino de España"],
     "id": "es",
@@ -756,8 +833,9 @@
   {
     "name": "スリナム",
     "capital": "パラマリボ",
+    "capitalNative": [],
     "continent": ["south-america"],
-    "nameNative": ["Republiek Suriname", "Ripoliku Sranan"],
+    "nameNative": ["Ripoliku Sranan", "Republiek Suriname"],
     "id": "sr",
     "domain": ".sr",
     "flag": "https:\/\/flagcdn.com\/sr.svg"
@@ -765,11 +843,12 @@
   {
     "name": "スリランカ",
     "capital": "コロンボ,スリジャヤワルダナプラコッテ",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": [
-      "ශ්රී ලංකා ප්රජාතාන්ත්රික සමාජවාදී ජනරජය",
+      "இலங்கை சனநாயக சோசலிசக் குடியரசு",
       "ශ්රී ලංකාව",
-      "இலங்கை சனநாயக சோசலிசக் குடியரசு"
+      "ශ්රී ලංකා ප්රජාතාන්ත්රික සමාජවාදී ජනරජය"
     ],
     "id": "lk",
     "domain": ".lk",
@@ -778,6 +857,7 @@
   {
     "name": "スロバキア",
     "capital": "ブラチスラヴァ",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Slovenská republika"],
     "id": "sk",
@@ -787,6 +867,7 @@
   {
     "name": "スロベニア",
     "capital": "リュブリャナ",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Slovenija"],
     "id": "si",
@@ -796,8 +877,9 @@
   {
     "name": "スーダン",
     "capital": "ハルツーム",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["جمهورية السودان", "Land of the blacks"],
+    "nameNative": ["Land of the blacks", "جمهورية السودان"],
     "id": "sd",
     "domain": ".sd",
     "flag": "https:\/\/flagcdn.com\/sd.svg"
@@ -805,6 +887,7 @@
   {
     "name": "セネガル",
     "capital": "ダカール",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Senegaal"],
     "id": "sn",
@@ -814,6 +897,7 @@
   {
     "name": "セルビア",
     "capital": "ベオグラード",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Србија"],
     "id": "rs",
@@ -823,6 +907,7 @@
   {
     "name": "セントクリストファー・ネイビス",
     "capital": "バセテール",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["Federation of Saint Kitts and Nevis"],
     "id": "kn",
@@ -832,6 +917,7 @@
   {
     "name": "セントビンセント・グレナディーン",
     "capital": "キングスタウン",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["Saint Vincent and the Grenadines"],
     "id": "vc",
@@ -841,6 +927,7 @@
   {
     "name": "セントルシア",
     "capital": "カストリーズ",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["Saint Lucia"],
     "id": "lc",
@@ -850,6 +937,7 @@
   {
     "name": "セーシェル",
     "capital": "ヴィクトリア",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["République des Seychelles"],
     "id": "sc",
@@ -859,12 +947,13 @@
   {
     "name": "ソマリア",
     "capital": "モガディシュ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": [
-      "جمهورية الصومال الفدرالية",
-      "Jamhuuriyadda Federaalka Soomaaliya",
+      "𐒈𐒝𐒑𐒛𐒐𐒘𐒕𐒖",
       "Soomaaliya",
-      "𐒈𐒝𐒑𐒛𐒐𐒘𐒕𐒖"
+      "Jamhuuriyadda Federaalka Soomaaliya",
+      "جمهورية الصومال الفدرالية"
     ],
     "id": "so",
     "domain": ".so",
@@ -873,6 +962,7 @@
   {
     "name": "ソロモン諸島",
     "capital": "ホニアラ",
+    "capitalNative": [],
     "continent": ["oceania"],
     "nameNative": ["Solomon Islands"],
     "id": "sb",
@@ -882,6 +972,7 @@
   {
     "name": "タイ王国",
     "capital": "バンコク",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["ราชอาณาจักรไทย"],
     "id": "th",
@@ -891,8 +982,9 @@
   {
     "name": "タジキスタン",
     "capital": "ドゥシャンベ",
+    "capitalNative": [],
     "continent": ["asia"],
-    "nameNative": ["Тоҷикистон", "Ҷумҳурии Тоҷикистон"],
+    "nameNative": ["Ҷумҳурии Тоҷикистон", "Тоҷикистон"],
     "id": "tj",
     "domain": ".tj",
     "flag": "https:\/\/flagcdn.com\/tj.svg"
@@ -900,10 +992,11 @@
   {
     "name": "タンザニア",
     "capital": "ドドマ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": [
-      "United Republic of Tanzania",
-      "Jamhuri ya Muungano wa Tanzania"
+      "Jamhuri ya Muungano wa Tanzania",
+      "United Republic of Tanzania"
     ],
     "id": "tz",
     "domain": ".tz",
@@ -912,8 +1005,9 @@
   {
     "name": "チェコ共和国",
     "capital": "プラハ",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Česko", "Česká republika"],
+    "nameNative": ["Česká republika", "Česko"],
     "id": "cz",
     "domain": ".cz",
     "flag": "https:\/\/flagcdn.com\/cz.svg"
@@ -921,8 +1015,9 @@
   {
     "name": "チャド",
     "capital": "ンジャメナ",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["جُمْهُورِيَّة تشاد", "République du Tchad"],
+    "nameNative": ["République du Tchad", "جُمْهُورِيَّة تشاد"],
     "id": "td",
     "domain": ".td",
     "flag": "https:\/\/flagcdn.com\/td.svg"
@@ -930,13 +1025,14 @@
   {
     "name": "チュニジア",
     "capital": "チュニス",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": [
       "Tunisia",
-      "تونس",
-      "الجمهورية التونسية",
+      "Republik Tunisia",
       "Republic of Tunisia",
-      "Republik Tunisia"
+      "الجمهورية التونسية",
+      "تونس"
     ],
     "id": "tn",
     "domain": ".tn",
@@ -945,8 +1041,9 @@
   {
     "name": "チリ",
     "capital": "サンティアゴ",
+    "capitalNative": [],
     "continent": ["south-america"],
-    "nameNative": ["Chile", "República de Chile"],
+    "nameNative": ["República de Chile", "Chile"],
     "id": "cl",
     "domain": ".cl",
     "flag": "https:\/\/flagcdn.com\/cl.svg"
@@ -954,6 +1051,7 @@
   {
     "name": "トリニダード・トバゴ",
     "capital": "ポートオブスペイン",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["Republic of Trinidad and Tobago"],
     "id": "tt",
@@ -963,8 +1061,9 @@
   {
     "name": "トルクメニスタン",
     "capital": "アシガバート",
+    "capitalNative": [],
     "continent": ["asia"],
-    "nameNative": ["Türkmenistan", "Türkmenistan Respublikasi"],
+    "nameNative": ["Türkmenistan Respublikasi", "Türkmenistan"],
     "id": "tm",
     "domain": ".tm",
     "flag": "https:\/\/flagcdn.com\/tm.svg"
@@ -972,8 +1071,9 @@
   {
     "name": "トルコ",
     "capital": "アンカラ",
+    "capitalNative": [],
     "continent": ["asia"],
-    "nameNative": ["Türkiye", "Türkiye Cumhuriyeti"],
+    "nameNative": ["Türkiye Cumhuriyeti", "Türkiye"],
     "id": "tr",
     "domain": ".tr",
     "flag": "https:\/\/flagcdn.com\/tr.svg"
@@ -981,6 +1081,7 @@
   {
     "name": "トンガ",
     "capital": "ヌクアロファ",
+    "capitalNative": [],
     "continent": ["oceania"],
     "nameNative": ["Tonga"],
     "id": "to",
@@ -990,6 +1091,7 @@
   {
     "name": "トーゴ",
     "capital": "ロメ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Togo"],
     "id": "tg",
@@ -999,8 +1101,9 @@
   {
     "name": "ドイツ",
     "capital": "ベルリン",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Deutschland", "Bundesrepublik Deutschland"],
+    "nameNative": ["Bundesrepublik Deutschland", "Deutschland"],
     "id": "de",
     "domain": ".de",
     "flag": "https:\/\/flagcdn.com\/de.svg"
@@ -1008,6 +1111,7 @@
   {
     "name": "ドミニカ共和国",
     "capital": "サント・ドミンゴ",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["República Dominicana"],
     "id": "do",
@@ -1017,8 +1121,9 @@
   {
     "name": "ドミニカ国",
     "capital": "ロゾー",
+    "capitalNative": [],
     "continent": ["north-america"],
-    "nameNative": ["Commonwealth of Dominica", "Commonwealth Dominica"],
+    "nameNative": ["Commonwealth Dominica", "Commonwealth of Dominica"],
     "id": "dm",
     "domain": ".dm",
     "flag": "https:\/\/flagcdn.com\/dm.svg"
@@ -1026,8 +1131,9 @@
   {
     "name": "ナイジェリア",
     "capital": "アブジャ",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["Nijeriya", "Naigeria", "Nàìjíríà"],
+    "nameNative": ["Nàìjíríà", "Naigeria", "Nijeriya"],
     "id": "ng",
     "domain": ".ng",
     "flag": "https:\/\/flagcdn.com\/ng.svg"
@@ -1035,8 +1141,9 @@
   {
     "name": "ナウル",
     "capital": "ヤレン地区",
+    "capitalNative": [],
     "continent": ["oceania"],
-    "nameNative": ["Naoero", "Ripublik Naoero"],
+    "nameNative": ["Ripublik Naoero", "Naoero"],
     "id": "nr",
     "domain": ".nr",
     "flag": "https:\/\/flagcdn.com\/nr.svg"
@@ -1044,11 +1151,12 @@
   {
     "name": "ナミビア",
     "capital": "ウィントフック",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": [
-      "Republiek van Namibië",
+      "Republic of Namibia",
       "Republik Namibia",
-      "Republic of Namibia"
+      "Republiek van Namibië"
     ],
     "id": "na",
     "domain": ".na",
@@ -1057,6 +1165,7 @@
   {
     "name": "ニカラグア",
     "capital": "マナグア",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["República de Nicaragua"],
     "id": "ni",
@@ -1066,6 +1175,7 @@
   {
     "name": "ニジェール",
     "capital": "ニアメ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Nijar"],
     "id": "ne",
@@ -1075,6 +1185,7 @@
   {
     "name": "ニュージーランド",
     "capital": "ウェリントン",
+    "capitalNative": [],
     "continent": ["oceania"],
     "nameNative": ["Aotearoa"],
     "id": "nz",
@@ -1084,6 +1195,7 @@
   {
     "name": "ネパール",
     "capital": "カトマンズ",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["नेपाल"],
     "id": "np",
@@ -1093,8 +1205,9 @@
   {
     "name": "ノルウェー",
     "capital": "オスロ",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Kongeriket Norge", "Kongeriket Noreg"],
+    "nameNative": ["Kongeriket Noreg", "Kongeriket Norge"],
     "id": "no",
     "domain": ".no",
     "flag": "https:\/\/flagcdn.com\/no.svg"
@@ -1102,6 +1215,7 @@
   {
     "name": "ハイチ",
     "capital": "ポルトープランス",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["Ayiti"],
     "id": "ht",
@@ -1111,6 +1225,7 @@
   {
     "name": "ハンガリー",
     "capital": "ブダペスト",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Magyarország"],
     "id": "hu",
@@ -1120,6 +1235,7 @@
   {
     "name": "バチカン",
     "capital": "",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Civitas Vaticana"],
     "id": "va",
@@ -1129,12 +1245,13 @@
   {
     "name": "バヌアツ",
     "capital": "ポートビラ",
+    "capitalNative": [],
     "continent": ["oceania"],
     "nameNative": [
-      "Ripablik blong Vanuatu",
-      "Vanuatu",
+      "République du Vanuatu",
       "Republic of Vanuatu",
-      "République du Vanuatu"
+      "Vanuatu",
+      "Ripablik blong Vanuatu"
     ],
     "id": "vu",
     "domain": ".vu",
@@ -1143,6 +1260,7 @@
   {
     "name": "バハマ",
     "capital": "ナッソー",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["Commonwealth of the Bahamas"],
     "id": "bs",
@@ -1152,6 +1270,7 @@
   {
     "name": "バルバドス",
     "capital": "ブリッジタウン",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["Barbados"],
     "id": "bb",
@@ -1161,8 +1280,9 @@
   {
     "name": "バングラデシュ",
     "capital": "ダッカ",
+    "capitalNative": [],
     "continent": ["asia"],
-    "nameNative": ["বাংলাদেশ", "গণপ্রজাতন্ত্রী বাংলাদেশ"],
+    "nameNative": ["গণপ্রজাতন্ত্রী বাংলাদেশ", "বাংলাদেশ"],
     "id": "bd",
     "domain": ".bd",
     "flag": "https:\/\/flagcdn.com\/bd.svg"
@@ -1170,8 +1290,9 @@
   {
     "name": "パキスタン",
     "capital": "イスラマバード",
+    "capitalNative": [],
     "continent": ["asia"],
-    "nameNative": ["Pakistan", "پاکستان", "Pákistán", "پٲکِستان", "پاڪستان"],
+    "nameNative": ["پاڪستان", "پاکستان", "پٲکِستان", "Pákistán", "Pakistan"],
     "id": "pk",
     "domain": ".pk",
     "flag": "https:\/\/flagcdn.com\/pk.svg"
@@ -1179,6 +1300,7 @@
   {
     "name": "パナマ",
     "capital": "パナマ市",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["República de Panamá"],
     "id": "pa",
@@ -1188,10 +1310,11 @@
   {
     "name": "パプアニューギニア",
     "capital": "ポートモレスビー",
+    "capitalNative": [],
     "continent": ["oceania"],
     "nameNative": [
-      "Independent State of Papua New Guinea",
-      "Independen Stet bilong Papua Niugini"
+      "Independen Stet bilong Papua Niugini",
+      "Independent State of Papua New Guinea"
     ],
     "id": "pg",
     "domain": ".pg",
@@ -1200,8 +1323,9 @@
   {
     "name": "パラオ",
     "capital": "ンゲルルムッド",
+    "capitalNative": [],
     "continent": ["oceania"],
-    "nameNative": ["Republic of Palau", "Belau"],
+    "nameNative": ["Belau", "Republic of Palau"],
     "id": "pw",
     "domain": ".pw",
     "flag": "https:\/\/flagcdn.com\/pw.svg"
@@ -1209,15 +1333,17 @@
   {
     "name": "パラグアイ",
     "capital": "アスンシオン",
+    "capitalNative": [],
     "continent": ["south-america"],
-    "nameNative": ["República del Paraguay", "Paraguái Tavakuairetã"],
+    "nameNative": ["Paraguái Tavakuairetã", "República del Paraguay"],
     "id": "py",
     "domain": ".py",
     "flag": "https:\/\/flagcdn.com\/py.svg"
   },
   {
     "name": "パレスチナ国",
-    "capital": "ラマッラー,エルサレム",
+    "capital": "エルサレム,ラマッラー",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["دولة فلسطين"],
     "id": "ps",
@@ -1227,12 +1353,13 @@
   {
     "name": "フィジー",
     "capital": "スバ",
+    "capitalNative": [],
     "continent": ["oceania"],
     "nameNative": [
-      "Viti",
-      "Republic of Fiji",
+      "Fidźi Ganaradźja",
       "Matanitu Tugalala o Viti",
-      "Fidźi Ganaradźja"
+      "Republic of Fiji",
+      "Viti"
     ],
     "id": "fj",
     "domain": ".fj",
@@ -1241,6 +1368,7 @@
   {
     "name": "フィリピン",
     "capital": "マニラ",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["Philippines", "Pilipinas"],
     "id": "ph",
@@ -1250,8 +1378,9 @@
   {
     "name": "フィンランド",
     "capital": "ヘルシンキ",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Finland", "Suomi"],
+    "nameNative": ["Suomi", "Finland"],
     "id": "fi",
     "domain": ".fi",
     "flag": "https:\/\/flagcdn.com\/fi.svg"
@@ -1259,8 +1388,9 @@
   {
     "name": "フランス",
     "capital": "パリ",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["France", "République française"],
+    "nameNative": ["République française", "France"],
     "id": "fr",
     "domain": ".fr",
     "flag": "https:\/\/flagcdn.com\/fr.svg"
@@ -1268,6 +1398,7 @@
   {
     "name": "ブラジル",
     "capital": "ブラジリア",
+    "capitalNative": [],
     "continent": ["south-america"],
     "nameNative": ["República Federativa do Brasil"],
     "id": "br",
@@ -1277,6 +1408,7 @@
   {
     "name": "ブルガリア",
     "capital": "ソフィア",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["България"],
     "id": "bg",
@@ -1286,6 +1418,7 @@
   {
     "name": "ブルキナファソ",
     "capital": "ワガドゥグー",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Burkina Faso"],
     "id": "bf",
@@ -1295,8 +1428,9 @@
   {
     "name": "ブルネイ",
     "capital": "バンダルスリブガワン",
+    "capitalNative": [],
     "continent": ["asia"],
-    "nameNative": ["Brunei Darussalam", "Negara Brunei Darussalam"],
+    "nameNative": ["Negara Brunei Darussalam", "Brunei Darussalam"],
     "id": "bn",
     "domain": ".bn",
     "flag": "https:\/\/flagcdn.com\/bn.svg"
@@ -1304,6 +1438,7 @@
   {
     "name": "ブルンジ",
     "capital": "ギテガ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Uburundi"],
     "id": "bi",
@@ -1313,6 +1448,7 @@
   {
     "name": "ベトナム",
     "capital": "ハノイ",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["Việt Nam"],
     "id": "vn",
@@ -1322,6 +1458,7 @@
   {
     "name": "ベネズエラ",
     "capital": "カラカス",
+    "capitalNative": [],
     "continent": ["south-america"],
     "nameNative": ["Venezuela"],
     "id": "ve",
@@ -1331,8 +1468,9 @@
   {
     "name": "ベラルーシ",
     "capital": "ミンスク",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Беларусь", "Рэспубліка Беларусь", "Республика Беларусь"],
+    "nameNative": ["Республика Беларусь", "Рэспубліка Беларусь", "Беларусь"],
     "id": "by",
     "domain": ".by",
     "flag": "https:\/\/flagcdn.com\/by.svg"
@@ -1340,6 +1478,7 @@
   {
     "name": "ベリーズ",
     "capital": "ベルモパン",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["Belize"],
     "id": "bz",
@@ -1349,11 +1488,12 @@
   {
     "name": "ベルギー",
     "capital": "ブリュッセル市",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": [
-      "Königreich Belgien",
+      "Koninkrijk België",
       "Royaume de Belgique",
-      "Koninkrijk België"
+      "Königreich Belgien"
     ],
     "id": "be",
     "domain": ".be",
@@ -1362,6 +1502,7 @@
   {
     "name": "ペルー",
     "capital": "リマ",
+    "capitalNative": [],
     "continent": ["south-america"],
     "nameNative": ["República del Perú"],
     "id": "pe",
@@ -1371,6 +1512,7 @@
   {
     "name": "ホンジュラス",
     "capital": "テグシガルパ",
+    "capitalNative": [],
     "continent": ["north-america"],
     "nameNative": ["República de Honduras"],
     "id": "hn",
@@ -1380,6 +1522,7 @@
   {
     "name": "ボスニア・ヘルツェゴビナ",
     "capital": "サラエヴォ",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Bosna i Hercegovina"],
     "id": "ba",
@@ -1389,6 +1532,7 @@
   {
     "name": "ボツワナ",
     "capital": "ハボローネ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Botswana"],
     "id": "bw",
@@ -1397,13 +1541,14 @@
   },
   {
     "name": "ボリビア",
-    "capital": "ラパス,スクレ",
+    "capital": "スクレ,ラパス",
+    "capitalNative": [],
     "continent": ["south-america"],
     "nameNative": [
-      "Wuliwya Suyu",
-      "Estado Plurinacional de Bolivia",
+      "Buliwya Achka nasyunkunap Mama llaqta",
       "Tetã Volívia",
-      "Buliwya Achka nasyunkunap Mama llaqta"
+      "Estado Plurinacional de Bolivia",
+      "Wuliwya Suyu"
     ],
     "id": "bo",
     "domain": ".bo",
@@ -1412,8 +1557,9 @@
   {
     "name": "ポルトガル",
     "capital": "リスボン",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Portugal", "República Portuguesa"],
+    "nameNative": ["República Portuguesa", "Portugal"],
     "id": "pt",
     "domain": ".pt",
     "flag": "https:\/\/flagcdn.com\/pt.svg"
@@ -1421,8 +1567,9 @@
   {
     "name": "ポーランド",
     "capital": "ワルシャワ",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Polska", "Rzeczpospolita Polska"],
+    "nameNative": ["Rzeczpospolita Polska", "Polska"],
     "id": "pl",
     "domain": ".pl",
     "flag": "https:\/\/flagcdn.com\/pl.svg"
@@ -1430,8 +1577,9 @@
   {
     "name": "マダガスカル",
     "capital": "アンタナナリボ",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["République de Madagascar", "Repoblikan'i Madagaskar"],
+    "nameNative": ["Repoblikan'i Madagaskar", "République de Madagascar"],
     "id": "mg",
     "domain": ".mg",
     "flag": "https:\/\/flagcdn.com\/mg.svg"
@@ -1439,8 +1587,9 @@
   {
     "name": "マラウイ",
     "capital": "リロングウェ",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["Republic of Malawi", "Charu cha Malaŵi"],
+    "nameNative": ["Charu cha Malaŵi", "Republic of Malawi"],
     "id": "mw",
     "domain": ".mw",
     "flag": "https:\/\/flagcdn.com\/mw.svg"
@@ -1448,6 +1597,7 @@
   {
     "name": "マリ共和国",
     "capital": "バマコ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Mali"],
     "id": "ml",
@@ -1457,6 +1607,7 @@
   {
     "name": "マルタ",
     "capital": "バレッタ",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Malta"],
     "id": "mt",
@@ -1466,6 +1617,7 @@
   {
     "name": "マレーシア",
     "capital": "クアラルンプール",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["Malaysia"],
     "id": "my",
@@ -1475,8 +1627,9 @@
   {
     "name": "マーシャル諸島",
     "capital": "マジュロ",
+    "capitalNative": [],
     "continent": ["oceania"],
-    "nameNative": ["Aolepān Aorōkin M̧ajeļ", "Aolepān Aorōkin Ṃajeḷ"],
+    "nameNative": ["Aolepān Aorōkin Ṃajeḷ", "Aolepān Aorōkin M̧ajeļ"],
     "id": "mh",
     "domain": ".mh",
     "flag": "https:\/\/flagcdn.com\/mh.svg"
@@ -1484,8 +1637,9 @@
   {
     "name": "ミクロネシア連邦",
     "capital": "パリキール",
+    "capitalNative": [],
     "continent": ["oceania"],
-    "nameNative": ["Federated States of Micronesia", "Mikronesia"],
+    "nameNative": ["Mikronesia", "Federated States of Micronesia"],
     "id": "fm",
     "domain": ".fm",
     "flag": "https:\/\/flagcdn.com\/fm.svg"
@@ -1493,12 +1647,13 @@
   {
     "name": "ミャンマー",
     "capital": "ネピドー",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": [
-      "မြန်မာ",
-      "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်",
+      "မြန်မာပြည်",
       "မြန်မာနိုင်ငံ",
-      "မြန်မာပြည်"
+      "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်",
+      "မြန်မာ"
     ],
     "id": "mm",
     "domain": ".mm",
@@ -1507,8 +1662,9 @@
   {
     "name": "メキシコ",
     "capital": "メキシコシティ",
+    "capitalNative": [],
     "continent": ["north-america"],
-    "nameNative": ["Mexico", "México", "Mexko"],
+    "nameNative": ["Mexko", "México", "Mexico"],
     "id": "mx",
     "domain": ".mx",
     "flag": "https:\/\/flagcdn.com\/mx.svg"
@@ -1516,8 +1672,9 @@
   {
     "name": "モザンビーク",
     "capital": "マプト",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["República de Moçambique", "مْسُمْبِيجِ"],
+    "nameNative": ["مْسُمْبِيجِ", "República de Moçambique"],
     "id": "mz",
     "domain": ".mz",
     "flag": "https:\/\/flagcdn.com\/mz.svg"
@@ -1525,13 +1682,14 @@
   {
     "name": "モナコ",
     "capital": "モナコ市",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": [
-      "Monaco",
-      "Principauté de Monaco",
-      "Prinçipato de Mónego",
+      "Principat de Mónegue",
       "Prinçipatu de Mu̍negu",
-      "Principat de Mónegue"
+      "Prinçipato de Mónego",
+      "Principauté de Monaco",
+      "Monaco"
     ],
     "id": "mc",
     "domain": ".mc",
@@ -1540,8 +1698,9 @@
   {
     "name": "モルディブ",
     "capital": "マレ",
+    "capitalNative": [],
     "continent": ["asia"],
-    "nameNative": ["ދިވެހިރާއްޖެ", "ދިވެހިރާއްޖޭގެ ޖުމުހޫރިއްޔާ"],
+    "nameNative": ["ދިވެހިރާއްޖޭގެ ޖުމުހޫރިއްޔާ", "ދިވެހިރާއްޖެ"],
     "id": "mv",
     "domain": ".mv",
     "flag": "https:\/\/flagcdn.com\/mv.svg"
@@ -1549,6 +1708,7 @@
   {
     "name": "モルドバ",
     "capital": "キシナウ",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Moldova"],
     "id": "md",
@@ -1558,8 +1718,9 @@
   {
     "name": "モロッコ",
     "capital": "ラバト",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["المملكة المغربية", "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ"],
+    "nameNative": ["ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ", "المملكة المغربية"],
     "id": "ma",
     "domain": ".ma",
     "flag": "https:\/\/flagcdn.com\/ma.svg"
@@ -1567,8 +1728,9 @@
   {
     "name": "モンゴル国",
     "capital": "ウランバートル",
+    "capitalNative": [],
     "continent": ["asia"],
-    "nameNative": ["Монгол Улс", "ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ"],
+    "nameNative": ["ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ", "Монгол Улс"],
     "id": "mn",
     "domain": ".mn",
     "flag": "https:\/\/flagcdn.com\/mn.svg"
@@ -1576,8 +1738,9 @@
   {
     "name": "モンテネグロ",
     "capital": "ポドゴリツァ,ツェティニェ",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Crna Gora", "Црна Гора"],
+    "nameNative": ["Црна Гора", "Crna Gora"],
     "id": "me",
     "domain": ".me",
     "flag": "https:\/\/flagcdn.com\/me.svg"
@@ -1585,6 +1748,7 @@
   {
     "name": "モーリシャス",
     "capital": "ポートルイス",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["République de Maurice"],
     "id": "mu",
@@ -1594,13 +1758,14 @@
   {
     "name": "モーリタニア",
     "capital": "ヌアクショット",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": [
-      "الجمهورية الإسلامية الموريتانية",
-      "Ndenndaandi Lislameeri Muritani",
-      "République islamique de Mauritanie",
+      "Réewu lislaam bu Muritani",
       "Moritani Silaamin Jamaane",
-      "Réewu lislaam bu Muritani"
+      "République islamique de Mauritanie",
+      "Ndenndaandi Lislameeri Muritani",
+      "الجمهورية الإسلامية الموريتانية"
     ],
     "id": "mr",
     "domain": ".mr",
@@ -1609,6 +1774,7 @@
   {
     "name": "ヨルダン",
     "capital": "アンマン",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["االْمَمْلَكَةُ الْأُرْدُنِيَةُ الْهَاشِمِيَة"],
     "id": "jo",
@@ -1618,6 +1784,7 @@
   {
     "name": "ラオス",
     "capital": "ヴィエンチャン",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ"],
     "id": "la",
@@ -1627,6 +1794,7 @@
   {
     "name": "ラトビア",
     "capital": "リガ",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Latvija"],
     "id": "lv",
@@ -1636,6 +1804,7 @@
   {
     "name": "リトアニア",
     "capital": "ヴィルニュス",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Lietuva"],
     "id": "lt",
@@ -1645,8 +1814,9 @@
   {
     "name": "リヒテンシュタイン",
     "capital": "ファドゥーツ",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Liechtenstein", "Fürstentum Liechtenstein"],
+    "nameNative": ["Fürstentum Liechtenstein", "Liechtenstein"],
     "id": "li",
     "domain": ".li",
     "flag": "https:\/\/flagcdn.com\/li.svg"
@@ -1654,6 +1824,7 @@
   {
     "name": "リビア",
     "capital": "トリポリ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["دولة ليبيا"],
     "id": "ly",
@@ -1663,6 +1834,7 @@
   {
     "name": "リベリア",
     "capital": "モンロビア",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Republic of Liberia"],
     "id": "lr",
@@ -1672,8 +1844,9 @@
   {
     "name": "ルクセンブルク",
     "capital": "ルクセンブルク市",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Luxembourg", "Luxemburg", "Lëtzebuerg"],
+    "nameNative": ["Lëtzebuerg", "Luxemburg", "Luxembourg"],
     "id": "lu",
     "domain": ".lu",
     "flag": "https:\/\/flagcdn.com\/lu.svg"
@@ -1681,13 +1854,14 @@
   {
     "name": "ルワンダ",
     "capital": "キガリ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": [
-      "Republic of Rwanda",
-      "Repubulika y'u Rwanda",
-      "Rwanda",
+      "République du Rwanda",
       "Jamhuri ya Rwanda",
-      "République du Rwanda"
+      "Rwanda",
+      "Repubulika y'u Rwanda",
+      "Republic of Rwanda"
     ],
     "id": "rw",
     "domain": ".rw",
@@ -1696,6 +1870,7 @@
   {
     "name": "ルーマニア",
     "capital": "ブカレスト",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["România"],
     "id": "ro",
@@ -1705,6 +1880,7 @@
   {
     "name": "レソト",
     "capital": "マセル",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": ["Lesotho"],
     "id": "ls",
@@ -1714,14 +1890,15 @@
   {
     "name": "レバノン",
     "capital": "ベイルート",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": [
-      "Lebanon",
-      "لبنان",
-      "الجمهورية اللبنانية",
-      "Republic of Lebanon",
+      "Republik Lubnan",
       "Lubnan",
-      "Republik Lubnan"
+      "Republic of Lebanon",
+      "الجمهورية اللبنانية",
+      "لبنان",
+      "Lebanon"
     ],
     "id": "lb",
     "domain": ".lb",
@@ -1730,8 +1907,9 @@
   {
     "name": "ロシア",
     "capital": "モスクワ",
+    "capitalNative": [],
     "continent": ["europe"],
-    "nameNative": ["Россия", "Российская Федерация"],
+    "nameNative": ["Российская Федерация", "Россия"],
     "id": "ru",
     "domain": ".ru",
     "flag": "https:\/\/flagcdn.com\/ru.svg"
@@ -1739,8 +1917,9 @@
   {
     "name": "中央アフリカ共和国",
     "capital": "バンギ",
+    "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["Republique Centrafricaine", "Ködörösêse tî Bêafrîka"],
+    "nameNative": ["Ködörösêse tî Bêafrîka", "Republique Centrafricaine"],
     "id": "cf",
     "domain": ".cf",
     "flag": "https:\/\/flagcdn.com\/cf.svg"
@@ -1748,6 +1927,7 @@
   {
     "name": "中華人民共和国",
     "capital": "北京市",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["中华人民共和国"],
     "id": "cn",
@@ -1757,16 +1937,17 @@
   {
     "name": "台湾",
     "capital": "台北市",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": [
-      "Tâi-oân",
-      "taiwan",
-      "中華民國",
-      "Chûng-fà Mìn-koet",
-      "臺灣",
-      "台灣",
+      "Tiong-huâ-bîn-kok",
       "Tiong-hoâ Bîn-kok",
-      "Tiong-huâ-bîn-kok"
+      "台灣",
+      "中華民國",
+      "臺灣",
+      "Chûng-fà Mìn-koet",
+      "taiwan",
+      "Tâi-oân"
     ],
     "id": "tw",
     "domain": ".tw",
@@ -1775,6 +1956,7 @@
   {
     "name": "北マケドニア",
     "capital": "スコピエ",
+    "capitalNative": [],
     "continent": ["europe"],
     "nameNative": ["Република Северна Македонија"],
     "id": "mk",
@@ -1783,18 +1965,19 @@
   },
   {
     "name": "南アフリカ共和国",
-    "capital": "プレトリア,ケープタウン,ブルームフォンテーン",
+    "capital": "ブルームフォンテーン,ケープタウン,プレトリア",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": [
-      "South Africa",
-      "Suid-Afrika",
-      "iSewula Afrika",
-      "Afrika Borwa",
       "iNingizimu Afrika",
-      "Aforika Borwa",
-      "Afrika-Dzonga",
+      "uMzantsi Afrika",
       "Afurika Tshipembe",
-      "uMzantsi Afrika"
+      "Afrika-Dzonga",
+      "Aforika Borwa",
+      "Afrika Borwa",
+      "iSewula Afrika",
+      "Suid-Afrika",
+      "South Africa"
     ],
     "id": "za",
     "domain": ".za",
@@ -1803,12 +1986,13 @@
   {
     "name": "南スーダン",
     "capital": "ジュバ",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": [
-      "South Sudan",
-      "جنوب السودان",
+      "Republic of South Sudan",
       "جمهورية جنوب السودان",
-      "Republic of South Sudan"
+      "جنوب السودان",
+      "South Sudan"
     ],
     "id": "ss",
     "domain": ".ss",
@@ -1817,6 +2001,7 @@
   {
     "name": "大韓民国",
     "capital": "ソウル特別市",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["대한민국"],
     "id": "kr",
@@ -1826,6 +2011,7 @@
   {
     "name": "日本",
     "capital": "東京都",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["日本"],
     "id": "jp",
@@ -1835,6 +2021,7 @@
   {
     "name": "北朝鮮",
     "capital": "平壌市",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": ["조선민주주의인민공화국"],
     "id": "kp",
@@ -1844,10 +2031,11 @@
   {
     "name": "東ティモール",
     "capital": "ディリ",
+    "capitalNative": [],
     "continent": ["asia"],
     "nameNative": [
-      "República Democrática de Timor-Leste",
-      "Repúblika Demokrátika Timor-Leste"
+      "Repúblika Demokrátika Timor-Leste",
+      "República Democrática de Timor-Leste"
     ],
     "id": "tl",
     "domain": ".tl",
@@ -1856,11 +2044,12 @@
   {
     "name": "赤道ギニア",
     "capital": "ラパス",
+    "capitalNative": [],
     "continent": ["africa"],
     "nameNative": [
-      "República de Guinea Ecuatorial",
+      "República da Guiné Equatorial",
       "République de Guinée équatoriale",
-      "República da Guiné Equatorial"
+      "República de Guinea Ecuatorial"
     ],
     "id": "gq",
     "domain": ".gq",

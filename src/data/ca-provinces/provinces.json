@@ -3,78 +3,91 @@
     "name": "アルバータ州",
     "nameNative": "Alberta",
     "capital": "エドモントン",
+    "capitalNative": "Edmonton",
     "id": "ca-ab"
   },
   {
     "name": "オンタリオ州",
     "nameNative": "Ontario",
     "capital": "トロント",
+    "capitalNative": "Toronto",
     "id": "ca-on"
   },
   {
     "name": "ケベック州",
     "nameNative": "Quebec",
     "capital": "ケベック市",
+    "capitalNative": "Quebec City",
     "id": "ca-qc"
   },
   {
     "name": "サスカチュワン州",
     "nameNative": "Saskatchewan",
     "capital": "レジャイナ",
+    "capitalNative": "Regina",
     "id": "ca-sk"
   },
   {
     "name": "ニューファンドランド・ラブラドール州",
     "nameNative": "Newfoundland and Labrador",
     "capital": "セイント・ジョンズ",
+    "capitalNative": "St. John's",
     "id": "ca-nl"
   },
   {
     "name": "ニューブランズウィック州",
     "nameNative": "New Brunswick",
     "capital": "フレデリクトン",
+    "capitalNative": "Fredericton",
     "id": "ca-nb"
   },
   {
     "name": "ヌナブト準州",
     "nameNative": "Nunavut",
     "capital": "イカルイト",
+    "capitalNative": "Iqaluit",
     "id": "ca-nu"
   },
   {
     "name": "ノバスコシア州",
     "nameNative": "Nova Scotia",
     "capital": "ハリファックス",
+    "capitalNative": "Halifax",
     "id": "ca-ns"
   },
   {
     "name": "ノースウエスト準州",
     "nameNative": "Northwest Territories",
     "capital": "イエローナイフ",
+    "capitalNative": "Yellowknife",
     "id": "ca-nt"
   },
   {
     "name": "ブリティッシュコロンビア州",
     "nameNative": "British Columbia",
     "capital": "ビクトリア",
+    "capitalNative": "Victoria",
     "id": "ca-bc"
   },
   {
     "name": "プリンスエドワードアイランド州",
     "nameNative": "Prince Edward Island",
     "capital": "シャーロットタウン",
+    "capitalNative": "Charlottetown",
     "id": "ca-pe"
   },
   {
     "name": "マニトバ州",
     "nameNative": "Manitoba",
     "capital": "ウィニペグ",
+    "capitalNative": "Winnipeg",
     "id": "ca-mb"
   },
   {
     "name": "ユーコン準州",
     "nameNative": "Yukon",
     "capital": "ホワイトホース",
+    "capitalNative": "Whitehorse",
     "id": "ca-yt"
   }
 ]

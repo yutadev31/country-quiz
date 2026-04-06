@@ -6,6 +6,7 @@ export interface FRRegion {
   name: string;
   nameNative: string;
   capital: string;
+  capitalNative: string;
 }
 
 export const frRegionsMode: GameModeConfig = {
@@ -15,11 +16,13 @@ export const frRegionsMode: GameModeConfig = {
     { labelKey: "content-type.fr-region-name", value: "name" },
     { labelKey: "content-type.fr-region-nameNative", value: "nameNative" },
     { labelKey: "content-type.fr-region-capital", value: "capital" },
+    { labelKey: "content-type.fr-region-capitalNative", value: "capitalNative" },
   ],
   answerOptions: [
     { labelKey: "content-type.fr-region-name", value: "name" },
     { labelKey: "content-type.fr-region-nameNative", value: "nameNative" },
     { labelKey: "content-type.fr-region-capital", value: "capital" },
+    { labelKey: "content-type.fr-region-capitalNative", value: "capitalNative" },
   ],
   defaultQuestionField: "name",
   defaultAnswerField: "capital",
@@ -27,6 +30,7 @@ export const frRegionsMode: GameModeConfig = {
     name: "text",
     nameNative: "text",
     capital: "text",
+    capitalNative: "text",
   },
   getItems: () => regions,
 };

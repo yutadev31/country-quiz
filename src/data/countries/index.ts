@@ -6,6 +6,7 @@ interface Item {
   name: string;
   nameNative: string[];
   capital: string | null;
+  capitalNative: string[];
   continent: string[];
   domain: string | null;
   flag: string;
@@ -16,6 +17,7 @@ export interface Country {
   name: string;
   nameNative: string[];
   capital: string | null;
+  capitalNative: string[];
   domain: string | null;
   flag: string;
 }
@@ -51,6 +53,7 @@ export const countriesMode: GameModeConfig = {
     { labelKey: "content-type.name", value: "name" },
     { labelKey: "content-type.nameNative", value: "nameNative" },
     { labelKey: "content-type.capital", value: "capital" },
+    { labelKey: "content-type.capitalNative", value: "capitalNative" },
     { labelKey: "content-type.flag", value: "flag" },
     { labelKey: "content-type.domain", value: "domain" },
   ],
@@ -58,6 +61,7 @@ export const countriesMode: GameModeConfig = {
     { labelKey: "content-type.name", value: "name" },
     { labelKey: "content-type.nameNative", value: "nameNative" },
     { labelKey: "content-type.capital", value: "capital" },
+    { labelKey: "content-type.capitalNative", value: "capitalNative" },
     { labelKey: "content-type.flag", value: "flag" },
     { labelKey: "content-type.domain", value: "domain" },
   ],
@@ -67,6 +71,7 @@ export const countriesMode: GameModeConfig = {
     name: "text",
     nameNative: "text",
     capital: "text",
+    capitalNative: "text",
     domain: "text",
     flag: "img",
   },

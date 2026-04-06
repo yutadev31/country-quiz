@@ -2,6 +2,7 @@ SELECT
   ?countryLabel
   ?countryLabel_native
   ?capitalLabel
+  ?capitalLabel_native
   ?iso2
   ?tldLabel
   ?continentLabel
@@ -12,7 +13,13 @@ WHERE {
            wdt:P78 ?tld;
            wdt:P30 ?continent.
 
-  OPTIONAL { ?country wdt:P36 ?capital. }
+  OPTIONAL {
+    ?country wdt:P36 ?capital.
+    OPTIONAL {
+      ?capital rdfs:label ?capitalLabel_native.
+      FILTER (lang(?capitalLabel_native) = lang(?countryLabel_native))
+    }
+  }
 
   SERVICE wikibase:label {
     bd:serviceParam wikibase:language "ja,en".

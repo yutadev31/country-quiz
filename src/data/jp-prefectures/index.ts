@@ -4,8 +4,9 @@ import prefectures from "./prefectures.json";
 export interface JPPrefecture {
   id: string;
   name: string;
-  nameNative: string;
+  nameKana: string;
   capital: string;
+  capitalKana: string;
 }
 
 export const jpPrefecturesMode: GameModeConfig = {

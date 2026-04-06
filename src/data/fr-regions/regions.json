@@ -3,144 +3,168 @@
     "name": "フランシュ＝コンテ地域圏",
     "nameNative": "Franche-Comté",
     "capital": "ブザンソン",
+    "capitalNative": "Besançon",
     "id": "fr-i"
   },
   {
     "name": "イル＝ド＝フランス地域圏",
     "nameNative": "Île-de-France",
     "capital": "パリ",
+    "capitalNative": "Paris",
     "id": "fr-idf"
   },
   {
     "name": "オクシタニー地域圏",
     "nameNative": "Occitanie",
     "capital": "トゥールーズ",
+    "capitalNative": "Toulouse",
     "id": "fr-occ"
   },
   {
     "name": "オーヴェルニュ地域圏",
     "nameNative": "Auvergne",
     "capital": "クレルモン＝フェラン",
+    "capitalNative": null,
     "id": "fr-c"
   },
   {
     "name": "オーヴェルニュ＝ローヌ＝アルプ地域圏",
     "nameNative": "Auvergne-Rhône-Alpes",
     "capital": "リヨン",
+    "capitalNative": "Lyon",
     "id": "fr-ara"
   },
   {
     "name": "オー＝ド＝フランス地域圏",
     "nameNative": "Hauts-de-France",
     "capital": "リール",
+    "capitalNative": "Lille",
     "id": "fr-hdf"
   },
   {
     "name": "グアドループ",
     "nameNative": "Guadeloupe",
     "capital": "バステール",
+    "capitalNative": "Basse-Terre",
     "id": "fr-971"
   },
   {
     "name": "グラン・テスト地域圏",
     "nameNative": "Grand Est",
     "capital": "ストラスブール",
+    "capitalNative": "Strasbourg",
     "id": "fr-ges"
   },
   {
     "name": "コルシカ島",
     "nameNative": "Corse",
     "capital": "アジャクシオ",
+    "capitalNative": "Ajaccio",
     "id": "fr-20r"
   },
   {
     "name": "サントル＝ヴァル・ド・ロワール地域圏",
     "nameNative": "Centre-Val de Loire",
     "capital": "オルレアン",
+    "capitalNative": "Orléans",
     "id": "fr-cvl"
   },
   {
     "name": "ヌーヴェル＝アキテーヌ地域圏",
     "nameNative": "Nouvelle-Aquitaine",
     "capital": "ボルドー",
+    "capitalNative": "Bordeaux",
     "id": "fr-naq"
   },
   {
     "name": "ノルマンディー地域圏",
     "nameNative": "Normandie",
     "capital": "ルーアン",
+    "capitalNative": "Rouen",
     "id": "fr-nor"
   },
   {
     "name": "ピカルディ地域圏",
     "nameNative": "Picardie",
     "capital": "アミアン",
+    "capitalNative": "Amiens",
     "id": "fr-s"
   },
   {
     "name": "フランス領ギアナ",
     "nameNative": "Guyane",
     "capital": "カイエンヌ",
+    "capitalNative": "Cayenne",
     "id": "fr-973"
   },
   {
     "name": "ブルゴーニュ地域圏",
     "nameNative": "Bourgogne",
     "capital": "ディジョン",
+    "capitalNative": "Dijon",
     "id": "fr-d"
   },
   {
     "name": "ブルゴーニュ＝フランシュ＝コンテ地域圏",
     "nameNative": "Bourgogne-Franche-Comté",
     "capital": "ブザンソン,ディジョン",
+    "capitalNative": "Besançon",
     "id": "fr-bfc"
   },
   {
     "name": "ブルターニュ地域圏",
     "nameNative": "Bretagne",
     "capital": "レンヌ",
+    "capitalNative": "Rennes",
     "id": "fr-bre"
   },
   {
     "name": "プロヴァンス＝アルプ＝コート・ダジュール地域圏",
     "nameNative": "Provence-Alpes-Côte d'Azur",
     "capital": "マルセイユ",
+    "capitalNative": "Marseille",
     "id": "fr-pac"
   },
   {
     "name": "ペイ・ド・ラ・ロワール地域圏",
     "nameNative": "Pays de la Loire",
     "capital": "ナント",
+    "capitalNative": "Nantes",
     "id": "fr-pdl"
   },
   {
     "name": "マヨット",
     "nameNative": "Mayotte",
     "capital": "ザウジ,マムズ",
+    "capitalNative": "Dzaoudzi",
     "id": "fr-976"
   },
   {
     "name": "マルティニーク",
     "nameNative": "Martinique",
     "capital": "フォール＝ド＝フランス",
+    "capitalNative": "Fort-de-France",
     "id": "fr-972"
   },
   {
     "name": "ミディ＝ピレネー地域圏",
     "nameNative": "Midi-Pyrénées",
     "capital": "トゥールーズ",
+    "capitalNative": "Toulouse",
     "id": "fr-n"
   },
   {
     "name": "ラングドック＝ルシヨン地域圏",
     "nameNative": "Languedoc-Roussillon",
     "capital": "モンペリエ",
+    "capitalNative": "Montpellier",
     "id": "fr-k"
   },
   {
     "name": "レユニオン",
     "nameNative": "La Réunion",
     "capital": "サン＝ドニ",
+    "capitalNative": "Saint-Denis",
     "id": "fr-974"
   }
 ]

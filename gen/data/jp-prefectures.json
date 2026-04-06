@@ -156,6 +156,8 @@
   {
     "prefectureLabel": "愛知県",
     "prefectureLabel_kana": "あいちけん",
+    "capitalLabel": null,
+    "capitalLabel_kana": null,
     "iso2": "JP-23"
   },
   {
@@ -334,4 +336,3 @@
     "iso2": "JP-47"
   }
 ]
-

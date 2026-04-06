@@ -3,162 +3,189 @@
     "stateLabel": "アクレ州",
     "stateLabel_pt": "Acre",
     "capitalLabel": "リオブランコ",
+    "capitalLabel_pt": "Rio Branco",
     "iso2": "BR-AC"
   },
   {
     "stateLabel": "アラゴアス州",
     "stateLabel_pt": "Alagoas",
     "capitalLabel": "マセイオ",
+    "capitalLabel_pt": "Maceió",
     "iso2": "BR-AL"
   },
   {
     "stateLabel": "アマゾナス州",
     "stateLabel_pt": "Amazonas",
     "capitalLabel": "マナウス",
+    "capitalLabel_pt": "Manaus",
     "iso2": "BR-AM"
   },
   {
     "stateLabel": "アマパー州",
     "stateLabel_pt": "Amapá",
     "capitalLabel": "マカパ",
+    "capitalLabel_pt": "Macapá",
     "iso2": "BR-AP"
   },
   {
     "stateLabel": "バイーア州",
     "stateLabel_pt": "Bahia",
     "capitalLabel": "サルヴァドール",
+    "capitalLabel_pt": "Salvador",
     "iso2": "BR-BA"
   },
   {
     "stateLabel": "セアラー州",
     "stateLabel_pt": "Ceará",
     "capitalLabel": "フォルタレザ",
+    "capitalLabel_pt": "Fortaleza",
     "iso2": "BR-CE"
   },
   {
     "stateLabel": "ブラジリア連邦直轄区",
     "stateLabel_pt": "Distrito Federal",
     "capitalLabel": "ブラジリア",
+    "capitalLabel_pt": "Brasília",
     "iso2": "BR-DF"
   },
   {
     "stateLabel": "エスピリトサント州",
     "stateLabel_pt": "Espírito Santo",
     "capitalLabel": "ヴィトーリア",
+    "capitalLabel_pt": "Vitória",
     "iso2": "BR-ES"
   },
   {
     "stateLabel": "ゴイアス州",
     "stateLabel_pt": "Goiás",
     "capitalLabel": "ゴイアニア",
+    "capitalLabel_pt": "Goiânia",
     "iso2": "BR-GO"
   },
   {
     "stateLabel": "マラニョン州",
     "stateLabel_pt": "Maranhão",
     "capitalLabel": "サン・ルイス",
+    "capitalLabel_pt": "São Luís",
     "iso2": "BR-MA"
   },
   {
     "stateLabel": "ミナス・ジェライス州",
     "stateLabel_pt": "Minas Gerais",
     "capitalLabel": "ベロオリゾンテ",
+    "capitalLabel_pt": "Belo Horizonte",
     "iso2": "BR-MG"
   },
   {
     "stateLabel": "マットグロッソ・ド・スル州",
     "stateLabel_pt": "Mato Grosso do Sul",
     "capitalLabel": "カンポ・グランデ",
+    "capitalLabel_pt": "Campo Grande",
     "iso2": "BR-MS"
   },
   {
     "stateLabel": "マットグロッソ州",
     "stateLabel_pt": "Mato Grosso",
     "capitalLabel": "クイアバ",
+    "capitalLabel_pt": "Cuiabá",
     "iso2": "BR-MT"
   },
   {
     "stateLabel": "パラー州",
     "stateLabel_pt": "Pará",
     "capitalLabel": "ベレン",
+    "capitalLabel_pt": "Belém",
     "iso2": "BR-PA"
   },
   {
     "stateLabel": "パライバ州",
     "stateLabel_pt": "Paraíba",
     "capitalLabel": "ジョアン・ペッソーア",
+    "capitalLabel_pt": "João Pessoa",
     "iso2": "BR-PB"
   },
   {
     "stateLabel": "ペルナンブーコ州",
     "stateLabel_pt": "Pernambuco",
     "capitalLabel": "レシフェ",
+    "capitalLabel_pt": "Recife",
     "iso2": "BR-PE"
   },
   {
     "stateLabel": "ピアウイ州",
     "stateLabel_pt": "Piauí",
     "capitalLabel": "テレジーナ",
+    "capitalLabel_pt": "Teresina",
     "iso2": "BR-PI"
   },
   {
     "stateLabel": "パラナ州",
     "stateLabel_pt": "Paraná",
     "capitalLabel": "クリチバ",
+    "capitalLabel_pt": "Curitiba",
     "iso2": "BR-PR"
   },
   {
     "stateLabel": "リオデジャネイロ州",
     "stateLabel_pt": "Rio de Janeiro",
     "capitalLabel": "リオデジャネイロ",
+    "capitalLabel_pt": "Rio de Janeiro",
     "iso2": "BR-RJ"
   },
   {
     "stateLabel": "リオグランデ・ド・ノルテ州",
     "stateLabel_pt": "Rio Grande do Norte",
     "capitalLabel": "ナタール",
+    "capitalLabel_pt": "Natal",
     "iso2": "BR-RN"
   },
   {
     "stateLabel": "ロンドニア州",
     "stateLabel_pt": "Rondônia",
     "capitalLabel": "ポルト・ヴェーリョ",
+    "capitalLabel_pt": "Porto Velho",
     "iso2": "BR-RO"
   },
   {
     "stateLabel": "ロライマ州",
     "stateLabel_pt": "Roraima",
     "capitalLabel": "ボア・ヴィスタ",
+    "capitalLabel_pt": "Boa Vista",
     "iso2": "BR-RR"
   },
   {
     "stateLabel": "リオグランデ・ド・スル州",
     "stateLabel_pt": "Rio Grande do Sul",
     "capitalLabel": "ポルト・アレグレ",
+    "capitalLabel_pt": "Porto Alegre",
     "iso2": "BR-RS"
   },
   {
     "stateLabel": "サンタカタリーナ州",
     "stateLabel_pt": "Santa Catarina",
     "capitalLabel": "フロリアノーポリス",
+    "capitalLabel_pt": "Florianópolis",
     "iso2": "BR-SC"
   },
   {
     "stateLabel": "セルジペ州",
     "stateLabel_pt": "Sergipe",
     "capitalLabel": "アラカジュ",
+    "capitalLabel_pt": "Aracaju",
     "iso2": "BR-SE"
   },
   {
     "stateLabel": "サンパウロ州",
     "stateLabel_pt": "São Paulo",
     "capitalLabel": "サンパウロ",
+    "capitalLabel_pt": "São Paulo",
     "iso2": "BR-SP"
   },
   {
     "stateLabel": "トカンティンス州",
     "stateLabel_pt": "Tocantins",
     "capitalLabel": "パルマス",
+    "capitalLabel_pt": "Palmas",
     "iso2": "BR-TO"
   }
 ]

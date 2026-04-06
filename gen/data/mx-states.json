@@ -3,186 +3,217 @@
     "stateLabel": "アグアスカリエンテス州",
     "stateLabel_es": "Aguascalientes",
     "capitalLabel": "アグアスカリエンテス",
+    "capitalLabel_es": "Aguascalientes",
     "iso2": "MX-AGU"
   },
   {
     "stateLabel": "バハ・カリフォルニア州",
     "stateLabel_es": "Baja California",
     "capitalLabel": "メヒカリ (バハ・カリフォルニア州)",
+    "capitalLabel_es": "Mexicali",
     "iso2": "MX-BCN"
   },
   {
     "stateLabel": "バハ・カリフォルニア・スル州",
     "stateLabel_es": "Baja California Sur",
     "capitalLabel": "ラパス (バハ・カリフォルニア・スル州)",
+    "capitalLabel_es": "La Paz",
     "iso2": "MX-BCS"
   },
   {
     "stateLabel": "カンペチェ州",
     "stateLabel_es": "Campeche",
     "capitalLabel": "カンペチェ",
+    "capitalLabel_es": "San Francisco de Campeche",
     "iso2": "MX-CAM"
   },
   {
     "stateLabel": "チワワ州",
     "stateLabel_es": "Chihuahua",
     "capitalLabel": "チワワ",
+    "capitalLabel_es": "Chihuahua",
     "iso2": "MX-CHH"
   },
   {
     "stateLabel": "チアパス州",
     "stateLabel_es": "Chiapas",
     "capitalLabel": "トゥストラ・グティエレス",
+    "capitalLabel_es": "Tuxtla Gutiérrez",
     "iso2": "MX-CHP"
   },
   {
     "stateLabel": "コアウイラ州",
     "stateLabel_es": "Coahuila de Zaragoza",
     "capitalLabel": "サルティーヨ",
+    "capitalLabel_es": "Saltillo",
     "iso2": "MX-COA"
   },
   {
     "stateLabel": "コリマ州",
     "stateLabel_es": "Colima",
     "capitalLabel": "コリマ",
+    "capitalLabel_es": "Colima",
     "iso2": "MX-COL"
   },
   {
     "stateLabel": "ドゥランゴ州",
     "stateLabel_es": "Durango",
     "capitalLabel": "ドゥランゴ",
+    "capitalLabel_es": "Victoria de Durango",
     "iso2": "MX-DUR"
   },
   {
     "stateLabel": "ゲレーロ州",
     "stateLabel_es": "Guerrero",
     "capitalLabel": "チルパンシンゴ",
+    "capitalLabel_es": "Chilpancingo de los Bravo",
     "iso2": "MX-GRO"
   },
   {
     "stateLabel": "グアナフアト州",
     "stateLabel_es": "Guanajuato",
     "capitalLabel": "グアナフアト",
+    "capitalLabel_es": "Guanajuato",
     "iso2": "MX-GUA"
   },
   {
     "stateLabel": "イダルゴ州",
     "stateLabel_es": "Hidalgo",
     "capitalLabel": "パチューカ",
+    "capitalLabel_es": "Pachuca de Soto",
     "iso2": "MX-HID"
   },
   {
     "stateLabel": "ハリスコ州",
     "stateLabel_es": "Jalisco",
     "capitalLabel": "グアダラハラ",
+    "capitalLabel_es": "Guadalajara",
     "iso2": "MX-JAL"
   },
   {
     "stateLabel": "メヒコ州",
     "stateLabel_es": "Estado de México",
     "capitalLabel": "トルーカ",
+    "capitalLabel_es": "Toluca de Lerdo",
     "iso2": "MX-MEX"
   },
   {
     "stateLabel": "ミチョアカン州",
     "stateLabel_es": "Michoacán",
     "capitalLabel": "モレリア",
+    "capitalLabel_es": "Morelia",
     "iso2": "MX-MIC"
   },
   {
     "stateLabel": "モレロス州",
     "stateLabel_es": "Morelos",
     "capitalLabel": "クエルナバカ",
+    "capitalLabel_es": "Cuernavaca",
     "iso2": "MX-MOR"
   },
   {
     "stateLabel": "ナヤリット州",
     "stateLabel_es": "Nayarit",
     "capitalLabel": "テピク",
+    "capitalLabel_es": "Tepic",
     "iso2": "MX-NAY"
   },
   {
     "stateLabel": "ヌエボ・レオン州",
     "stateLabel_es": "Nuevo León",
     "capitalLabel": "モンテレイ",
+    "capitalLabel_es": "Monterrey",
     "iso2": "MX-NLE"
   },
   {
     "stateLabel": "オアハカ州",
     "stateLabel_es": "Estado de Oaxaca",
     "capitalLabel": "オアハカ",
+    "capitalLabel_es": "Oaxaca de Juárez",
     "iso2": "MX-OAX"
   },
   {
     "stateLabel": "プエブラ州",
     "stateLabel_es": "Puebla",
     "capitalLabel": "プエブラ",
+    "capitalLabel_es": "Heroica Puebla de Zaragoza",
     "iso2": "MX-PUE"
   },
   {
     "stateLabel": "ケレタロ州",
     "stateLabel_es": "Querétaro",
     "capitalLabel": "ケレタロ",
+    "capitalLabel_es": "Santiago de Querétaro",
     "iso2": "MX-QUE"
   },
   {
     "stateLabel": "キンタナ・ロー州",
     "stateLabel_es": "Quintana Roo",
     "capitalLabel": "チェトゥマル",
+    "capitalLabel_es": "Chetumal",
     "iso2": "MX-ROO"
   },
   {
     "stateLabel": "シナロア州",
     "stateLabel_es": "Sinaloa",
     "capitalLabel": "クリアカン",
+    "capitalLabel_es": "Culiacán",
     "iso2": "MX-SIN"
   },
   {
     "stateLabel": "サン・ルイス・ポトシ州",
     "stateLabel_es": "San Luis Potosí",
     "capitalLabel": "サン・ルイス・ポトシ",
+    "capitalLabel_es": "San Luis Potosí",
     "iso2": "MX-SLP"
   },
   {
     "stateLabel": "ソノラ州",
     "stateLabel_es": "Sonora",
     "capitalLabel": "エルモシージョ",
+    "capitalLabel_es": "Hermosillo",
     "iso2": "MX-SON"
   },
   {
     "stateLabel": "タバスコ州",
     "stateLabel_es": "Tabasco",
     "capitalLabel": "ビヤエルモサ",
+    "capitalLabel_es": "Villahermosa",
     "iso2": "MX-TAB"
   },
   {
     "stateLabel": "タマウリパス州",
     "stateLabel_es": "Tamaulipas",
     "capitalLabel": "シウダービクトリア",
+    "capitalLabel_es": "Ciudad Victoria",
     "iso2": "MX-TAM"
   },
   {
     "stateLabel": "トラスカラ州",
     "stateLabel_es": "Tlaxcala",
     "capitalLabel": "トラスカラ・デ・シコテンカトル",
+    "capitalLabel_es": "Tlaxcala de Xicohténcatl",
     "iso2": "MX-TLA"
   },
   {
     "stateLabel": "ベラクルス州",
     "stateLabel_es": "Estado de Veracruz",
     "capitalLabel": "ハラパ",
+    "capitalLabel_es": "Xalapa-Enríquez",
     "iso2": "MX-VER"
   },
   {
     "stateLabel": "ユカタン州",
     "stateLabel_es": "Yucatán",
     "capitalLabel": "メリダ",
+    "capitalLabel_es": "Mérida",
     "iso2": "MX-YUC"
   },
   {
     "stateLabel": "サカテカス州",
     "stateLabel_es": "Zacatecas",
     "capitalLabel": "サカテカス",
+    "capitalLabel_es": "Zacatecas",
     "iso2": "MX-ZAC"
   }
 ]

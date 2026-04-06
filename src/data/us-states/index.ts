@@ -6,6 +6,7 @@ export interface USState {
   name: string;
   nameNative: string;
   capital: string;
+  capitalNative: string;
   flag: string;
 }
 
@@ -16,12 +17,14 @@ export const usStatesMode: GameModeConfig = {
     { labelKey: "content-type.us-state-name", value: "name" },
     { labelKey: "content-type.us-state-nameNative", value: "nameNative" },
     { labelKey: "content-type.us-state-capital", value: "capital" },
+    { labelKey: "content-type.us-state-capitalNative", value: "capitalNative" },
     { labelKey: "content-type.us-state-flag", value: "flag" },
   ],
   answerOptions: [
     { labelKey: "content-type.us-state-name", value: "name" },
     { labelKey: "content-type.us-state-nameNative", value: "nameNative" },
     { labelKey: "content-type.us-state-capital", value: "capital" },
+    { labelKey: "content-type.us-state-capitalNative", value: "capitalNative" },
     { labelKey: "content-type.us-state-flag", value: "flag" },
   ],
   defaultQuestionField: "name",
@@ -30,6 +33,7 @@ export const usStatesMode: GameModeConfig = {
     name: "text",
     nameNative: "text",
     capital: "text",
+    capitalNative: "text",
     flag: "img",
   },
   getItems: () => states,

@@ -6,6 +6,7 @@ export interface BRProvinces {
   name: string;
   nameNative: string;
   capital: string;
+  capitalNative: string;
 }
 
 export const brStatesMode: GameModeConfig = {
@@ -15,11 +16,13 @@ export const brStatesMode: GameModeConfig = {
     { labelKey: "content-type.br-state-name", value: "name" },
     { labelKey: "content-type.br-state-nameNative", value: "nameNative" },
     { labelKey: "content-type.br-state-capital", value: "capital" },
+    { labelKey: "content-type.br-state-capitalNative", value: "capitalNative" },
   ],
   answerOptions: [
     { labelKey: "content-type.br-state-name", value: "name" },
     { labelKey: "content-type.br-state-nameNative", value: "nameNative" },
     { labelKey: "content-type.br-state-capital", value: "capital" },
+    { labelKey: "content-type.br-state-capitalNative", value: "capitalNative" },
   ],
   defaultQuestionField: "name",
   defaultAnswerField: "capital",
@@ -27,6 +30,7 @@ export const brStatesMode: GameModeConfig = {
     name: "text",
     nameNative: "text",
     capital: "text",
+    capitalNative: "text",
   },
   getItems: () => states,
 };

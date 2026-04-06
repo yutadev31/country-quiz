@@ -2,12 +2,17 @@ SELECT
   ?regionLabel
   ?regionLabel_fr
   ?capitalLabel
+  ?capitalLabel_fr
   ?iso2
 WHERE {
   ?region wdt:P31 wd:Q36784;
            wdt:P300 ?iso2.
 
-  OPTIONAL { ?region wdt:P36 ?capital. }
+  OPTIONAL {
+    ?region wdt:P36 ?capital.
+    ?capital rdfs:label ?capitalLabel_fr.
+    FILTER (lang(?capitalLabel_fr) = "fr")
+  }
 
   OPTIONAL {
     ?region rdfs:label ?regionLabel_fr.

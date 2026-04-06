@@ -3,78 +3,91 @@
     "provinceLabel": "アルバータ州",
     "provinceLabel_en": "Alberta",
     "capitalLabel": "エドモントン",
+    "capitalLabel_en": "Edmonton",
     "iso2": "CA-AB"
   },
   {
     "provinceLabel": "ブリティッシュコロンビア州",
     "provinceLabel_en": "British Columbia",
     "capitalLabel": "ビクトリア",
+    "capitalLabel_en": "Victoria",
     "iso2": "CA-BC"
   },
   {
     "provinceLabel": "マニトバ州",
     "provinceLabel_en": "Manitoba",
     "capitalLabel": "ウィニペグ",
+    "capitalLabel_en": "Winnipeg",
     "iso2": "CA-MB"
   },
   {
     "provinceLabel": "ニューブランズウィック州",
     "provinceLabel_en": "New Brunswick",
     "capitalLabel": "フレデリクトン",
+    "capitalLabel_en": "Fredericton",
     "iso2": "CA-NB"
   },
   {
     "provinceLabel": "ニューファンドランド・ラブラドール州",
     "provinceLabel_en": "Newfoundland and Labrador",
     "capitalLabel": "セイント・ジョンズ",
+    "capitalLabel_en": "St. John's",
     "iso2": "CA-NL"
   },
   {
     "provinceLabel": "ノバスコシア州",
     "provinceLabel_en": "Nova Scotia",
     "capitalLabel": "ハリファックス",
+    "capitalLabel_en": "Halifax",
     "iso2": "CA-NS"
   },
   {
     "provinceLabel": "ノースウエスト準州",
     "provinceLabel_en": "Northwest Territories",
     "capitalLabel": "イエローナイフ",
+    "capitalLabel_en": "Yellowknife",
     "iso2": "CA-NT"
   },
   {
     "provinceLabel": "ヌナブト準州",
     "provinceLabel_en": "Nunavut",
     "capitalLabel": "イカルイト",
+    "capitalLabel_en": "Iqaluit",
     "iso2": "CA-NU"
   },
   {
     "provinceLabel": "オンタリオ州",
     "provinceLabel_en": "Ontario",
     "capitalLabel": "トロント",
+    "capitalLabel_en": "Toronto",
     "iso2": "CA-ON"
   },
   {
     "provinceLabel": "プリンスエドワードアイランド州",
     "provinceLabel_en": "Prince Edward Island",
     "capitalLabel": "シャーロットタウン",
+    "capitalLabel_en": "Charlottetown",
     "iso2": "CA-PE"
   },
   {
     "provinceLabel": "ケベック州",
     "provinceLabel_en": "Quebec",
     "capitalLabel": "ケベック市",
+    "capitalLabel_en": "Quebec City",
     "iso2": "CA-QC"
   },
   {
     "provinceLabel": "サスカチュワン州",
     "provinceLabel_en": "Saskatchewan",
     "capitalLabel": "レジャイナ",
+    "capitalLabel_en": "Regina",
     "iso2": "CA-SK"
   },
   {
     "provinceLabel": "ユーコン準州",
     "provinceLabel_en": "Yukon",
     "capitalLabel": "ホワイトホース",
+    "capitalLabel_en": "Whitehorse",
     "iso2": "CA-YT"
   }
 ]
