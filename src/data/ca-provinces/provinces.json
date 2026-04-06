@@ -36,10 +36,22 @@
     "id": "ca-nb"
   },
   {
+    "name": "ヌナブト準州",
+    "nameNative": "Nunavut",
+    "capital": "イカルイト",
+    "id": "ca-nu"
+  },
+  {
     "name": "ノバスコシア州",
     "nameNative": "Nova Scotia",
     "capital": "ハリファックス",
     "id": "ca-ns"
+  },
+  {
+    "name": "ノースウエスト準州",
+    "nameNative": "Northwest Territories",
+    "capital": "イエローナイフ",
+    "id": "ca-nt"
   },
   {
     "name": "ブリティッシュコロンビア州",
@@ -58,5 +70,11 @@
     "nameNative": "Manitoba",
     "capital": "ウィニペグ",
     "id": "ca-mb"
+  },
+  {
+    "name": "ユーコン準州",
+    "nameNative": "Yukon",
+    "capital": "ホワイトホース",
+    "id": "ca-yt"
   }
 ]

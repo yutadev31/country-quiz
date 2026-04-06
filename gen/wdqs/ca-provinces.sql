@@ -4,8 +4,10 @@ SELECT
   ?capitalLabel
   ?iso2
 WHERE {
-  ?province wdt:P31 wd:Q11828004;
+  ?province wdt:P31 ?type;
            wdt:P300 ?iso2.
+
+  VALUES ?type { wd:Q11828004 wd:Q9357527 }
 
   OPTIONAL { ?province wdt:P36 ?capital. }
 

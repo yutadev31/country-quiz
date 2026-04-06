@@ -36,6 +36,18 @@
     "iso2": "CA-NS"
   },
   {
+    "provinceLabel": "ノースウエスト準州",
+    "provinceLabel_en": "Northwest Territories",
+    "capitalLabel": "イエローナイフ",
+    "iso2": "CA-NT"
+  },
+  {
+    "provinceLabel": "ヌナブト準州",
+    "provinceLabel_en": "Nunavut",
+    "capitalLabel": "イカルイト",
+    "iso2": "CA-NU"
+  },
+  {
     "provinceLabel": "オンタリオ州",
     "provinceLabel_en": "Ontario",
     "capitalLabel": "トロント",
@@ -58,5 +70,12 @@
     "provinceLabel_en": "Saskatchewan",
     "capitalLabel": "レジャイナ",
     "iso2": "CA-SK"
+  },
+  {
+    "provinceLabel": "ユーコン準州",
+    "provinceLabel_en": "Yukon",
+    "capitalLabel": "ホワイトホース",
+    "iso2": "CA-YT"
   }
 ]
+
