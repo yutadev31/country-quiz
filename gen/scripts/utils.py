@@ -1,4 +1,5 @@
 import json
+import os
 from typing import Callable, Dict, Any
 import subprocess
 import pandas as pd
@@ -21,6 +22,7 @@ def run_biome_format(path: str):
 
 
 def save_and_format(df, path: str):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
     df.to_json(path, orient="records", force_ascii=False)
     run_biome_format(path)
 
