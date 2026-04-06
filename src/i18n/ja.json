@@ -74,6 +74,9 @@
     },
     "de-states": {
       "title": "ドイツの州"
+    },
+    "jp-prefectures": {
+      "title": "日本の都道府県"
     }
   },
   "content-type": {
@@ -100,7 +103,9 @@
     "fr-region-capital": "首府",
     "de-state-name": "州名",
     "de-state-nameNative": "州名 (ドイツ語)",
-    "de-state-capital": "州都"
+    "de-state-capital": "州都",
+    "jp-prefecture-name": "都道府県名",
+    "jp-prefecture-capital": "都道府県庁所在地"
   },
   "area": {
     "all": "すべて",

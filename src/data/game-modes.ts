@@ -10,6 +10,7 @@ import type {
   GameModeConfig,
   GameModeId,
 } from "./game-mode-types";
+import { jpPrefecturesMode } from "./jp-prefectures";
 import { mxStatesMode } from "./mx-states";
 import { usStatesMode } from "./us-states";
 
@@ -40,6 +41,7 @@ export const gameModes: Record<GameModeId, GameModeConfig> = {
   "br-states": brStatesMode,
   "fr-regions": frRegionsMode,
   "de-states": deStatesMode,
+  "jp-prefectures": jpPrefecturesMode,
 };
 
 export const gameModeList = Object.values(gameModes);
