@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "gen:wdqs": "python gen/scripts/fetch_wdqs.py",
     "format": "biome format --write",
     "lint": "biome lint --write",
     "check": "biome check --write",
