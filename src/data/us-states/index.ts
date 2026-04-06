@@ -12,7 +12,6 @@ export interface USState {
 export const usStatesMode: GameModeConfig = {
   id: "us-states",
   titleKey: "mode.us-states.title",
-  hasAreaSelection: false,
   questionOptions: [
     { labelKey: "content-type.us-state-name", value: "name" },
     { labelKey: "content-type.us-state-nameNative", value: "nameNative" },

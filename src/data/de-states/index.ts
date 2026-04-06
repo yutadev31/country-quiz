@@ -11,7 +11,6 @@ export interface DEState {
 export const deStatesMode: GameModeConfig = {
   id: "de-states",
   titleKey: "mode.de-states.title",
-  hasAreaSelection: false,
   questionOptions: [
     { labelKey: "content-type.de-state-name", value: "name" },
     { labelKey: "content-type.de-state-nameNative", value: "nameNative" },

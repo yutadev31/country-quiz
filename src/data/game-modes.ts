@@ -21,7 +21,6 @@ function createCountryAreaMode(
     ...countriesMode,
     id: `countries-${area}` as GameModeId,
     titleKey: `mode.countries-${area}.title`,
-    hasAreaSelection: false,
     fixedArea: area,
   };
 }
