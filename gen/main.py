@@ -315,6 +315,11 @@ def process_jp_prefectures(path: str):
 
     df = df[~df["prefectureLabel_kana"].isin(["ふくをかけん"])]
 
+    def post_process(df: pd.DataFrame):
+        df.loc[df["name"] == "愛知県", "capital"] = "名古屋市"
+        df.loc[df["name"] == "愛知県", "capitalKana"] = "なごやし"
+        return df
+
     df = transform_data(
         df.to_dict("records"),
         group_key="prefectureLabel",
@@ -331,6 +336,7 @@ def process_jp_prefectures(path: str):
             "capitalLabel_kana": "capitalKana",
             "iso2": "id",
         },
+        post_process=post_process,
     )
 
     save_and_format(df, "src/data/jp-prefectures/prefectures.json")
