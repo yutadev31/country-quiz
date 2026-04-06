@@ -1,1 +1,337 @@
-[{"prefectureLabel":"北海道","capitalLabel":"札幌市","iso2":"JP-01"},{"prefectureLabel":"青森県","capitalLabel":"青森市","iso2":"JP-02"},{"prefectureLabel":"岩手県","capitalLabel":"盛岡市","iso2":"JP-03"},{"prefectureLabel":"宮城県","capitalLabel":"仙台市","iso2":"JP-04"},{"prefectureLabel":"秋田県","capitalLabel":"秋田市","iso2":"JP-05"},{"prefectureLabel":"山形県","capitalLabel":"山形市","iso2":"JP-06"},{"prefectureLabel":"福島県","capitalLabel":"福島市","iso2":"JP-07"},{"prefectureLabel":"茨城県","capitalLabel":"水戸市","iso2":"JP-08"},{"prefectureLabel":"栃木県","capitalLabel":"宇都宮市","iso2":"JP-09"},{"prefectureLabel":"群馬県","capitalLabel":"前橋市","iso2":"JP-10"},{"prefectureLabel":"埼玉県","capitalLabel":"さいたま市","iso2":"JP-11"},{"prefectureLabel":"千葉県","capitalLabel":"千葉市","iso2":"JP-12"},{"prefectureLabel":"東京都","capitalLabel":"新宿区","iso2":"JP-13"},{"prefectureLabel":"神奈川県","capitalLabel":"横浜市","iso2":"JP-14"},{"prefectureLabel":"新潟県","capitalLabel":"新潟市","iso2":"JP-15"},{"prefectureLabel":"富山県","capitalLabel":"富山市","iso2":"JP-16"},{"prefectureLabel":"石川県","capitalLabel":"金沢市","iso2":"JP-17"},{"prefectureLabel":"福井県","capitalLabel":"福井市","iso2":"JP-18"},{"prefectureLabel":"山梨県","capitalLabel":"甲府市","iso2":"JP-19"},{"prefectureLabel":"長野県","capitalLabel":"長野市","iso2":"JP-20"},{"prefectureLabel":"岐阜県","capitalLabel":"岐阜市","iso2":"JP-21"},{"prefectureLabel":"静岡県","capitalLabel":"静岡市","iso2":"JP-22"},{"prefectureLabel":"愛知県","capitalLabel":"名古屋市","iso2":"JP-23"},{"prefectureLabel":"三重県","capitalLabel":"津市","iso2":"JP-24"},{"prefectureLabel":"滋賀県","capitalLabel":"大津市","iso2":"JP-25"},{"prefectureLabel":"京都府","capitalLabel":"京都市","iso2":"JP-26"},{"prefectureLabel":"大阪府","capitalLabel":"大阪市","iso2":"JP-27"},{"prefectureLabel":"兵庫県","capitalLabel":"神戸市","iso2":"JP-28"},{"prefectureLabel":"奈良県","capitalLabel":"奈良市","iso2":"JP-29"},{"prefectureLabel":"和歌山県","capitalLabel":"和歌山市","iso2":"JP-30"},{"prefectureLabel":"鳥取県","capitalLabel":"鳥取市","iso2":"JP-31"},{"prefectureLabel":"島根県","capitalLabel":"松江市","iso2":"JP-32"},{"prefectureLabel":"岡山県","capitalLabel":"岡山市","iso2":"JP-33"},{"prefectureLabel":"広島県","capitalLabel":"広島市","iso2":"JP-34"},{"prefectureLabel":"山口県","capitalLabel":"山口市","iso2":"JP-35"},{"prefectureLabel":"徳島県","capitalLabel":"徳島市","iso2":"JP-36"},{"prefectureLabel":"香川県","capitalLabel":"高松市","iso2":"JP-37"},{"prefectureLabel":"愛媛県","capitalLabel":"松山市","iso2":"JP-38"},{"prefectureLabel":"高知県","capitalLabel":"高知市","iso2":"JP-39"},{"prefectureLabel":"福岡県","capitalLabel":"福岡市","iso2":"JP-40"},{"prefectureLabel":"佐賀県","capitalLabel":"佐賀市","iso2":"JP-41"},{"prefectureLabel":"長崎県","capitalLabel":"長崎市","iso2":"JP-42"},{"prefectureLabel":"熊本県","capitalLabel":"熊本市","iso2":"JP-43"},{"prefectureLabel":"大分県","capitalLabel":"大分市","iso2":"JP-44"},{"prefectureLabel":"宮崎県","capitalLabel":"宮崎市","iso2":"JP-45"},{"prefectureLabel":"鹿児島県","capitalLabel":"鹿児島市","iso2":"JP-46"},{"prefectureLabel":"沖縄県","capitalLabel":"那覇市","iso2":"JP-47"}]
+[
+  {
+    "prefectureLabel": "北海道",
+    "prefectureLabel_kana": "ほっかいどう",
+    "capitalLabel": "札幌市",
+    "capitalLabel_kana": "さっぽろし",
+    "iso2": "JP-01"
+  },
+  {
+    "prefectureLabel": "青森県",
+    "prefectureLabel_kana": "あおもりけん",
+    "capitalLabel": "青森市",
+    "capitalLabel_kana": "あおもりし",
+    "iso2": "JP-02"
+  },
+  {
+    "prefectureLabel": "岩手県",
+    "prefectureLabel_kana": "いわてけん",
+    "capitalLabel": "盛岡市",
+    "capitalLabel_kana": "もりおかし",
+    "iso2": "JP-03"
+  },
+  {
+    "prefectureLabel": "宮城県",
+    "prefectureLabel_kana": "みやぎけん",
+    "capitalLabel": "仙台市",
+    "capitalLabel_kana": "せんだいし",
+    "iso2": "JP-04"
+  },
+  {
+    "prefectureLabel": "秋田県",
+    "prefectureLabel_kana": "あきたけん",
+    "capitalLabel": "秋田市",
+    "capitalLabel_kana": "あきたし",
+    "iso2": "JP-05"
+  },
+  {
+    "prefectureLabel": "山形県",
+    "prefectureLabel_kana": "やまがたけん",
+    "capitalLabel": "山形市",
+    "capitalLabel_kana": "やまがたし",
+    "iso2": "JP-06"
+  },
+  {
+    "prefectureLabel": "福島県",
+    "prefectureLabel_kana": "ふくしまけん",
+    "capitalLabel": "福島市",
+    "capitalLabel_kana": "ふくしまし",
+    "iso2": "JP-07"
+  },
+  {
+    "prefectureLabel": "茨城県",
+    "prefectureLabel_kana": "いばらきけん",
+    "capitalLabel": "水戸市",
+    "capitalLabel_kana": "みとし",
+    "iso2": "JP-08"
+  },
+  {
+    "prefectureLabel": "栃木県",
+    "prefectureLabel_kana": "とちぎけん",
+    "capitalLabel": "宇都宮市",
+    "capitalLabel_kana": "うつのみやし",
+    "iso2": "JP-09"
+  },
+  {
+    "prefectureLabel": "群馬県",
+    "prefectureLabel_kana": "ぐんまけん",
+    "capitalLabel": "前橋市",
+    "capitalLabel_kana": "まえばしし",
+    "iso2": "JP-10"
+  },
+  {
+    "prefectureLabel": "埼玉県",
+    "prefectureLabel_kana": "さいたまけん",
+    "capitalLabel": "さいたま市",
+    "capitalLabel_kana": "さいたまし",
+    "iso2": "JP-11"
+  },
+  {
+    "prefectureLabel": "千葉県",
+    "prefectureLabel_kana": "ちばけん",
+    "capitalLabel": "千葉市",
+    "capitalLabel_kana": "ちばし",
+    "iso2": "JP-12"
+  },
+  {
+    "prefectureLabel": "東京都",
+    "prefectureLabel_kana": "とうきょうと",
+    "capitalLabel": "新宿区",
+    "capitalLabel_kana": "しんじゅくく",
+    "iso2": "JP-13"
+  },
+  {
+    "prefectureLabel": "神奈川県",
+    "prefectureLabel_kana": "かながわけん",
+    "capitalLabel": "横浜市",
+    "capitalLabel_kana": "よこはまし",
+    "iso2": "JP-14"
+  },
+  {
+    "prefectureLabel": "新潟県",
+    "prefectureLabel_kana": "にいがたけん",
+    "capitalLabel": "新潟市",
+    "capitalLabel_kana": "にいがたし",
+    "iso2": "JP-15"
+  },
+  {
+    "prefectureLabel": "富山県",
+    "prefectureLabel_kana": "とやまけん",
+    "capitalLabel": "富山市",
+    "capitalLabel_kana": "とやまし",
+    "iso2": "JP-16"
+  },
+  {
+    "prefectureLabel": "石川県",
+    "prefectureLabel_kana": "いしかわけん",
+    "capitalLabel": "金沢市",
+    "capitalLabel_kana": "かなざわし",
+    "iso2": "JP-17"
+  },
+  {
+    "prefectureLabel": "福井県",
+    "prefectureLabel_kana": "ふくいけん",
+    "capitalLabel": "福井市",
+    "capitalLabel_kana": "ふくいし",
+    "iso2": "JP-18"
+  },
+  {
+    "prefectureLabel": "山梨県",
+    "prefectureLabel_kana": "やまなしけん",
+    "capitalLabel": "甲府市",
+    "capitalLabel_kana": "こうふし",
+    "iso2": "JP-19"
+  },
+  {
+    "prefectureLabel": "長野県",
+    "prefectureLabel_kana": "ながのけん",
+    "capitalLabel": "長野市",
+    "capitalLabel_kana": "ながのし",
+    "iso2": "JP-20"
+  },
+  {
+    "prefectureLabel": "岐阜県",
+    "prefectureLabel_kana": "ぎふけん",
+    "capitalLabel": "岐阜市",
+    "capitalLabel_kana": "ぎふし",
+    "iso2": "JP-21"
+  },
+  {
+    "prefectureLabel": "静岡県",
+    "prefectureLabel_kana": "しずおかけん",
+    "capitalLabel": "静岡市",
+    "capitalLabel_kana": "しずおかし",
+    "iso2": "JP-22"
+  },
+  {
+    "prefectureLabel": "愛知県",
+    "prefectureLabel_kana": "あいちけん",
+    "iso2": "JP-23"
+  },
+  {
+    "prefectureLabel": "三重県",
+    "prefectureLabel_kana": "みえけん",
+    "capitalLabel": "津市",
+    "capitalLabel_kana": "つし",
+    "iso2": "JP-24"
+  },
+  {
+    "prefectureLabel": "滋賀県",
+    "prefectureLabel_kana": "しがけん",
+    "capitalLabel": "大津市",
+    "capitalLabel_kana": "おおつし",
+    "iso2": "JP-25"
+  },
+  {
+    "prefectureLabel": "京都府",
+    "prefectureLabel_kana": "きょうとふ",
+    "capitalLabel": "京都市",
+    "capitalLabel_kana": "きょうとし",
+    "iso2": "JP-26"
+  },
+  {
+    "prefectureLabel": "大阪府",
+    "prefectureLabel_kana": "おおさかふ",
+    "capitalLabel": "大阪市",
+    "capitalLabel_kana": "おおさかし",
+    "iso2": "JP-27"
+  },
+  {
+    "prefectureLabel": "兵庫県",
+    "prefectureLabel_kana": "ひょうごけん",
+    "capitalLabel": "神戸市",
+    "capitalLabel_kana": "こうべし",
+    "iso2": "JP-28"
+  },
+  {
+    "prefectureLabel": "奈良県",
+    "prefectureLabel_kana": "ならけん",
+    "capitalLabel": "奈良市",
+    "capitalLabel_kana": "ならし",
+    "iso2": "JP-29"
+  },
+  {
+    "prefectureLabel": "和歌山県",
+    "prefectureLabel_kana": "わかやまけん",
+    "capitalLabel": "和歌山市",
+    "capitalLabel_kana": "わかやまし",
+    "iso2": "JP-30"
+  },
+  {
+    "prefectureLabel": "鳥取県",
+    "prefectureLabel_kana": "とっとりけん",
+    "capitalLabel": "鳥取市",
+    "capitalLabel_kana": "とっとりし",
+    "iso2": "JP-31"
+  },
+  {
+    "prefectureLabel": "島根県",
+    "prefectureLabel_kana": "しまねけん",
+    "capitalLabel": "松江市",
+    "capitalLabel_kana": "まつえし",
+    "iso2": "JP-32"
+  },
+  {
+    "prefectureLabel": "岡山県",
+    "prefectureLabel_kana": "おかやまけん",
+    "capitalLabel": "岡山市",
+    "capitalLabel_kana": "おかやまし",
+    "iso2": "JP-33"
+  },
+  {
+    "prefectureLabel": "広島県",
+    "prefectureLabel_kana": "ひろしまけん",
+    "capitalLabel": "広島市",
+    "capitalLabel_kana": "ひろしまし",
+    "iso2": "JP-34"
+  },
+  {
+    "prefectureLabel": "山口県",
+    "prefectureLabel_kana": "やまぐちけん",
+    "capitalLabel": "山口市",
+    "capitalLabel_kana": "やまぐちし",
+    "iso2": "JP-35"
+  },
+  {
+    "prefectureLabel": "徳島県",
+    "prefectureLabel_kana": "とくしまけん",
+    "capitalLabel": "徳島市",
+    "capitalLabel_kana": "とくしまし",
+    "iso2": "JP-36"
+  },
+  {
+    "prefectureLabel": "香川県",
+    "prefectureLabel_kana": "かがわけん",
+    "capitalLabel": "高松市",
+    "capitalLabel_kana": "たかまつし",
+    "iso2": "JP-37"
+  },
+  {
+    "prefectureLabel": "愛媛県",
+    "prefectureLabel_kana": "えひめけん",
+    "capitalLabel": "松山市",
+    "capitalLabel_kana": "まつやまし",
+    "iso2": "JP-38"
+  },
+  {
+    "prefectureLabel": "高知県",
+    "prefectureLabel_kana": "こうちけん",
+    "capitalLabel": "高知市",
+    "capitalLabel_kana": "こうちし",
+    "iso2": "JP-39"
+  },
+  {
+    "prefectureLabel": "福岡県",
+    "prefectureLabel_kana": "ふくをかけん",
+    "capitalLabel": "福岡市",
+    "capitalLabel_kana": "ふくおかし",
+    "iso2": "JP-40"
+  },
+  {
+    "prefectureLabel": "福岡県",
+    "prefectureLabel_kana": "ふくおかけん",
+    "capitalLabel": "福岡市",
+    "capitalLabel_kana": "ふくおかし",
+    "iso2": "JP-40"
+  },
+  {
+    "prefectureLabel": "佐賀県",
+    "prefectureLabel_kana": "さがけん",
+    "capitalLabel": "佐賀市",
+    "capitalLabel_kana": "さがし",
+    "iso2": "JP-41"
+  },
+  {
+    "prefectureLabel": "長崎県",
+    "prefectureLabel_kana": "ながさきけん",
+    "capitalLabel": "長崎市",
+    "capitalLabel_kana": "ながさきし",
+    "iso2": "JP-42"
+  },
+  {
+    "prefectureLabel": "熊本県",
+    "prefectureLabel_kana": "くまもとけん",
+    "capitalLabel": "熊本市",
+    "capitalLabel_kana": "くまもとし",
+    "iso2": "JP-43"
+  },
+  {
+    "prefectureLabel": "大分県",
+    "prefectureLabel_kana": "おおいたけん",
+    "capitalLabel": "大分市",
+    "capitalLabel_kana": "おおいたし",
+    "iso2": "JP-44"
+  },
+  {
+    "prefectureLabel": "宮崎県",
+    "prefectureLabel_kana": "みやざきけん",
+    "capitalLabel": "宮崎市",
+    "capitalLabel_kana": "みやざきし",
+    "iso2": "JP-45"
+  },
+  {
+    "prefectureLabel": "鹿児島県",
+    "prefectureLabel_kana": "かごしまけん",
+    "capitalLabel": "鹿児島市",
+    "capitalLabel_kana": "かごしまし",
+    "iso2": "JP-46"
+  },
+  {
+    "prefectureLabel": "沖縄県",
+    "prefectureLabel_kana": "おきなわけん",
+    "capitalLabel": "那覇市",
+    "capitalLabel_kana": "なはし",
+    "iso2": "JP-47"
+  }
+]
+

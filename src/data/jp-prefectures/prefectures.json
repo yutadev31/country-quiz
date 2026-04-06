@@ -1,49 +1,331 @@
 [
-  { "name": "三重県", "capital": "津市", "id": "jp-24" },
-  { "name": "京都府", "capital": "京都市", "id": "jp-26" },
-  { "name": "佐賀県", "capital": "佐賀市", "id": "jp-41" },
-  { "name": "兵庫県", "capital": "神戸市", "id": "jp-28" },
-  { "name": "北海道", "capital": "札幌市", "id": "jp-01" },
-  { "name": "千葉県", "capital": "千葉市", "id": "jp-12" },
-  { "name": "和歌山県", "capital": "和歌山市", "id": "jp-30" },
-  { "name": "埼玉県", "capital": "さいたま市", "id": "jp-11" },
-  { "name": "大分県", "capital": "大分市", "id": "jp-44" },
-  { "name": "大阪府", "capital": "大阪市", "id": "jp-27" },
-  { "name": "奈良県", "capital": "奈良市", "id": "jp-29" },
-  { "name": "宮城県", "capital": "仙台市", "id": "jp-04" },
-  { "name": "宮崎県", "capital": "宮崎市", "id": "jp-45" },
-  { "name": "富山県", "capital": "富山市", "id": "jp-16" },
-  { "name": "山口県", "capital": "山口市", "id": "jp-35" },
-  { "name": "山形県", "capital": "山形市", "id": "jp-06" },
-  { "name": "山梨県", "capital": "甲府市", "id": "jp-19" },
-  { "name": "岐阜県", "capital": "岐阜市", "id": "jp-21" },
-  { "name": "岡山県", "capital": "岡山市", "id": "jp-33" },
-  { "name": "岩手県", "capital": "盛岡市", "id": "jp-03" },
-  { "name": "島根県", "capital": "松江市", "id": "jp-32" },
-  { "name": "広島県", "capital": "広島市", "id": "jp-34" },
-  { "name": "徳島県", "capital": "徳島市", "id": "jp-36" },
-  { "name": "愛媛県", "capital": "松山市", "id": "jp-38" },
-  { "name": "愛知県", "capital": "名古屋市", "id": "jp-23" },
-  { "name": "新潟県", "capital": "新潟市", "id": "jp-15" },
-  { "name": "東京都", "capital": "新宿区", "id": "jp-13" },
-  { "name": "栃木県", "capital": "宇都宮市", "id": "jp-09" },
-  { "name": "沖縄県", "capital": "那覇市", "id": "jp-47" },
-  { "name": "滋賀県", "capital": "大津市", "id": "jp-25" },
-  { "name": "熊本県", "capital": "熊本市", "id": "jp-43" },
-  { "name": "石川県", "capital": "金沢市", "id": "jp-17" },
-  { "name": "神奈川県", "capital": "横浜市", "id": "jp-14" },
-  { "name": "福井県", "capital": "福井市", "id": "jp-18" },
-  { "name": "福岡県", "capital": "福岡市", "id": "jp-40" },
-  { "name": "福島県", "capital": "福島市", "id": "jp-07" },
-  { "name": "秋田県", "capital": "秋田市", "id": "jp-05" },
-  { "name": "群馬県", "capital": "前橋市", "id": "jp-10" },
-  { "name": "茨城県", "capital": "水戸市", "id": "jp-08" },
-  { "name": "長崎県", "capital": "長崎市", "id": "jp-42" },
-  { "name": "長野県", "capital": "長野市", "id": "jp-20" },
-  { "name": "青森県", "capital": "青森市", "id": "jp-02" },
-  { "name": "静岡県", "capital": "静岡市", "id": "jp-22" },
-  { "name": "香川県", "capital": "高松市", "id": "jp-37" },
-  { "name": "高知県", "capital": "高知市", "id": "jp-39" },
-  { "name": "鳥取県", "capital": "鳥取市", "id": "jp-31" },
-  { "name": "鹿児島県", "capital": "鹿児島市", "id": "jp-46" }
+  {
+    "name": "三重県",
+    "nameKana": "みえけん",
+    "capital": "津市",
+    "capitalKana": "つし",
+    "id": "jp-24"
+  },
+  {
+    "name": "京都府",
+    "nameKana": "きょうとふ",
+    "capital": "京都市",
+    "capitalKana": "きょうとし",
+    "id": "jp-26"
+  },
+  {
+    "name": "佐賀県",
+    "nameKana": "さがけん",
+    "capital": "佐賀市",
+    "capitalKana": "さがし",
+    "id": "jp-41"
+  },
+  {
+    "name": "兵庫県",
+    "nameKana": "ひょうごけん",
+    "capital": "神戸市",
+    "capitalKana": "こうべし",
+    "id": "jp-28"
+  },
+  {
+    "name": "北海道",
+    "nameKana": "ほっかいどう",
+    "capital": "札幌市",
+    "capitalKana": "さっぽろし",
+    "id": "jp-01"
+  },
+  {
+    "name": "千葉県",
+    "nameKana": "ちばけん",
+    "capital": "千葉市",
+    "capitalKana": "ちばし",
+    "id": "jp-12"
+  },
+  {
+    "name": "和歌山県",
+    "nameKana": "わかやまけん",
+    "capital": "和歌山市",
+    "capitalKana": "わかやまし",
+    "id": "jp-30"
+  },
+  {
+    "name": "埼玉県",
+    "nameKana": "さいたまけん",
+    "capital": "さいたま市",
+    "capitalKana": "さいたまし",
+    "id": "jp-11"
+  },
+  {
+    "name": "大分県",
+    "nameKana": "おおいたけん",
+    "capital": "大分市",
+    "capitalKana": "おおいたし",
+    "id": "jp-44"
+  },
+  {
+    "name": "大阪府",
+    "nameKana": "おおさかふ",
+    "capital": "大阪市",
+    "capitalKana": "おおさかし",
+    "id": "jp-27"
+  },
+  {
+    "name": "奈良県",
+    "nameKana": "ならけん",
+    "capital": "奈良市",
+    "capitalKana": "ならし",
+    "id": "jp-29"
+  },
+  {
+    "name": "宮城県",
+    "nameKana": "みやぎけん",
+    "capital": "仙台市",
+    "capitalKana": "せんだいし",
+    "id": "jp-04"
+  },
+  {
+    "name": "宮崎県",
+    "nameKana": "みやざきけん",
+    "capital": "宮崎市",
+    "capitalKana": "みやざきし",
+    "id": "jp-45"
+  },
+  {
+    "name": "富山県",
+    "nameKana": "とやまけん",
+    "capital": "富山市",
+    "capitalKana": "とやまし",
+    "id": "jp-16"
+  },
+  {
+    "name": "山口県",
+    "nameKana": "やまぐちけん",
+    "capital": "山口市",
+    "capitalKana": "やまぐちし",
+    "id": "jp-35"
+  },
+  {
+    "name": "山形県",
+    "nameKana": "やまがたけん",
+    "capital": "山形市",
+    "capitalKana": "やまがたし",
+    "id": "jp-06"
+  },
+  {
+    "name": "山梨県",
+    "nameKana": "やまなしけん",
+    "capital": "甲府市",
+    "capitalKana": "こうふし",
+    "id": "jp-19"
+  },
+  {
+    "name": "岐阜県",
+    "nameKana": "ぎふけん",
+    "capital": "岐阜市",
+    "capitalKana": "ぎふし",
+    "id": "jp-21"
+  },
+  {
+    "name": "岡山県",
+    "nameKana": "おかやまけん",
+    "capital": "岡山市",
+    "capitalKana": "おかやまし",
+    "id": "jp-33"
+  },
+  {
+    "name": "岩手県",
+    "nameKana": "いわてけん",
+    "capital": "盛岡市",
+    "capitalKana": "もりおかし",
+    "id": "jp-03"
+  },
+  {
+    "name": "島根県",
+    "nameKana": "しまねけん",
+    "capital": "松江市",
+    "capitalKana": "まつえし",
+    "id": "jp-32"
+  },
+  {
+    "name": "広島県",
+    "nameKana": "ひろしまけん",
+    "capital": "広島市",
+    "capitalKana": "ひろしまし",
+    "id": "jp-34"
+  },
+  {
+    "name": "徳島県",
+    "nameKana": "とくしまけん",
+    "capital": "徳島市",
+    "capitalKana": "とくしまし",
+    "id": "jp-36"
+  },
+  {
+    "name": "愛媛県",
+    "nameKana": "えひめけん",
+    "capital": "松山市",
+    "capitalKana": "まつやまし",
+    "id": "jp-38"
+  },
+  {
+    "name": "愛知県",
+    "nameKana": "あいちけん",
+    "capital": "",
+    "capitalKana": null,
+    "id": "jp-23"
+  },
+  {
+    "name": "新潟県",
+    "nameKana": "にいがたけん",
+    "capital": "新潟市",
+    "capitalKana": "にいがたし",
+    "id": "jp-15"
+  },
+  {
+    "name": "東京都",
+    "nameKana": "とうきょうと",
+    "capital": "新宿区",
+    "capitalKana": "しんじゅくく",
+    "id": "jp-13"
+  },
+  {
+    "name": "栃木県",
+    "nameKana": "とちぎけん",
+    "capital": "宇都宮市",
+    "capitalKana": "うつのみやし",
+    "id": "jp-09"
+  },
+  {
+    "name": "沖縄県",
+    "nameKana": "おきなわけん",
+    "capital": "那覇市",
+    "capitalKana": "なはし",
+    "id": "jp-47"
+  },
+  {
+    "name": "滋賀県",
+    "nameKana": "しがけん",
+    "capital": "大津市",
+    "capitalKana": "おおつし",
+    "id": "jp-25"
+  },
+  {
+    "name": "熊本県",
+    "nameKana": "くまもとけん",
+    "capital": "熊本市",
+    "capitalKana": "くまもとし",
+    "id": "jp-43"
+  },
+  {
+    "name": "石川県",
+    "nameKana": "いしかわけん",
+    "capital": "金沢市",
+    "capitalKana": "かなざわし",
+    "id": "jp-17"
+  },
+  {
+    "name": "神奈川県",
+    "nameKana": "かながわけん",
+    "capital": "横浜市",
+    "capitalKana": "よこはまし",
+    "id": "jp-14"
+  },
+  {
+    "name": "福井県",
+    "nameKana": "ふくいけん",
+    "capital": "福井市",
+    "capitalKana": "ふくいし",
+    "id": "jp-18"
+  },
+  {
+    "name": "福岡県",
+    "nameKana": "ふくおかけん",
+    "capital": "福岡市",
+    "capitalKana": "ふくおかし",
+    "id": "jp-40"
+  },
+  {
+    "name": "福島県",
+    "nameKana": "ふくしまけん",
+    "capital": "福島市",
+    "capitalKana": "ふくしまし",
+    "id": "jp-07"
+  },
+  {
+    "name": "秋田県",
+    "nameKana": "あきたけん",
+    "capital": "秋田市",
+    "capitalKana": "あきたし",
+    "id": "jp-05"
+  },
+  {
+    "name": "群馬県",
+    "nameKana": "ぐんまけん",
+    "capital": "前橋市",
+    "capitalKana": "まえばしし",
+    "id": "jp-10"
+  },
+  {
+    "name": "茨城県",
+    "nameKana": "いばらきけん",
+    "capital": "水戸市",
+    "capitalKana": "みとし",
+    "id": "jp-08"
+  },
+  {
+    "name": "長崎県",
+    "nameKana": "ながさきけん",
+    "capital": "長崎市",
+    "capitalKana": "ながさきし",
+    "id": "jp-42"
+  },
+  {
+    "name": "長野県",
+    "nameKana": "ながのけん",
+    "capital": "長野市",
+    "capitalKana": "ながのし",
+    "id": "jp-20"
+  },
+  {
+    "name": "青森県",
+    "nameKana": "あおもりけん",
+    "capital": "青森市",
+    "capitalKana": "あおもりし",
+    "id": "jp-02"
+  },
+  {
+    "name": "静岡県",
+    "nameKana": "しずおかけん",
+    "capital": "静岡市",
+    "capitalKana": "しずおかし",
+    "id": "jp-22"
+  },
+  {
+    "name": "香川県",
+    "nameKana": "かがわけん",
+    "capital": "高松市",
+    "capitalKana": "たかまつし",
+    "id": "jp-37"
+  },
+  {
+    "name": "高知県",
+    "nameKana": "こうちけん",
+    "capital": "高知市",
+    "capitalKana": "こうちし",
+    "id": "jp-39"
+  },
+  {
+    "name": "鳥取県",
+    "nameKana": "とっとりけん",
+    "capital": "鳥取市",
+    "capitalKana": "とっとりし",
+    "id": "jp-31"
+  },
+  {
+    "name": "鹿児島県",
+    "nameKana": "かごしまけん",
+    "capital": "鹿児島市",
+    "capitalKana": "かごしまし",
+    "id": "jp-46"
+  }
 ]

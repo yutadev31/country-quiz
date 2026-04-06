@@ -105,7 +105,9 @@
     "de-state-nameNative": "州名 (ドイツ語)",
     "de-state-capital": "州都",
     "jp-prefecture-name": "都道府県名",
-    "jp-prefecture-capital": "都道府県庁所在地"
+    "jp-prefecture-nameKana": "とどうふけん (ひらがな)",
+    "jp-prefecture-capital": "都道府県庁所在地",
+    "jp-prefecture-capitalKana": "とどうふけんちょうしょざいち (ひらがな)"
   },
   "area": {
     "all": "すべて",

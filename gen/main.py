@@ -311,16 +311,24 @@ def process_br_states(path: str):
 def process_jp_prefectures(path: str):
     data = load_json(path)
 
+    df = pd.DataFrame(data)
+
+    df = df[~df["prefectureLabel_kana"].isin(["ふくをかけん"])]
+
     df = transform_data(
-        data,
+        df.to_dict("records"),
         group_key="prefectureLabel",
         agg_map={
+            "prefectureLabel_kana": "first",
             "capitalLabel": join_unique_str,
+            "capitalLabel_kana": "first",
             "iso2": "first",
         },
         rename_map={
             "prefectureLabel": "name",
+            "prefectureLabel_kana": "nameKana",
             "capitalLabel": "capital",
+            "capitalLabel_kana": "capitalKana",
             "iso2": "id",
         },
     )
