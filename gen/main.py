@@ -281,6 +281,31 @@ def process_mx_states(path: str):
 
 
 # ----------------------------
+# Brazil States
+# ----------------------------
+def process_br_states(path: str):
+    data = load_json(path)
+
+    df = transform_data(
+        data,
+        group_key="stateLabel",
+        agg_map={
+            "stateLabel_pt": "first",
+            "capitalLabel": join_unique_str,
+            "iso2": "first",
+        },
+        rename_map={
+            "stateLabel": "name",
+            "stateLabel_pt": "nameNative",
+            "capitalLabel": "capital",
+            "iso2": "id",
+        },
+    )
+
+    save_and_format(df, "src/data/br-states/states.json")
+
+
+# ----------------------------
 # エントリポイント
 # ----------------------------
 if __name__ == "__main__":
@@ -290,3 +315,4 @@ if __name__ == "__main__":
     process_us_states("gen/data/us-states.json")
     process_ca_provinces("gen/data/ca-provinces.json")
     process_mx_states("gen/data/mx-states.json")
+    process_br_states("gen/data/br-states.json")

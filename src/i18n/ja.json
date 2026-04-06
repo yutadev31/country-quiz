@@ -66,6 +66,9 @@
     "mx-states": {
       "title": "メキシコの州"
     },
+    "br-states": {
+      "title": "ブラジルの州"
+    },
     "fr-regions": {
       "title": "フランスの地域圏"
     },
@@ -89,6 +92,9 @@
     "mx-state-name": "州名",
     "mx-state-nameNative": "州名 (スペイン語)",
     "mx-state-capital": "州都",
+    "br-state-name": "州名",
+    "br-state-nameNative": "州名 (ポルトガル語)",
+    "br-state-capital": "州都",
     "fr-region-name": "地域圏名",
     "fr-region-nameNative": "地域圏名 (フランス語)",
     "fr-region-capital": "首府",

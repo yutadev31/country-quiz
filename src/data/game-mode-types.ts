@@ -9,6 +9,7 @@ export type GameModeId =
   | "us-states"
   | "ca-provinces"
   | "mx-states"
+  | "br-states"
   | "fr-regions"
   | "de-states";
 

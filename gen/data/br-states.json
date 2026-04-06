@@ -1,0 +1,164 @@
+[
+  {
+    "stateLabel": "アクレ州",
+    "stateLabel_pt": "Acre",
+    "capitalLabel": "リオブランコ",
+    "iso2": "BR-AC"
+  },
+  {
+    "stateLabel": "アラゴアス州",
+    "stateLabel_pt": "Alagoas",
+    "capitalLabel": "マセイオ",
+    "iso2": "BR-AL"
+  },
+  {
+    "stateLabel": "アマゾナス州",
+    "stateLabel_pt": "Amazonas",
+    "capitalLabel": "マナウス",
+    "iso2": "BR-AM"
+  },
+  {
+    "stateLabel": "アマパー州",
+    "stateLabel_pt": "Amapá",
+    "capitalLabel": "マカパ",
+    "iso2": "BR-AP"
+  },
+  {
+    "stateLabel": "バイーア州",
+    "stateLabel_pt": "Bahia",
+    "capitalLabel": "サルヴァドール",
+    "iso2": "BR-BA"
+  },
+  {
+    "stateLabel": "セアラー州",
+    "stateLabel_pt": "Ceará",
+    "capitalLabel": "フォルタレザ",
+    "iso2": "BR-CE"
+  },
+  {
+    "stateLabel": "ブラジリア連邦直轄区",
+    "stateLabel_pt": "Distrito Federal",
+    "capitalLabel": "ブラジリア",
+    "iso2": "BR-DF"
+  },
+  {
+    "stateLabel": "エスピリトサント州",
+    "stateLabel_pt": "Espírito Santo",
+    "capitalLabel": "ヴィトーリア",
+    "iso2": "BR-ES"
+  },
+  {
+    "stateLabel": "ゴイアス州",
+    "stateLabel_pt": "Goiás",
+    "capitalLabel": "ゴイアニア",
+    "iso2": "BR-GO"
+  },
+  {
+    "stateLabel": "マラニョン州",
+    "stateLabel_pt": "Maranhão",
+    "capitalLabel": "サン・ルイス",
+    "iso2": "BR-MA"
+  },
+  {
+    "stateLabel": "ミナス・ジェライス州",
+    "stateLabel_pt": "Minas Gerais",
+    "capitalLabel": "ベロオリゾンテ",
+    "iso2": "BR-MG"
+  },
+  {
+    "stateLabel": "マットグロッソ・ド・スル州",
+    "stateLabel_pt": "Mato Grosso do Sul",
+    "capitalLabel": "カンポ・グランデ",
+    "iso2": "BR-MS"
+  },
+  {
+    "stateLabel": "マットグロッソ州",
+    "stateLabel_pt": "Mato Grosso",
+    "capitalLabel": "クイアバ",
+    "iso2": "BR-MT"
+  },
+  {
+    "stateLabel": "パラー州",
+    "stateLabel_pt": "Pará",
+    "capitalLabel": "ベレン",
+    "iso2": "BR-PA"
+  },
+  {
+    "stateLabel": "パライバ州",
+    "stateLabel_pt": "Paraíba",
+    "capitalLabel": "ジョアン・ペッソーア",
+    "iso2": "BR-PB"
+  },
+  {
+    "stateLabel": "ペルナンブーコ州",
+    "stateLabel_pt": "Pernambuco",
+    "capitalLabel": "レシフェ",
+    "iso2": "BR-PE"
+  },
+  {
+    "stateLabel": "ピアウイ州",
+    "stateLabel_pt": "Piauí",
+    "capitalLabel": "テレジーナ",
+    "iso2": "BR-PI"
+  },
+  {
+    "stateLabel": "パラナ州",
+    "stateLabel_pt": "Paraná",
+    "capitalLabel": "クリチバ",
+    "iso2": "BR-PR"
+  },
+  {
+    "stateLabel": "リオデジャネイロ州",
+    "stateLabel_pt": "Rio de Janeiro",
+    "capitalLabel": "リオデジャネイロ",
+    "iso2": "BR-RJ"
+  },
+  {
+    "stateLabel": "リオグランデ・ド・ノルテ州",
+    "stateLabel_pt": "Rio Grande do Norte",
+    "capitalLabel": "ナタール",
+    "iso2": "BR-RN"
+  },
+  {
+    "stateLabel": "ロンドニア州",
+    "stateLabel_pt": "Rondônia",
+    "capitalLabel": "ポルト・ヴェーリョ",
+    "iso2": "BR-RO"
+  },
+  {
+    "stateLabel": "ロライマ州",
+    "stateLabel_pt": "Roraima",
+    "capitalLabel": "ボア・ヴィスタ",
+    "iso2": "BR-RR"
+  },
+  {
+    "stateLabel": "リオグランデ・ド・スル州",
+    "stateLabel_pt": "Rio Grande do Sul",
+    "capitalLabel": "ポルト・アレグレ",
+    "iso2": "BR-RS"
+  },
+  {
+    "stateLabel": "サンタカタリーナ州",
+    "stateLabel_pt": "Santa Catarina",
+    "capitalLabel": "フロリアノーポリス",
+    "iso2": "BR-SC"
+  },
+  {
+    "stateLabel": "セルジペ州",
+    "stateLabel_pt": "Sergipe",
+    "capitalLabel": "アラカジュ",
+    "iso2": "BR-SE"
+  },
+  {
+    "stateLabel": "サンパウロ州",
+    "stateLabel_pt": "São Paulo",
+    "capitalLabel": "サンパウロ",
+    "iso2": "BR-SP"
+  },
+  {
+    "stateLabel": "トカンティンス州",
+    "stateLabel_pt": "Tocantins",
+    "capitalLabel": "パルマス",
+    "iso2": "BR-TO"
+  }
+]

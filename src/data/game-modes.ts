@@ -1,16 +1,17 @@
-import { caStateMode } from "@/data/ca-provinces";
-import { countriesMode, getCountryAreaById } from "@/data/countries";
-import areas from "@/data/countries/areas.json";
-import { deStatesMode } from "@/data/de-states";
-import { frRegionsMode } from "@/data/fr-regions";
+import { brStatesMode } from "./br-states";
+import { caProvincesMode } from "./ca-provinces";
+import { countriesMode, getCountryAreaById } from "./countries";
+import areas from "./countries/areas.json";
+import { deStatesMode } from "./de-states";
+import { frRegionsMode } from "./fr-regions";
 import type {
   GameModeCategory,
   GameModeCategoryId,
   GameModeConfig,
   GameModeId,
-} from "@/data/game-mode-types";
-import { usStatesMode } from "@/data/us-states";
+} from "./game-mode-types";
 import { mxStatesMode } from "./mx-states";
+import { usStatesMode } from "./us-states";
 
 const gameModeAreaIds = areas as Exclude<GameModeCategoryId, "countries">[];
 
@@ -34,8 +35,9 @@ export const gameModes: Record<GameModeId, GameModeConfig> = {
   "countries-south-america": createCountryAreaMode("south-america"),
   "countries-oceania": createCountryAreaMode("oceania"),
   "us-states": usStatesMode,
-  "ca-provinces": caStateMode,
+  "ca-provinces": caProvincesMode,
   "mx-states": mxStatesMode,
+  "br-states": brStatesMode,
   "fr-regions": frRegionsMode,
   "de-states": deStatesMode,
 };

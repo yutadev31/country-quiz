@@ -1,0 +1,164 @@
+[
+  {
+    "name": "アクレ州",
+    "nameNative": "Acre",
+    "capital": "リオブランコ",
+    "id": "br-ac"
+  },
+  {
+    "name": "アマゾナス州",
+    "nameNative": "Amazonas",
+    "capital": "マナウス",
+    "id": "br-am"
+  },
+  {
+    "name": "アマパー州",
+    "nameNative": "Amapá",
+    "capital": "マカパ",
+    "id": "br-ap"
+  },
+  {
+    "name": "アラゴアス州",
+    "nameNative": "Alagoas",
+    "capital": "マセイオ",
+    "id": "br-al"
+  },
+  {
+    "name": "エスピリトサント州",
+    "nameNative": "Espírito Santo",
+    "capital": "ヴィトーリア",
+    "id": "br-es"
+  },
+  {
+    "name": "ゴイアス州",
+    "nameNative": "Goiás",
+    "capital": "ゴイアニア",
+    "id": "br-go"
+  },
+  {
+    "name": "サンタカタリーナ州",
+    "nameNative": "Santa Catarina",
+    "capital": "フロリアノーポリス",
+    "id": "br-sc"
+  },
+  {
+    "name": "サンパウロ州",
+    "nameNative": "São Paulo",
+    "capital": "サンパウロ",
+    "id": "br-sp"
+  },
+  {
+    "name": "セアラー州",
+    "nameNative": "Ceará",
+    "capital": "フォルタレザ",
+    "id": "br-ce"
+  },
+  {
+    "name": "セルジペ州",
+    "nameNative": "Sergipe",
+    "capital": "アラカジュ",
+    "id": "br-se"
+  },
+  {
+    "name": "トカンティンス州",
+    "nameNative": "Tocantins",
+    "capital": "パルマス",
+    "id": "br-to"
+  },
+  {
+    "name": "バイーア州",
+    "nameNative": "Bahia",
+    "capital": "サルヴァドール",
+    "id": "br-ba"
+  },
+  {
+    "name": "パライバ州",
+    "nameNative": "Paraíba",
+    "capital": "ジョアン・ペッソーア",
+    "id": "br-pb"
+  },
+  {
+    "name": "パラナ州",
+    "nameNative": "Paraná",
+    "capital": "クリチバ",
+    "id": "br-pr"
+  },
+  {
+    "name": "パラー州",
+    "nameNative": "Pará",
+    "capital": "ベレン",
+    "id": "br-pa"
+  },
+  {
+    "name": "ピアウイ州",
+    "nameNative": "Piauí",
+    "capital": "テレジーナ",
+    "id": "br-pi"
+  },
+  {
+    "name": "ブラジリア連邦直轄区",
+    "nameNative": "Distrito Federal",
+    "capital": "ブラジリア",
+    "id": "br-df"
+  },
+  {
+    "name": "ペルナンブーコ州",
+    "nameNative": "Pernambuco",
+    "capital": "レシフェ",
+    "id": "br-pe"
+  },
+  {
+    "name": "マットグロッソ・ド・スル州",
+    "nameNative": "Mato Grosso do Sul",
+    "capital": "カンポ・グランデ",
+    "id": "br-ms"
+  },
+  {
+    "name": "マットグロッソ州",
+    "nameNative": "Mato Grosso",
+    "capital": "クイアバ",
+    "id": "br-mt"
+  },
+  {
+    "name": "マラニョン州",
+    "nameNative": "Maranhão",
+    "capital": "サン・ルイス",
+    "id": "br-ma"
+  },
+  {
+    "name": "ミナス・ジェライス州",
+    "nameNative": "Minas Gerais",
+    "capital": "ベロオリゾンテ",
+    "id": "br-mg"
+  },
+  {
+    "name": "リオグランデ・ド・スル州",
+    "nameNative": "Rio Grande do Sul",
+    "capital": "ポルト・アレグレ",
+    "id": "br-rs"
+  },
+  {
+    "name": "リオグランデ・ド・ノルテ州",
+    "nameNative": "Rio Grande do Norte",
+    "capital": "ナタール",
+    "id": "br-rn"
+  },
+  {
+    "name": "リオデジャネイロ州",
+    "nameNative": "Rio de Janeiro",
+    "capital": "リオデジャネイロ",
+    "id": "br-rj"
+  },
+  {
+    "name": "ロライマ州",
+    "nameNative": "Roraima",
+    "capital": "ボア・ヴィスタ",
+    "id": "br-rr"
+  },
+  {
+    "name": "ロンドニア州",
+    "nameNative": "Rondônia",
+    "capital": "ポルト・ヴェーリョ",
+    "id": "br-ro"
+  }
+]

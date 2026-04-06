@@ -8,7 +8,7 @@ export interface CAProvinces {
   capital: string;
 }
 
-export const caStateMode: GameModeConfig = {
+export const caProvincesMode: GameModeConfig = {
   id: "ca-provinces",
   titleKey: "mode.ca-provinces.title",
   questionOptions: [
