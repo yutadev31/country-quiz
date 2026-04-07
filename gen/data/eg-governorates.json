@@ -1,0 +1,205 @@
+[
+  {
+    "governorateLabel": "アレクサンドリア県",
+    "governorateLabel_ar": "محافظة الإسكندرية",
+    "capitalLabel": "アレクサンドリア",
+    "capitalLabel_ar": "الإسكندرية",
+    "iso2": "EG-ALX"
+  },
+  {
+    "governorateLabel": "アスワン県",
+    "governorateLabel_ar": "محافظة أسوان",
+    "capitalLabel": "アスワン",
+    "capitalLabel_ar": "أسوان",
+    "iso2": "EG-ASN"
+  },
+  {
+    "governorateLabel": "アシュート県",
+    "governorateLabel_ar": "محافظة أسيوط",
+    "capitalLabel": "アシュート",
+    "capitalLabel_ar": "أسيوط",
+    "iso2": "EG-AST"
+  },
+  {
+    "governorateLabel": "紅海県",
+    "governorateLabel_ar": "محافظة البحر الأحمر",
+    "capitalLabel": "フルガダ",
+    "capitalLabel_ar": "الغردقة",
+    "iso2": "EG-BA"
+  },
+  {
+    "governorateLabel": "ブハイラ県",
+    "governorateLabel_ar": "محافظة البحيرة",
+    "capitalLabel": "ダマンフール",
+    "capitalLabel_ar": "دمنهور",
+    "iso2": "EG-BH"
+  },
+  {
+    "governorateLabel": "ベニ・スエフ県",
+    "governorateLabel_ar": "محافظة بني سويف",
+    "capitalLabel": "ベニ・スエフ",
+    "capitalLabel_ar": "بني سويف",
+    "iso2": "EG-BNS"
+  },
+  {
+    "governorateLabel": "カイロ県",
+    "governorateLabel_ar": "محافظة القاهرة",
+    "capitalLabel": "カイロ",
+    "capitalLabel_ar": "القاهرة",
+    "iso2": "EG-C"
+  },
+  {
+    "governorateLabel": "ダカリーヤ県",
+    "governorateLabel_ar": "محافظة الدقهلية",
+    "capitalLabel": "マンスーラ",
+    "capitalLabel_ar": "المنصورة",
+    "iso2": "EG-DK"
+  },
+  {
+    "governorateLabel": "ディムヤート県",
+    "governorateLabel_ar": "محافظة دمياط",
+    "capitalLabel": "ディムヤート",
+    "capitalLabel_ar": "دمياط",
+    "iso2": "EG-DT"
+  },
+  {
+    "governorateLabel": "ファイユーム県",
+    "governorateLabel_ar": "محافظة الفيوم",
+    "capitalLabel": "ファイユーム",
+    "capitalLabel_ar": "الفيوم",
+    "iso2": "EG-FYM"
+  },
+  {
+    "governorateLabel": "ガルビーヤ県",
+    "governorateLabel_ar": "محافظة الغربية",
+    "capitalLabel": "タンタ",
+    "capitalLabel_ar": "طنطا",
+    "iso2": "EG-GH"
+  },
+  {
+    "governorateLabel": "ギーザ県",
+    "governorateLabel_ar": "محافظة الجيزة",
+    "capitalLabel": "ギーザ",
+    "capitalLabel_ar": "الجيزة",
+    "iso2": "EG-GZ"
+  },
+  {
+    "governorateLabel": "ヘルワーン県",
+    "governorateLabel_ar": "محافظة حلوان",
+    "capitalLabel": "ヘルワン",
+    "capitalLabel_ar": "حلوان",
+    "iso2": "EG-HU"
+  },
+  {
+    "governorateLabel": "イスマイリア県",
+    "governorateLabel_ar": "محافظة الإسماعيلية",
+    "capitalLabel": "イスマイリア",
+    "capitalLabel_ar": "الإسماعيلية",
+    "iso2": "EG-IS"
+  },
+  {
+    "governorateLabel": "南シナイ県",
+    "governorateLabel_ar": "محافظة جنوب سيناء",
+    "capitalLabel": "エルトール",
+    "capitalLabel_ar": "الطور",
+    "iso2": "EG-JS"
+  },
+  {
+    "governorateLabel": "カリュービーヤ県",
+    "governorateLabel_ar": "محافظة القليوبية",
+    "capitalLabel": "バンハー",
+    "capitalLabel_ar": "بنها",
+    "iso2": "EG-KB"
+  },
+  {
+    "governorateLabel": "カフル・アッシャイフ県",
+    "governorateLabel_ar": "محافظة كفر الشيخ",
+    "capitalLabel": "カフル・アッシャイフ",
+    "capitalLabel_ar": "كفر الشيخ",
+    "iso2": "EG-KFS"
+  },
+  {
+    "governorateLabel": "ケナ県",
+    "governorateLabel_ar": "محافظة قنا",
+    "capitalLabel": "ケナ",
+    "capitalLabel_ar": "قنا",
+    "iso2": "EG-KN"
+  },
+  {
+    "governorateLabel": "ルクソール県",
+    "governorateLabel_ar": "محافظة الأقصر",
+    "capitalLabel": "ルクソール",
+    "capitalLabel_ar": "الأقصر",
+    "iso2": "EG-LX"
+  },
+  {
+    "governorateLabel": "ミニヤー県",
+    "governorateLabel_ar": "محافظة المنيا",
+    "capitalLabel": "ミニヤー",
+    "capitalLabel_ar": "المنيا",
+    "iso2": "EG-MN"
+  },
+  {
+    "governorateLabel": "ミヌーフィーヤ県",
+    "governorateLabel_ar": "محافظة المنوفية",
+    "capitalLabel": "シビーン・コーム",
+    "capitalLabel_ar": "شبين الكوم",
+    "iso2": "EG-MNF"
+  },
+  {
+    "governorateLabel": "マトルーフ県",
+    "governorateLabel_ar": "محافظة مطروح",
+    "capitalLabel": "マルサ・マトルー",
+    "capitalLabel_ar": "مرسى مطروح",
+    "iso2": "EG-MT"
+  },
+  {
+    "governorateLabel": "ポートサイド県",
+    "governorateLabel_ar": "محافظة بورسعيد",
+    "capitalLabel": "ポートサイド",
+    "capitalLabel_ar": "بورسعيد",
+    "iso2": "EG-PTS"
+  },
+  {
+    "governorateLabel": "ソハーグ県",
+    "governorateLabel_ar": "محافظة سوهاج",
+    "capitalLabel": "ソハーグ",
+    "capitalLabel_ar": "سوهاج",
+    "iso2": "EG-SHG"
+  },
+  {
+    "governorateLabel": "シャルキーヤ県",
+    "governorateLabel_ar": "محافظة الشرقية",
+    "capitalLabel": "ザガジグ",
+    "capitalLabel_ar": "الزقازيق",
+    "iso2": "EG-SHR"
+  },
+  {
+    "governorateLabel": "北シナイ県",
+    "governorateLabel_ar": "محافظة شمال سيناء",
+    "capitalLabel": "アリーシュ",
+    "capitalLabel_ar": "العريش",
+    "iso2": "EG-SIN"
+  },
+  {
+    "governorateLabel": "10月6日県",
+    "governorateLabel_ar": "محافظة السادس من أكتوبر",
+    "capitalLabel": "10月6日市",
+    "capitalLabel_ar": "مدينة السادس من أكتوبر",
+    "iso2": "EG-SU"
+  },
+  {
+    "governorateLabel": "スエズ県",
+    "governorateLabel_ar": "محافظة السويس",
+    "capitalLabel": "スエズ",
+    "capitalLabel_ar": "السويس",
+    "iso2": "EG-SUZ"
+  },
+  {
+    "governorateLabel": "ニューバレー県",
+    "governorateLabel_ar": "محافظة الوادي الجديد",
+    "capitalLabel": "el-Kharga Town",
+    "capitalLabel_ar": "مدينة الخارجة",
+    "iso2": "EG-WAD"
+  }
+]

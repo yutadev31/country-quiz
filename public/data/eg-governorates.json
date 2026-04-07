@@ -1,0 +1,205 @@
+[
+  {
+    "name": "10月6日県",
+    "nameNative": "محافظة السادس من أكتوبر",
+    "capital": "10月6日市",
+    "capitalNative": "مدينة السادس من أكتوبر",
+    "id": "eg-su"
+  },
+  {
+    "name": "アシュート県",
+    "nameNative": "محافظة أسيوط",
+    "capital": "アシュート",
+    "capitalNative": "أسيوط",
+    "id": "eg-ast"
+  },
+  {
+    "name": "アスワン県",
+    "nameNative": "محافظة أسوان",
+    "capital": "アスワン",
+    "capitalNative": "أسوان",
+    "id": "eg-asn"
+  },
+  {
+    "name": "アレクサンドリア県",
+    "nameNative": "محافظة الإسكندرية",
+    "capital": "アレクサンドリア",
+    "capitalNative": "الإسكندرية",
+    "id": "eg-alx"
+  },
+  {
+    "name": "イスマイリア県",
+    "nameNative": "محافظة الإسماعيلية",
+    "capital": "イスマイリア",
+    "capitalNative": "الإسماعيلية",
+    "id": "eg-is"
+  },
+  {
+    "name": "カイロ県",
+    "nameNative": "محافظة القاهرة",
+    "capital": "カイロ",
+    "capitalNative": "القاهرة",
+    "id": "eg-c"
+  },
+  {
+    "name": "カフル・アッシャイフ県",
+    "nameNative": "محافظة كفر الشيخ",
+    "capital": "カフル・アッシャイフ",
+    "capitalNative": "كفر الشيخ",
+    "id": "eg-kfs"
+  },
+  {
+    "name": "カリュービーヤ県",
+    "nameNative": "محافظة القليوبية",
+    "capital": "バンハー",
+    "capitalNative": "بنها",
+    "id": "eg-kb"
+  },
+  {
+    "name": "ガルビーヤ県",
+    "nameNative": "محافظة الغربية",
+    "capital": "タンタ",
+    "capitalNative": "طنطا",
+    "id": "eg-gh"
+  },
+  {
+    "name": "ギーザ県",
+    "nameNative": "محافظة الجيزة",
+    "capital": "ギーザ",
+    "capitalNative": "الجيزة",
+    "id": "eg-gz"
+  },
+  {
+    "name": "ケナ県",
+    "nameNative": "محافظة قنا",
+    "capital": "ケナ",
+    "capitalNative": "قنا",
+    "id": "eg-kn"
+  },
+  {
+    "name": "シャルキーヤ県",
+    "nameNative": "محافظة الشرقية",
+    "capital": "ザガジグ",
+    "capitalNative": "الزقازيق",
+    "id": "eg-shr"
+  },
+  {
+    "name": "スエズ県",
+    "nameNative": "محافظة السويس",
+    "capital": "スエズ",
+    "capitalNative": "السويس",
+    "id": "eg-suz"
+  },
+  {
+    "name": "ソハーグ県",
+    "nameNative": "محافظة سوهاج",
+    "capital": "ソハーグ",
+    "capitalNative": "سوهاج",
+    "id": "eg-shg"
+  },
+  {
+    "name": "ダカリーヤ県",
+    "nameNative": "محافظة الدقهلية",
+    "capital": "マンスーラ",
+    "capitalNative": "المنصورة",
+    "id": "eg-dk"
+  },
+  {
+    "name": "ディムヤート県",
+    "nameNative": "محافظة دمياط",
+    "capital": "ディムヤート",
+    "capitalNative": "دمياط",
+    "id": "eg-dt"
+  },
+  {
+    "name": "ニューバレー県",
+    "nameNative": "محافظة الوادي الجديد",
+    "capital": "el-Kharga Town",
+    "capitalNative": "مدينة الخارجة",
+    "id": "eg-wad"
+  },
+  {
+    "name": "ファイユーム県",
+    "nameNative": "محافظة الفيوم",
+    "capital": "ファイユーム",
+    "capitalNative": "الفيوم",
+    "id": "eg-fym"
+  },
+  {
+    "name": "ブハイラ県",
+    "nameNative": "محافظة البحيرة",
+    "capital": "ダマンフール",
+    "capitalNative": "دمنهور",
+    "id": "eg-bh"
+  },
+  {
+    "name": "ヘルワーン県",
+    "nameNative": "محافظة حلوان",
+    "capital": "ヘルワン",
+    "capitalNative": "حلوان",
+    "id": "eg-hu"
+  },
+  {
+    "name": "ベニ・スエフ県",
+    "nameNative": "محافظة بني سويف",
+    "capital": "ベニ・スエフ",
+    "capitalNative": "بني سويف",
+    "id": "eg-bns"
+  },
+  {
+    "name": "ポートサイド県",
+    "nameNative": "محافظة بورسعيد",
+    "capital": "ポートサイド",
+    "capitalNative": "بورسعيد",
+    "id": "eg-pts"
+  },
+  {
+    "name": "マトルーフ県",
+    "nameNative": "محافظة مطروح",
+    "capital": "マルサ・マトルー",
+    "capitalNative": "مرسى مطروح",
+    "id": "eg-mt"
+  },
+  {
+    "name": "ミニヤー県",
+    "nameNative": "محافظة المنيا",
+    "capital": "ミニヤー",
+    "capitalNative": "المنيا",
+    "id": "eg-mn"
+  },
+  {
+    "name": "ミヌーフィーヤ県",
+    "nameNative": "محافظة المنوفية",
+    "capital": "シビーン・コーム",
+    "capitalNative": "شبين الكوم",
+    "id": "eg-mnf"
+  },
+  {
+    "name": "ルクソール県",
+    "nameNative": "محافظة الأقصر",
+    "capital": "ルクソール",
+    "capitalNative": "الأقصر",
+    "id": "eg-lx"
+  },
+  {
+    "name": "北シナイ県",
+    "nameNative": "محافظة شمال سيناء",
+    "capital": "アリーシュ",
+    "capitalNative": "العريش",
+    "id": "eg-sin"
+  },
+  {
+    "name": "南シナイ県",
+    "nameNative": "محافظة جنوب سيناء",
+    "capital": "エルトール",
+    "capitalNative": "الطور",
+    "id": "eg-js"
+  },
+  {
+    "name": "紅海県",
+    "nameNative": "محافظة البحر الأحمر",
+    "capital": "フルガダ",
+    "capitalNative": "الغردقة",
+    "id": "eg-ba"
+  }
+]

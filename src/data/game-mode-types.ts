@@ -14,7 +14,8 @@ export type GameModeId =
   | "it-regions"
   | "de-states"
   | "ru-subjects"
-  | "jp-prefectures";
+  | "jp-prefectures"
+  | "eg-governorates";
 
 export type GameModeCategoryId =
   | "countries"

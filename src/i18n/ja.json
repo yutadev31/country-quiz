@@ -86,6 +86,9 @@
     },
     "jp-prefectures": {
       "title": "日本の都道府県"
+    },
+    "eg-governorates": {
+      "title": "エジプトの県"
     }
   },
   "content-type": {
@@ -150,8 +153,13 @@
       "name": "都道府県名",
       "nameKana": "とどうふけん (ひらがな)",
       "capital": "都道府県庁所在地",
-      "capitalNative": "都道府県庁所在地 (漢字)",
       "capitalKana": "とどうふけんちょうしょざいち (ひらがな)"
+    },
+    "eg-governorate": {
+      "name": "県名",
+      "nameNative": "県名 (アラビア語)",
+      "capital": "県庁所在地",
+      "capitalNative": "県庁所在地 (アラビア語)"
     }
   },
   "area": {
