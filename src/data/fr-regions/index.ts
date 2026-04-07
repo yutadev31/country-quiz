@@ -6,20 +6,20 @@ export const frRegionsMode: GameModeConfig = {
   titleKey: "mode.fr-regions.title",
   categoryId: "europe",
   questionOptions: [
-    { labelKey: "content-type.fr-region-name", value: "name" },
-    { labelKey: "content-type.fr-region-nameNative", value: "nameNative" },
-    { labelKey: "content-type.fr-region-capital", value: "capital" },
+    { labelKey: "content-type.fr-region.name", value: "name" },
+    { labelKey: "content-type.fr-region.nameNative", value: "nameNative" },
+    { labelKey: "content-type.fr-region.capital", value: "capital" },
     {
-      labelKey: "content-type.fr-region-capitalNative",
+      labelKey: "content-type.fr-region.capitalNative",
       value: "capitalNative",
     },
   ],
   answerOptions: [
-    { labelKey: "content-type.fr-region-name", value: "name" },
-    { labelKey: "content-type.fr-region-nameNative", value: "nameNative" },
-    { labelKey: "content-type.fr-region-capital", value: "capital" },
+    { labelKey: "content-type.fr-region.name", value: "name" },
+    { labelKey: "content-type.fr-region.nameNative", value: "nameNative" },
+    { labelKey: "content-type.fr-region.capital", value: "capital" },
     {
-      labelKey: "content-type.fr-region-capitalNative",
+      labelKey: "content-type.fr-region.capitalNative",
       value: "capitalNative",
     },
   ],

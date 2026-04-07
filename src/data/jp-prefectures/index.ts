@@ -6,20 +6,20 @@ export const jpPrefecturesMode: GameModeConfig = {
   titleKey: "mode.jp-prefectures.title",
   categoryId: "asia",
   questionOptions: [
-    { labelKey: "content-type.jp-prefecture-name", value: "name" },
-    { labelKey: "content-type.jp-prefecture-nameKana", value: "nameKana" },
-    { labelKey: "content-type.jp-prefecture-capital", value: "capital" },
+    { labelKey: "content-type.jp-prefecture.name", value: "name" },
+    { labelKey: "content-type.jp-prefecture.nameKana", value: "nameKana" },
+    { labelKey: "content-type.jp-prefecture.capital", value: "capital" },
     {
-      labelKey: "content-type.jp-prefecture-capitalKana",
+      labelKey: "content-type.jp-prefecture.capitalKana",
       value: "capitalKana",
     },
   ],
   answerOptions: [
-    { labelKey: "content-type.jp-prefecture-name", value: "name" },
-    { labelKey: "content-type.jp-prefecture-nameKana", value: "nameKana" },
-    { labelKey: "content-type.jp-prefecture-capital", value: "capital" },
+    { labelKey: "content-type.jp-prefecture.name", value: "name" },
+    { labelKey: "content-type.jp-prefecture.nameKana", value: "nameKana" },
+    { labelKey: "content-type.jp-prefecture.capital", value: "capital" },
     {
-      labelKey: "content-type.jp-prefecture-capitalKana",
+      labelKey: "content-type.jp-prefecture.capitalKana",
       value: "capitalKana",
     },
   ],

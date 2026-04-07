@@ -6,20 +6,20 @@ export const caProvincesMode: GameModeConfig = {
   titleKey: "mode.ca-provinces.title",
   categoryId: "north-america",
   questionOptions: [
-    { labelKey: "content-type.ca-province-name", value: "name" },
-    { labelKey: "content-type.ca-province-nameNative", value: "nameNative" },
-    { labelKey: "content-type.ca-province-capital", value: "capital" },
+    { labelKey: "content-type.ca-province.name", value: "name" },
+    { labelKey: "content-type.ca-province.nameNative", value: "nameNative" },
+    { labelKey: "content-type.ca-province.capital", value: "capital" },
     {
-      labelKey: "content-type.ca-province-capitalNative",
+      labelKey: "content-type.ca-province.capitalNative",
       value: "capitalNative",
     },
   ],
   answerOptions: [
-    { labelKey: "content-type.ca-province-name", value: "name" },
-    { labelKey: "content-type.ca-province-nameNative", value: "nameNative" },
-    { labelKey: "content-type.ca-province-capital", value: "capital" },
+    { labelKey: "content-type.ca-province.name", value: "name" },
+    { labelKey: "content-type.ca-province.nameNative", value: "nameNative" },
+    { labelKey: "content-type.ca-province.capital", value: "capital" },
     {
-      labelKey: "content-type.ca-province-capitalNative",
+      labelKey: "content-type.ca-province.capitalNative",
       value: "capitalNative",
     },
   ],

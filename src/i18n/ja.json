@@ -89,50 +89,70 @@
     }
   },
   "content-type": {
-    "name": "国名",
-    "nameNative": "国名 (現地語)",
-    "capital": "首都",
-    "capitalNative": "首都 (現地語)",
-    "flag": "国旗",
-    "domain": "ドメイン (TLD)",
-    "us-state-name": "州名",
-    "us-state-nameNative": "州名 (英語)",
-    "us-state-capital": "州都",
-    "us-state-capitalNative": "州都 (英語)",
-    "us-state-flag": "州旗",
-    "ca-province-name": "州名",
-    "ca-province-nameNative": "州名 (英語)",
-    "ca-province-capital": "州都",
-    "ca-province-capitalNative": "州都 (英語)",
-    "mx-state-name": "州名",
-    "mx-state-nameNative": "州名 (スペイン語)",
-    "mx-state-capital": "州都",
-    "mx-state-capitalNative": "州都 (スペイン語)",
-    "br-state-name": "州名",
-    "br-state-nameNative": "州名 (ポルトガル語)",
-    "br-state-capital": "州都",
-    "br-state-capitalNative": "州都 (ポルトガル語)",
-    "fr-region-name": "地域圏名",
-    "fr-region-nameNative": "地域圏名 (フランス語)",
-    "fr-region-capital": "首府",
-    "fr-region-capitalNative": "首府 (フランス語)",
-    "it-region-name": "州名",
-    "it-region-nameNative": "州名 (イタリア語)",
-    "it-region-capital": "州都",
-    "it-region-capitalNative": "州都 (イタリア語)",
-    "de-state-name": "州名",
-    "de-state-nameNative": "州名 (ドイツ語)",
-    "de-state-capital": "州都",
-    "de-state-capitalNative": "州都 (ドイツ語)",
-    "ru-subject-name": "連邦構成主体名",
-    "ru-subject-nameNative": "連邦構成主体名 (ロシア語)",
-    "ru-subject-capital": "首府",
-    "ru-subject-capitalNative": "首府 (ロシア語)",
-    "jp-prefecture-name": "都道府県名",
-    "jp-prefecture-nameKana": "とどうふけん (ひらがな)",
-    "jp-prefecture-capital": "都道府県庁所在地",
-    "jp-prefecture-capitalNative": "都道府県庁所在地 (漢字)",
-    "jp-prefecture-capitalKana": "とどうふけんちょうしょざいち (ひらがな)"
+    "countries": {
+      "name": "国名",
+      "nameNative": "国名 (現地語)",
+      "capital": "首都",
+      "capitalNative": "首都 (現地語)",
+      "flag": "国旗",
+      "domain": "ドメイン (TLD)"
+    },
+    "us-state": {
+      "name": "州名",
+      "nameNative": "州名 (英語)",
+      "capital": "州都",
+      "capitalNative": "州都 (英語)",
+      "flag": "州旗"
+    },
+    "ca-province": {
+      "name": "州名",
+      "nameNative": "州名 (英語)",
+      "capital": "州都",
+      "capitalNative": "州都 (英語)"
+    },
+    "mx-state": {
+      "name": "州名",
+      "nameNative": "州名 (スペイン語)",
+      "capital": "州都",
+      "capitalNative": "州都 (スペイン語)"
+    },
+    "br-state": {
+      "name": "州名",
+      "nameNative": "州名 (ポルトガル語)",
+      "capital": "州都",
+      "capitalNative": "州都 (ポルトガル語)"
+    },
+    "fr-region": {
+      "name": "地域圏名",
+      "nameNative": "地域圏名 (フランス語)",
+      "capital": "首府",
+      "capitalNative": "首府 (フランス語)"
+    },
+    "it-region": {
+      "name": "州名",
+      "nameNative": "州名 (イタリア語)",
+      "capital": "州都",
+      "capitalNative": "州都 (イタリア語)"
+    },
+    "de-state": {
+      "name": "州名",
+      "nameNative": "州名 (ドイツ語)",
+      "capital": "州都",
+      "capitalNative": "州都 (ドイツ語)"
+    },
+    "ru-subject": {
+      "name": "連邦構成主体名",
+      "nameNative": "連邦構成主体名 (ロシア語)",
+      "capital": "首府",
+      "capitalNative": "首府 (ロシア語)"
+    },
+    "jp-prefecture": {
+      "name": "都道府県名",
+      "nameKana": "とどうふけん (ひらがな)",
+      "capital": "都道府県庁所在地",
+      "capitalNative": "都道府県庁所在地 (漢字)",
+      "capitalKana": "とどうふけんちょうしょざいち (ひらがな)"
+    }
   },
   "area": {
     "all": "すべて",

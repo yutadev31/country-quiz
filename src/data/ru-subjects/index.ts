@@ -6,20 +6,20 @@ export const ruSubjectsMode: GameModeConfig = {
   titleKey: "mode.ru-subjects.title",
   categoryId: "europe",
   questionOptions: [
-    { labelKey: "content-type.ru-subject-name", value: "name" },
-    { labelKey: "content-type.ru-subject-nameNative", value: "nameNative" },
-    { labelKey: "content-type.ru-subject-capital", value: "capital" },
+    { labelKey: "content-type.ru-subject.name", value: "name" },
+    { labelKey: "content-type.ru-subject.nameNative", value: "nameNative" },
+    { labelKey: "content-type.ru-subject.capital", value: "capital" },
     {
-      labelKey: "content-type.ru-subject-capitalNative",
+      labelKey: "content-type.ru-subject.capitalNative",
       value: "capitalNative",
     },
   ],
   answerOptions: [
-    { labelKey: "content-type.ru-subject-name", value: "name" },
-    { labelKey: "content-type.ru-subject-nameNative", value: "nameNative" },
-    { labelKey: "content-type.ru-subject-capital", value: "capital" },
+    { labelKey: "content-type.ru-subject.name", value: "name" },
+    { labelKey: "content-type.ru-subject.nameNative", value: "nameNative" },
+    { labelKey: "content-type.ru-subject.capital", value: "capital" },
     {
-      labelKey: "content-type.ru-subject-capitalNative",
+      labelKey: "content-type.ru-subject.capitalNative",
       value: "capitalNative",
     },
   ],
