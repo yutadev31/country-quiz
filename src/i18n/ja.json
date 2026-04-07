@@ -78,6 +78,9 @@
     "it-regions": {
       "title": "イタリアの州"
     },
+    "es-communities": {
+      "title": "スペインの自治州"
+    },
     "de-states": {
       "title": "ドイツの州"
     },
@@ -136,6 +139,12 @@
       "nameNative": "州名 (イタリア語)",
       "capital": "州都",
       "capitalNative": "州都 (イタリア語)"
+    },
+    "es-community": {
+      "name": "州名",
+      "nameNative": "州名 (スペイン語)",
+      "capital": "州都",
+      "capitalNative": "州都 (スペイン語)"
     },
     "de-state": {
       "name": "州名",

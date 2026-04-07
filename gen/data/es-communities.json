@@ -1,0 +1,121 @@
+[
+  {
+    "communityLabel": "アンダルシア州",
+    "communityLabel_es": "Andalucía",
+    "capitalLabel": "セビリア",
+    "capitalLabel_es": "Sevilla",
+    "iso2": "ES-AN"
+  },
+  {
+    "communityLabel": "アラゴン州",
+    "communityLabel_es": "Aragón",
+    "capitalLabel": "サラゴサ",
+    "capitalLabel_es": "Zaragoza",
+    "iso2": "ES-AR"
+  },
+  {
+    "communityLabel": "アストゥリアス州",
+    "communityLabel_es": "Asturias",
+    "capitalLabel": "Oviedo City",
+    "capitalLabel_es": "Oviedo",
+    "iso2": "ES-AS"
+  },
+  {
+    "communityLabel": "カンタブリア州",
+    "communityLabel_es": "Cantabria",
+    "capitalLabel": "サンタンデール",
+    "capitalLabel_es": "Santander",
+    "iso2": "ES-CB"
+  },
+  {
+    "communityLabel": "カスティーリャ・レオン州",
+    "communityLabel_es": "Castilla y León",
+    "capitalLabel": null,
+    "capitalLabel_es": null,
+    "iso2": "ES-CL"
+  },
+  {
+    "communityLabel": "カスティーリャ・ラ・マンチャ州",
+    "communityLabel_es": "Castilla-La Mancha",
+    "capitalLabel": "トレド",
+    "capitalLabel_es": "Toledo",
+    "iso2": "ES-CM"
+  },
+  {
+    "communityLabel": "カナリア諸島",
+    "communityLabel_es": "Canarias",
+    "capitalLabel": "ラス・パルマス・デ・グラン・カナリア",
+    "capitalLabel_es": "Las Palmas de Gran Canaria",
+    "iso2": "ES-CN"
+  },
+  {
+    "communityLabel": "カナリア諸島",
+    "communityLabel_es": "Canarias",
+    "capitalLabel": "サンタ・クルス・デ・テネリフェ",
+    "capitalLabel_es": "Santa Cruz de Tenerife",
+    "iso2": "ES-CN"
+  },
+  {
+    "communityLabel": "カタルーニャ州",
+    "communityLabel_es": "Cataluña",
+    "capitalLabel": "バルセロナ",
+    "capitalLabel_es": "Barcelona",
+    "iso2": "ES-CT"
+  },
+  {
+    "communityLabel": "エストレマドゥーラ州",
+    "communityLabel_es": "Extremadura",
+    "capitalLabel": "メリダ",
+    "capitalLabel_es": "Mérida",
+    "iso2": "ES-EX"
+  },
+  {
+    "communityLabel": "ガリシア州",
+    "communityLabel_es": "Galicia",
+    "capitalLabel": "サンティアゴ・デ・コンポステーラ",
+    "capitalLabel_es": "Santiago de Compostela",
+    "iso2": "ES-GA"
+  },
+  {
+    "communityLabel": "バレアレス諸島",
+    "communityLabel_es": "Islas Baleares",
+    "capitalLabel": "パルマ・デ・マヨルカ",
+    "capitalLabel_es": "Palma de Mallorca",
+    "iso2": "ES-IB"
+  },
+  {
+    "communityLabel": "ムルシア州",
+    "communityLabel_es": "Región de Murcia",
+    "capitalLabel": "Murcia City",
+    "capitalLabel_es": "Ciudad de Murcia",
+    "iso2": "ES-MC"
+  },
+  {
+    "communityLabel": "マドリード州",
+    "communityLabel_es": "Comunidad de Madrid",
+    "capitalLabel": "マドリード",
+    "capitalLabel_es": "Madrid",
+    "iso2": "ES-MD"
+  },
+  {
+    "communityLabel": "バスク州",
+    "communityLabel_es": "País Vasco",
+    "capitalLabel": "ビトリア＝ガステイス",
+    "capitalLabel_es": "Vitoria",
+    "iso2": "ES-PV"
+  },
+  {
+    "communityLabel": "ラ・リオハ州",
+    "communityLabel_es": "La Rioja",
+    "capitalLabel": "Logroño",
+    "capitalLabel_es": "Logroño",
+    "iso2": "ES-RI"
+  },
+  {
+    "communityLabel": "バレンシア州",
+    "communityLabel_es": "Comunidad Valenciana",
+    "capitalLabel": "バレンシア",
+    "capitalLabel_es": "Valencia",
+    "iso2": "ES-VC"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "name": "アストゥリアス州",
+    "nameNative": "Asturias",
+    "capital": "Oviedo City",
+    "capitalNative": "Oviedo",
+    "id": "es-as"
+  },
+  {
+    "name": "アラゴン州",
+    "nameNative": "Aragón",
+    "capital": "サラゴサ",
+    "capitalNative": "Zaragoza",
+    "id": "es-ar"
+  },
+  {
+    "name": "アンダルシア州",
+    "nameNative": "Andalucía",
+    "capital": "セビリア",
+    "capitalNative": "Sevilla",
+    "id": "es-an"
+  },
+  {
+    "name": "エストレマドゥーラ州",
+    "nameNative": "Extremadura",
+    "capital": "メリダ",
+    "capitalNative": "Mérida",
+    "id": "es-ex"
+  },
+  {
+    "name": "カスティーリャ・ラ・マンチャ州",
+    "nameNative": "Castilla-La Mancha",
+    "capital": "トレド",
+    "capitalNative": "Toledo",
+    "id": "es-cm"
+  },
+  {
+    "name": "カスティーリャ・レオン州",
+    "nameNative": "Castilla y León",
+    "capital": "",
+    "capitalNative": null,
+    "id": "es-cl"
+  },
+  {
+    "name": "カタルーニャ州",
+    "nameNative": "Cataluña",
+    "capital": "バルセロナ",
+    "capitalNative": "Barcelona",
+    "id": "es-ct"
+  },
+  {
+    "name": "カナリア諸島",
+    "nameNative": "Canarias",
+    "capital": "ラス・パルマス・デ・グラン・カナリア,サンタ・クルス・デ・テネリフェ",
+    "capitalNative": "Las Palmas de Gran Canaria",
+    "id": "es-cn"
+  },
+  {
+    "name": "カンタブリア州",
+    "nameNative": "Cantabria",
+    "capital": "サンタンデール",
+    "capitalNative": "Santander",
+    "id": "es-cb"
+  },
+  {
+    "name": "ガリシア州",
+    "nameNative": "Galicia",
+    "capital": "サンティアゴ・デ・コンポステーラ",
+    "capitalNative": "Santiago de Compostela",
+    "id": "es-ga"
+  },
+  {
+    "name": "バスク州",
+    "nameNative": "País Vasco",
+    "capital": "ビトリア＝ガステイス",
+    "capitalNative": "Vitoria",
+    "id": "es-pv"
+  },
+  {
+    "name": "バレアレス諸島",
+    "nameNative": "Islas Baleares",
+    "capital": "パルマ・デ・マヨルカ",
+    "capitalNative": "Palma de Mallorca",
+    "id": "es-ib"
+  },
+  {
+    "name": "バレンシア州",
+    "nameNative": "Comunidad Valenciana",
+    "capital": "バレンシア",
+    "capitalNative": "Valencia",
+    "id": "es-vc"
+  },
+  {
+    "name": "マドリード州",
+    "nameNative": "Comunidad de Madrid",
+    "capital": "マドリード",
+    "capitalNative": "Madrid",
+    "id": "es-md"
+  },
+  {
+    "name": "ムルシア州",
+    "nameNative": "Región de Murcia",
+    "capital": "Murcia City",
+    "capitalNative": "Ciudad de Murcia",
+    "id": "es-mc"
+  },
+  {
+    "name": "ラ・リオハ州",
+    "nameNative": "La Rioja",
+    "capital": "Logroño",
+    "capitalNative": "Logroño",
+    "id": "es-ri"
+  }
+]
