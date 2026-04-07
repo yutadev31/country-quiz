@@ -9,19 +9,13 @@ export const caProvincesMode: GameModeConfig = {
     { labelKey: "content-type.ca-province.name", value: "name" },
     { labelKey: "content-type.ca-province.nameNative", value: "nameNative" },
     { labelKey: "content-type.ca-province.capital", value: "capital" },
-    {
-      labelKey: "content-type.ca-province.capitalNative",
-      value: "capitalNative",
-    },
+    { labelKey: "content-type.ca-province.capitalNative", value: "capitalNative" },
   ],
   answerOptions: [
     { labelKey: "content-type.ca-province.name", value: "name" },
     { labelKey: "content-type.ca-province.nameNative", value: "nameNative" },
     { labelKey: "content-type.ca-province.capital", value: "capital" },
-    {
-      labelKey: "content-type.ca-province.capitalNative",
-      value: "capitalNative",
-    },
+    { labelKey: "content-type.ca-province.capitalNative", value: "capitalNative" },
   ],
   defaultQuestionField: "name",
   defaultAnswerField: "capital",

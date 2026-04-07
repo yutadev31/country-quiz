@@ -2,37 +2,22 @@ import { useQueryState } from "nuqs";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { LuArrowLeft, LuGlobe } from "react-icons/lu";
-import type {
-  FieldDisplayType,
-  FieldOption,
-  GameModeId,
-  QuizItem,
-} from "@/data/game-mode-types";
+import type { FieldDisplayType, FieldOption, GameModeId, QuizItem } from "@/data/game-mode-types";
 import { gameModeList, gameModes, isGameModeId } from "@/data/game-modes";
 
 function getListFields(options: FieldOption[]) {
   return options.filter(
     (option, index, array) =>
-      option.value !== "id" &&
-      array.findIndex((candidate) => candidate.value === option.value) ===
-        index,
+      option.value !== "id" && array.findIndex((candidate) => candidate.value === option.value) === index,
   );
 }
 
-function StudyCell({
-  value,
-  displayType,
-}: {
-  value: string | string[] | null;
-  displayType: FieldDisplayType;
-}) {
+function StudyCell({ value, displayType }: { value: string | string[] | null; displayType: FieldDisplayType }) {
   if (Array.isArray(value)) {
     return (
       <>
         {value.map((item) => {
-          return (
-            <StudyCell key={item} value={item} displayType={displayType} />
-          );
+          return <StudyCell key={item} value={item} displayType={displayType} />;
         })}
       </>
     );
@@ -49,15 +34,7 @@ function StudyCell({
   return <p className="text-nowrap">{value}</p>;
 }
 
-function StudyTable({
-  items,
-  fields,
-  mode,
-}: {
-  items: QuizItem[];
-  fields: FieldOption[];
-  mode: GameModeId;
-}) {
+function StudyTable({ items, fields, mode }: { items: QuizItem[]; fields: FieldOption[]; mode: GameModeId }) {
   const { t } = useTranslation();
   const fieldDisplayTypes = gameModes[mode].fieldDisplayTypes;
 
@@ -78,21 +55,11 @@ function StudyTable({
             {items.map((item, index) => (
               <tr
                 key={item.id}
-                className={
-                  index % 2 === 0
-                    ? "bg-zinc-950 text-zinc-100"
-                    : "bg-zinc-900/80 text-zinc-100"
-                }
+                className={index % 2 === 0 ? "bg-zinc-950 text-zinc-100" : "bg-zinc-900/80 text-zinc-100"}
               >
                 {fields.map((field) => (
-                  <td
-                    key={field.value}
-                    className="border-zinc-800 border-t px-4 py-3 align-middle"
-                  >
-                    <StudyCell
-                      value={item[field.value]}
-                      displayType={fieldDisplayTypes[field.value]}
-                    />
+                  <td key={field.value} className="border-zinc-800 border-t px-4 py-3 align-middle">
+                    <StudyCell value={item[field.value]} displayType={fieldDisplayTypes[field.value]} />
                   </td>
                 ))}
               </tr>
@@ -114,10 +81,7 @@ export default function StudyPage() {
   const [items, setItems] = useState<QuizItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
-  const fields = getListFields([
-    ...activeMode.questionOptions,
-    ...activeMode.answerOptions,
-  ]);
+  const fields = getListFields([...activeMode.questionOptions, ...activeMode.answerOptions]);
 
   useEffect(() => {
     let cancelled = false;
@@ -157,12 +121,8 @@ export default function StudyPage() {
               <LuGlobe />
               {t("study.title")}
             </p>
-            <h1 className="font-semibold text-3xl text-zinc-50">
-              {t(activeMode.titleKey)}
-            </h1>
-            <p className="mt-2 max-w-2xl text-sm text-zinc-300">
-              {t("description.study")}
-            </p>
+            <h1 className="font-semibold text-3xl text-zinc-50">{t(activeMode.titleKey)}</h1>
+            <p className="mt-2 max-w-2xl text-sm text-zinc-300">{t("description.study")}</p>
           </div>
 
           <a
@@ -194,9 +154,7 @@ export default function StudyPage() {
           ))}
         </div>
 
-        <p className="text-sm text-zinc-400">
-          {t("study.count", { count: items.length })}
-        </p>
+        <p className="text-sm text-zinc-400">{t("study.count", { count: items.length })}</p>
       </div>
 
       {isLoading ? (

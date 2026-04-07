@@ -3,12 +3,7 @@ import { useTranslation } from "react-i18next";
 import { HiPlay } from "react-icons/hi2";
 import { LuBrain, LuFlame, LuGlobe, LuTimer } from "react-icons/lu";
 import type { GameModeId } from "@/data/game-mode-types";
-import {
-  gameModeCategories,
-  gameModeList,
-  gameModes,
-  getGameModeCategoryId,
-} from "@/data/game-modes";
+import { gameModeCategories, gameModeList, gameModes, getGameModeCategoryId } from "@/data/game-modes";
 
 type Option = {
   label: string;
@@ -38,18 +33,10 @@ function RadioGroup({
           key={value}
           className={`cursor-pointer rounded-xl border border-zinc-700 bg-zinc-800 p-4 transition has-checked:border-blue-400 has-checked:bg-blue-600 ${optionClassName ?? ""}`}
         >
-          <input
-            type="radio"
-            name={name}
-            value={value}
-            defaultChecked={value === defaultValue}
-            className="hidden"
-          />
+          <input type="radio" name={name} value={value} defaultChecked={value === defaultValue} className="hidden" />
           <div className={`font-bold ${labelClassName ?? ""}`}>
             {label}
-            {hiragana && (
-              <span className="ml-1 text-sm text-zinc-300">({hiragana})</span>
-            )}
+            {hiragana && <span className="ml-1 text-sm text-zinc-300">({hiragana})</span>}
           </div>
         </label>
       ))}
@@ -77,38 +64,23 @@ function SectionTitle({
   );
 }
 
-function ModeSection({
-  mode,
-  onModeChange,
-}: {
-  mode: GameModeId;
-  onModeChange: (mode: GameModeId) => void;
-}) {
+function ModeSection({ mode, onModeChange }: { mode: GameModeId; onModeChange: (mode: GameModeId) => void }) {
   const { t } = useTranslation();
   const activeCategoryId = getGameModeCategoryId(mode);
   const activeCategory =
-    gameModeCategories.find((category) => category.id === activeCategoryId) ??
-    gameModeCategories[0];
-  const visibleModes = gameModeList.filter((gameMode) =>
-    activeCategory.modeIds.includes(gameMode.id),
-  );
+    gameModeCategories.find((category) => category.id === activeCategoryId) ?? gameModeCategories[0];
+  const visibleModes = gameModeList.filter((gameMode) => activeCategory.modeIds.includes(gameMode.id));
 
   return (
     <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
-      <SectionTitle
-        icon={LuGlobe}
-        title={t("heading.mode")}
-        description={t("description.mode")}
-      />
+      <SectionTitle icon={LuGlobe} title={t("heading.mode")} description={t("description.mode")} />
 
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
         {gameModeCategories.map((category) => (
           <label
             key={category.id}
             className={`cursor-pointer rounded-xl border p-3 transition ${
-              activeCategoryId === category.id
-                ? "border-blue-400 bg-blue-600"
-                : "border-zinc-700 bg-zinc-800"
+              activeCategoryId === category.id ? "border-blue-400 bg-blue-600" : "border-zinc-700 bg-zinc-800"
             }`}
           >
             <input
@@ -120,9 +92,7 @@ function ModeSection({
               className="hidden"
             />
             <div className="font-bold">
-              {category.id === "countries"
-                ? t("mode.countries.title")
-                : t(`area.${category.id}`)}
+              {category.id === "countries" ? t("mode.countries.title") : t(`area.${category.id}`)}
             </div>
           </label>
         ))}
@@ -136,9 +106,7 @@ function ModeSection({
             <label
               key={gameMode.id}
               className={`cursor-pointer rounded-xl border p-4 transition ${
-                mode === gameMode.id
-                  ? "border-blue-400 bg-blue-600"
-                  : "border-zinc-700 bg-zinc-800"
+                mode === gameMode.id ? "border-blue-400 bg-blue-600" : "border-zinc-700 bg-zinc-800"
               }`}
             >
               <input
@@ -207,9 +175,7 @@ function RuleSection() {
           <label
             key={p.id}
             className={`cursor-pointer rounded-xl border p-3 transition ${
-              preset === p.id
-                ? "border-blue-400 bg-blue-600"
-                : "border-zinc-700 bg-zinc-800"
+              preset === p.id ? "border-blue-400 bg-blue-600" : "border-zinc-700 bg-zinc-800"
             } `}
           >
             <input
@@ -316,15 +282,11 @@ export default function GameLauncher() {
       <section className="rounded-xl border border-red-800 bg-red-950 p-4">
         <div className="flex items-center gap-2">
           <LuFlame className="text-red-400 text-xl" />
-          <span className="font-bold text-red-300">
-            {t("heading.one-shot-mode")}
-          </span>
+          <span className="font-bold text-red-300">{t("heading.one-shot-mode")}</span>
         </div>
         <label className="mt-3 flex items-center gap-3">
           <input type="checkbox" name="oneShotMode" className="scale-125" />
-          <span className="text-red-200 text-sm">
-            {t("description.one-shot-mode")}
-          </span>
+          <span className="text-red-200 text-sm">{t("description.one-shot-mode")}</span>
         </label>
       </section>
 

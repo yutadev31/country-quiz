@@ -9,19 +9,13 @@ export const ruSubjectsMode: GameModeConfig = {
     { labelKey: "content-type.ru-subject.name", value: "name" },
     { labelKey: "content-type.ru-subject.nameNative", value: "nameNative" },
     { labelKey: "content-type.ru-subject.capital", value: "capital" },
-    {
-      labelKey: "content-type.ru-subject.capitalNative",
-      value: "capitalNative",
-    },
+    { labelKey: "content-type.ru-subject.capitalNative", value: "capitalNative" },
   ],
   answerOptions: [
     { labelKey: "content-type.ru-subject.name", value: "name" },
     { labelKey: "content-type.ru-subject.nameNative", value: "nameNative" },
     { labelKey: "content-type.ru-subject.capital", value: "capital" },
-    {
-      labelKey: "content-type.ru-subject.capitalNative",
-      value: "capitalNative",
-    },
+    { labelKey: "content-type.ru-subject.capitalNative", value: "capitalNative" },
   ],
   defaultQuestionField: "name",
   defaultAnswerField: "capital",

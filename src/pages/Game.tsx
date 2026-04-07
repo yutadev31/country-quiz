@@ -58,22 +58,16 @@ export default function GamePage() {
     modeConfig.defaultQuestionField,
     modeConfig.fieldDisplayTypes,
   );
-  const answerField = normalizeField(
-    answerFieldParam,
-    modeConfig.defaultAnswerField,
-    modeConfig.fieldDisplayTypes,
-  );
-  const questionType = modeConfig.questionOptions.find(
-    (option) => option.value === questionField,
-  );
-  const choiceType = modeConfig.answerOptions.find(
-    (option) => option.value === answerField,
-  );
+  const answerField = normalizeField(answerFieldParam, modeConfig.defaultAnswerField, modeConfig.fieldDisplayTypes);
+  const questionType = modeConfig.questionOptions.find((option) => option.value === questionField);
+  const choiceType = modeConfig.answerOptions.find((option) => option.value === answerField);
   const timeLimitSeconds = parseTimeLimit(timeLimitParam);
   const stopOnMistake = stopOnMistakeParam === "on";
-  const [items, setItems] = useState<(Record<string, string | null> & {
-    id: string;
-  })[]>([]);
+  const [items, setItems] = useState<
+    (Record<string, string | null> & {
+      id: string;
+    })[]
+  >([]);
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
 
@@ -143,10 +137,7 @@ export default function GamePage() {
     },
     {
       label: t("label.time-limit"),
-      value:
-        timeLimitSeconds === null
-          ? t("game.no-time-limit")
-          : `${timeLimitSeconds}`,
+      value: timeLimitSeconds === null ? t("game.no-time-limit") : `${timeLimitSeconds}`,
     },
     {
       label: t("heading.one-shot-mode"),

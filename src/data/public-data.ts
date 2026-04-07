@@ -19,7 +19,5 @@ export function loadQuizItems<T extends QuizItem = QuizItem>(fileName: string) {
 }
 
 export function loadCountryAreaIds() {
-  return fetchJson<Exclude<GameModeCategoryId, "countries">[]>(
-    "countries-areas.json",
-  );
+  return fetchJson<Exclude<GameModeCategoryId, "countries">[]>("countries-areas.json");
 }

@@ -9,19 +9,13 @@ export const esCommunitiesMode: GameModeConfig = {
     { labelKey: "content-type.es-community.name", value: "name" },
     { labelKey: "content-type.es-community.nameNative", value: "nameNative" },
     { labelKey: "content-type.es-community.capital", value: "capital" },
-    {
-      labelKey: "content-type.es-community.capitalNative",
-      value: "capitalNative",
-    },
+    { labelKey: "content-type.es-community.capitalNative", value: "capitalNative" },
   ],
   answerOptions: [
     { labelKey: "content-type.es-community.name", value: "name" },
     { labelKey: "content-type.es-community.nameNative", value: "nameNative" },
     { labelKey: "content-type.es-community.capital", value: "capital" },
-    {
-      labelKey: "content-type.es-community.capitalNative",
-      value: "capitalNative",
-    },
+    { labelKey: "content-type.es-community.capitalNative", value: "capitalNative" },
   ],
   defaultQuestionField: "name",
   defaultAnswerField: "capital",

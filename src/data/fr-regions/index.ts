@@ -9,19 +9,13 @@ export const frRegionsMode: GameModeConfig = {
     { labelKey: "content-type.fr-region.name", value: "name" },
     { labelKey: "content-type.fr-region.nameNative", value: "nameNative" },
     { labelKey: "content-type.fr-region.capital", value: "capital" },
-    {
-      labelKey: "content-type.fr-region.capitalNative",
-      value: "capitalNative",
-    },
+    { labelKey: "content-type.fr-region.capitalNative", value: "capitalNative" },
   ],
   answerOptions: [
     { labelKey: "content-type.fr-region.name", value: "name" },
     { labelKey: "content-type.fr-region.nameNative", value: "nameNative" },
     { labelKey: "content-type.fr-region.capital", value: "capital" },
-    {
-      labelKey: "content-type.fr-region.capitalNative",
-      value: "capitalNative",
-    },
+    { labelKey: "content-type.fr-region.capitalNative", value: "capitalNative" },
   ],
   defaultQuestionField: "name",
   defaultAnswerField: "capital",

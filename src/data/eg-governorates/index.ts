@@ -9,19 +9,13 @@ export const egGovernoratesMode: GameModeConfig = {
     { labelKey: "content-type.eg-governorate.name", value: "name" },
     { labelKey: "content-type.eg-governorate.nameNative", value: "nameNative" },
     { labelKey: "content-type.eg-governorate.capital", value: "capital" },
-    {
-      labelKey: "content-type.eg-governorate.capitalNative",
-      value: "capitalNative",
-    },
+    { labelKey: "content-type.eg-governorate.capitalNative", value: "capitalNative" },
   ],
   answerOptions: [
     { labelKey: "content-type.eg-governorate.name", value: "name" },
     { labelKey: "content-type.eg-governorate.nameNative", value: "nameNative" },
     { labelKey: "content-type.eg-governorate.capital", value: "capital" },
-    {
-      labelKey: "content-type.eg-governorate.capitalNative",
-      value: "capitalNative",
-    },
+    { labelKey: "content-type.eg-governorate.capitalNative", value: "capitalNative" },
   ],
   defaultQuestionField: "name",
   defaultAnswerField: "capital",

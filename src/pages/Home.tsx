@@ -1,9 +1,6 @@
 import { useQueryState } from "nuqs";
 import { useTranslation } from "react-i18next";
-import {
-  HiOutlineInformationCircle,
-  HiOutlineTableCells,
-} from "react-icons/hi2";
+import { HiOutlineInformationCircle, HiOutlineTableCells } from "react-icons/hi2";
 import GameLauncher from "@/components/GameLauncher";
 
 export default function HomePage() {
