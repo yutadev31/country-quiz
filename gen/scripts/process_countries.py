@@ -4,7 +4,7 @@ import json
 import pandas as pd
 
 INPUT_PATH = "gen/data/countries.json"
-OUTPUT_PATH = "src/data/countries/countries.json"
+OUTPUT_PATH = "public/data/countries.json"
 
 continent_map = {
     "アジア": "asia",
@@ -62,6 +62,6 @@ df = transform_data(
 save_and_format(df, OUTPUT_PATH)
 
 # areas.json
-with open("src/data/countries/areas.json", "w", encoding="utf-8") as f:
+with open("public/data/countries-areas.json", "w", encoding="utf-8") as f:
     json.dump(list(dict.fromkeys(continent_map.values())), f, ensure_ascii=False)
-run_biome_format("src/data/countries/areas.json")
+run_biome_format("public/data/countries-areas.json")

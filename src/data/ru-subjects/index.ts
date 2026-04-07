@@ -1,9 +1,10 @@
 import type { GameModeConfig } from "@/data/game-mode-types";
-import subjects from "./subjects.json";
+import { loadQuizItems } from "@/data/public-data";
 
 export const ruSubjectsMode: GameModeConfig = {
   id: "ru-subjects",
   titleKey: "mode.ru-subjects.title",
+  categoryId: "europe",
   questionOptions: [
     { labelKey: "content-type.ru-subject-name", value: "name" },
     { labelKey: "content-type.ru-subject-nameNative", value: "nameNative" },
@@ -30,5 +31,5 @@ export const ruSubjectsMode: GameModeConfig = {
     capital: "text",
     capitalNative: "text",
   },
-  getItems: () => subjects,
+  getItems: () => loadQuizItems("ru-subjects.json"),
 };

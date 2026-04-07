@@ -15,7 +15,7 @@ def post_process(df):
 
 
 INPUT_PATH = "gen/data/fr-regions.json"
-OUTPUT_PATH = "src/data/fr-regions/regions.json"
+OUTPUT_PATH = "public/data/fr-regions.json"
 
 data = load_json(INPUT_PATH)
 

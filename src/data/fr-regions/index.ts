@@ -1,9 +1,10 @@
 import type { GameModeConfig } from "@/data/game-mode-types";
-import regions from "./regions.json";
+import { loadQuizItems } from "@/data/public-data";
 
 export const frRegionsMode: GameModeConfig = {
   id: "fr-regions",
   titleKey: "mode.fr-regions.title",
+  categoryId: "europe",
   questionOptions: [
     { labelKey: "content-type.fr-region-name", value: "name" },
     { labelKey: "content-type.fr-region-nameNative", value: "nameNative" },
@@ -30,5 +31,5 @@ export const frRegionsMode: GameModeConfig = {
     capital: "text",
     capitalNative: "text",
   },
-  getItems: () => regions,
+  getItems: () => loadQuizItems("fr-regions.json"),
 };

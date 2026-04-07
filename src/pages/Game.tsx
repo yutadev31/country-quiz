@@ -1,8 +1,8 @@
 import { useQueryState } from "nuqs";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Game from "@/components/Game";
-import type { FieldDisplayType } from "@/data/game-mode-types";
+import type { FieldDisplayType, QuizItem } from "@/data/game-mode-types";
 import { gameModes, isGameModeId } from "@/data/game-modes";
 import { shuffleArray } from "@/utils/array";
 
@@ -71,24 +71,58 @@ export default function GamePage() {
   );
   const timeLimitSeconds = parseTimeLimit(timeLimitParam);
   const stopOnMistake = stopOnMistakeParam === "on";
-  const items = modeConfig
-    .getItems({
-      area,
-    })
-    .filter((item) => item[questionField] && item[answerField])
-    .map((item) => {
-      const result: Record<string, string | null> & { id: string } = {
-        id: item.id,
-      };
+  const [items, setItems] = useState<(Record<string, string | null> & {
+    id: string;
+  })[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
 
-      for (const key in item) {
-        result[key] = Array.isArray(item[key])
-          ? shuffleArray(item[key]).find((candidate) => candidate) || null
-          : item[key];
-      }
+  useEffect(() => {
+    let cancelled = false;
 
-      return result;
-    });
+    setIsLoading(true);
+    setLoadError(null);
+
+    modeConfig
+      .getItems({ area })
+      .then((loadedItems) => {
+        if (cancelled) {
+          return;
+        }
+
+        const normalizedItems = loadedItems
+          .filter((item) => item[questionField] && item[answerField])
+          .map((item: QuizItem) => {
+            const result: Record<string, string | null> & { id: string } = {
+              id: item.id,
+            };
+
+            for (const key in item) {
+              result[key] = Array.isArray(item[key])
+                ? shuffleArray(item[key]).find((candidate) => candidate) || null
+                : item[key];
+            }
+
+            return result;
+          });
+
+        setItems(normalizedItems);
+        setIsLoading(false);
+      })
+      .catch((error: unknown) => {
+        if (cancelled) {
+          return;
+        }
+
+        setItems([]);
+        setIsLoading(false);
+        setLoadError(error instanceof Error ? error.message : "Failed to load");
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [modeConfig, area, questionField, answerField]);
   const questionCount = parseCount(items, countParam || "10");
   const summaryItems = [
     {
@@ -119,6 +153,22 @@ export default function GamePage() {
       value: stopOnMistake ? t("game.enabled") : t("game.disabled"),
     },
   ];
+
+  if (isLoading) {
+    return (
+      <div className="mx-auto max-w-xl rounded-2xl border border-zinc-800 px-6 py-12 text-center text-zinc-400">
+        {t("loading")}
+      </div>
+    );
+  }
+
+  if (loadError) {
+    return (
+      <div className="mx-auto max-w-xl rounded-2xl border border-red-900/60 bg-red-950/20 px-6 py-12 text-center text-red-200">
+        {loadError}
+      </div>
+    );
+  }
 
   return (
     <div className="mx-auto max-w-xl">

@@ -1,7 +1,6 @@
 import { brStatesMode } from "./br-states";
 import { caProvincesMode } from "./ca-provinces";
-import { countriesMode, getCountryAreaById } from "./countries";
-import areas from "./countries/areas.json";
+import { countriesMode } from "./countries";
 import { deStatesMode } from "./de-states";
 import { frRegionsMode } from "./fr-regions";
 import type {
@@ -15,7 +14,14 @@ import { mxStatesMode } from "./mx-states";
 import { ruSubjectsMode } from "./ru-subjects";
 import { usStatesMode } from "./us-states";
 
-const gameModeAreaIds = areas as Exclude<GameModeCategoryId, "countries">[];
+const gameModeAreaIds: Exclude<GameModeCategoryId, "countries">[] = [
+  "asia",
+  "europe",
+  "africa",
+  "north-america",
+  "south-america",
+  "oceania",
+];
 
 function createCountryAreaMode(
   area: Exclude<GameModeCategoryId, "countries">,
@@ -65,7 +71,7 @@ export const gameModeCategories: GameModeCategory[] = [
         ) {
           return false;
         }
-        return getCountryAreaById(gameMode.id.slice(0, 2)) === area;
+        return gameMode.categoryId === area;
       })
       .map((gameMode) => gameMode.id);
     return modeIds.length > 0 ? [{ id: area, modeIds }] : [];

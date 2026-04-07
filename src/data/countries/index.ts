@@ -1,8 +1,7 @@
-import type { GameModeConfig } from "@/data/game-mode-types";
-import countries from "./countries.json";
+import type { GameModeConfig, QuizItem } from "@/data/game-mode-types";
+import { loadQuizItems } from "@/data/public-data";
 
-interface Item {
-  id: string;
+type Item = QuizItem & {
   name: string;
   nameNative: string[];
   capital: string | null;
@@ -10,19 +9,11 @@ interface Item {
   continent: string[];
   domain: string | null;
   flag: string;
-}
+};
 
-const countryAreaMap = new Map(
-  countries
-    .filter((country) => country.continent.length > 0)
-    .map((country) => [country.id, country.continent[0]]),
-);
+async function getCountries(area: string) {
+  const countries = await loadQuizItems<Item>("countries.json");
 
-export function getCountryAreaById(id: string) {
-  return countryAreaMap.get(id);
-}
-
-export default function getCountries(area: string) {
   const filterRegion = (countries: Item[], continent: string) =>
     countries.filter((country) => country.continent.indexOf(continent) !== -1);
 

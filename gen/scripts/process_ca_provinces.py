@@ -2,7 +2,7 @@
 from utils import *
 
 INPUT_PATH = "gen/data/ca-provinces.json"
-OUTPUT_PATH = "src/data/ca-provinces/provinces.json"
+OUTPUT_PATH = "public/data/ca-provinces.json"
 
 data = load_json(INPUT_PATH)
 

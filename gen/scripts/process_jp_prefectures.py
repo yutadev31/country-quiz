@@ -3,7 +3,7 @@ from utils import *
 import pandas as pd
 
 INPUT_PATH = "gen/data/jp-prefectures.json"
-OUTPUT_PATH = "src/data/jp-prefectures/prefectures.json"
+OUTPUT_PATH = "public/data/jp-prefectures.json"
 
 data = load_json(INPUT_PATH)
 

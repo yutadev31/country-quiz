@@ -1,9 +1,10 @@
 import type { GameModeConfig } from "@/data/game-mode-types";
-import prefectures from "./prefectures.json";
+import { loadQuizItems } from "@/data/public-data";
 
 export const jpPrefecturesMode: GameModeConfig = {
   id: "jp-prefectures",
   titleKey: "mode.jp-prefectures.title",
+  categoryId: "asia",
   questionOptions: [
     { labelKey: "content-type.jp-prefecture-name", value: "name" },
     { labelKey: "content-type.jp-prefecture-nameKana", value: "nameKana" },
@@ -30,5 +31,5 @@ export const jpPrefecturesMode: GameModeConfig = {
     capital: "text",
     capitalKana: "text",
   },
-  getItems: () => prefectures,
+  getItems: () => loadQuizItems("jp-prefectures.json"),
 };

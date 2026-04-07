@@ -2,7 +2,7 @@
 from utils import *
 
 INPUT_PATH = "gen/data/de-states.json"
-OUTPUT_PATH = "src/data/de-states/states.json"
+OUTPUT_PATH = "public/data/de-states.json"
 
 data = load_json(INPUT_PATH)
 

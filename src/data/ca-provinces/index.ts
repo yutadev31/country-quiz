@@ -1,9 +1,10 @@
 import type { GameModeConfig } from "@/data/game-mode-types";
-import provinces from "./provinces.json";
+import { loadQuizItems } from "@/data/public-data";
 
 export const caProvincesMode: GameModeConfig = {
   id: "ca-provinces",
   titleKey: "mode.ca-provinces.title",
+  categoryId: "north-america",
   questionOptions: [
     { labelKey: "content-type.ca-province-name", value: "name" },
     { labelKey: "content-type.ca-province-nameNative", value: "nameNative" },
@@ -30,5 +31,5 @@ export const caProvincesMode: GameModeConfig = {
     capital: "text",
     capitalNative: "text",
   },
-  getItems: () => provinces,
+  getItems: () => loadQuizItems("ca-provinces.json"),
 };

@@ -1,9 +1,10 @@
 import type { GameModeConfig } from "@/data/game-mode-types";
-import states from "./states.json";
+import { loadQuizItems } from "@/data/public-data";
 
 export const deStatesMode: GameModeConfig = {
   id: "de-states",
   titleKey: "mode.de-states.title",
+  categoryId: "europe",
   questionOptions: [
     { labelKey: "content-type.de-state-name", value: "name" },
     { labelKey: "content-type.de-state-nameNative", value: "nameNative" },
@@ -24,5 +25,5 @@ export const deStatesMode: GameModeConfig = {
     capital: "text",
     capitalNative: "text",
   },
-  getItems: () => states,
+  getItems: () => loadQuizItems("de-states.json"),
 };

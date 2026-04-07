@@ -1,9 +1,10 @@
 import type { GameModeConfig } from "@/data/game-mode-types";
-import states from "./states.json";
+import { loadQuizItems } from "@/data/public-data";
 
 export const mxStatesMode: GameModeConfig = {
   id: "mx-states",
   titleKey: "mode.mx-states.title",
+  categoryId: "north-america",
   questionOptions: [
     { labelKey: "content-type.mx-state-name", value: "name" },
     { labelKey: "content-type.mx-state-nameNative", value: "nameNative" },
@@ -24,5 +25,5 @@ export const mxStatesMode: GameModeConfig = {
     capital: "text",
     capitalNative: "text",
   },
-  getItems: () => states,
+  getItems: () => loadQuizItems("mx-states.json"),
 };

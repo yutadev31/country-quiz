@@ -1,4 +1,5 @@
 import { useQueryState } from "nuqs";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { LuArrowLeft, LuGlobe } from "react-icons/lu";
 import type {
@@ -110,11 +111,42 @@ export default function StudyPage() {
   const mode = isGameModeId(modeParam) ? modeParam : "countries";
   const activeMode = gameModes[mode];
   const area = activeMode.fixedArea ?? "all";
-  const items = activeMode.getItems({ area });
+  const [items, setItems] = useState<QuizItem[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const fields = getListFields([
     ...activeMode.questionOptions,
     ...activeMode.answerOptions,
   ]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    setIsLoading(true);
+    setLoadError(null);
+
+    activeMode
+      .getItems({ area })
+      .then((loadedItems) => {
+        if (cancelled) {
+          return;
+        }
+        setItems(loadedItems);
+        setIsLoading(false);
+      })
+      .catch((error: unknown) => {
+        if (cancelled) {
+          return;
+        }
+        setItems([]);
+        setIsLoading(false);
+        setLoadError(error instanceof Error ? error.message : "Failed to load");
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [activeMode, area]);
 
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-6">
@@ -167,7 +199,15 @@ export default function StudyPage() {
         </p>
       </div>
 
-      {items.length > 0 ? (
+      {isLoading ? (
+        <div className="rounded-2xl border border-zinc-700 border-dashed px-6 py-12 text-center text-zinc-400">
+          {t("loading")}
+        </div>
+      ) : loadError ? (
+        <div className="rounded-2xl border border-red-900/60 bg-red-950/20 px-6 py-12 text-center text-red-200">
+          {loadError}
+        </div>
+      ) : items.length > 0 ? (
         <StudyTable items={items} fields={fields} mode={mode} />
       ) : (
         <div className="rounded-2xl border border-zinc-700 border-dashed px-6 py-12 text-center text-zinc-400">

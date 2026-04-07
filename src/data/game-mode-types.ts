@@ -43,12 +43,13 @@ export type GameModeConfig = {
   id: GameModeId;
   titleKey: string;
   fixedArea?: string;
+  categoryId?: Exclude<GameModeCategoryId, "countries">;
   questionOptions: FieldOption[];
   answerOptions: FieldOption[];
   defaultQuestionField: string;
   defaultAnswerField: string;
   fieldDisplayTypes: Record<string, FieldDisplayType>;
-  getItems: (args: GetItemsArgs) => QuizItem[];
+  getItems: (args: GetItemsArgs) => Promise<QuizItem[]>;
 };
 
 export type GameModeCategory = {

@@ -16,7 +16,7 @@ def post_process(df: pd.DataFrame):
     return df[~df["name"].isin(EXCLUDED_SUBJECTS)]
 
 INPUT_PATH = "gen/data/ru-subjects.json"
-OUTPUT_PATH = "src/data/ru-subjects/subjects.json"
+OUTPUT_PATH = "public/data/ru-subjects.json"
 
 data = load_json(INPUT_PATH)
 
