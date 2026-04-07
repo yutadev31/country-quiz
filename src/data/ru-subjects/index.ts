@@ -1,14 +1,6 @@
 import type { GameModeConfig } from "@/data/game-mode-types";
 import subjects from "./subjects.json";
 
-export interface RUSubject {
-  id: string;
-  name: string;
-  nameNative: string;
-  capital: string;
-  capitalNative: string;
-}
-
 export const ruSubjectsMode: GameModeConfig = {
   id: "ru-subjects",
   titleKey: "mode.ru-subjects.title",

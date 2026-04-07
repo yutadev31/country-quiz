@@ -1,14 +1,6 @@
 import type { GameModeConfig } from "@/data/game-mode-types";
 import prefectures from "./prefectures.json";
 
-export interface JPPrefecture {
-  id: string;
-  name: string;
-  nameKana: string;
-  capital: string;
-  capitalKana: string;
-}
-
 export const jpPrefecturesMode: GameModeConfig = {
   id: "jp-prefectures",
   titleKey: "mode.jp-prefectures.title",

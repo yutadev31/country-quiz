@@ -12,16 +12,6 @@ interface Item {
   flag: string;
 }
 
-export interface Country {
-  id: string;
-  name: string;
-  nameNative: string[];
-  capital: string | null;
-  capitalNative: string[];
-  domain: string | null;
-  flag: string;
-}
-
 const countryAreaMap = new Map(
   countries
     .filter((country) => country.continent.length > 0)

@@ -1,14 +1,6 @@
 import type { GameModeConfig } from "@/data/game-mode-types";
 import states from "./states.json";
 
-export interface BRProvinces {
-  id: string;
-  name: string;
-  nameNative: string;
-  capital: string;
-  capitalNative: string;
-}
-
 export const brStatesMode: GameModeConfig = {
   id: "br-states",
   titleKey: "mode.br-states.title",
