@@ -1,0 +1,590 @@
+[
+  {
+    "subjectLabel": "アディゲ共和国",
+    "subjectLabel_ru": "Адыгея",
+    "capitalLabel": "マイコープ",
+    "capitalLabel_ru": "Майкоп",
+    "iso2": "RU-AD"
+  },
+  {
+    "subjectLabel": "アルタイ共和国",
+    "subjectLabel_ru": "Республика Алтай",
+    "capitalLabel": "ゴルノ＝アルタイスク",
+    "capitalLabel_ru": "Горно-Алтайск",
+    "iso2": "RU-AL"
+  },
+  {
+    "subjectLabel": "アルタイ地方",
+    "subjectLabel_ru": "Алтайский край",
+    "capitalLabel": "バルナウル",
+    "capitalLabel_ru": "Барнаул",
+    "iso2": "RU-ALT"
+  },
+  {
+    "subjectLabel": "アムール州",
+    "subjectLabel_ru": "Амурская область",
+    "capitalLabel": "ブラゴヴェシチェンスク",
+    "capitalLabel_ru": "Благовещенск",
+    "iso2": "RU-AMU"
+  },
+  {
+    "subjectLabel": "アルハンゲリスク州",
+    "subjectLabel_ru": "Архангельская область",
+    "capitalLabel": "アルハンゲリスク",
+    "capitalLabel_ru": "Архангельск",
+    "iso2": "RU-ARK"
+  },
+  {
+    "subjectLabel": "アストラハン州",
+    "subjectLabel_ru": "Астраханская область",
+    "capitalLabel": "アストラハン",
+    "capitalLabel_ru": "Астрахань",
+    "iso2": "RU-AST"
+  },
+  {
+    "subjectLabel": "バシコルトスタン共和国",
+    "subjectLabel_ru": "Башкортостан",
+    "capitalLabel": "ウファ",
+    "capitalLabel_ru": "Уфа",
+    "iso2": "RU-BA"
+  },
+  {
+    "subjectLabel": "ベルゴロド州",
+    "subjectLabel_ru": "Белгородская область",
+    "capitalLabel": "ベルゴロド",
+    "capitalLabel_ru": "Белгород",
+    "iso2": "RU-BEL"
+  },
+  {
+    "subjectLabel": "ブリャンスク州",
+    "subjectLabel_ru": "Брянская область",
+    "capitalLabel": "ブリャンスク",
+    "capitalLabel_ru": "Брянск",
+    "iso2": "RU-BRY"
+  },
+  {
+    "subjectLabel": "ブリヤート共和国",
+    "subjectLabel_ru": "Бурятия",
+    "capitalLabel": "ウラン・ウデ",
+    "capitalLabel_ru": "Улан-Удэ",
+    "iso2": "RU-BU"
+  },
+  {
+    "subjectLabel": "チェチェン共和国",
+    "subjectLabel_ru": "Чечня",
+    "capitalLabel": "グロズヌイ",
+    "capitalLabel_ru": "Грозный",
+    "iso2": "RU-CE"
+  },
+  {
+    "subjectLabel": "チェリャビンスク州",
+    "subjectLabel_ru": "Челябинская область",
+    "capitalLabel": "チェリャビンスク",
+    "capitalLabel_ru": "Челябинск",
+    "iso2": "RU-CHE"
+  },
+  {
+    "subjectLabel": "チュクチ自治管区",
+    "subjectLabel_ru": "Чукотский автономный округ",
+    "capitalLabel": "アナディリ",
+    "capitalLabel_ru": "Анадырь",
+    "iso2": "RU-CHU"
+  },
+  {
+    "subjectLabel": "チュヴァシ共和国",
+    "subjectLabel_ru": "Чувашия",
+    "capitalLabel": "チェボクサル",
+    "capitalLabel_ru": "Чебоксары",
+    "iso2": "RU-CU"
+  },
+  {
+    "subjectLabel": "ダゲスタン共和国",
+    "subjectLabel_ru": "Дагестан",
+    "capitalLabel": "マハチカラ",
+    "capitalLabel_ru": "Махачкала",
+    "iso2": "RU-DA"
+  },
+  {
+    "subjectLabel": "イングーシ共和国",
+    "subjectLabel_ru": "Ингушетия",
+    "capitalLabel": "マガス",
+    "capitalLabel_ru": "Магас",
+    "iso2": "RU-IN"
+  },
+  {
+    "subjectLabel": "イルクーツク州",
+    "subjectLabel_ru": "Иркутская область",
+    "capitalLabel": "イルクーツク",
+    "capitalLabel_ru": "Иркутск",
+    "iso2": "RU-IRK"
+  },
+  {
+    "subjectLabel": "イヴァノヴォ州",
+    "subjectLabel_ru": "Ивановская область",
+    "capitalLabel": "イヴァノヴォ",
+    "capitalLabel_ru": "Иваново",
+    "iso2": "RU-IVA"
+  },
+  {
+    "subjectLabel": "カムチャツカ地方",
+    "subjectLabel_ru": "Камчатский край",
+    "capitalLabel": "ペトロパブロフスク・カムチャツキー",
+    "capitalLabel_ru": "Петропавловск-Камчатский",
+    "iso2": "RU-KAM"
+  },
+  {
+    "subjectLabel": "カバルダ・バルカル共和国",
+    "subjectLabel_ru": "Кабардино-Балкария",
+    "capitalLabel": "ナリチク",
+    "capitalLabel_ru": "Нальчик",
+    "iso2": "RU-KB"
+  },
+  {
+    "subjectLabel": "カラチャイ・チェルケス共和国",
+    "subjectLabel_ru": "Карачаево-Черкесия",
+    "capitalLabel": "チェルケスク",
+    "capitalLabel_ru": "Черкесск",
+    "iso2": "RU-KC"
+  },
+  {
+    "subjectLabel": "クラスノダール地方",
+    "subjectLabel_ru": "Краснодарский край",
+    "capitalLabel": "クラスノダール",
+    "capitalLabel_ru": "Краснодар",
+    "iso2": "RU-KDA"
+  },
+  {
+    "subjectLabel": "ケメロヴォ州",
+    "subjectLabel_ru": "Кемеровская область",
+    "capitalLabel": "ケメロヴォ",
+    "capitalLabel_ru": "Кемерово",
+    "iso2": "RU-KEM"
+  },
+  {
+    "subjectLabel": "カリーニングラード州",
+    "subjectLabel_ru": "Калининградская область",
+    "capitalLabel": "カリーニングラード",
+    "capitalLabel_ru": "Калининград",
+    "iso2": "RU-KGD"
+  },
+  {
+    "subjectLabel": "クルガン州",
+    "subjectLabel_ru": "Курганская область",
+    "capitalLabel": "クルガン",
+    "capitalLabel_ru": "Курган",
+    "iso2": "RU-KGN"
+  },
+  {
+    "subjectLabel": "ハバロフスク地方",
+    "subjectLabel_ru": "Хабаровский край",
+    "capitalLabel": "ハバロフスク",
+    "capitalLabel_ru": "Хабаровск",
+    "iso2": "RU-KHA"
+  },
+  {
+    "subjectLabel": "ハンティ・マンシ自治管区・ユグラ",
+    "subjectLabel_ru": "Ханты-Мансийский автономный округ — Югра",
+    "capitalLabel": "ハンティ・マンシースク",
+    "capitalLabel_ru": "Ханты-Мансийск",
+    "iso2": "RU-KHM"
+  },
+  {
+    "subjectLabel": "キーロフ州",
+    "subjectLabel_ru": "Кировская область",
+    "capitalLabel": "キーロフ",
+    "capitalLabel_ru": "Киров",
+    "iso2": "RU-KIR"
+  },
+  {
+    "subjectLabel": "ハカス共和国",
+    "subjectLabel_ru": "Хакасия",
+    "capitalLabel": "アバカン",
+    "capitalLabel_ru": "Абакан",
+    "iso2": "RU-KK"
+  },
+  {
+    "subjectLabel": "カルムイク共和国",
+    "subjectLabel_ru": "Калмыкия",
+    "capitalLabel": "エリスタ",
+    "capitalLabel_ru": "Элиста",
+    "iso2": "RU-KL"
+  },
+  {
+    "subjectLabel": "カルーガ州",
+    "subjectLabel_ru": "Калужская область",
+    "capitalLabel": "カルーガ",
+    "capitalLabel_ru": "Калуга",
+    "iso2": "RU-KLU"
+  },
+  {
+    "subjectLabel": "コミ共和国",
+    "subjectLabel_ru": "Республика Коми",
+    "capitalLabel": "スィクティフカル",
+    "capitalLabel_ru": "Сыктывкар",
+    "iso2": "RU-KO"
+  },
+  {
+    "subjectLabel": "コストロマ州",
+    "subjectLabel_ru": "Костромская область",
+    "capitalLabel": "コストロマ",
+    "capitalLabel_ru": "Кострома",
+    "iso2": "RU-KOS"
+  },
+  {
+    "subjectLabel": "カレリア共和国",
+    "subjectLabel_ru": "Карелия",
+    "capitalLabel": "ペトロザヴォーツク",
+    "capitalLabel_ru": "Петрозаводск",
+    "iso2": "RU-KR"
+  },
+  {
+    "subjectLabel": "クルスク州",
+    "subjectLabel_ru": "Курская область",
+    "capitalLabel": "クルスク",
+    "capitalLabel_ru": "Курск",
+    "iso2": "RU-KRS"
+  },
+  {
+    "subjectLabel": "クラスノヤルスク地方",
+    "subjectLabel_ru": "Красноярский край",
+    "capitalLabel": "クラスノヤルスク",
+    "capitalLabel_ru": "Красноярск",
+    "iso2": "RU-KYA"
+  },
+  {
+    "subjectLabel": "レニングラード州",
+    "subjectLabel_ru": "Ленинградская область",
+    "capitalLabel": "ガッチナ",
+    "capitalLabel_ru": "Гатчина",
+    "iso2": "RU-LEN"
+  },
+  {
+    "subjectLabel": "リペツク州",
+    "subjectLabel_ru": "Липецкая область",
+    "capitalLabel": "リペツク",
+    "capitalLabel_ru": "Липецк",
+    "iso2": "RU-LIP"
+  },
+  {
+    "subjectLabel": "マガダン州",
+    "subjectLabel_ru": "Магаданская область",
+    "capitalLabel": "マガダン",
+    "capitalLabel_ru": "Магадан",
+    "iso2": "RU-MAG"
+  },
+  {
+    "subjectLabel": "マリ・エル共和国",
+    "subjectLabel_ru": "Марий Эл",
+    "capitalLabel": "ヨシュカル・オラ",
+    "capitalLabel_ru": "Йошкар-Ола",
+    "iso2": "RU-ME"
+  },
+  {
+    "subjectLabel": "モルドヴィア共和国",
+    "subjectLabel_ru": "Мордовия",
+    "capitalLabel": "サランスク",
+    "capitalLabel_ru": "Саранск",
+    "iso2": "RU-MO"
+  },
+  {
+    "subjectLabel": "モスクワ州",
+    "subjectLabel_ru": "Московская область",
+    "capitalLabel": "クラスノゴルスク",
+    "capitalLabel_ru": "Красногорск",
+    "iso2": "RU-MOS"
+  },
+  {
+    "subjectLabel": "モスクワ",
+    "subjectLabel_ru": "Москва",
+    "capitalLabel": null,
+    "capitalLabel_ru": null,
+    "iso2": "RU-MOW"
+  },
+  {
+    "subjectLabel": "ムルマンスク州",
+    "subjectLabel_ru": "Мурманская область",
+    "capitalLabel": "ムルマンスク",
+    "capitalLabel_ru": "Мурманск",
+    "iso2": "RU-MUR"
+  },
+  {
+    "subjectLabel": "ネネツ自治管区",
+    "subjectLabel_ru": "Ненецкий автономный округ",
+    "capitalLabel": "ナリヤン・マル",
+    "capitalLabel_ru": "Нарьян-Мар",
+    "iso2": "RU-NEN"
+  },
+  {
+    "subjectLabel": "ノヴゴロド州",
+    "subjectLabel_ru": "Новгородская область",
+    "capitalLabel": "ノヴゴロド",
+    "capitalLabel_ru": "Великий Новгород",
+    "iso2": "RU-NGR"
+  },
+  {
+    "subjectLabel": "ニジニ・ノヴゴロド州",
+    "subjectLabel_ru": "Нижегородская область",
+    "capitalLabel": "ニジニ・ノヴゴロド",
+    "capitalLabel_ru": "Нижний Новгород",
+    "iso2": "RU-NIZ"
+  },
+  {
+    "subjectLabel": "ノヴォシビルスク州",
+    "subjectLabel_ru": "Новосибирская область",
+    "capitalLabel": "ノヴォシビルスク",
+    "capitalLabel_ru": "Новосибирск",
+    "iso2": "RU-NVS"
+  },
+  {
+    "subjectLabel": "オムスク州",
+    "subjectLabel_ru": "Омская область",
+    "capitalLabel": "オムスク",
+    "capitalLabel_ru": "Омск",
+    "iso2": "RU-OMS"
+  },
+  {
+    "subjectLabel": "オレンブルク州",
+    "subjectLabel_ru": "Оренбургская область",
+    "capitalLabel": "オレンブルク",
+    "capitalLabel_ru": "Оренбург",
+    "iso2": "RU-ORE"
+  },
+  {
+    "subjectLabel": "オリョール州",
+    "subjectLabel_ru": "Орловская область",
+    "capitalLabel": "オリョール",
+    "capitalLabel_ru": "Орёл",
+    "iso2": "RU-ORL"
+  },
+  {
+    "subjectLabel": "ペルミ地方",
+    "subjectLabel_ru": "Пермский край",
+    "capitalLabel": "ペルミ",
+    "capitalLabel_ru": "Пермь",
+    "iso2": "RU-PER"
+  },
+  {
+    "subjectLabel": "ペンザ州",
+    "subjectLabel_ru": "Пензенская область",
+    "capitalLabel": "ペンザ",
+    "capitalLabel_ru": "Пенза",
+    "iso2": "RU-PNZ"
+  },
+  {
+    "subjectLabel": "沿海地方",
+    "subjectLabel_ru": "Приморский край",
+    "capitalLabel": "ウラジオストク",
+    "capitalLabel_ru": "Владивосток",
+    "iso2": "RU-PRI"
+  },
+  {
+    "subjectLabel": "プスコフ州",
+    "subjectLabel_ru": "Псковская область",
+    "capitalLabel": "プスコフ",
+    "capitalLabel_ru": "Псков",
+    "iso2": "RU-PSK"
+  },
+  {
+    "subjectLabel": "ロストフ州",
+    "subjectLabel_ru": "Ростовская область",
+    "capitalLabel": "ロストフ・ナ・ドヌ",
+    "capitalLabel_ru": "Ростов-на-Дону",
+    "iso2": "RU-ROS"
+  },
+  {
+    "subjectLabel": "リャザン州",
+    "subjectLabel_ru": "Рязанская область",
+    "capitalLabel": "リャザン",
+    "capitalLabel_ru": "Рязань",
+    "iso2": "RU-RYA"
+  },
+  {
+    "subjectLabel": "サハ共和国",
+    "subjectLabel_ru": "Якутия",
+    "capitalLabel": "ヤクーツク",
+    "capitalLabel_ru": "Якутск",
+    "iso2": "RU-SA"
+  },
+  {
+    "subjectLabel": "サハリン州",
+    "subjectLabel_ru": "Сахалинская область",
+    "capitalLabel": "ユジノサハリンスク",
+    "capitalLabel_ru": "Южно-Сахалинск",
+    "iso2": "RU-SAK"
+  },
+  {
+    "subjectLabel": "サマラ州",
+    "subjectLabel_ru": "Самарская область",
+    "capitalLabel": "サマーラ",
+    "capitalLabel_ru": "Самара",
+    "iso2": "RU-SAM"
+  },
+  {
+    "subjectLabel": "サラトフ州",
+    "subjectLabel_ru": "Саратовская область",
+    "capitalLabel": "サラトフ",
+    "capitalLabel_ru": "Саратов",
+    "iso2": "RU-SAR"
+  },
+  {
+    "subjectLabel": "北オセチア共和国",
+    "subjectLabel_ru": "Северная Осетия — Алания",
+    "capitalLabel": "ウラジカフカス",
+    "capitalLabel_ru": "Владикавказ",
+    "iso2": "RU-SE"
+  },
+  {
+    "subjectLabel": "スモレンスク州",
+    "subjectLabel_ru": "Смоленская область",
+    "capitalLabel": "スモレンスク",
+    "capitalLabel_ru": "Смоленск",
+    "iso2": "RU-SMO"
+  },
+  {
+    "subjectLabel": "サンクトペテルブルク",
+    "subjectLabel_ru": "Санкт-Петербург",
+    "capitalLabel": null,
+    "capitalLabel_ru": null,
+    "iso2": "RU-SPE"
+  },
+  {
+    "subjectLabel": "スタヴロポリ地方",
+    "subjectLabel_ru": "Ставропольский край",
+    "capitalLabel": "スタヴロポリ",
+    "capitalLabel_ru": "Ставрополь",
+    "iso2": "RU-STA"
+  },
+  {
+    "subjectLabel": "スヴェルドロフスク州",
+    "subjectLabel_ru": "Свердловская область",
+    "capitalLabel": "エカテリンブルク",
+    "capitalLabel_ru": "Екатеринбург",
+    "iso2": "RU-SVE"
+  },
+  {
+    "subjectLabel": "タタールスタン共和国",
+    "subjectLabel_ru": "Татарстан",
+    "capitalLabel": "カザン",
+    "capitalLabel_ru": "Казань",
+    "iso2": "RU-TA"
+  },
+  {
+    "subjectLabel": "タンボフ州",
+    "subjectLabel_ru": "Тамбовская область",
+    "capitalLabel": "タンボフ",
+    "capitalLabel_ru": "Тамбов",
+    "iso2": "RU-TAM"
+  },
+  {
+    "subjectLabel": "トムスク州",
+    "subjectLabel_ru": "Томская область",
+    "capitalLabel": "トムスク",
+    "capitalLabel_ru": "Томск",
+    "iso2": "RU-TOM"
+  },
+  {
+    "subjectLabel": "トゥーラ州",
+    "subjectLabel_ru": "Тульская область",
+    "capitalLabel": "トゥーラ",
+    "capitalLabel_ru": "Тула",
+    "iso2": "RU-TUL"
+  },
+  {
+    "subjectLabel": "トヴェリ州",
+    "subjectLabel_ru": "Тверская область",
+    "capitalLabel": "トヴェリ",
+    "capitalLabel_ru": "Тверь",
+    "iso2": "RU-TVE"
+  },
+  {
+    "subjectLabel": "トゥヴァ共和国",
+    "subjectLabel_ru": "Тыва",
+    "capitalLabel": "クズル",
+    "capitalLabel_ru": "Кызыл",
+    "iso2": "RU-TY"
+  },
+  {
+    "subjectLabel": "チュメニ州",
+    "subjectLabel_ru": "Тюменская область",
+    "capitalLabel": "チュメニ",
+    "capitalLabel_ru": "Тюмень",
+    "iso2": "RU-TYU"
+  },
+  {
+    "subjectLabel": "ウドムルト共和国",
+    "subjectLabel_ru": "Удмуртия",
+    "capitalLabel": "イジェフスク",
+    "capitalLabel_ru": "Ижевск",
+    "iso2": "RU-UD"
+  },
+  {
+    "subjectLabel": "ウリヤノフスク州",
+    "subjectLabel_ru": "Ульяновская область",
+    "capitalLabel": "ウリヤノフスク",
+    "capitalLabel_ru": "Ульяновск",
+    "iso2": "RU-ULY"
+  },
+  {
+    "subjectLabel": "ヴォルゴグラード州",
+    "subjectLabel_ru": "Волгоградская область",
+    "capitalLabel": "ヴォルゴグラード",
+    "capitalLabel_ru": "Волгоград",
+    "iso2": "RU-VGG"
+  },
+  {
+    "subjectLabel": "ヴラジーミル州",
+    "subjectLabel_ru": "Владимирская область",
+    "capitalLabel": "ウラジーミル",
+    "capitalLabel_ru": "Владимир",
+    "iso2": "RU-VLA"
+  },
+  {
+    "subjectLabel": "ヴォログダ州",
+    "subjectLabel_ru": "Вологодская область",
+    "capitalLabel": "ヴォログダ",
+    "capitalLabel_ru": "Вологда",
+    "iso2": "RU-VLG"
+  },
+  {
+    "subjectLabel": "ヴォロネジ州",
+    "subjectLabel_ru": "Воронежская область",
+    "capitalLabel": "ヴォロネジ",
+    "capitalLabel_ru": "Воронеж",
+    "iso2": "RU-VOR"
+  },
+  {
+    "subjectLabel": "ヤマロ・ネネツ自治管区",
+    "subjectLabel_ru": "Ямало-Ненецкий автономный округ",
+    "capitalLabel": "サレハルド",
+    "capitalLabel_ru": "Салехард",
+    "iso2": "RU-YAN"
+  },
+  {
+    "subjectLabel": "ヤロスラヴリ州",
+    "subjectLabel_ru": "Ярославская область",
+    "capitalLabel": "ヤロスラヴリ",
+    "capitalLabel_ru": "Ярославль",
+    "iso2": "RU-YAR"
+  },
+  {
+    "subjectLabel": "ユダヤ自治州",
+    "subjectLabel_ru": "Еврейская автономная область",
+    "capitalLabel": "ビロビジャン",
+    "capitalLabel_ru": "Биробиджан",
+    "iso2": "RU-YEV"
+  },
+  {
+    "subjectLabel": "ザバイカリエ地方",
+    "subjectLabel_ru": "Забайкальский край",
+    "capitalLabel": "チタ",
+    "capitalLabel_ru": "Чита",
+    "iso2": "RU-ZAB"
+  },
+  {
+    "subjectLabel": "セヴァストポリ",
+    "subjectLabel_ru": "Севастополь",
+    "capitalLabel": null,
+    "capitalLabel_ru": null,
+    "iso2": "UA-40"
+  }
+]

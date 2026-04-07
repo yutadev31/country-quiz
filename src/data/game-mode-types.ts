@@ -12,6 +12,7 @@ export type GameModeId =
   | "br-states"
   | "fr-regions"
   | "de-states"
+  | "ru-subjects"
   | "jp-prefectures";
 
 export type GameModeCategoryId =

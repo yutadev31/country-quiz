@@ -12,6 +12,7 @@ import type {
 } from "./game-mode-types";
 import { jpPrefecturesMode } from "./jp-prefectures";
 import { mxStatesMode } from "./mx-states";
+import { ruSubjectsMode } from "./ru-subjects";
 import { usStatesMode } from "./us-states";
 
 const gameModeAreaIds = areas as Exclude<GameModeCategoryId, "countries">[];
@@ -41,6 +42,7 @@ export const gameModes: Record<GameModeId, GameModeConfig> = {
   "br-states": brStatesMode,
   "fr-regions": frRegionsMode,
   "de-states": deStatesMode,
+  "ru-subjects": ruSubjectsMode,
   "jp-prefectures": jpPrefecturesMode,
 };
 

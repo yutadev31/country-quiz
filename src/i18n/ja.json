@@ -28,12 +28,14 @@
     "start": "スタート",
     "restart": "もう一度",
     "back-to-mode-selection": "モード選択に戻る",
-    "open-study-list": "一覧表で覚える"
+    "open-study-list": "一覧表で覚える",
+    "open-notes": "補足を見る"
   },
   "description": {
     "mode": "遊ぶクイズのモードを選択",
     "one-shot-mode": "1問でも間違えたら即終了",
-    "study": "国や州などを一覧で確認して覚えるためのページ"
+    "study": "国や州などを一覧で確認して覚えるためのページ",
+    "notes": "収録範囲やデータの扱いに関する補足をまとめたページ"
   },
   "mode": {
     "countries": {
@@ -75,6 +77,9 @@
     "de-states": {
       "title": "ドイツの州"
     },
+    "ru-subjects": {
+      "title": "ロシアの連邦構成主体"
+    },
     "jp-prefectures": {
       "title": "日本の都道府県"
     }
@@ -111,6 +116,10 @@
     "de-state-nameNative": "州名 (ドイツ語)",
     "de-state-capital": "州都",
     "de-state-capitalNative": "州都 (ドイツ語)",
+    "ru-subject-name": "連邦構成主体名",
+    "ru-subject-nameNative": "連邦構成主体名 (ロシア語)",
+    "ru-subject-capital": "首府",
+    "ru-subject-capitalNative": "首府 (ロシア語)",
     "jp-prefecture-name": "都道府県名",
     "jp-prefecture-nameKana": "とどうふけん (ひらがな)",
     "jp-prefecture-capital": "都道府県庁所在地",
@@ -149,5 +158,19 @@
     "empty": "表示できるデータがありません",
     "count": "{{count}}件",
     "back-home": "クイズに戻る"
+  },
+  "notes": {
+    "title": "補足",
+    "heading": "データについて",
+    "general": {
+      "heading": "共通の補足",
+      "source": "このアプリのデータは主に Wikidata をもとに整形しています。",
+      "naming": "表示名は日本語を基本とし、あわせて現地語名も収録しています。",
+      "definition": "行政区分名や中心都市名は、資料や制度の違いにより表記や定義が完全には一致しない場合があります。"
+    },
+    "ru-subjects": {
+      "heading": "ロシアの連邦構成主体モードについて",
+      "body": "ロシアの連邦構成主体モードでは、国際的な承認状況との整合を考慮して、次の地域はデータに含めていません。"
+    }
   }
 }

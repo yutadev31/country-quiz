@@ -1,0 +1,583 @@
+[
+  {
+    "name": "アストラハン州",
+    "nameNative": "Астраханская область",
+    "capital": "アストラハン",
+    "capitalNative": "Астрахань",
+    "id": "ru-ast"
+  },
+  {
+    "name": "アディゲ共和国",
+    "nameNative": "Адыгея",
+    "capital": "マイコープ",
+    "capitalNative": "Майкоп",
+    "id": "ru-ad"
+  },
+  {
+    "name": "アムール州",
+    "nameNative": "Амурская область",
+    "capital": "ブラゴヴェシチェンスク",
+    "capitalNative": "Благовещенск",
+    "id": "ru-amu"
+  },
+  {
+    "name": "アルタイ共和国",
+    "nameNative": "Республика Алтай",
+    "capital": "ゴルノ＝アルタイスク",
+    "capitalNative": "Горно-Алтайск",
+    "id": "ru-al"
+  },
+  {
+    "name": "アルタイ地方",
+    "nameNative": "Алтайский край",
+    "capital": "バルナウル",
+    "capitalNative": "Барнаул",
+    "id": "ru-alt"
+  },
+  {
+    "name": "アルハンゲリスク州",
+    "nameNative": "Архангельская область",
+    "capital": "アルハンゲリスク",
+    "capitalNative": "Архангельск",
+    "id": "ru-ark"
+  },
+  {
+    "name": "イルクーツク州",
+    "nameNative": "Иркутская область",
+    "capital": "イルクーツク",
+    "capitalNative": "Иркутск",
+    "id": "ru-irk"
+  },
+  {
+    "name": "イングーシ共和国",
+    "nameNative": "Ингушетия",
+    "capital": "マガス",
+    "capitalNative": "Магас",
+    "id": "ru-in"
+  },
+  {
+    "name": "イヴァノヴォ州",
+    "nameNative": "Ивановская область",
+    "capital": "イヴァノヴォ",
+    "capitalNative": "Иваново",
+    "id": "ru-iva"
+  },
+  {
+    "name": "ウドムルト共和国",
+    "nameNative": "Удмуртия",
+    "capital": "イジェフスク",
+    "capitalNative": "Ижевск",
+    "id": "ru-ud"
+  },
+  {
+    "name": "ウリヤノフスク州",
+    "nameNative": "Ульяновская область",
+    "capital": "ウリヤノフスク",
+    "capitalNative": "Ульяновск",
+    "id": "ru-uly"
+  },
+  {
+    "name": "オムスク州",
+    "nameNative": "Омская область",
+    "capital": "オムスク",
+    "capitalNative": "Омск",
+    "id": "ru-oms"
+  },
+  {
+    "name": "オリョール州",
+    "nameNative": "Орловская область",
+    "capital": "オリョール",
+    "capitalNative": "Орёл",
+    "id": "ru-orl"
+  },
+  {
+    "name": "オレンブルク州",
+    "nameNative": "Оренбургская область",
+    "capital": "オレンブルク",
+    "capitalNative": "Оренбург",
+    "id": "ru-ore"
+  },
+  {
+    "name": "カバルダ・バルカル共和国",
+    "nameNative": "Кабардино-Балкария",
+    "capital": "ナリチク",
+    "capitalNative": "Нальчик",
+    "id": "ru-kb"
+  },
+  {
+    "name": "カムチャツカ地方",
+    "nameNative": "Камчатский край",
+    "capital": "ペトロパブロフスク・カムチャツキー",
+    "capitalNative": "Петропавловск-Камчатский",
+    "id": "ru-kam"
+  },
+  {
+    "name": "カラチャイ・チェルケス共和国",
+    "nameNative": "Карачаево-Черкесия",
+    "capital": "チェルケスク",
+    "capitalNative": "Черкесск",
+    "id": "ru-kc"
+  },
+  {
+    "name": "カリーニングラード州",
+    "nameNative": "Калининградская область",
+    "capital": "カリーニングラード",
+    "capitalNative": "Калининград",
+    "id": "ru-kgd"
+  },
+  {
+    "name": "カルムイク共和国",
+    "nameNative": "Калмыкия",
+    "capital": "エリスタ",
+    "capitalNative": "Элиста",
+    "id": "ru-kl"
+  },
+  {
+    "name": "カルーガ州",
+    "nameNative": "Калужская область",
+    "capital": "カルーガ",
+    "capitalNative": "Калуга",
+    "id": "ru-klu"
+  },
+  {
+    "name": "カレリア共和国",
+    "nameNative": "Карелия",
+    "capital": "ペトロザヴォーツク",
+    "capitalNative": "Петрозаводск",
+    "id": "ru-kr"
+  },
+  {
+    "name": "キーロフ州",
+    "nameNative": "Кировская область",
+    "capital": "キーロフ",
+    "capitalNative": "Киров",
+    "id": "ru-kir"
+  },
+  {
+    "name": "クラスノダール地方",
+    "nameNative": "Краснодарский край",
+    "capital": "クラスノダール",
+    "capitalNative": "Краснодар",
+    "id": "ru-kda"
+  },
+  {
+    "name": "クラスノヤルスク地方",
+    "nameNative": "Красноярский край",
+    "capital": "クラスノヤルスク",
+    "capitalNative": "Красноярск",
+    "id": "ru-kya"
+  },
+  {
+    "name": "クルガン州",
+    "nameNative": "Курганская область",
+    "capital": "クルガン",
+    "capitalNative": "Курган",
+    "id": "ru-kgn"
+  },
+  {
+    "name": "クルスク州",
+    "nameNative": "Курская область",
+    "capital": "クルスク",
+    "capitalNative": "Курск",
+    "id": "ru-krs"
+  },
+  {
+    "name": "ケメロヴォ州",
+    "nameNative": "Кемеровская область",
+    "capital": "ケメロヴォ",
+    "capitalNative": "Кемерово",
+    "id": "ru-kem"
+  },
+  {
+    "name": "コストロマ州",
+    "nameNative": "Костромская область",
+    "capital": "コストロマ",
+    "capitalNative": "Кострома",
+    "id": "ru-kos"
+  },
+  {
+    "name": "コミ共和国",
+    "nameNative": "Республика Коми",
+    "capital": "スィクティフカル",
+    "capitalNative": "Сыктывкар",
+    "id": "ru-ko"
+  },
+  {
+    "name": "サハリン州",
+    "nameNative": "Сахалинская область",
+    "capital": "ユジノサハリンスク",
+    "capitalNative": "Южно-Сахалинск",
+    "id": "ru-sak"
+  },
+  {
+    "name": "サハ共和国",
+    "nameNative": "Якутия",
+    "capital": "ヤクーツク",
+    "capitalNative": "Якутск",
+    "id": "ru-sa"
+  },
+  {
+    "name": "サマラ州",
+    "nameNative": "Самарская область",
+    "capital": "サマーラ",
+    "capitalNative": "Самара",
+    "id": "ru-sam"
+  },
+  {
+    "name": "サラトフ州",
+    "nameNative": "Саратовская область",
+    "capital": "サラトフ",
+    "capitalNative": "Саратов",
+    "id": "ru-sar"
+  },
+  {
+    "name": "サンクトペテルブルク",
+    "nameNative": "Санкт-Петербург",
+    "capital": "",
+    "capitalNative": null,
+    "id": "ru-spe"
+  },
+  {
+    "name": "ザバイカリエ地方",
+    "nameNative": "Забайкальский край",
+    "capital": "チタ",
+    "capitalNative": "Чита",
+    "id": "ru-zab"
+  },
+  {
+    "name": "スタヴロポリ地方",
+    "nameNative": "Ставропольский край",
+    "capital": "スタヴロポリ",
+    "capitalNative": "Ставрополь",
+    "id": "ru-sta"
+  },
+  {
+    "name": "スモレンスク州",
+    "nameNative": "Смоленская область",
+    "capital": "スモレンスク",
+    "capitalNative": "Смоленск",
+    "id": "ru-smo"
+  },
+  {
+    "name": "スヴェルドロフスク州",
+    "nameNative": "Свердловская область",
+    "capital": "エカテリンブルク",
+    "capitalNative": "Екатеринбург",
+    "id": "ru-sve"
+  },
+  {
+    "name": "タタールスタン共和国",
+    "nameNative": "Татарстан",
+    "capital": "カザン",
+    "capitalNative": "Казань",
+    "id": "ru-ta"
+  },
+  {
+    "name": "タンボフ州",
+    "nameNative": "Тамбовская область",
+    "capital": "タンボフ",
+    "capitalNative": "Тамбов",
+    "id": "ru-tam"
+  },
+  {
+    "name": "ダゲスタン共和国",
+    "nameNative": "Дагестан",
+    "capital": "マハチカラ",
+    "capitalNative": "Махачкала",
+    "id": "ru-da"
+  },
+  {
+    "name": "チェチェン共和国",
+    "nameNative": "Чечня",
+    "capital": "グロズヌイ",
+    "capitalNative": "Грозный",
+    "id": "ru-ce"
+  },
+  {
+    "name": "チェリャビンスク州",
+    "nameNative": "Челябинская область",
+    "capital": "チェリャビンスク",
+    "capitalNative": "Челябинск",
+    "id": "ru-che"
+  },
+  {
+    "name": "チュクチ自治管区",
+    "nameNative": "Чукотский автономный округ",
+    "capital": "アナディリ",
+    "capitalNative": "Анадырь",
+    "id": "ru-chu"
+  },
+  {
+    "name": "チュメニ州",
+    "nameNative": "Тюменская область",
+    "capital": "チュメニ",
+    "capitalNative": "Тюмень",
+    "id": "ru-tyu"
+  },
+  {
+    "name": "チュヴァシ共和国",
+    "nameNative": "Чувашия",
+    "capital": "チェボクサル",
+    "capitalNative": "Чебоксары",
+    "id": "ru-cu"
+  },
+  {
+    "name": "トゥヴァ共和国",
+    "nameNative": "Тыва",
+    "capital": "クズル",
+    "capitalNative": "Кызыл",
+    "id": "ru-ty"
+  },
+  {
+    "name": "トゥーラ州",
+    "nameNative": "Тульская область",
+    "capital": "トゥーラ",
+    "capitalNative": "Тула",
+    "id": "ru-tul"
+  },
+  {
+    "name": "トムスク州",
+    "nameNative": "Томская область",
+    "capital": "トムスク",
+    "capitalNative": "Томск",
+    "id": "ru-tom"
+  },
+  {
+    "name": "トヴェリ州",
+    "nameNative": "Тверская область",
+    "capital": "トヴェリ",
+    "capitalNative": "Тверь",
+    "id": "ru-tve"
+  },
+  {
+    "name": "ニジニ・ノヴゴロド州",
+    "nameNative": "Нижегородская область",
+    "capital": "ニジニ・ノヴゴロド",
+    "capitalNative": "Нижний Новгород",
+    "id": "ru-niz"
+  },
+  {
+    "name": "ネネツ自治管区",
+    "nameNative": "Ненецкий автономный округ",
+    "capital": "ナリヤン・マル",
+    "capitalNative": "Нарьян-Мар",
+    "id": "ru-nen"
+  },
+  {
+    "name": "ノヴォシビルスク州",
+    "nameNative": "Новосибирская область",
+    "capital": "ノヴォシビルスク",
+    "capitalNative": "Новосибирск",
+    "id": "ru-nvs"
+  },
+  {
+    "name": "ノヴゴロド州",
+    "nameNative": "Новгородская область",
+    "capital": "ノヴゴロド",
+    "capitalNative": "Великий Новгород",
+    "id": "ru-ngr"
+  },
+  {
+    "name": "ハカス共和国",
+    "nameNative": "Хакасия",
+    "capital": "アバカン",
+    "capitalNative": "Абакан",
+    "id": "ru-kk"
+  },
+  {
+    "name": "ハバロフスク地方",
+    "nameNative": "Хабаровский край",
+    "capital": "ハバロフスク",
+    "capitalNative": "Хабаровск",
+    "id": "ru-kha"
+  },
+  {
+    "name": "ハンティ・マンシ自治管区・ユグラ",
+    "nameNative": "Ханты-Мансийский автономный округ — Югра",
+    "capital": "ハンティ・マンシースク",
+    "capitalNative": "Ханты-Мансийск",
+    "id": "ru-khm"
+  },
+  {
+    "name": "バシコルトスタン共和国",
+    "nameNative": "Башкортостан",
+    "capital": "ウファ",
+    "capitalNative": "Уфа",
+    "id": "ru-ba"
+  },
+  {
+    "name": "ブリャンスク州",
+    "nameNative": "Брянская область",
+    "capital": "ブリャンスク",
+    "capitalNative": "Брянск",
+    "id": "ru-bry"
+  },
+  {
+    "name": "ブリヤート共和国",
+    "nameNative": "Бурятия",
+    "capital": "ウラン・ウデ",
+    "capitalNative": "Улан-Удэ",
+    "id": "ru-bu"
+  },
+  {
+    "name": "プスコフ州",
+    "nameNative": "Псковская область",
+    "capital": "プスコフ",
+    "capitalNative": "Псков",
+    "id": "ru-psk"
+  },
+  {
+    "name": "ベルゴロド州",
+    "nameNative": "Белгородская область",
+    "capital": "ベルゴロド",
+    "capitalNative": "Белгород",
+    "id": "ru-bel"
+  },
+  {
+    "name": "ペルミ地方",
+    "nameNative": "Пермский край",
+    "capital": "ペルミ",
+    "capitalNative": "Пермь",
+    "id": "ru-per"
+  },
+  {
+    "name": "ペンザ州",
+    "nameNative": "Пензенская область",
+    "capital": "ペンザ",
+    "capitalNative": "Пенза",
+    "id": "ru-pnz"
+  },
+  {
+    "name": "マガダン州",
+    "nameNative": "Магаданская область",
+    "capital": "マガダン",
+    "capitalNative": "Магадан",
+    "id": "ru-mag"
+  },
+  {
+    "name": "マリ・エル共和国",
+    "nameNative": "Марий Эл",
+    "capital": "ヨシュカル・オラ",
+    "capitalNative": "Йошкар-Ола",
+    "id": "ru-me"
+  },
+  {
+    "name": "ムルマンスク州",
+    "nameNative": "Мурманская область",
+    "capital": "ムルマンスク",
+    "capitalNative": "Мурманск",
+    "id": "ru-mur"
+  },
+  {
+    "name": "モスクワ",
+    "nameNative": "Москва",
+    "capital": "",
+    "capitalNative": null,
+    "id": "ru-mow"
+  },
+  {
+    "name": "モスクワ州",
+    "nameNative": "Московская область",
+    "capital": "クラスノゴルスク",
+    "capitalNative": "Красногорск",
+    "id": "ru-mos"
+  },
+  {
+    "name": "モルドヴィア共和国",
+    "nameNative": "Мордовия",
+    "capital": "サランスク",
+    "capitalNative": "Саранск",
+    "id": "ru-mo"
+  },
+  {
+    "name": "ヤマロ・ネネツ自治管区",
+    "nameNative": "Ямало-Ненецкий автономный округ",
+    "capital": "サレハルド",
+    "capitalNative": "Салехард",
+    "id": "ru-yan"
+  },
+  {
+    "name": "ヤロスラヴリ州",
+    "nameNative": "Ярославская область",
+    "capital": "ヤロスラヴリ",
+    "capitalNative": "Ярославль",
+    "id": "ru-yar"
+  },
+  {
+    "name": "ユダヤ自治州",
+    "nameNative": "Еврейская автономная область",
+    "capital": "ビロビジャン",
+    "capitalNative": "Биробиджан",
+    "id": "ru-yev"
+  },
+  {
+    "name": "リペツク州",
+    "nameNative": "Липецкая область",
+    "capital": "リペツク",
+    "capitalNative": "Липецк",
+    "id": "ru-lip"
+  },
+  {
+    "name": "リャザン州",
+    "nameNative": "Рязанская область",
+    "capital": "リャザン",
+    "capitalNative": "Рязань",
+    "id": "ru-rya"
+  },
+  {
+    "name": "レニングラード州",
+    "nameNative": "Ленинградская область",
+    "capital": "ガッチナ",
+    "capitalNative": "Гатчина",
+    "id": "ru-len"
+  },
+  {
+    "name": "ロストフ州",
+    "nameNative": "Ростовская область",
+    "capital": "ロストフ・ナ・ドヌ",
+    "capitalNative": "Ростов-на-Дону",
+    "id": "ru-ros"
+  },
+  {
+    "name": "ヴォルゴグラード州",
+    "nameNative": "Волгоградская область",
+    "capital": "ヴォルゴグラード",
+    "capitalNative": "Волгоград",
+    "id": "ru-vgg"
+  },
+  {
+    "name": "ヴォログダ州",
+    "nameNative": "Вологодская область",
+    "capital": "ヴォログダ",
+    "capitalNative": "Вологда",
+    "id": "ru-vlg"
+  },
+  {
+    "name": "ヴォロネジ州",
+    "nameNative": "Воронежская область",
+    "capital": "ヴォロネジ",
+    "capitalNative": "Воронеж",
+    "id": "ru-vor"
+  },
+  {
+    "name": "ヴラジーミル州",
+    "nameNative": "Владимирская область",
+    "capital": "ウラジーミル",
+    "capitalNative": "Владимир",
+    "id": "ru-vla"
+  },
+  {
+    "name": "北オセチア共和国",
+    "nameNative": "Северная Осетия — Алания",
+    "capital": "ウラジカフカス",
+    "capitalNative": "Владикавказ",
+    "id": "ru-se"
+  },
+  {
+    "name": "沿海地方",
+    "nameNative": "Приморский край",
+    "capital": "ウラジオストク",
+    "capitalNative": "Владивосток",
+    "id": "ru-pri"
+  }
+]
