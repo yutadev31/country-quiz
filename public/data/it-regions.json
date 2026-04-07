@@ -1,0 +1,107 @@
+[
+  {
+    "name": "アブルッツォ州",
+    "nameNative": "Abruzzo",
+    "capital": "ラクイラ",
+    "capitalNative": "L'Aquila",
+    "id": "it-65"
+  },
+  {
+    "name": "ウンブリア州",
+    "nameNative": "Umbria",
+    "capital": "ペルージャ",
+    "capitalNative": "Perugia",
+    "id": "it-55"
+  },
+  {
+    "name": "エミリア＝ロマーニャ州",
+    "nameNative": "Emilia-Romagna",
+    "capital": "ボローニャ",
+    "capitalNative": "Bologna",
+    "id": "it-45"
+  },
+  {
+    "name": "カラブリア州",
+    "nameNative": "Calabria",
+    "capital": "カタンザーロ",
+    "capitalNative": "Catanzaro",
+    "id": "it-78"
+  },
+  {
+    "name": "カンパニア州",
+    "nameNative": "Campania",
+    "capital": "ナポリ",
+    "capitalNative": "Napoli",
+    "id": "it-72"
+  },
+  {
+    "name": "トスカーナ州",
+    "nameNative": "Toscana",
+    "capital": "フィレンツェ",
+    "capitalNative": "Firenze",
+    "id": "it-52"
+  },
+  {
+    "name": "バジリカータ州",
+    "nameNative": "Basilicata",
+    "capital": "ポテンツァ",
+    "capitalNative": "Potenza",
+    "id": "it-77"
+  },
+  {
+    "name": "ピエモンテ州",
+    "nameNative": "Piemonte",
+    "capital": "トリノ",
+    "capitalNative": "Torino",
+    "id": "it-21"
+  },
+  {
+    "name": "プッリャ州",
+    "nameNative": "Puglia",
+    "capital": "バーリ",
+    "capitalNative": "Bari",
+    "id": "it-75"
+  },
+  {
+    "name": "マルケ州",
+    "nameNative": "Marche",
+    "capital": "アンコーナ",
+    "capitalNative": "Ancona",
+    "id": "it-57"
+  },
+  {
+    "name": "モリーゼ州",
+    "nameNative": "Molise",
+    "capital": "カンポバッソ",
+    "capitalNative": "Campobasso",
+    "id": "it-67"
+  },
+  {
+    "name": "ラツィオ州",
+    "nameNative": "Lazio",
+    "capital": "ローマ",
+    "capitalNative": "Roma",
+    "id": "it-62"
+  },
+  {
+    "name": "リグーリア州",
+    "nameNative": "Liguria",
+    "capital": "ジェノヴァ",
+    "capitalNative": "Genova",
+    "id": "it-42"
+  },
+  {
+    "name": "ロンバルディア州",
+    "nameNative": "Lombardia",
+    "capital": "ミラノ",
+    "capitalNative": "Milano",
+    "id": "it-25"
+  },
+  {
+    "name": "ヴェネト州",
+    "nameNative": "Veneto",
+    "capital": "ヴェネツィア",
+    "capitalNative": "Venezia",
+    "id": "it-34"
+  }
+]

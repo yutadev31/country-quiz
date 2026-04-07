@@ -11,6 +11,7 @@ export type GameModeId =
   | "mx-states"
   | "br-states"
   | "fr-regions"
+  | "it-regions"
   | "de-states"
   | "ru-subjects"
   | "jp-prefectures";

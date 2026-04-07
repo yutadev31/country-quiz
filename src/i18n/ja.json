@@ -75,6 +75,9 @@
     "fr-regions": {
       "title": "フランスの地域圏"
     },
+    "it-regions": {
+      "title": "イタリアの州"
+    },
     "de-states": {
       "title": "ドイツの州"
     },
@@ -113,6 +116,10 @@
     "fr-region-nameNative": "地域圏名 (フランス語)",
     "fr-region-capital": "首府",
     "fr-region-capitalNative": "首府 (フランス語)",
+    "it-region-name": "州名",
+    "it-region-nameNative": "州名 (イタリア語)",
+    "it-region-capital": "州都",
+    "it-region-capitalNative": "州都 (イタリア語)",
     "de-state-name": "州名",
     "de-state-nameNative": "州名 (ドイツ語)",
     "de-state-capital": "州都",

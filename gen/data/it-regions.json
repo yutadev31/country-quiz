@@ -1,0 +1,107 @@
+[
+  {
+    "regionLabel": "ピエモンテ州",
+    "regionLabel_it": "Piemonte",
+    "capitalLabel": "トリノ",
+    "capitalLabel_it": "Torino",
+    "iso2": "IT-21"
+  },
+  {
+    "regionLabel": "ロンバルディア州",
+    "regionLabel_it": "Lombardia",
+    "capitalLabel": "ミラノ",
+    "capitalLabel_it": "Milano",
+    "iso2": "IT-25"
+  },
+  {
+    "regionLabel": "ヴェネト州",
+    "regionLabel_it": "Veneto",
+    "capitalLabel": "ヴェネツィア",
+    "capitalLabel_it": "Venezia",
+    "iso2": "IT-34"
+  },
+  {
+    "regionLabel": "リグーリア州",
+    "regionLabel_it": "Liguria",
+    "capitalLabel": "ジェノヴァ",
+    "capitalLabel_it": "Genova",
+    "iso2": "IT-42"
+  },
+  {
+    "regionLabel": "エミリア＝ロマーニャ州",
+    "regionLabel_it": "Emilia-Romagna",
+    "capitalLabel": "ボローニャ",
+    "capitalLabel_it": "Bologna",
+    "iso2": "IT-45"
+  },
+  {
+    "regionLabel": "トスカーナ州",
+    "regionLabel_it": "Toscana",
+    "capitalLabel": "フィレンツェ",
+    "capitalLabel_it": "Firenze",
+    "iso2": "IT-52"
+  },
+  {
+    "regionLabel": "ウンブリア州",
+    "regionLabel_it": "Umbria",
+    "capitalLabel": "ペルージャ",
+    "capitalLabel_it": "Perugia",
+    "iso2": "IT-55"
+  },
+  {
+    "regionLabel": "マルケ州",
+    "regionLabel_it": "Marche",
+    "capitalLabel": "アンコーナ",
+    "capitalLabel_it": "Ancona",
+    "iso2": "IT-57"
+  },
+  {
+    "regionLabel": "ラツィオ州",
+    "regionLabel_it": "Lazio",
+    "capitalLabel": "ローマ",
+    "capitalLabel_it": "Roma",
+    "iso2": "IT-62"
+  },
+  {
+    "regionLabel": "アブルッツォ州",
+    "regionLabel_it": "Abruzzo",
+    "capitalLabel": "ラクイラ",
+    "capitalLabel_it": "L'Aquila",
+    "iso2": "IT-65"
+  },
+  {
+    "regionLabel": "モリーゼ州",
+    "regionLabel_it": "Molise",
+    "capitalLabel": "カンポバッソ",
+    "capitalLabel_it": "Campobasso",
+    "iso2": "IT-67"
+  },
+  {
+    "regionLabel": "カンパニア州",
+    "regionLabel_it": "Campania",
+    "capitalLabel": "ナポリ",
+    "capitalLabel_it": "Napoli",
+    "iso2": "IT-72"
+  },
+  {
+    "regionLabel": "プッリャ州",
+    "regionLabel_it": "Puglia",
+    "capitalLabel": "バーリ",
+    "capitalLabel_it": "Bari",
+    "iso2": "IT-75"
+  },
+  {
+    "regionLabel": "バジリカータ州",
+    "regionLabel_it": "Basilicata",
+    "capitalLabel": "ポテンツァ",
+    "capitalLabel_it": "Potenza",
+    "iso2": "IT-77"
+  },
+  {
+    "regionLabel": "カラブリア州",
+    "regionLabel_it": "Calabria",
+    "capitalLabel": "カタンザーロ",
+    "capitalLabel_it": "Catanzaro",
+    "iso2": "IT-78"
+  }
+]
