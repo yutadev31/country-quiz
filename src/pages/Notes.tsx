@@ -44,7 +44,7 @@ export default function NotesPage() {
 
       <section className="rounded-3xl border border-zinc-800 bg-zinc-950 p-6 text-zinc-100 shadow-2xl shadow-zinc-950/30">
         <h2 className="font-semibold text-xl text-zinc-50">{t("notes.general.heading")}</h2>
-        <div className="mt-3 grid gap-3 text-sm leading-7 text-zinc-300">
+        <div className="mt-3 grid gap-3 text-sm text-zinc-300 leading-7">
           <p>{t("notes.general.source")}</p>
           <p>{t("notes.general.naming")}</p>
           <p>{t("notes.general.definition")}</p>
@@ -53,7 +53,7 @@ export default function NotesPage() {
 
       <section className="rounded-3xl border border-zinc-800 bg-zinc-950 p-6 text-zinc-100 shadow-2xl shadow-zinc-950/30">
         <h2 className="font-semibold text-xl text-zinc-50">{t("notes.ru-subjects.heading")}</h2>
-        <p className="mt-3 text-sm leading-7 text-zinc-300">{t("notes.ru-subjects.body")}</p>
+        <p className="mt-3 text-sm text-zinc-300 leading-7">{t("notes.ru-subjects.body")}</p>
         <ul className="mt-4 grid gap-2 text-sm text-zinc-200 sm:grid-cols-2">
           {excludedRuSubjects.map((subject) => (
             <li key={subject} className="rounded-2xl border border-zinc-800 bg-zinc-900/70 px-4 py-3">
