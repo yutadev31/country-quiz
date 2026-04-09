@@ -40,25 +40,25 @@
   },
   "mode": {
     "countries": {
-      "title": "国"
+      "title": "すべての国"
     },
     "countries-asia": {
-      "title": "アジア"
+      "title": "アジアの国"
     },
     "countries-europe": {
-      "title": "ヨーロッパ"
+      "title": "ヨーロッパの国"
     },
     "countries-africa": {
-      "title": "アフリカ"
+      "title": "アフリカの国"
     },
     "countries-north-america": {
-      "title": "北アメリカ"
+      "title": "北アメリカの国"
     },
     "countries-south-america": {
-      "title": "南アメリカ"
+      "title": "南アメリカの国"
     },
     "countries-oceania": {
-      "title": "オセアニア"
+      "title": "オセアニアの国"
     },
     "us-states": {
       "title": "アメリカの州"
@@ -171,8 +171,8 @@
       "capitalNative": "県庁所在地 (アラビア語)"
     }
   },
-  "area": {
-    "all": "すべて",
+  "mode-category": {
+    "countries": "国",
     "asia": "アジア",
     "europe": "ヨーロッパ",
     "america": "アメリカ",

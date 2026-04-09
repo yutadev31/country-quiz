@@ -91,9 +91,7 @@ function ModeSection({ mode, onModeChange }: { mode: GameModeId; onModeChange: (
               onChange={() => onModeChange(category.modeIds[0])}
               className="hidden"
             />
-            <div className="font-bold">
-              {category.id === "countries" ? t("mode.countries.title") : t(`area.${category.id}`)}
-            </div>
+            <div className="font-bold">{t(`mode-category.${category.id}`)}</div>
           </label>
         ))}
       </div>
