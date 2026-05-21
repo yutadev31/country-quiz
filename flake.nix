@@ -6,7 +6,12 @@
     rust-overlay.url = "github:oxalica/rust-overlay";
   };
 
-  outputs = { self, nixpkgs, rust-overlay }:
+  outputs =
+    {
+      self,
+      nixpkgs,
+      rust-overlay,
+    }:
     let
       system = "x86_64-linux";
 
@@ -25,9 +30,14 @@
         ];
       };
 
-    in {
+    in
+    {
       devShells.${system}.default = pkgs.mkShell {
         nativeBuildInputs = with pkgs; [
+          bun
+          rust
+          librsvg
+          webkitgtk_4_1
           python313
           python313Packages.pandas
           pkg-config
@@ -36,9 +46,6 @@
         ];
 
         buildInputs = with pkgs; [
-          rust
-          librsvg
-          webkitgtk_4_1
         ];
 
         shellHook = ''
