@@ -1,4 +1,5 @@
 import { useQueryState } from "nuqs";
+
 import GamePage from "./pages/Game";
 import HomePage from "./pages/Home";
 import NotesPage from "./pages/Notes";

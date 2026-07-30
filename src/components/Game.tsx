@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useQueryState } from "nuqs";
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
+
 import type { FieldDisplayType } from "@/data/game-mode-types";
 import { shuffleArray } from "@/utils/array";
 
@@ -35,7 +36,13 @@ function FieldContent<T extends Record<string, string | null>>({
     case "text":
       return <span className={textClassName}>{`${item[field]}`}</span>;
     case "img":
-      return <img alt="" src={`${item[field]}`} className={`object-contain drop-shadow-xl ${imageClassName}`} />;
+      return (
+        <img
+          alt=""
+          src={`${item[field]}`}
+          className={`object-contain drop-shadow-xl ${imageClassName}`}
+        />
+      );
   }
 }
 
@@ -70,7 +77,8 @@ function ChoiceContent<T extends Record<string, string | null>>({
   fieldDisplayTypes: { [K in keyof T]: FieldDisplayType };
   onSelect: (option: QuizItem<T>) => void;
 }) {
-  const layout = fieldDisplayTypes[field] === "img" ? "grid grid-cols-2 gap-4" : "flex flex-col gap-3";
+  const layout =
+    fieldDisplayTypes[field] === "img" ? "grid grid-cols-2 gap-4" : "flex flex-col gap-3";
 
   return (
     <div className={`mt-6 w-full ${layout}`}>
@@ -104,7 +112,7 @@ function ChoiceContentItem<T extends Record<string, string | null>>({
         <button
           type="button"
           onClick={onSelect}
-          className="rounded-xl bg-blue-600 p-4 font-semibold text-lg transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
+          className="rounded-xl bg-blue-600 p-4 text-lg font-semibold transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
         >
           {`${option[field]}`}
         </button>
@@ -179,7 +187,10 @@ export default function Game<T extends Record<string, string | null>>({
 
       const distractors = shuffleArray(
         items.filter(
-          (c) => c.id !== q.id && c[questionField] !== q[questionField] && c[answerField] !== q[answerField],
+          (c) =>
+            c.id !== q.id &&
+            c[questionField] !== q[questionField] &&
+            c[answerField] !== q[answerField],
         ),
         randomSeed + index + 1024,
       )
@@ -234,7 +245,12 @@ export default function Game<T extends Record<string, string | null>>({
   }, [current, questions, choices, questionField, answerField, fieldDisplayTypes]);
 
   useEffect(() => {
-    if (current === -1 || current === questions.length || timeLimitSeconds === null || timeLeft === null) {
+    if (
+      current === -1 ||
+      current === questions.length ||
+      timeLimitSeconds === null ||
+      timeLeft === null
+    ) {
       return;
     }
 
@@ -296,7 +312,9 @@ export default function Game<T extends Record<string, string | null>>({
                 {current + 1}/{questions.length}
               </p>
               {timeLeft !== null && (
-                <p className={`font-bold ${timeLeft <= 3 ? "text-red-400" : ""}`}>残り {timeLeft} 秒</p>
+                <p className={`font-bold ${timeLeft <= 3 ? "text-red-400" : ""}`}>
+                  残り {timeLeft} 秒
+                </p>
               )}
             </>
           )}
@@ -314,7 +332,7 @@ export default function Game<T extends Record<string, string | null>>({
           >
             <div className="text-center">
               {isCorrect ? (
-                <p className="font-bold text-4xl">{t("message.correct")}</p>
+                <p className="text-4xl font-bold">{t("message.correct")}</p>
               ) : (
                 correct && (
                   <>
@@ -339,10 +357,13 @@ export default function Game<T extends Record<string, string | null>>({
       {current === -1 ? (
         <div className="mt-12 flex w-full flex-col items-center gap-6">
           <div className="w-full rounded-xl border border-zinc-700 bg-zinc-800 p-5 shadow-xl">
-            <p className="mb-4 font-bold text-xl">{t("game.ready-title")}</p>
+            <p className="mb-4 text-xl font-bold">{t("game.ready-title")}</p>
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
               {summaryItems.map((item) => (
-                <div key={item.label} className="rounded-lg border border-zinc-700 bg-zinc-900/80 px-4 py-3">
+                <div
+                  key={item.label}
+                  className="rounded-lg border border-zinc-700 bg-zinc-900/80 px-4 py-3"
+                >
                   <p className="text-sm text-zinc-400">{item.label}</p>
                   <p className="mt-1 font-semibold text-zinc-100">{item.value}</p>
                 </div>
@@ -355,7 +376,7 @@ export default function Game<T extends Record<string, string | null>>({
               setCurrent(0);
               setTimeLeft(timeLimitSeconds || null);
             }}
-            className="rounded-xl bg-blue-600 px-10 py-4 text-white text-xl hover:bg-blue-500"
+            className="rounded-xl bg-blue-600 px-10 py-4 text-xl text-white hover:bg-blue-500"
           >
             {t("button.start")}
           </button>
@@ -366,19 +387,24 @@ export default function Game<T extends Record<string, string | null>>({
       ) : current >= questions.length ? (
         <>
           <div className="mt-12 w-full rounded-xl bg-zinc-800 p-6 shadow-xl">
-            <p className="mb-4 font-bold text-2xl">{t("result.title")}</p>
+            <p className="mb-4 text-2xl font-bold">{t("result.title")}</p>
             <p className="text-green-500">正解: {correctCount}</p>
             <p className="text-red-500">不正解: {incorrectCount}</p>
             <details className="mt-6 rounded-lg bg-zinc-900/80 p-4">
-              <summary className="cursor-pointer font-semibold">{t("result.details-summary")}</summary>
+              <summary className="cursor-pointer font-semibold">
+                {t("result.details-summary")}
+              </summary>
               <div className="mt-4 space-y-3">
                 {answerRecords.map((record, index) => (
                   <div
                     key={`${record.question.id}-${index}`}
                     className="rounded-lg border border-zinc-700 bg-zinc-800 p-4"
                   >
-                    <p className={`font-bold ${record.isCorrect ? "text-green-400" : "text-red-400"}`}>
-                      {index + 1}. {record.isCorrect ? t("result.correct-label") : t("result.incorrect-label")}
+                    <p
+                      className={`font-bold ${record.isCorrect ? "text-green-400" : "text-red-400"}`}
+                    >
+                      {index + 1}.{" "}
+                      {record.isCorrect ? t("result.correct-label") : t("result.incorrect-label")}
                     </p>
                     <div className="mt-3 space-y-2 text-sm">
                       <div>
@@ -431,7 +457,7 @@ export default function Game<T extends Record<string, string | null>>({
           </div>
           <button
             type="button"
-            className="w-full rounded-xl bg-blue-600 p-4 font-semibold text-lg text-white transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
+            className="w-full rounded-xl bg-blue-600 p-4 text-lg font-semibold text-white transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
             onClick={() => {
               onRestart();
             }}

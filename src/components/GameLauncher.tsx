@@ -2,8 +2,14 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { HiPlay } from "react-icons/hi2";
 import { LuBrain, LuFlame, LuGlobe, LuTimer } from "react-icons/lu";
+
 import type { GameModeId } from "@/data/game-mode-types";
-import { gameModeCategories, gameModeList, gameModes, getGameModeCategoryId } from "@/data/game-modes";
+import {
+  gameModeCategories,
+  gameModeList,
+  gameModes,
+  getGameModeCategoryId,
+} from "@/data/game-modes";
 
 type Option = {
   label: string;
@@ -33,7 +39,13 @@ function RadioGroup({
           key={value}
           className={`cursor-pointer rounded-xl border border-zinc-700 bg-zinc-800 p-4 transition has-checked:border-blue-400 has-checked:bg-blue-600 ${optionClassName ?? ""}`}
         >
-          <input type="radio" name={name} value={value} defaultChecked={value === defaultValue} className="hidden" />
+          <input
+            type="radio"
+            name={name}
+            value={value}
+            defaultChecked={value === defaultValue}
+            className="hidden"
+          />
           <div className={`font-bold ${labelClassName ?? ""}`}>
             {label}
             {hiragana && <span className="ml-1 text-sm text-zinc-300">({hiragana})</span>}
@@ -57,19 +69,28 @@ function SectionTitle({
     <div className="mb-3 flex items-center gap-2">
       <Icon className="text-xl text-zinc-300" />
       <div>
-        <h2 className="font-bold text-lg">{title}</h2>
+        <h2 className="text-lg font-bold">{title}</h2>
         {description && <p className="text-sm text-zinc-400">{description}</p>}
       </div>
     </div>
   );
 }
 
-function ModeSection({ mode, onModeChange }: { mode: GameModeId; onModeChange: (mode: GameModeId) => void }) {
+function ModeSection({
+  mode,
+  onModeChange,
+}: {
+  mode: GameModeId;
+  onModeChange: (mode: GameModeId) => void;
+}) {
   const { t } = useTranslation();
   const activeCategoryId = getGameModeCategoryId(mode);
   const activeCategory =
-    gameModeCategories.find((category) => category.id === activeCategoryId) ?? gameModeCategories[0];
-  const visibleModes = gameModeList.filter((gameMode) => activeCategory.modeIds.includes(gameMode.id));
+    gameModeCategories.find((category) => category.id === activeCategoryId) ??
+    gameModeCategories[0];
+  const visibleModes = gameModeList.filter((gameMode) =>
+    activeCategory.modeIds.includes(gameMode.id),
+  );
 
   return (
     <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
@@ -80,7 +101,9 @@ function ModeSection({ mode, onModeChange }: { mode: GameModeId; onModeChange: (
           <label
             key={category.id}
             className={`cursor-pointer rounded-xl border p-3 transition ${
-              activeCategoryId === category.id ? "border-blue-400 bg-blue-600" : "border-zinc-700 bg-zinc-800"
+              activeCategoryId === category.id
+                ? "border-blue-400 bg-blue-600"
+                : "border-zinc-700 bg-zinc-800"
             }`}
           >
             <input
@@ -115,7 +138,7 @@ function ModeSection({ mode, onModeChange }: { mode: GameModeId; onModeChange: (
                 onChange={() => onModeChange(gameMode.id)}
                 className="hidden"
               />
-              <div className="font-bold text-lg">{t(gameMode.titleKey)}</div>
+              <div className="text-lg font-bold">{t(gameMode.titleKey)}</div>
             </label>
           ))}
         </div>
@@ -279,18 +302,18 @@ export default function GameLauncher() {
 
       <section className="rounded-xl border border-red-800 bg-red-950 p-4">
         <div className="flex items-center gap-2">
-          <LuFlame className="text-red-400 text-xl" />
+          <LuFlame className="text-xl text-red-400" />
           <span className="font-bold text-red-300">{t("heading.one-shot-mode")}</span>
         </div>
         <label className="mt-3 flex items-center gap-3">
           <input type="checkbox" name="oneShotMode" className="scale-125" />
-          <span className="text-red-200 text-sm">{t("description.one-shot-mode")}</span>
+          <span className="text-sm text-red-200">{t("description.one-shot-mode")}</span>
         </label>
       </section>
 
       <button
         type="submit"
-        className="flex w-full items-center justify-center gap-2 rounded-xl bg-linear-to-r from-blue-500 to-cyan-500 px-6 py-3 font-bold text-lg transition hover:scale-[1.02] active:scale-[0.98]"
+        className="flex w-full items-center justify-center gap-2 rounded-xl bg-linear-to-r from-blue-500 to-cyan-500 px-6 py-3 text-lg font-bold transition hover:scale-[1.02] active:scale-[0.98]"
       >
         <HiPlay className="text-xl" />
         {t("button.start")}

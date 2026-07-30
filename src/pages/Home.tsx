@@ -1,6 +1,7 @@
 import { useQueryState } from "nuqs";
 import { useTranslation } from "react-i18next";
 import { HiOutlineInformationCircle, HiOutlineTableCells } from "react-icons/hi2";
+
 import GameLauncher from "@/components/GameLauncher";
 
 export default function HomePage() {
@@ -16,7 +17,7 @@ export default function HomePage() {
           setPage("study");
           e.preventDefault();
         }}
-        className="mt-4 flex items-center justify-center gap-2 rounded-xl border border-zinc-700 bg-zinc-900 px-4 py-3 font-medium text-sm text-zinc-100 transition hover:border-blue-400 hover:bg-zinc-800"
+        className="mt-4 flex items-center justify-center gap-2 rounded-xl border border-zinc-700 bg-zinc-900 px-4 py-3 text-sm font-medium text-zinc-100 transition hover:border-blue-400 hover:bg-zinc-800"
       >
         <HiOutlineTableCells className="text-base" />
         {t("button.open-study-list")}
@@ -27,7 +28,7 @@ export default function HomePage() {
           setPage("notes");
           e.preventDefault();
         }}
-        className="mt-4 flex items-center justify-center gap-2 rounded-xl border border-zinc-700 bg-zinc-900 px-4 py-3 font-medium text-sm text-zinc-100 transition hover:border-blue-400 hover:bg-zinc-800"
+        className="mt-4 flex items-center justify-center gap-2 rounded-xl border border-zinc-700 bg-zinc-900 px-4 py-3 text-sm font-medium text-zinc-100 transition hover:border-blue-400 hover:bg-zinc-800"
       >
         <HiOutlineInformationCircle className="text-base" />
         {t("button.open-notes")}

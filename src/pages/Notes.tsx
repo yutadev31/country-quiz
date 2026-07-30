@@ -20,11 +20,11 @@ export default function NotesPage() {
       <div className="flex flex-col gap-4 rounded-4xl border border-zinc-800 bg-radial-[at_top] from-blue-500/20 via-zinc-950 to-zinc-950 p-6">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
           <div>
-            <p className="mb-2 flex items-center gap-2 text-xs text-zinc-400 uppercase tracking-[0.3em]">
+            <p className="mb-2 flex items-center gap-2 text-xs tracking-[0.3em] text-zinc-400 uppercase">
               <LuFileText />
               {t("notes.title")}
             </p>
-            <h1 className="font-semibold text-3xl text-zinc-50">{t("notes.heading")}</h1>
+            <h1 className="text-3xl font-semibold text-zinc-50">{t("notes.heading")}</h1>
             <p className="mt-2 max-w-2xl text-sm text-zinc-300">{t("description.notes")}</p>
           </div>
 
@@ -43,8 +43,8 @@ export default function NotesPage() {
       </div>
 
       <section className="rounded-3xl border border-zinc-800 bg-zinc-950 p-6 text-zinc-100 shadow-2xl shadow-zinc-950/30">
-        <h2 className="font-semibold text-xl text-zinc-50">{t("notes.general.heading")}</h2>
-        <div className="mt-3 grid gap-3 text-sm text-zinc-300 leading-7">
+        <h2 className="text-xl font-semibold text-zinc-50">{t("notes.general.heading")}</h2>
+        <div className="mt-3 grid gap-3 text-sm leading-7 text-zinc-300">
           <p>{t("notes.general.source")}</p>
           <p>{t("notes.general.naming")}</p>
           <p>{t("notes.general.definition")}</p>
@@ -52,11 +52,14 @@ export default function NotesPage() {
       </section>
 
       <section className="rounded-3xl border border-zinc-800 bg-zinc-950 p-6 text-zinc-100 shadow-2xl shadow-zinc-950/30">
-        <h2 className="font-semibold text-xl text-zinc-50">{t("notes.ru-subjects.heading")}</h2>
-        <p className="mt-3 text-sm text-zinc-300 leading-7">{t("notes.ru-subjects.body")}</p>
+        <h2 className="text-xl font-semibold text-zinc-50">{t("notes.ru-subjects.heading")}</h2>
+        <p className="mt-3 text-sm leading-7 text-zinc-300">{t("notes.ru-subjects.body")}</p>
         <ul className="mt-4 grid gap-2 text-sm text-zinc-200 sm:grid-cols-2">
           {excludedRuSubjects.map((subject) => (
-            <li key={subject} className="rounded-2xl border border-zinc-800 bg-zinc-900/70 px-4 py-3">
+            <li
+              key={subject}
+              className="rounded-2xl border border-zinc-800 bg-zinc-900/70 px-4 py-3"
+            >
               {subject}
             </li>
           ))}

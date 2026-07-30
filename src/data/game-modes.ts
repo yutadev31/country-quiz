@@ -5,7 +5,12 @@ import { deStatesMode } from "./de-states";
 import { egGovernoratesMode } from "./eg-governorates";
 import { esCommunitiesMode } from "./es-communities";
 import { frRegionsMode } from "./fr-regions";
-import type { GameModeCategory, GameModeCategoryId, GameModeConfig, GameModeId } from "./game-mode-types";
+import type {
+  GameModeCategory,
+  GameModeCategoryId,
+  GameModeConfig,
+  GameModeId,
+} from "./game-mode-types";
 import { itRegionsMode } from "./it-regions";
 import { jpPrefecturesMode } from "./jp-prefectures";
 import { mxStatesMode } from "./mx-states";

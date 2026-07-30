@@ -267,7 +267,14 @@
     "capital": "カイロ",
     "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["Republik Arab Mesir", "Arab Republic of Egypt", "جُمهورِيّةُ مِصرَ العَرَبيّةِ", "Mesir", "مصر", "Egypt"],
+    "nameNative": [
+      "Republik Arab Mesir",
+      "Arab Republic of Egypt",
+      "جُمهورِيّةُ مِصرَ العَرَبيّةِ",
+      "Mesir",
+      "مصر",
+      "Egypt"
+    ],
     "id": "eg",
     "domain": ".eg",
     "flag": "https:\/\/flagcdn.com\/eg.svg"
@@ -659,7 +666,12 @@
     "capital": "アピア",
     "capitalNative": [],
     "continent": ["oceania"],
-    "nameNative": ["Sāmoa", "Malo Sa’oloto Tuto’atasi o Samoa", "Independent State of Samoa", "Western Samoa"],
+    "nameNative": [
+      "Sāmoa",
+      "Malo Sa’oloto Tuto’atasi o Samoa",
+      "Independent State of Samoa",
+      "Western Samoa"
+    ],
     "id": "ws",
     "domain": ".ws",
     "flag": "https:\/\/flagcdn.com\/ws.svg"
@@ -719,7 +731,12 @@
     "capital": "シンガポール",
     "capitalNative": [],
     "continent": ["asia"],
-    "nameNative": ["新加坡共和国", "சிங்கப்பூர் குடியரசு", "Republik Singapura", "Republic of Singapore"],
+    "nameNative": [
+      "新加坡共和国",
+      "சிங்கப்பூர் குடியரசு",
+      "Republik Singapura",
+      "Republic of Singapore"
+    ],
     "id": "sg",
     "domain": ".sg",
     "flag": "https:\/\/flagcdn.com\/sg.svg"
@@ -914,7 +931,12 @@
     "capital": "モガディシュ",
     "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["𐒈𐒝𐒑𐒛𐒐𐒘𐒕𐒖", "Soomaaliya", "Jamhuuriyadda Federaalka Soomaaliya", "جمهورية الصومال الفدرالية"],
+    "nameNative": [
+      "𐒈𐒝𐒑𐒛𐒐𐒘𐒕𐒖",
+      "Soomaaliya",
+      "Jamhuuriyadda Federaalka Soomaaliya",
+      "جمهورية الصومال الفدرالية"
+    ],
     "id": "so",
     "domain": ".so",
     "flag": "https:\/\/flagcdn.com\/so.svg"
@@ -984,7 +1006,13 @@
     "capital": "チュニス",
     "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["Tunisia", "Republik Tunisia", "Republic of Tunisia", "الجمهورية التونسية", "تونس"],
+    "nameNative": [
+      "Tunisia",
+      "Republik Tunisia",
+      "Republic of Tunisia",
+      "الجمهورية التونسية",
+      "تونس"
+    ],
     "id": "tn",
     "domain": ".tn",
     "flag": "https:\/\/flagcdn.com\/tn.svg"
@@ -1194,7 +1222,12 @@
     "capital": "ポートビラ",
     "capitalNative": [],
     "continent": ["oceania"],
-    "nameNative": ["République du Vanuatu", "Republic of Vanuatu", "Vanuatu", "Ripablik blong Vanuatu"],
+    "nameNative": [
+      "République du Vanuatu",
+      "Republic of Vanuatu",
+      "Vanuatu",
+      "Ripablik blong Vanuatu"
+    ],
     "id": "vu",
     "domain": ".vu",
     "flag": "https:\/\/flagcdn.com\/vu.svg"
@@ -1817,7 +1850,14 @@
     "capital": "ベイルート",
     "capitalNative": [],
     "continent": ["asia"],
-    "nameNative": ["Republik Lubnan", "Lubnan", "Republic of Lebanon", "الجمهورية اللبنانية", "لبنان", "Lebanon"],
+    "nameNative": [
+      "Republik Lubnan",
+      "Lubnan",
+      "Republic of Lebanon",
+      "الجمهورية اللبنانية",
+      "لبنان",
+      "Lebanon"
+    ],
     "id": "lb",
     "domain": ".lb",
     "flag": "https:\/\/flagcdn.com\/lb.svg"
@@ -1906,7 +1946,12 @@
     "capital": "ジュバ",
     "capitalNative": [],
     "continent": ["africa"],
-    "nameNative": ["Republic of South Sudan", "جمهورية جنوب السودان", "جنوب السودان", "South Sudan"],
+    "nameNative": [
+      "Republic of South Sudan",
+      "جمهورية جنوب السودان",
+      "جنوب السودان",
+      "South Sudan"
+    ],
     "id": "ss",
     "domain": ".ss",
     "flag": "https:\/\/flagcdn.com\/ss.svg"

@@ -1,6 +1,7 @@
 import { useQueryState } from "nuqs";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+
 import Game from "@/components/Game";
 import type { FieldDisplayType, QuizItem } from "@/data/game-mode-types";
 import { gameModes, isGameModeId } from "@/data/game-modes";
@@ -58,7 +59,11 @@ export default function GamePage() {
     modeConfig.defaultQuestionField,
     modeConfig.fieldDisplayTypes,
   );
-  const answerField = normalizeField(answerFieldParam, modeConfig.defaultAnswerField, modeConfig.fieldDisplayTypes);
+  const answerField = normalizeField(
+    answerFieldParam,
+    modeConfig.defaultAnswerField,
+    modeConfig.fieldDisplayTypes,
+  );
   const questionType = modeConfig.questionOptions.find((option) => option.value === questionField);
   const choiceType = modeConfig.answerOptions.find((option) => option.value === answerField);
   const timeLimitSeconds = parseTimeLimit(timeLimitParam);

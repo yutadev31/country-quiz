@@ -2,17 +2,25 @@ import { useQueryState } from "nuqs";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { LuArrowLeft, LuGlobe } from "react-icons/lu";
+
 import type { FieldDisplayType, FieldOption, GameModeId, QuizItem } from "@/data/game-mode-types";
 import { gameModeList, gameModes, isGameModeId } from "@/data/game-modes";
 
 function getListFields(options: FieldOption[]) {
   return options.filter(
     (option, index, array) =>
-      option.value !== "id" && array.findIndex((candidate) => candidate.value === option.value) === index,
+      option.value !== "id" &&
+      array.findIndex((candidate) => candidate.value === option.value) === index,
   );
 }
 
-function StudyCell({ value, displayType }: { value: string | string[] | null; displayType: FieldDisplayType }) {
+function StudyCell({
+  value,
+  displayType,
+}: {
+  value: string | string[] | null;
+  displayType: FieldDisplayType;
+}) {
   if (Array.isArray(value)) {
     return (
       <>
@@ -34,7 +42,15 @@ function StudyCell({ value, displayType }: { value: string | string[] | null; di
   return <p className="text-nowrap">{value}</p>;
 }
 
-function StudyTable({ items, fields, mode }: { items: QuizItem[]; fields: FieldOption[]; mode: GameModeId }) {
+function StudyTable({
+  items,
+  fields,
+  mode,
+}: {
+  items: QuizItem[];
+  fields: FieldOption[];
+  mode: GameModeId;
+}) {
   const { t } = useTranslation();
   const fieldDisplayTypes = gameModes[mode].fieldDisplayTypes;
 
@@ -55,11 +71,16 @@ function StudyTable({ items, fields, mode }: { items: QuizItem[]; fields: FieldO
             {items.map((item, index) => (
               <tr
                 key={item.id}
-                className={index % 2 === 0 ? "bg-zinc-950 text-zinc-100" : "bg-zinc-900/80 text-zinc-100"}
+                className={
+                  index % 2 === 0 ? "bg-zinc-950 text-zinc-100" : "bg-zinc-900/80 text-zinc-100"
+                }
               >
                 {fields.map((field) => (
-                  <td key={field.value} className="border-zinc-800 border-t px-4 py-3 align-middle">
-                    <StudyCell value={item[field.value]} displayType={fieldDisplayTypes[field.value]} />
+                  <td key={field.value} className="border-t border-zinc-800 px-4 py-3 align-middle">
+                    <StudyCell
+                      value={item[field.value]}
+                      displayType={fieldDisplayTypes[field.value]}
+                    />
                   </td>
                 ))}
               </tr>
@@ -117,11 +138,11 @@ export default function StudyPage() {
       <div className="flex flex-col gap-4 rounded-4xl border border-zinc-800 bg-radial-[at_top] from-blue-500/20 via-zinc-950 to-zinc-950 p-6">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
           <div>
-            <p className="mb-2 flex items-center gap-2 text-xs text-zinc-400 uppercase tracking-[0.3em]">
+            <p className="mb-2 flex items-center gap-2 text-xs tracking-[0.3em] text-zinc-400 uppercase">
               <LuGlobe />
               {t("study.title")}
             </p>
-            <h1 className="font-semibold text-3xl text-zinc-50">{t(activeMode.titleKey)}</h1>
+            <h1 className="text-3xl font-semibold text-zinc-50">{t(activeMode.titleKey)}</h1>
             <p className="mt-2 max-w-2xl text-sm text-zinc-300">{t("description.study")}</p>
           </div>
 
@@ -158,7 +179,7 @@ export default function StudyPage() {
       </div>
 
       {isLoading ? (
-        <div className="rounded-2xl border border-zinc-700 border-dashed px-6 py-12 text-center text-zinc-400">
+        <div className="rounded-2xl border border-dashed border-zinc-700 px-6 py-12 text-center text-zinc-400">
           {t("loading")}
         </div>
       ) : loadError ? (
@@ -168,7 +189,7 @@ export default function StudyPage() {
       ) : items.length > 0 ? (
         <StudyTable items={items} fields={fields} mode={mode} />
       ) : (
-        <div className="rounded-2xl border border-zinc-700 border-dashed px-6 py-12 text-center text-zinc-400">
+        <div className="rounded-2xl border border-dashed border-zinc-700 px-6 py-12 text-center text-zinc-400">
           {t("study.empty")}
         </div>
       )}
