@@ -1,65 +1,28 @@
 {
-  description = "Tauri + Android dev shell (pure Nix, no rustup)";
-
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    rust-overlay.url = "github:oxalica/rust-overlay";
+    flake-utils.url = "github:numtide/flake-utils";
   };
 
   outputs =
     {
       self,
       nixpkgs,
-      rust-overlay,
+      flake-utils,
     }:
-    let
-      system = "x86_64-linux";
-
-      pkgs = import nixpkgs {
-        inherit system;
-        overlays = [ rust-overlay.overlays.default ];
-      };
-
-      rust = pkgs.rust-bin.stable.latest.default.override {
-        extensions = [ "rust-src" ];
-        targets = [
-          "aarch64-linux-android"
-          "armv7-linux-androideabi"
-          "i686-linux-android"
-          "x86_64-linux-android"
-        ];
-      };
-
-    in
-    {
-      devShells.${system}.default = pkgs.mkShell {
-        nativeBuildInputs = with pkgs; [
-          bun
-          rust
-          librsvg
-          webkitgtk_4_1
-          python313
-          python313Packages.pandas
-          pkg-config
-          wrapGAppsHook4
-          jdk17_headless
-        ];
-
-        buildInputs = with pkgs; [
-        ];
-
-        shellHook = ''
-          export XDG_DATA_DIRS="$GSETTINGS_SCHEMAS_PATH"
-
-          export ANDROID_HOME=$HOME/Android/Sdk
-          export ANDROID_SDK_ROOT=$HOME/Android/Sdk
-          export NDK_HOME=$ANDROID_HOME/ndk/29.0.13846066
-
-          unset RUSTUP_HOME
-          unset CARGO_HOME
-
-          rustc --version
-        '';
-      };
-    };
+    flake-utils.lib.eachDefaultSystem (
+      system:
+      let
+        pkgs = nixpkgs.legacyPackages.${system};
+      in
+      {
+        devShells.default = pkgs.mkShell {
+          packages = with pkgs; [
+            bun
+            python313
+            python313Packages.pandas
+          ];
+        };
+      }
+    );
 }
