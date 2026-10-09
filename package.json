@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "i18next": "^26.4.2",
-    "motion": "^13.5.1",
+    "motion": "^14.0.0",
     "nuqs": "^2.10.2",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
