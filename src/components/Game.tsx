@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useQueryState } from "nuqs";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useReducer } from "react";
 import { useTranslation } from "react-i18next";
 
 import type { FieldDisplayType } from "@/data/game-mode-types";
@@ -18,6 +18,92 @@ type GameSummaryItem = {
   label: string;
   value: string;
 };
+
+type GameState<T extends Record<string, string | null>> = {
+  current: number;
+  showResult: boolean;
+  isCorrect: boolean | null;
+  correct: QuizItem<T> | null;
+  answerRecords: AnswerRecord<T>[];
+  correctCount: number;
+  incorrectCount: number;
+  timeLeft: number | null;
+};
+
+type GameAction<T extends Record<string, string | null>> =
+  | { type: "start"; timeLimitSeconds: number | null }
+  | { type: "tick" }
+  | {
+      type: "answer";
+      question: QuizItem<T>;
+      selectedAnswer: QuizItem<T>;
+      isCorrect: boolean;
+      stopOnMistake: boolean;
+      questionCount: number;
+      timeLimitSeconds: number | null;
+    }
+  | {
+      type: "timeout";
+      question: QuizItem<T>;
+      stopOnMistake: boolean;
+      questionCount: number;
+      timeLimitSeconds: number | null;
+    }
+  | { type: "clearResult" };
+
+function createInitialGameState<T extends Record<string, string | null>>(
+  timeLimitSeconds: number | null,
+): GameState<T> {
+  return {
+    current: -1,
+    showResult: false,
+    isCorrect: null,
+    correct: null,
+    answerRecords: [],
+    correctCount: 0,
+    incorrectCount: 0,
+    timeLeft: timeLimitSeconds,
+  };
+}
+
+function gameReducer<T extends Record<string, string | null>>(
+  state: GameState<T>,
+  action: GameAction<T>,
+): GameState<T> {
+  switch (action.type) {
+    case "start":
+      return { ...state, current: 0, timeLeft: action.timeLimitSeconds };
+    case "tick":
+      return state.timeLeft === null ? state : { ...state, timeLeft: state.timeLeft - 1 };
+    case "answer":
+    case "timeout": {
+      const isCorrect = action.type === "answer" && action.isCorrect;
+      const selectedAnswer = action.type === "answer" ? action.selectedAnswer : null;
+      return {
+        ...state,
+        current:
+          action.stopOnMistake && !isCorrect
+            ? action.questionCount
+            : state.current + 1,
+        showResult: true,
+        isCorrect,
+        correct: action.question,
+        answerRecords: [
+          ...state.answerRecords,
+          { question: action.question, selectedAnswer, isCorrect },
+        ],
+        correctCount: state.correctCount + (isCorrect ? 1 : 0),
+        incorrectCount: state.incorrectCount + (isCorrect ? 0 : 1),
+        timeLeft:
+          action.stopOnMistake && !isCorrect
+            ? state.timeLeft
+            : action.timeLimitSeconds || null,
+      };
+    }
+    case "clearResult":
+      return { ...state, showResult: false, isCorrect: null };
+  }
+}
 
 function FieldContent<T extends Record<string, string | null>>({
   item,
@@ -209,15 +295,21 @@ export default function Game<T extends Record<string, string | null>>({
     });
   }, [questions, randomSeed, items, answerField, questionField]);
 
-  const [current, setCurrent] = useState(-1);
-  const [showResult, setShowResult] = useState(false);
-  const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
-  const [correct, setCorrect] = useState<QuizItem<T> | null>(null);
-  const [answerRecords, setAnswerRecords] = useState<AnswerRecord<T>[]>([]);
-
-  const [correctCount, setCorrectCount] = useState(0);
-  const [incorrectCount, setIncorrectCount] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(timeLimitSeconds ?? null);
+  const [state, dispatch] = useReducer(
+    gameReducer<T>,
+    timeLimitSeconds,
+    createInitialGameState<T>,
+  );
+  const {
+    current,
+    showResult,
+    isCorrect,
+    correct,
+    answerRecords,
+    correctCount,
+    incorrectCount,
+    timeLeft,
+  } = state;
 
   const { t } = useTranslation();
   const [, setPage] = useQueryState("page");
@@ -258,30 +350,18 @@ export default function Game<T extends Record<string, string | null>>({
       const currentQuestion = questions[current];
 
       // eslint-disable-next-line react-hooks/set-state-in-effect
-      setIncorrectCount((c) => c + 1);
-      setIsCorrect(false);
-      setCorrect(currentQuestion);
-      setAnswerRecords((records) => [
-        ...records,
-        {
-          question: currentQuestion,
-          selectedAnswer: null,
-          isCorrect: false,
-        },
-      ]);
-      setShowResult(true);
-
-      if (stopOnMistake) {
-        setCurrent(questions.length);
-      } else {
-        setCurrent((c) => c + 1);
-        setTimeLeft(timeLimitSeconds || null);
-      }
+      dispatch({
+        type: "timeout",
+        question: currentQuestion,
+        stopOnMistake,
+        questionCount: questions.length,
+        timeLimitSeconds,
+      });
       return;
     }
 
     const timer = setInterval(() => {
-      setTimeLeft((t) => (t === null ? null : t - 1));
+      dispatch({ type: "tick" });
     }, 1000);
 
     return () => clearInterval(timer);
@@ -292,8 +372,7 @@ export default function Game<T extends Record<string, string | null>>({
 
     const timer = setTimeout(
       () => {
-        setShowResult(false);
-        setIsCorrect(null);
+        dispatch({ type: "clearResult" });
       },
       isCorrect ? 400 : 1500,
     );
@@ -373,8 +452,7 @@ export default function Game<T extends Record<string, string | null>>({
           <button
             type="button"
             onClick={() => {
-              setCurrent(0);
-              setTimeLeft(timeLimitSeconds || null);
+              dispatch({ type: "start", timeLimitSeconds: timeLimitSeconds || null });
             }}
             className="rounded-xl bg-blue-600 px-10 py-4 text-xl text-white hover:bg-blue-500"
           >
@@ -493,30 +571,15 @@ export default function Game<T extends Record<string, string | null>>({
               const currentQuestion = questions[current];
               const isCorrect = currentQuestion.id === choice.id;
 
-              if (isCorrect) {
-                setCorrectCount((c) => c + 1);
-              } else {
-                setIncorrectCount((c) => c + 1);
-              }
-
-              setIsCorrect(isCorrect);
-              setCorrect(currentQuestion);
-              setAnswerRecords((records) => [
-                ...records,
-                {
-                  question: currentQuestion,
-                  selectedAnswer: choice,
-                  isCorrect,
-                },
-              ]);
-              setShowResult(true);
-
-              if (stopOnMistake && !isCorrect) {
-                setCurrent(questions.length);
-              } else {
-                setCurrent((c) => c + 1);
-                setTimeLeft(timeLimitSeconds || null);
-              }
+              dispatch({
+                type: "answer",
+                question: currentQuestion,
+                selectedAnswer: choice,
+                isCorrect,
+                stopOnMistake,
+                questionCount: questions.length,
+                timeLimitSeconds,
+              });
             }}
           />
         </div>
