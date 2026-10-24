@@ -20,8 +20,11 @@
           packages = with pkgs; [
             nodejs
             bun
-            python313
-            python313Packages.pandas
+            (python313.withPackages (
+              ps: with ps; [
+                pandas
+              ]
+            ))
 
             nixd
             nixfmt
