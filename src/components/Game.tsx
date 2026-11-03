@@ -125,7 +125,12 @@ function ChoiceContentItem<T extends Record<string, string | null>>({
           aria-label={`選択肢 ${index + 1}`}
           className="relative aspect-4/3 rounded-2xl border border-zinc-700 bg-zinc-800 shadow-md transition hover:border-blue-400 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-400 active:scale-[0.97] motion-reduce:transform-none"
         >
-          <img alt="" src={`${option[field]}`} className="h-full w-full object-contain p-2" />
+          <img
+            alt=""
+            src={`${option[field]}`}
+            draggable={false}
+            className="h-full w-full object-contain p-2"
+          />
         </button>
       );
   }
