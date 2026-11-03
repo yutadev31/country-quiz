@@ -1,104 +1,17 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useQueryState } from "nuqs";
-import { useEffect, useMemo, useReducer } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useStore } from "zustand";
 
 import type { FieldDisplayType } from "@/data/game-mode-types";
+import { createGameStore, type QuizItem } from "@/stores/game";
 import { shuffleArray } from "@/utils/array";
-
-type QuizItem<T extends Record<string, string | null>> = T & { id: string };
-
-type AnswerRecord<T extends Record<string, string | null>> = {
-  question: QuizItem<T>;
-  selectedAnswer: QuizItem<T> | null;
-  isCorrect: boolean;
-};
 
 type GameSummaryItem = {
   label: string;
   value: string;
 };
-
-type GameState<T extends Record<string, string | null>> = {
-  current: number;
-  showResult: boolean;
-  isCorrect: boolean | null;
-  correct: QuizItem<T> | null;
-  answerRecords: AnswerRecord<T>[];
-  correctCount: number;
-  incorrectCount: number;
-  timeLeft: number | null;
-};
-
-type GameAction<T extends Record<string, string | null>> =
-  | { type: "start"; timeLimitSeconds: number | null }
-  | { type: "tick" }
-  | {
-      type: "answer";
-      question: QuizItem<T>;
-      selectedAnswer: QuizItem<T>;
-      isCorrect: boolean;
-      stopOnMistake: boolean;
-      questionCount: number;
-      timeLimitSeconds: number | null;
-    }
-  | {
-      type: "timeout";
-      question: QuizItem<T>;
-      stopOnMistake: boolean;
-      questionCount: number;
-      timeLimitSeconds: number | null;
-    }
-  | { type: "clearResult" };
-
-function createInitialGameState<T extends Record<string, string | null>>(
-  timeLimitSeconds: number | null,
-): GameState<T> {
-  return {
-    current: -1,
-    showResult: false,
-    isCorrect: null,
-    correct: null,
-    answerRecords: [],
-    correctCount: 0,
-    incorrectCount: 0,
-    timeLeft: timeLimitSeconds,
-  };
-}
-
-function gameReducer<T extends Record<string, string | null>>(
-  state: GameState<T>,
-  action: GameAction<T>,
-): GameState<T> {
-  switch (action.type) {
-    case "start":
-      return { ...state, current: 0, timeLeft: action.timeLimitSeconds };
-    case "tick":
-      return state.timeLeft === null ? state : { ...state, timeLeft: state.timeLeft - 1 };
-    case "answer":
-    case "timeout": {
-      const isCorrect = action.type === "answer" && action.isCorrect;
-      const selectedAnswer = action.type === "answer" ? action.selectedAnswer : null;
-      return {
-        ...state,
-        current: action.stopOnMistake && !isCorrect ? action.questionCount : state.current + 1,
-        showResult: true,
-        isCorrect,
-        correct: action.question,
-        answerRecords: [
-          ...state.answerRecords,
-          { question: action.question, selectedAnswer, isCorrect },
-        ],
-        correctCount: state.correctCount + (isCorrect ? 1 : 0),
-        incorrectCount: state.incorrectCount + (isCorrect ? 0 : 1),
-        timeLeft:
-          action.stopOnMistake && !isCorrect ? state.timeLeft : action.timeLimitSeconds || null,
-      };
-    }
-    case "clearResult":
-      return { ...state, showResult: false, isCorrect: null };
-  }
-}
 
 function FieldContent<T extends Record<string, string | null>>({
   item,
@@ -290,7 +203,9 @@ export default function Game<T extends Record<string, string | null>>({
     });
   }, [questions, randomSeed, items, answerField, questionField]);
 
-  const [state, dispatch] = useReducer(gameReducer<T>, timeLimitSeconds, createInitialGameState<T>);
+  const [store] = useState(() => createGameStore<T>(timeLimitSeconds));
+  const state = useStore(store);
+  const dispatch = state.dispatch;
   const {
     current,
     showResult,
@@ -356,7 +271,7 @@ export default function Game<T extends Record<string, string | null>>({
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [timeLimitSeconds, timeLeft, current, questions, stopOnMistake]);
+  }, [timeLimitSeconds, timeLeft, current, questions, stopOnMistake, dispatch]);
 
   useEffect(() => {
     if (!showResult) return;
@@ -369,7 +284,7 @@ export default function Game<T extends Record<string, string | null>>({
     );
 
     return () => clearTimeout(timer);
-  }, [showResult, isCorrect]);
+  }, [showResult, isCorrect, dispatch]);
 
   return (
     <div className="relative flex w-full flex-col items-center gap-4 p-2">
