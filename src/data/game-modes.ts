@@ -32,6 +32,7 @@ function createCountryAreaMode(area: Exclude<GameModeCategoryId, "countries">): 
     id: `countries-${area}` as GameModeId,
     titleKey: `mode.countries-${area}.title`,
     fixedArea: area,
+    categoryId: area,
   };
 }
 
@@ -61,19 +62,14 @@ export const gameModeList = Object.values(gameModes);
 export const gameModeCategories: GameModeCategory[] = [
   {
     id: "countries",
-    modeIds: ["countries", ...gameModeAreaIds.map((area) => `countries-${area}` as GameModeId)],
+    modeIds: ["countries"],
   },
-  ...gameModeAreaIds.flatMap((area) => {
-    const modeIds = gameModeList
-      .filter((gameMode) => {
-        if (gameMode.id === "countries" || gameMode.id.startsWith("countries-")) {
-          return false;
-        }
-        return gameMode.categoryId === area;
-      })
-      .map((gameMode) => gameMode.id);
-    return modeIds.length > 0 ? [{ id: area, modeIds }] : [];
-  }),
+  ...gameModeAreaIds.map((area) => ({
+    id: area,
+    modeIds: gameModeList
+      .filter((gameMode) => gameMode.categoryId === area)
+      .map((gameMode) => gameMode.id),
+  })),
 ];
 
 export function getGameModeCategoryId(mode: GameModeId) {

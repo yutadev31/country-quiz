@@ -13,7 +13,9 @@
     "choice-type": "選択肢の種類",
     "mode-detail": "詳細モード",
     "number-of-questions": "問題数",
-    "time-limit": "制限時間 (秒)"
+    "time-limit": "制限時間 (秒)",
+    "advanced-settings": "詳細設定",
+    "resources": "学習と補足"
   },
   "message": {
     "correct": "正解！",
@@ -179,7 +181,7 @@
     }
   },
   "mode-category": {
-    "countries": "国",
+    "countries": "すべての国",
     "asia": "アジア",
     "europe": "ヨーロッパ",
     "america": "アメリカ",
@@ -192,7 +194,8 @@
     "casual": "カジュアル",
     "standard": "スタンダード",
     "hard": "ハード",
-    "custom": "カスタム"
+    "custom": "カスタム",
+    "summary": "{{count}}問 / 1問{{seconds}}秒"
   },
   "result": {
     "title": "結果",

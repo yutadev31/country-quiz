@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { HiPlay } from "react-icons/hi2";
-import { LuBrain, LuFlame, LuGlobe, LuTimer } from "react-icons/lu";
+import { LuBrain, LuGlobe, LuTimer } from "react-icons/lu";
 
 import type { GameModeId } from "@/data/game-mode-types";
 import {
@@ -33,18 +33,18 @@ function RadioGroup({
   labelClassName?: string;
 }) {
   return (
-    <div className={containerClassName ?? "grid grid-cols-2 gap-4"}>
+    <div className={containerClassName ?? "grid grid-cols-2 gap-4 md:gap-5"}>
       {options.map(({ label, hiragana, value }) => (
         <label
           key={value}
-          className={`cursor-pointer rounded-xl border border-zinc-700 bg-zinc-800 p-4 transition has-checked:border-blue-400 has-checked:bg-blue-600 ${optionClassName ?? ""}`}
+          className={`flex min-h-11 min-w-0 cursor-pointer items-center rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-3 text-sm wrap-anywhere transition has-checked:border-blue-400 has-checked:bg-blue-600 has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-blue-300 md:px-4 md:py-4 md:text-lg ${optionClassName ?? ""}`}
         >
           <input
             type="radio"
             name={name}
             value={value}
             defaultChecked={value === defaultValue}
-            className="hidden"
+            className="sr-only"
           />
           <div className={`font-bold ${labelClassName ?? ""}`}>
             {label}
@@ -66,11 +66,11 @@ function SectionTitle({
   description?: string;
 }) {
   return (
-    <div className="mb-3 flex items-center gap-2">
+    <div className="mb-4 flex items-center gap-3">
       <Icon className="text-xl text-zinc-300" />
       <div>
-        <h2 className="text-lg font-bold">{title}</h2>
-        {description && <p className="text-sm text-zinc-400">{description}</p>}
+        <h2 className="text-base font-bold md:text-xl">{title}</h2>
+        {description && <p className="mt-1 text-sm text-zinc-400 md:text-base">{description}</p>}
       </div>
     </div>
   );
@@ -93,14 +93,14 @@ function ModeSection({
   );
 
   return (
-    <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
+    <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-5 md:p-6">
       <SectionTitle icon={LuGlobe} title={t("heading.mode")} description={t("description.mode")} />
 
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-5">
         {gameModeCategories.map((category) => (
           <label
             key={category.id}
-            className={`cursor-pointer rounded-xl border p-3 transition ${
+            className={`min-h-11 min-w-0 cursor-pointer rounded-lg border px-3 py-3 text-sm wrap-anywhere transition has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-blue-300 md:px-4 md:py-4 md:text-lg ${
               activeCategoryId === category.id
                 ? "border-blue-400 bg-blue-600"
                 : "border-zinc-700 bg-zinc-800"
@@ -112,42 +112,49 @@ function ModeSection({
               value={category.id}
               checked={activeCategoryId === category.id}
               onChange={() => onModeChange(category.modeIds[0])}
-              className="hidden"
+              className="sr-only"
             />
             <div className="font-bold">{t(`mode-category.${category.id}`)}</div>
           </label>
         ))}
       </div>
 
-      <div className="mt-4">
-        <p className="mb-2 text-sm text-zinc-400">{t("label.mode-detail")}</p>
+      {activeCategoryId === "countries" ? (
+        <input type="hidden" name="modeDetail" value={mode} />
+      ) : (
+        <div className="mt-6">
+          <p className="mb-3 text-sm text-zinc-400 md:text-base">{t("label.mode-detail")}</p>
 
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-          {visibleModes.map((gameMode) => (
-            <label
-              key={gameMode.id}
-              className={`cursor-pointer rounded-xl border p-4 transition ${
-                mode === gameMode.id ? "border-blue-400 bg-blue-600" : "border-zinc-700 bg-zinc-800"
-              }`}
-            >
-              <input
-                type="radio"
-                name="modeDetail"
-                value={gameMode.id}
-                checked={mode === gameMode.id}
-                onChange={() => onModeChange(gameMode.id)}
-                className="hidden"
-              />
-              <div className="text-lg font-bold">{t(gameMode.titleKey)}</div>
-            </label>
-          ))}
+          <div className="grid grid-cols-2 gap-4 md:gap-5">
+            {visibleModes.map((gameMode) => (
+              <label
+                key={gameMode.id}
+                className={`flex min-h-11 min-w-0 cursor-pointer items-center rounded-lg border px-3 py-3 text-sm wrap-anywhere transition has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-blue-300 md:px-4 md:py-4 md:text-lg ${
+                  mode === gameMode.id
+                    ? "border-blue-400 bg-blue-600"
+                    : "border-zinc-700 bg-zinc-800"
+                }`}
+              >
+                <input
+                  type="radio"
+                  name="modeDetail"
+                  value={gameMode.id}
+                  checked={mode === gameMode.id}
+                  onChange={() => onModeChange(gameMode.id)}
+                  className="sr-only"
+                />
+                <div className="font-bold">{t(gameMode.titleKey)}</div>
+              </label>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
     </section>
   );
 }
 
 function RuleSection() {
+  const [detailsOpen, setDetailsOpen] = useState(false);
   const [preset, setPreset] = useState("standard");
   const [count, setCount] = useState(10);
   const [timeLimit, setTimeLimit] = useState(10);
@@ -180,6 +187,7 @@ function RuleSection() {
 
   const handlePresetChange = (id: string) => {
     setPreset(id);
+    if (id === "custom") setDetailsOpen(true);
     const selected = rulePresets.find((p) => p.id === id);
     if (selected?.count) {
       setCount(selected.count);
@@ -188,14 +196,14 @@ function RuleSection() {
   };
 
   return (
-    <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
+    <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-5 md:p-6">
       <SectionTitle icon={LuTimer} title={t("heading.rule")} />
 
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-2 gap-4 md:gap-5">
         {rulePresets.map((p) => (
           <label
             key={p.id}
-            className={`cursor-pointer rounded-xl border p-3 transition ${
+            className={`min-h-11 min-w-0 cursor-pointer rounded-lg border px-3 py-3 text-sm wrap-anywhere transition has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-blue-300 md:px-4 md:py-4 md:text-lg ${
               preset === p.id ? "border-blue-400 bg-blue-600" : "border-zinc-700 bg-zinc-800"
             } `}
           >
@@ -205,53 +213,70 @@ function RuleSection() {
               value={p.id}
               checked={preset === p.id}
               onChange={() => handlePresetChange(p.id)}
-              className="hidden"
+              className="sr-only"
             />
             <div className="font-bold">{p.label}</div>
-            {"count" in p && (
-              <div className="mt-1 text-xs text-zinc-400">
-                {p.count}問 / {p.timeLimit}秒
-              </div>
-            )}
+            <div className="mt-1 text-xs text-zinc-200 md:text-sm">
+              {t("rule-preset.summary", {
+                count: p.count ?? count,
+                seconds: p.timeLimit ?? timeLimit,
+              })}
+            </div>
           </label>
         ))}
       </div>
 
-      <div className="mt-4 grid grid-cols-2 gap-4">
-        <div>
-          <label htmlFor="count" className="text-sm">
-            {t("label.number-of-questions")}
-          </label>
-          <input
-            type="number"
-            name="count"
-            id="count"
-            value={count}
-            onChange={(e) => {
-              setPreset("custom");
-              setCount(Number(e.target.value));
-            }}
-            className="mt-1 w-full rounded border border-zinc-700 bg-zinc-800 px-2 py-1"
-          />
-        </div>
+      <details
+        className="mt-6 border-t border-zinc-700 pt-5"
+        open={detailsOpen}
+        onToggle={(event) => setDetailsOpen(event.currentTarget.open)}
+      >
+        <summary className="min-h-11 cursor-pointer rounded text-sm font-bold focus-visible:outline-2 focus-visible:outline-blue-300 md:text-base">
+          {t("label.advanced-settings")}
+        </summary>
+        <div className="grid grid-cols-2 gap-4 md:gap-5">
+          <div>
+            <label htmlFor="count" className="text-sm md:text-base">
+              {t("label.number-of-questions")}
+            </label>
+            <input
+              type="number"
+              name="count"
+              id="count"
+              value={count}
+              onChange={(e) => {
+                setPreset("custom");
+                setCount(Number(e.target.value));
+              }}
+              className="mt-1 min-h-11 w-full min-w-0 rounded border border-zinc-700 bg-zinc-800 px-3 py-3 focus-visible:outline-2 focus-visible:outline-blue-300 md:px-4 md:py-4"
+            />
+          </div>
 
-        <div>
-          <label htmlFor="timeLimit" className="text-sm">
-            {t("label.time-limit")}
-          </label>
-          <input
-            type="number"
-            name="timeLimit"
-            id="timeLimit"
-            value={timeLimit}
-            onChange={(e) => {
-              setPreset("custom");
-              setTimeLimit(Number(e.target.value));
-            }}
-            className="mt-1 w-full rounded border border-zinc-700 bg-zinc-800 px-2 py-1"
-          />
+          <div>
+            <label htmlFor="timeLimit" className="text-sm md:text-base">
+              {t("label.time-limit")}
+            </label>
+            <input
+              type="number"
+              name="timeLimit"
+              id="timeLimit"
+              value={timeLimit}
+              onChange={(e) => {
+                setPreset("custom");
+                setTimeLimit(Number(e.target.value));
+              }}
+              className="mt-1 min-h-11 w-full min-w-0 rounded border border-zinc-700 bg-zinc-800 px-3 py-3 focus-visible:outline-2 focus-visible:outline-blue-300 md:px-4 md:py-4"
+            />
+          </div>
         </div>
-      </div>
+      </details>
+      <label className="mt-6 flex min-h-11 cursor-pointer items-center gap-3 border-t border-zinc-700 pt-5 text-sm md:text-base">
+        <input type="checkbox" name="oneShotMode" className="size-5 shrink-0 accent-blue-500" />
+        <span>
+          <span className="block font-bold">{t("heading.one-shot-mode")}</span>
+          <span className="text-zinc-400">{t("description.one-shot-mode")}</span>
+        </span>
+      </label>
     </section>
   );
 }
@@ -270,18 +295,20 @@ export default function GameLauncher() {
   }));
 
   return (
-    <form action="/country-quiz" className="space-y-6 py-4">
-      <h2 className="text-center text-2xl">{t("title")}</h2>
+    <form action="/country-quiz" className="space-y-6 py-4 md:space-y-8 md:py-6">
+      <header className="mb-6">
+        <h1 className="text-2xl font-bold md:text-3xl">{t("title")}</h1>
+      </header>
 
       <input type="hidden" name="page" value="game" />
       <input type="hidden" name="mode" value={mode} />
 
       <ModeSection mode={mode} onModeChange={setMode} />
 
-      <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-4">
+      <section className="rounded-xl border border-zinc-700 bg-zinc-900 p-5 md:p-6">
         <SectionTitle icon={LuBrain} title={t("heading.content")} />
 
-        <p className="mb-2 text-sm">{t("label.question-type")}</p>
+        <p className="mb-3 text-sm md:text-base">{t("label.question-type")}</p>
         <RadioGroup
           key={`question-${mode}`}
           name="question"
@@ -289,7 +316,7 @@ export default function GameLauncher() {
           options={questionOptions}
         />
 
-        <p className="mt-4 mb-2 text-sm">{t("label.choice-type")}</p>
+        <p className="mt-6 mb-3 text-sm md:text-base">{t("label.choice-type")}</p>
         <RadioGroup
           key={`choice-${mode}`}
           name="choice"
@@ -300,24 +327,15 @@ export default function GameLauncher() {
 
       <RuleSection />
 
-      <section className="rounded-xl border border-red-800 bg-red-950 p-4">
-        <div className="flex items-center gap-2">
-          <LuFlame className="text-xl text-red-400" />
-          <span className="font-bold text-red-300">{t("heading.one-shot-mode")}</span>
-        </div>
-        <label className="mt-3 flex items-center gap-3">
-          <input type="checkbox" name="oneShotMode" className="scale-125" />
-          <span className="text-sm text-red-200">{t("description.one-shot-mode")}</span>
-        </label>
-      </section>
-
-      <button
-        type="submit"
-        className="flex w-full items-center justify-center gap-2 rounded-xl bg-linear-to-r from-blue-500 to-cyan-500 px-6 py-3 text-lg font-bold transition hover:scale-[1.02] active:scale-[0.98]"
-      >
-        <HiPlay className="text-xl" />
-        {t("button.start")}
-      </button>
+      <div className="fixed inset-x-0 bottom-0 z-10 border-t border-zinc-700 bg-zinc-950 px-4 pt-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+        <button
+          type="submit"
+          className="mx-auto flex min-h-12 w-full max-w-lg items-center justify-center gap-2 rounded-xl bg-blue-600 px-6 py-4 text-base font-bold transition hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-300 md:max-w-2xl md:text-xl"
+        >
+          <HiPlay className="text-xl" />
+          {t("button.start")}
+        </button>
+      </div>
     </form>
   );
 }
