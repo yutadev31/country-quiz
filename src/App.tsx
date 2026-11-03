@@ -8,13 +8,14 @@ import StudyPage from "./pages/Study";
 export default function App() {
   const [page] = useQueryState("page");
 
-  if (page === "game") {
-    return <GamePage />;
-  } else if (page === "study") {
-    return <StudyPage />;
-  } else if (page === "notes") {
-    return <NotesPage />;
-  } else {
-    return <HomePage />;
+  switch (page) {
+    case "game":
+      return <GamePage />;
+    case "study":
+      return <StudyPage />;
+    case "notes":
+      return <NotesPage />;
+    default:
+      return <HomePage />;
   }
 }
