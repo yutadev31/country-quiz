@@ -81,10 +81,7 @@ function gameReducer<T extends Record<string, string | null>>(
       const selectedAnswer = action.type === "answer" ? action.selectedAnswer : null;
       return {
         ...state,
-        current:
-          action.stopOnMistake && !isCorrect
-            ? action.questionCount
-            : state.current + 1,
+        current: action.stopOnMistake && !isCorrect ? action.questionCount : state.current + 1,
         showResult: true,
         isCorrect,
         correct: action.question,
@@ -95,9 +92,7 @@ function gameReducer<T extends Record<string, string | null>>(
         correctCount: state.correctCount + (isCorrect ? 1 : 0),
         incorrectCount: state.incorrectCount + (isCorrect ? 0 : 1),
         timeLeft:
-          action.stopOnMistake && !isCorrect
-            ? state.timeLeft
-            : action.timeLimitSeconds || null,
+          action.stopOnMistake && !isCorrect ? state.timeLeft : action.timeLimitSeconds || null,
       };
     }
     case "clearResult":
@@ -295,11 +290,7 @@ export default function Game<T extends Record<string, string | null>>({
     });
   }, [questions, randomSeed, items, answerField, questionField]);
 
-  const [state, dispatch] = useReducer(
-    gameReducer<T>,
-    timeLimitSeconds,
-    createInitialGameState<T>,
-  );
+  const [state, dispatch] = useReducer(gameReducer<T>, timeLimitSeconds, createInitialGameState<T>);
   const {
     current,
     showResult,

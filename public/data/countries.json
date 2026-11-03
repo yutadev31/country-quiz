@@ -1,1912 +1,1857 @@
 [
-	{
-		"name": "アイスランド",
-		"capital": "レイキャヴィーク",
-		"continent": ["europe"],
-		"countryLabel_native": ["Ísland"],
-		"id": "is",
-		"domain": ".is",
-		"flag": "https:\/\/flagcdn.com\/is.svg"
-	},
-	{
-		"name": "アイルランド",
-		"capital": "ダブリン",
-		"continent": ["europe"],
-		"countryLabel_native": ["Ireland", "Éire"],
-		"id": "ie",
-		"domain": ".ie",
-		"flag": "https:\/\/flagcdn.com\/ie.svg"
-	},
-	{
-		"name": "アゼルバイジャン",
-		"capital": "バクー",
-		"continent": ["asia"],
-		"countryLabel_native": ["Azərbaycan", "Azərbaycan Respublikası"],
-		"id": "az",
-		"domain": ".az",
-		"flag": "https:\/\/flagcdn.com\/az.svg"
-	},
-	{
-		"name": "アフガニスタン",
-		"capital": "カーブル",
-		"continent": ["asia"],
-		"countryLabel_native": ["افغانستان"],
-		"id": "af",
-		"domain": ".af",
-		"flag": "https:\/\/flagcdn.com\/af.svg"
-	},
-	{
-		"name": "アメリカ合衆国",
-		"capital": "ワシントンD.C.",
-		"continent": ["north-america"],
-		"countryLabel_native": [
-			"United States of America",
-			"Estados Unidos de América",
-			"Estados Unidus",
-			"ᏌᏊᎢᏳᎾᎵᏍᏔᏅᏍᎦᏚᎩ ᎾᎿ ᎠᎺᏰᏟ",
-			"ʻAmelika Hui Pū ʻia",
-			"Tannapta Nunaat Amiarikami",
-			"Wááshindoon Bikéyah Ałhidadiidzooígíí",
-			"Iunaite Sitete o Amerika",
-			"Létaz-Ini d'Amérik"
-		],
-		"id": "us",
-		"domain": ".us",
-		"flag": "https:\/\/flagcdn.com\/us.svg"
-	},
-	{
-		"name": "アラブ首長国連邦",
-		"capital": "アブダビ",
-		"continent": ["asia"],
-		"countryLabel_native": ["الإِمَارات العربِيَّة المُتَّحِدة"],
-		"id": "ae",
-		"domain": ".ae",
-		"flag": "https:\/\/flagcdn.com\/ae.svg"
-	},
-	{
-		"name": "アルジェリア",
-		"capital": "アルジェ",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"الجزائر",
-			"الجمهورية الجزائرية الديمقراطية الشعبية"
-		],
-		"id": "dz",
-		"domain": ".dz",
-		"flag": "https:\/\/flagcdn.com\/dz.svg"
-	},
-	{
-		"name": "アルゼンチン",
-		"capital": "ブエノスアイレス",
-		"continent": ["south-america"],
-		"countryLabel_native": ["República Argentina"],
-		"id": "ar",
-		"domain": ".ar",
-		"flag": "https:\/\/flagcdn.com\/ar.svg"
-	},
-	{
-		"name": "アルバニア",
-		"capital": "ティラナ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Republika e Shqipërisë"],
-		"id": "al",
-		"domain": ".al",
-		"flag": "https:\/\/flagcdn.com\/al.svg"
-	},
-	{
-		"name": "アルメニア",
-		"capital": "イェレヴァン",
-		"continent": ["asia"],
-		"countryLabel_native": ["Հայաստան"],
-		"id": "am",
-		"domain": ".am",
-		"flag": "https:\/\/flagcdn.com\/am.svg"
-	},
-	{
-		"name": "アンゴラ",
-		"capital": "ルアンダ",
-		"continent": ["africa"],
-		"countryLabel_native": ["Angola", "República de Angola"],
-		"id": "ao",
-		"domain": ".ao",
-		"flag": "https:\/\/flagcdn.com\/ao.svg"
-	},
-	{
-		"name": "アンティグア・バーブーダ",
-		"capital": "セイント・ジョンズ",
-		"continent": ["north-america"],
-		"countryLabel_native": ["Antigua and Barbuda", "Aanteega an' Baabyuuda"],
-		"id": "ag",
-		"domain": ".ag",
-		"flag": "https:\/\/flagcdn.com\/ag.svg"
-	},
-	{
-		"name": "アンドラ",
-		"capital": "アンドラ・ラ・ベリャ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Andorra"],
-		"id": "ad",
-		"domain": ".ad",
-		"flag": "https:\/\/flagcdn.com\/ad.svg"
-	},
-	{
-		"name": "イエメン",
-		"capital": "サヌア,アデン",
-		"continent": ["asia"],
-		"countryLabel_native": ["الجمهوريّة اليمنية"],
-		"id": "ye",
-		"domain": ".ye",
-		"flag": "https:\/\/flagcdn.com\/ye.svg"
-	},
-	{
-		"name": "イギリス",
-		"capital": "ロンドン",
-		"continent": ["europe"],
-		"countryLabel_native": [
-			"United Kingdom of Great Britain and Northern Ireland"
-		],
-		"id": "gb",
-		"domain": ".uk",
-		"flag": "https:\/\/flagcdn.com\/gb.svg"
-	},
-	{
-		"name": "イスラエル",
-		"capital": "エルサレム",
-		"continent": ["asia"],
-		"countryLabel_native": ["دَوْلَة إِسْرَائِيل", "מְדִינַת יִשְׂרָאֵל"],
-		"id": "il",
-		"domain": ".il",
-		"flag": "https:\/\/flagcdn.com\/il.svg"
-	},
-	{
-		"name": "イタリア",
-		"capital": "ローマ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Italia", "Repubblica Italiana"],
-		"id": "it",
-		"domain": ".it",
-		"flag": "https:\/\/flagcdn.com\/it.svg"
-	},
-	{
-		"name": "イラク",
-		"capital": "バグダード",
-		"continent": ["asia"],
-		"countryLabel_native": [
-			"Iraq",
-			"العراق",
-			"جمهورية العراق",
-			"Republic of Iraq",
-			"Republik Iraq"
-		],
-		"id": "iq",
-		"domain": ".iq",
-		"flag": "https:\/\/flagcdn.com\/iq.svg"
-	},
-	{
-		"name": "イラン",
-		"capital": "テヘラン",
-		"continent": ["asia"],
-		"countryLabel_native": ["ایران"],
-		"id": "ir",
-		"domain": ".ir",
-		"flag": "https:\/\/flagcdn.com\/ir.svg"
-	},
-	{
-		"name": "インド",
-		"capital": "ニューデリー",
-		"continent": ["asia"],
-		"countryLabel_native": [
-			"भारत",
-			"ভারত",
-			"بھارت",
-			"ہندوستان",
-			"இந்தியா",
-			"ꠄꠘ꠆ꠒꠤꠀ"
-		],
-		"id": "in",
-		"domain": ".in",
-		"flag": "https:\/\/flagcdn.com\/in.svg"
-	},
-	{
-		"name": "インドネシア",
-		"capital": "ジャカルタ",
-		"continent": ["asia"],
-		"countryLabel_native": [
-			"Indonesia",
-			"Republic of Indonesia",
-			"Unitary State of the Republic of Indonesia",
-			"Negara Kesatuan Republik Indonesia",
-			"Republik Indonesia"
-		],
-		"id": "id",
-		"domain": ".id",
-		"flag": "https:\/\/flagcdn.com\/id.svg"
-	},
-	{
-		"name": "ウガンダ",
-		"capital": "カンパラ",
-		"continent": ["africa"],
-		"countryLabel_native": ["Republic of Uganda", "Jamhuri ya Uganda"],
-		"id": "ug",
-		"domain": ".ug",
-		"flag": "https:\/\/flagcdn.com\/ug.svg"
-	},
-	{
-		"name": "ウクライナ",
-		"capital": "キーウ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Україна"],
-		"id": "ua",
-		"domain": ".ua",
-		"flag": "https:\/\/flagcdn.com\/ua.svg"
-	},
-	{
-		"name": "ウズベキスタン",
-		"capital": "タシュケント",
-		"continent": ["asia"],
-		"countryLabel_native": ["Oʻzbekiston", "Oʻzbekiston Respublikasi"],
-		"id": "uz",
-		"domain": ".uz",
-		"flag": "https:\/\/flagcdn.com\/uz.svg"
-	},
-	{
-		"name": "ウルグアイ",
-		"capital": "モンテビデオ",
-		"continent": ["south-america"],
-		"countryLabel_native": ["República Oriental del Uruguay"],
-		"id": "uy",
-		"domain": ".uy",
-		"flag": "https:\/\/flagcdn.com\/uy.svg"
-	},
-	{
-		"name": "エクアドル",
-		"capital": "キト",
-		"continent": ["south-america"],
-		"countryLabel_native": ["República del Ecuador"],
-		"id": "ec",
-		"domain": ".ec",
-		"flag": "https:\/\/flagcdn.com\/ec.svg"
-	},
-	{
-		"name": "エジプト",
-		"capital": "カイロ",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"Egypt",
-			"مصر",
-			"Mesir",
-			"جُمهورِيّةُ مِصرَ العَرَبيّةِ",
-			"Arab Republic of Egypt",
-			"Republik Arab Mesir"
-		],
-		"id": "eg",
-		"domain": ".eg",
-		"flag": "https:\/\/flagcdn.com\/eg.svg"
-	},
-	{
-		"name": "エストニア",
-		"capital": "タリン",
-		"continent": ["europe"],
-		"countryLabel_native": ["Eesti Vabariik"],
-		"id": "ee",
-		"domain": ".ee",
-		"flag": "https:\/\/flagcdn.com\/ee.svg"
-	},
-	{
-		"name": "エスワティニ",
-		"capital": "ムババーネ,ロバンバ",
-		"continent": ["africa"],
-		"countryLabel_native": ["Umbuso weSwatini"],
-		"id": "sz",
-		"domain": ".sz",
-		"flag": "https:\/\/flagcdn.com\/sz.svg"
-	},
-	{
-		"name": "エチオピア",
-		"capital": "アディスアベバ",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",
-			"Federaalawaa Dimokraatawaa Repabliikii Itoophiyaa",
-			"ናይኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ",
-			"Toophphiya Federaalle Dimokkiraatike Ripaabilike"
-		],
-		"id": "et",
-		"domain": ".et",
-		"flag": "https:\/\/flagcdn.com\/et.svg"
-	},
-	{
-		"name": "エリトリア",
-		"capital": "アスマラ",
-		"continent": ["africa"],
-		"countryLabel_native": ["إرترة", "ኤርትራ"],
-		"id": "er",
-		"domain": ".er",
-		"flag": "https:\/\/flagcdn.com\/er.svg"
-	},
-	{
-		"name": "エルサルバドル",
-		"capital": "サンサルバドル",
-		"continent": ["north-america"],
-		"countryLabel_native": ["República de El Salvador"],
-		"id": "sv",
-		"domain": ".sv",
-		"flag": "https:\/\/flagcdn.com\/sv.svg"
-	},
-	{
-		"name": "オマーン",
-		"capital": "マスカット",
-		"continent": ["asia"],
-		"countryLabel_native": ["سلطنة عُمان"],
-		"id": "om",
-		"domain": ".om",
-		"flag": "https:\/\/flagcdn.com\/om.svg"
-	},
-	{
-		"name": "オランダ王国",
-		"capital": "アムステルダム",
-		"continent": ["europe"],
-		"countryLabel_native": ["Koninkrijk der Nederlanden"],
-		"id": "nl",
-		"domain": ".nl",
-		"flag": "https:\/\/flagcdn.com\/nl.svg"
-	},
-	{
-		"name": "オーストラリア",
-		"capital": "キャンベラ",
-		"continent": ["oceania"],
-		"countryLabel_native": ["Australia"],
-		"id": "au",
-		"domain": ".au",
-		"flag": "https:\/\/flagcdn.com\/au.svg"
-	},
-	{
-		"name": "オーストリア",
-		"capital": "ウィーン",
-		"continent": ["europe"],
-		"countryLabel_native": ["Österreich", "Republik Österreich"],
-		"id": "at",
-		"domain": ".at",
-		"flag": "https:\/\/flagcdn.com\/at.svg"
-	},
-	{
-		"name": "カザフスタン",
-		"capital": "アスタナ",
-		"continent": ["europe", "asia"],
-		"countryLabel_native": ["Қазақстан", "قزاقستان", "Қазақстан Республикасы"],
-		"id": "kz",
-		"domain": ".kz",
-		"flag": "https:\/\/flagcdn.com\/kz.svg"
-	},
-	{
-		"name": "カナダ",
-		"capital": "オタワ",
-		"continent": ["north-america"],
-		"countryLabel_native": ["Canada"],
-		"id": "ca",
-		"domain": ".ca",
-		"flag": "https:\/\/flagcdn.com\/ca.svg"
-	},
-	{
-		"name": "カメルーン",
-		"capital": "ヤウンデ",
-		"continent": ["africa"],
-		"countryLabel_native": ["République du Cameroun"],
-		"id": "cm",
-		"domain": ".cm",
-		"flag": "https:\/\/flagcdn.com\/cm.svg"
-	},
-	{
-		"name": "カンボジア",
-		"capital": "プノンペン",
-		"continent": ["asia"],
-		"countryLabel_native": ["កម្ពុជា"],
-		"id": "kh",
-		"domain": ".kh",
-		"flag": "https:\/\/flagcdn.com\/kh.svg"
-	},
-	{
-		"name": "カーボベルデ",
-		"capital": "プライア",
-		"continent": ["africa"],
-		"countryLabel_native": ["República de Cabo Verde"],
-		"id": "cv",
-		"domain": ".cv",
-		"flag": "https:\/\/flagcdn.com\/cv.svg"
-	},
-	{
-		"name": "ガイアナ",
-		"capital": "ジョージタウン",
-		"continent": ["south-america"],
-		"countryLabel_native": ["Co-operative Republic of Guyana"],
-		"id": "gy",
-		"domain": ".gy",
-		"flag": "https:\/\/flagcdn.com\/gy.svg"
-	},
-	{
-		"name": "ガボン",
-		"capital": "リーブルヴィル",
-		"continent": ["africa"],
-		"countryLabel_native": ["République gabonaise"],
-		"id": "ga",
-		"domain": ".ga",
-		"flag": "https:\/\/flagcdn.com\/ga.svg"
-	},
-	{
-		"name": "ガンビア",
-		"capital": "バンジュール",
-		"continent": ["africa"],
-		"countryLabel_native": ["Republic of The Gambia"],
-		"id": "gm",
-		"domain": ".gm",
-		"flag": "https:\/\/flagcdn.com\/gm.svg"
-	},
-	{
-		"name": "ガーナ",
-		"capital": "アクラ",
-		"continent": ["africa"],
-		"countryLabel_native": ["Ghana", "Gana", "Gaana"],
-		"id": "gh",
-		"domain": ".gh",
-		"flag": "https:\/\/flagcdn.com\/gh.svg"
-	},
-	{
-		"name": "キプロス",
-		"capital": "ニコシア",
-		"continent": ["europe"],
-		"countryLabel_native": ["Κυπριακή Δημοκρατία", "Kıbrıs Cumhuriyeti"],
-		"id": "cy",
-		"domain": ".cy",
-		"flag": "https:\/\/flagcdn.com\/cy.svg"
-	},
-	{
-		"name": "キューバ",
-		"capital": "ハバナ",
-		"continent": ["north-america"],
-		"countryLabel_native": ["República de Cuba"],
-		"id": "cu",
-		"domain": ".cu",
-		"flag": "https:\/\/flagcdn.com\/cu.svg"
-	},
-	{
-		"name": "キリバス",
-		"capital": "サウス・タラワ",
-		"continent": ["oceania"],
-		"countryLabel_native": ["Ribaberiki ni Kiribati"],
-		"id": "ki",
-		"domain": ".ki",
-		"flag": "https:\/\/flagcdn.com\/ki.svg"
-	},
-	{
-		"name": "キルギス",
-		"capital": "ビシュケク",
-		"continent": ["asia"],
-		"countryLabel_native": ["Кыргызстан"],
-		"id": "kg",
-		"domain": ".kg",
-		"flag": "https:\/\/flagcdn.com\/kg.svg"
-	},
-	{
-		"name": "ギニア",
-		"capital": "コナクリ",
-		"continent": ["africa"],
-		"countryLabel_native": ["République de Guinée"],
-		"id": "gn",
-		"domain": ".gn",
-		"flag": "https:\/\/flagcdn.com\/gn.svg"
-	},
-	{
-		"name": "ギニアビサウ共和国",
-		"capital": "ビサウ",
-		"continent": ["africa"],
-		"countryLabel_native": ["República da Guiné-Bissau"],
-		"id": "gw",
-		"domain": ".gw",
-		"flag": "https:\/\/flagcdn.com\/gw.svg"
-	},
-	{
-		"name": "ギリシャ",
-		"capital": "アテネ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Ελλάδα", "Ελληνική Δημοκρατία", "Ελλάς"],
-		"id": "gr",
-		"domain": ".gr",
-		"flag": "https:\/\/flagcdn.com\/gr.svg"
-	},
-	{
-		"name": "クウェート",
-		"capital": "クウェート市",
-		"continent": ["asia"],
-		"countryLabel_native": ["الكويت"],
-		"id": "kw",
-		"domain": ".kw",
-		"flag": "https:\/\/flagcdn.com\/kw.svg"
-	},
-	{
-		"name": "クロアチア",
-		"capital": "ザグレブ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Hrvatska"],
-		"id": "hr",
-		"domain": ".hr",
-		"flag": "https:\/\/flagcdn.com\/hr.svg"
-	},
-	{
-		"name": "グアテマラ",
-		"capital": "グアテマラシティ",
-		"continent": ["north-america"],
-		"countryLabel_native": ["República de Guatemala"],
-		"id": "gt",
-		"domain": ".gt",
-		"flag": "https:\/\/flagcdn.com\/gt.svg"
-	},
-	{
-		"name": "グレナダ",
-		"capital": "セントジョージズ",
-		"continent": ["north-america"],
-		"countryLabel_native": ["State of Grenada"],
-		"id": "gd",
-		"domain": ".gd",
-		"flag": "https:\/\/flagcdn.com\/gd.svg"
-	},
-	{
-		"name": "ケニア",
-		"capital": "ナイロビ",
-		"continent": ["africa"],
-		"countryLabel_native": ["Republic of Kenya"],
-		"id": "ke",
-		"domain": ".ke",
-		"flag": "https:\/\/flagcdn.com\/ke.svg"
-	},
-	{
-		"name": "コスタリカ",
-		"capital": "サンホセ",
-		"continent": ["north-america"],
-		"countryLabel_native": ["República de Costa Rica"],
-		"id": "cr",
-		"domain": ".cr",
-		"flag": "https:\/\/flagcdn.com\/cr.svg"
-	},
-	{
-		"name": "コモロ",
-		"capital": "モロニ",
-		"continent": ["africa"],
-		"countryLabel_native": ["الاتحاد القمري", "Union des Comores"],
-		"id": "km",
-		"domain": ".km",
-		"flag": "https:\/\/flagcdn.com\/km.svg"
-	},
-	{
-		"name": "コロンビア",
-		"capital": "ボゴタ",
-		"continent": ["south-america"],
-		"countryLabel_native": ["Colombia"],
-		"id": "co",
-		"domain": ".co",
-		"flag": "https:\/\/flagcdn.com\/co.svg"
-	},
-	{
-		"name": "コンゴ共和国",
-		"capital": "ブラザヴィル",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"République du Congo",
-			"Repubilika ya Kongo",
-			"Republíki ya Kongó"
-		],
-		"id": "cg",
-		"domain": ".cg",
-		"flag": "https:\/\/flagcdn.com\/cg.svg"
-	},
-	{
-		"name": "コンゴ民主共和国",
-		"capital": "キンシャサ",
-		"continent": ["africa"],
-		"countryLabel_native": ["République démocratique du Congo"],
-		"id": "cd",
-		"domain": ".cd",
-		"flag": "https:\/\/flagcdn.com\/cd.svg"
-	},
-	{
-		"name": "コートジボワール",
-		"capital": "ヤムスクロ",
-		"continent": ["africa"],
-		"countryLabel_native": ["République de Côte d'Ivoire"],
-		"id": "ci",
-		"domain": ".ci",
-		"flag": "https:\/\/flagcdn.com\/ci.svg"
-	},
-	{
-		"name": "サウジアラビア",
-		"capital": "リヤド",
-		"continent": ["asia"],
-		"countryLabel_native": [
-			"Saudi Arabia",
-			"Kingdom of Saudi Arabia",
-			"السعودية",
-			"المملكة العربية السعودية",
-			"Arab Saudi",
-			"Kerajaan Arab Saudi"
-		],
-		"id": "sa",
-		"domain": ".sa",
-		"flag": "https:\/\/flagcdn.com\/sa.svg"
-	},
-	{
-		"name": "サモア",
-		"capital": "アピア",
-		"continent": ["oceania"],
-		"countryLabel_native": [
-			"Western Samoa",
-			"Independent State of Samoa",
-			"Malo Sa’oloto Tuto’atasi o Samoa",
-			"Sāmoa"
-		],
-		"id": "ws",
-		"domain": ".ws",
-		"flag": "https:\/\/flagcdn.com\/ws.svg"
-	},
-	{
-		"name": "サントメ・プリンシペ",
-		"capital": "サントメ",
-		"continent": ["africa"],
-		"countryLabel_native": ["República Democrática de São Tomé e Príncipe"],
-		"id": "st",
-		"domain": ".st",
-		"flag": "https:\/\/flagcdn.com\/st.svg"
-	},
-	{
-		"name": "サンマリノ",
-		"capital": "サンマリノ市",
-		"continent": ["europe"],
-		"countryLabel_native": ["San Marco", "Repubblica di San Marino"],
-		"id": "sm",
-		"domain": ".sm",
-		"flag": "https:\/\/flagcdn.com\/sm.svg"
-	},
-	{
-		"name": "ザンビア",
-		"capital": "ルサカ",
-		"continent": ["africa"],
-		"countryLabel_native": ["Republic of Zambia"],
-		"id": "zm",
-		"domain": ".zm",
-		"flag": "https:\/\/flagcdn.com\/zm.svg"
-	},
-	{
-		"name": "シエラレオネ",
-		"capital": "フリータウン",
-		"continent": ["africa"],
-		"countryLabel_native": ["Republic of Sierra Leone"],
-		"id": "sl",
-		"domain": ".sl",
-		"flag": "https:\/\/flagcdn.com\/sl.svg"
-	},
-	{
-		"name": "シリア",
-		"capital": "ダマスカス",
-		"continent": ["asia"],
-		"countryLabel_native": [
-			"الجمهورية العربية السورية",
-			"سوريا",
-			"Komara Erebî ya Sûriyê"
-		],
-		"id": "sy",
-		"domain": ".sy",
-		"flag": "https:\/\/flagcdn.com\/sy.svg"
-	},
-	{
-		"name": "シンガポール",
-		"capital": "シンガポール",
-		"continent": ["asia"],
-		"countryLabel_native": [
-			"Republic of Singapore",
-			"Republik Singapura",
-			"சிங்கப்பூர் குடியரசு",
-			"新加坡共和国"
-		],
-		"id": "sg",
-		"domain": ".sg",
-		"flag": "https:\/\/flagcdn.com\/sg.svg"
-	},
-	{
-		"name": "ジブチ",
-		"capital": "ジブチ市",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"Jabuuti",
-			"جمهورية جيبوتي",
-			"République de Djibouti"
-		],
-		"id": "dj",
-		"domain": ".dj",
-		"flag": "https:\/\/flagcdn.com\/dj.svg"
-	},
-	{
-		"name": "ジャマイカ",
-		"capital": "キングストン",
-		"continent": ["north-america"],
-		"countryLabel_native": ["Jamaica", "Jumieka", "Xaymaca", "Yamaye"],
-		"id": "jm",
-		"domain": ".jm",
-		"flag": "https:\/\/flagcdn.com\/jm.svg"
-	},
-	{
-		"name": "ジョージア",
-		"capital": "トビリシ",
-		"continent": ["europe"],
-		"countryLabel_native": ["საქართველო"],
-		"id": "ge",
-		"domain": ".ge",
-		"flag": "https:\/\/flagcdn.com\/ge.svg"
-	},
-	{
-		"name": "ジンバブエ",
-		"capital": "ハラレ",
-		"continent": ["africa"],
-		"countryLabel_native": ["Zimbabwe"],
-		"id": "zw",
-		"domain": ".zw",
-		"flag": "https:\/\/flagcdn.com\/zw.svg"
-	},
-	{
-		"name": "スイス",
-		"capital": "ベルン",
-		"continent": ["europe"],
-		"countryLabel_native": [
-			"Schweizerische Eidgenossenschaft",
-			"Confédération suisse",
-			"Confederazione Svizzera",
-			"Confederaziun svizra"
-		],
-		"id": "ch",
-		"domain": ".ch",
-		"flag": "https:\/\/flagcdn.com\/ch.svg"
-	},
-	{
-		"name": "スウェーデン",
-		"capital": "ストックホルム",
-		"continent": ["europe"],
-		"countryLabel_native": ["Sverige"],
-		"id": "se",
-		"domain": ".se",
-		"flag": "https:\/\/flagcdn.com\/se.svg"
-	},
-	{
-		"name": "スペイン王国",
-		"capital": "マドリード",
-		"continent": ["europe"],
-		"countryLabel_native": ["Reino de España"],
-		"id": "es",
-		"domain": ".es",
-		"flag": "https:\/\/flagcdn.com\/es.svg"
-	},
-	{
-		"name": "スリナム",
-		"capital": "パラマリボ",
-		"continent": ["south-america"],
-		"countryLabel_native": ["Republiek Suriname", "Ripoliku Sranan"],
-		"id": "sr",
-		"domain": ".sr",
-		"flag": "https:\/\/flagcdn.com\/sr.svg"
-	},
-	{
-		"name": "スリランカ",
-		"capital": "コロンボ,スリジャヤワルダナプラコッテ",
-		"continent": ["asia"],
-		"countryLabel_native": [
-			"ශ්රී ලංකා ප්රජාතාන්ත්රික සමාජවාදී ජනරජය",
-			"ශ්රී ලංකාව",
-			"இலங்கை சனநாயக சோசலிசக் குடியரசு"
-		],
-		"id": "lk",
-		"domain": ".lk",
-		"flag": "https:\/\/flagcdn.com\/lk.svg"
-	},
-	{
-		"name": "スロバキア",
-		"capital": "ブラチスラヴァ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Slovenská republika"],
-		"id": "sk",
-		"domain": ".sk",
-		"flag": "https:\/\/flagcdn.com\/sk.svg"
-	},
-	{
-		"name": "スロベニア",
-		"capital": "リュブリャナ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Slovenija"],
-		"id": "si",
-		"domain": ".si",
-		"flag": "https:\/\/flagcdn.com\/si.svg"
-	},
-	{
-		"name": "スーダン",
-		"capital": "ハルツーム",
-		"continent": ["africa"],
-		"countryLabel_native": ["السودان", "جمهورية السودان"],
-		"id": "sd",
-		"domain": ".sd",
-		"flag": "https:\/\/flagcdn.com\/sd.svg"
-	},
-	{
-		"name": "セネガル",
-		"capital": "ダカール",
-		"continent": ["africa"],
-		"countryLabel_native": ["Senegaal"],
-		"id": "sn",
-		"domain": ".sn",
-		"flag": "https:\/\/flagcdn.com\/sn.svg"
-	},
-	{
-		"name": "セルビア",
-		"capital": "ベオグラード",
-		"continent": ["europe"],
-		"countryLabel_native": ["Србија"],
-		"id": "rs",
-		"domain": ".rs",
-		"flag": "https:\/\/flagcdn.com\/rs.svg"
-	},
-	{
-		"name": "セントクリストファー・ネイビス",
-		"capital": "バセテール",
-		"continent": ["north-america"],
-		"countryLabel_native": ["Federation of Saint Kitts and Nevis"],
-		"id": "kn",
-		"domain": ".kn",
-		"flag": "https:\/\/flagcdn.com\/kn.svg"
-	},
-	{
-		"name": "セントビンセント・グレナディーン",
-		"capital": "キングスタウン",
-		"continent": ["north-america"],
-		"countryLabel_native": ["Saint Vincent and the Grenadines"],
-		"id": "vc",
-		"domain": ".vc",
-		"flag": "https:\/\/flagcdn.com\/vc.svg"
-	},
-	{
-		"name": "セントルシア",
-		"capital": "カストリーズ",
-		"continent": ["north-america"],
-		"countryLabel_native": ["Saint Lucia"],
-		"id": "lc",
-		"domain": ".lc",
-		"flag": "https:\/\/flagcdn.com\/lc.svg"
-	},
-	{
-		"name": "セーシェル",
-		"capital": "ヴィクトリア",
-		"continent": ["africa"],
-		"countryLabel_native": ["République des Seychelles"],
-		"id": "sc",
-		"domain": ".sc",
-		"flag": "https:\/\/flagcdn.com\/sc.svg"
-	},
-	{
-		"name": "ソマリア",
-		"capital": "モガディシュ",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"جمهورية الصومال الفدرالية",
-			"Jamhuuriyadda Federaalka Soomaaliya",
-			"Soomaaliya",
-			"𐒈𐒝𐒑𐒛𐒐𐒘𐒕𐒖"
-		],
-		"id": "so",
-		"domain": ".so",
-		"flag": "https:\/\/flagcdn.com\/so.svg"
-	},
-	{
-		"name": "ソロモン諸島",
-		"capital": "ホニアラ",
-		"continent": ["oceania"],
-		"countryLabel_native": ["Solomon Islands"],
-		"id": "sb",
-		"domain": ".sb",
-		"flag": "https:\/\/flagcdn.com\/sb.svg"
-	},
-	{
-		"name": "タイ王国",
-		"capital": "バンコク",
-		"continent": ["asia"],
-		"countryLabel_native": ["ราชอาณาจักรไทย"],
-		"id": "th",
-		"domain": ".th",
-		"flag": "https:\/\/flagcdn.com\/th.svg"
-	},
-	{
-		"name": "タジキスタン",
-		"capital": "ドゥシャンベ",
-		"continent": ["asia"],
-		"countryLabel_native": ["Тоҷикистон", "Ҷумҳурии Тоҷикистон"],
-		"id": "tj",
-		"domain": ".tj",
-		"flag": "https:\/\/flagcdn.com\/tj.svg"
-	},
-	{
-		"name": "タンザニア",
-		"capital": "ドドマ",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"United Republic of Tanzania",
-			"Jamhuri ya Muungano wa Tanzania"
-		],
-		"id": "tz",
-		"domain": ".tz",
-		"flag": "https:\/\/flagcdn.com\/tz.svg"
-	},
-	{
-		"name": "チェコ共和国",
-		"capital": "プラハ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Česko", "Česká republika"],
-		"id": "cz",
-		"domain": ".cz",
-		"flag": "https:\/\/flagcdn.com\/cz.svg"
-	},
-	{
-		"name": "チャド",
-		"capital": "ンジャメナ",
-		"continent": ["africa"],
-		"countryLabel_native": ["جُمْهُورِيَّة تشاد", "République du Tchad"],
-		"id": "td",
-		"domain": ".td",
-		"flag": "https:\/\/flagcdn.com\/td.svg"
-	},
-	{
-		"name": "チュニジア",
-		"capital": "チュニス",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"Tunisia",
-			"تونس",
-			"الجمهورية التونسية",
-			"Republic of Tunisia",
-			"Republik Tunisia"
-		],
-		"id": "tn",
-		"domain": ".tn",
-		"flag": "https:\/\/flagcdn.com\/tn.svg"
-	},
-	{
-		"name": "チリ",
-		"capital": "サンティアゴ",
-		"continent": ["south-america"],
-		"countryLabel_native": ["Chile", "República de Chile"],
-		"id": "cl",
-		"domain": ".cl",
-		"flag": "https:\/\/flagcdn.com\/cl.svg"
-	},
-	{
-		"name": "トリニダード・トバゴ",
-		"capital": "ポートオブスペイン",
-		"continent": ["north-america"],
-		"countryLabel_native": ["Republic of Trinidad and Tobago"],
-		"id": "tt",
-		"domain": ".tt",
-		"flag": "https:\/\/flagcdn.com\/tt.svg"
-	},
-	{
-		"name": "トルクメニスタン",
-		"capital": "アシガバート",
-		"continent": ["asia"],
-		"countryLabel_native": ["Türkmenistan", "Türkmenistan Respublikasi"],
-		"id": "tm",
-		"domain": ".tm",
-		"flag": "https:\/\/flagcdn.com\/tm.svg"
-	},
-	{
-		"name": "トルコ",
-		"capital": "アンカラ",
-		"continent": ["europe", "asia"],
-		"countryLabel_native": ["Türkiye", "Türkiye Cumhuriyeti"],
-		"id": "tr",
-		"domain": ".tr",
-		"flag": "https:\/\/flagcdn.com\/tr.svg"
-	},
-	{
-		"name": "トンガ",
-		"capital": "ヌクアロファ",
-		"continent": ["oceania"],
-		"countryLabel_native": ["Tonga"],
-		"id": "to",
-		"domain": ".to",
-		"flag": "https:\/\/flagcdn.com\/to.svg"
-	},
-	{
-		"name": "トーゴ",
-		"capital": "ロメ",
-		"continent": ["africa"],
-		"countryLabel_native": ["Togo"],
-		"id": "tg",
-		"domain": ".tg",
-		"flag": "https:\/\/flagcdn.com\/tg.svg"
-	},
-	{
-		"name": "ドイツ",
-		"capital": "ベルリン",
-		"continent": ["europe"],
-		"countryLabel_native": ["Deutschland", "Bundesrepublik Deutschland"],
-		"id": "de",
-		"domain": ".de",
-		"flag": "https:\/\/flagcdn.com\/de.svg"
-	},
-	{
-		"name": "ドミニカ共和国",
-		"capital": "サント・ドミンゴ",
-		"continent": ["north-america"],
-		"countryLabel_native": ["República Dominicana"],
-		"id": "do",
-		"domain": ".do",
-		"flag": "https:\/\/flagcdn.com\/do.svg"
-	},
-	{
-		"name": "ドミニカ国",
-		"capital": "ロゾー",
-		"continent": ["north-america"],
-		"countryLabel_native": [
-			"Commonwealth of Dominica",
-			"Commonwealth Dominica"
-		],
-		"id": "dm",
-		"domain": ".dm",
-		"flag": "https:\/\/flagcdn.com\/dm.svg"
-	},
-	{
-		"name": "ナイジェリア",
-		"capital": "アブジャ",
-		"continent": ["africa"],
-		"countryLabel_native": ["Nijeriya", "Naigeria", "Nàìjíríà"],
-		"id": "ng",
-		"domain": ".ng",
-		"flag": "https:\/\/flagcdn.com\/ng.svg"
-	},
-	{
-		"name": "ナウル",
-		"capital": "ヤレン地区",
-		"continent": ["oceania"],
-		"countryLabel_native": ["Naoero", "Ripublik Naoero"],
-		"id": "nr",
-		"domain": ".nr",
-		"flag": "https:\/\/flagcdn.com\/nr.svg"
-	},
-	{
-		"name": "ナミビア",
-		"capital": "ウィントフック",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"Republiek van Namibië",
-			"Republik Namibia",
-			"Republic of Namibia"
-		],
-		"id": "na",
-		"domain": ".na",
-		"flag": "https:\/\/flagcdn.com\/na.svg"
-	},
-	{
-		"name": "ニカラグア",
-		"capital": "マナグア",
-		"continent": ["north-america"],
-		"countryLabel_native": ["República de Nicaragua"],
-		"id": "ni",
-		"domain": ".ni",
-		"flag": "https:\/\/flagcdn.com\/ni.svg"
-	},
-	{
-		"name": "ニジェール",
-		"capital": "ニアメ",
-		"continent": ["africa"],
-		"countryLabel_native": ["Nijar"],
-		"id": "ne",
-		"domain": ".ne",
-		"flag": "https:\/\/flagcdn.com\/ne.svg"
-	},
-	{
-		"name": "ニュージーランド",
-		"capital": "ウェリントン",
-		"continent": ["oceania"],
-		"countryLabel_native": ["Aotearoa"],
-		"id": "nz",
-		"domain": ".nz",
-		"flag": "https:\/\/flagcdn.com\/nz.svg"
-	},
-	{
-		"name": "ネパール",
-		"capital": "カトマンズ",
-		"continent": ["asia"],
-		"countryLabel_native": ["नेपाल"],
-		"id": "np",
-		"domain": ".np",
-		"flag": "https:\/\/flagcdn.com\/np.svg"
-	},
-	{
-		"name": "ノルウェー王国",
-		"capital": "オスロ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Kongeriket Norge", "Kongeriket Noreg"],
-		"id": "no",
-		"domain": ".no",
-		"flag": "https:\/\/flagcdn.com\/no.svg"
-	},
-	{
-		"name": "ハイチ",
-		"capital": "ポルトープランス",
-		"continent": ["north-america"],
-		"countryLabel_native": ["Ayiti"],
-		"id": "ht",
-		"domain": ".ht",
-		"flag": "https:\/\/flagcdn.com\/ht.svg"
-	},
-	{
-		"name": "ハンガリー",
-		"capital": "ブダペスト",
-		"continent": ["europe"],
-		"countryLabel_native": ["Magyarország"],
-		"id": "hu",
-		"domain": ".hu",
-		"flag": "https:\/\/flagcdn.com\/hu.svg"
-	},
-	{
-		"name": "バチカン",
-		"capital": "バチカン",
-		"continent": ["europe"],
-		"countryLabel_native": ["Civitas Vaticana"],
-		"id": "va",
-		"domain": ".va",
-		"flag": "https:\/\/flagcdn.com\/va.svg"
-	},
-	{
-		"name": "バヌアツ",
-		"capital": "ポートビラ",
-		"continent": ["oceania"],
-		"countryLabel_native": [
-			"Ripablik blong Vanuatu",
-			"Vanuatu",
-			"Republic of Vanuatu",
-			"République du Vanuatu"
-		],
-		"id": "vu",
-		"domain": ".vu",
-		"flag": "https:\/\/flagcdn.com\/vu.svg"
-	},
-	{
-		"name": "バハマ",
-		"capital": "ナッソー",
-		"continent": ["north-america"],
-		"countryLabel_native": ["Commonwealth of the Bahamas"],
-		"id": "bs",
-		"domain": ".bs",
-		"flag": "https:\/\/flagcdn.com\/bs.svg"
-	},
-	{
-		"name": "バルバドス",
-		"capital": "ブリッジタウン",
-		"continent": ["north-america"],
-		"countryLabel_native": ["Barbados"],
-		"id": "bb",
-		"domain": ".bb",
-		"flag": "https:\/\/flagcdn.com\/bb.svg"
-	},
-	{
-		"name": "バングラデシュ",
-		"capital": "ダッカ",
-		"continent": ["asia"],
-		"countryLabel_native": ["বাংলাদেশ", "গণপ্রজাতন্ত্রী বাংলাদেশ"],
-		"id": "bd",
-		"domain": ".bd",
-		"flag": "https:\/\/flagcdn.com\/bd.svg"
-	},
-	{
-		"name": "パキスタン",
-		"capital": "イスラマバード",
-		"continent": ["asia"],
-		"countryLabel_native": [
-			"Pakistan",
-			"پاکستان",
-			"Pákistán",
-			"پٲکِستان",
-			"پاڪستان"
-		],
-		"id": "pk",
-		"domain": ".pk",
-		"flag": "https:\/\/flagcdn.com\/pk.svg"
-	},
-	{
-		"name": "パナマ",
-		"capital": "パナマ市",
-		"continent": ["north-america"],
-		"countryLabel_native": ["República de Panamá"],
-		"id": "pa",
-		"domain": ".pa",
-		"flag": "https:\/\/flagcdn.com\/pa.svg"
-	},
-	{
-		"name": "パプアニューギニア",
-		"capital": "ポートモレスビー",
-		"continent": ["oceania"],
-		"countryLabel_native": [
-			"Independent State of Papua New Guinea",
-			"Independen Stet bilong Papua Niugini"
-		],
-		"id": "pg",
-		"domain": ".pg",
-		"flag": "https:\/\/flagcdn.com\/pg.svg"
-	},
-	{
-		"name": "パラオ",
-		"capital": "ンゲルルムッド",
-		"continent": ["oceania"],
-		"countryLabel_native": ["Republic of Palau", "Belau"],
-		"id": "pw",
-		"domain": ".pw",
-		"flag": "https:\/\/flagcdn.com\/pw.svg"
-	},
-	{
-		"name": "パラグアイ",
-		"capital": "アスンシオン",
-		"continent": ["south-america"],
-		"countryLabel_native": ["República del Paraguay", "Paraguái Tavakuairetã"],
-		"id": "py",
-		"domain": ".py",
-		"flag": "https:\/\/flagcdn.com\/py.svg"
-	},
-	{
-		"name": "パレスチナ国",
-		"capital": "ラマッラー,エルサレム",
-		"continent": ["asia"],
-		"countryLabel_native": ["دولة فلسطين"],
-		"id": "ps",
-		"domain": ".ps",
-		"flag": "https:\/\/flagcdn.com\/ps.svg"
-	},
-	{
-		"name": "フィジー",
-		"capital": "スバ",
-		"continent": ["oceania"],
-		"countryLabel_native": [
-			"Viti",
-			"Republic of Fiji",
-			"Matanitu Tugalala o Viti",
-			"Fidźi Ganaradźja"
-		],
-		"id": "fj",
-		"domain": ".fj",
-		"flag": "https:\/\/flagcdn.com\/fj.svg"
-	},
-	{
-		"name": "フィリピン",
-		"capital": "マニラ",
-		"continent": ["asia"],
-		"countryLabel_native": ["Philippines", "Pilipinas"],
-		"id": "ph",
-		"domain": ".ph",
-		"flag": "https:\/\/flagcdn.com\/ph.svg"
-	},
-	{
-		"name": "フィンランド",
-		"capital": "ヘルシンキ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Finland", "Suomi"],
-		"id": "fi",
-		"domain": ".fi",
-		"flag": "https:\/\/flagcdn.com\/fi.svg"
-	},
-	{
-		"name": "フランス",
-		"capital": "パリ",
-		"continent": ["europe"],
-		"countryLabel_native": ["France", "République française"],
-		"id": "fr",
-		"domain": ".fr",
-		"flag": "https:\/\/flagcdn.com\/fr.svg"
-	},
-	{
-		"name": "ブラジル",
-		"capital": "ブラジリア",
-		"continent": ["south-america"],
-		"countryLabel_native": ["República Federativa do Brasil"],
-		"id": "br",
-		"domain": ".br",
-		"flag": "https:\/\/flagcdn.com\/br.svg"
-	},
-	{
-		"name": "ブルガリア",
-		"capital": "ソフィア",
-		"continent": ["europe"],
-		"countryLabel_native": ["България"],
-		"id": "bg",
-		"domain": ".bg",
-		"flag": "https:\/\/flagcdn.com\/bg.svg"
-	},
-	{
-		"name": "ブルキナファソ",
-		"capital": "ワガドゥグー",
-		"continent": ["africa"],
-		"countryLabel_native": ["Burkina Faso"],
-		"id": "bf",
-		"domain": ".bf",
-		"flag": "https:\/\/flagcdn.com\/bf.svg"
-	},
-	{
-		"name": "ブルネイ",
-		"capital": "バンダルスリブガワン",
-		"continent": ["asia"],
-		"countryLabel_native": ["Brunei Darussalam", "Negara Brunei Darussalam"],
-		"id": "bn",
-		"domain": ".bn",
-		"flag": "https:\/\/flagcdn.com\/bn.svg"
-	},
-	{
-		"name": "ブルンジ",
-		"capital": "ギテガ",
-		"continent": ["africa"],
-		"countryLabel_native": ["Uburundi"],
-		"id": "bi",
-		"domain": ".bi",
-		"flag": "https:\/\/flagcdn.com\/bi.svg"
-	},
-	{
-		"name": "ベトナム",
-		"capital": "ハノイ",
-		"continent": ["asia"],
-		"countryLabel_native": ["Việt Nam"],
-		"id": "vn",
-		"domain": ".vn",
-		"flag": "https:\/\/flagcdn.com\/vn.svg"
-	},
-	{
-		"name": "ベネズエラ",
-		"capital": "カラカス",
-		"continent": ["south-america"],
-		"countryLabel_native": ["Venezuela"],
-		"id": "ve",
-		"domain": ".ve",
-		"flag": "https:\/\/flagcdn.com\/ve.svg"
-	},
-	{
-		"name": "ベラルーシ",
-		"capital": "ミンスク",
-		"continent": ["europe"],
-		"countryLabel_native": ["Беларусь", "Рэспубліка Беларусь"],
-		"id": "by",
-		"domain": ".by",
-		"flag": "https:\/\/flagcdn.com\/by.svg"
-	},
-	{
-		"name": "ベリーズ",
-		"capital": "ベルモパン",
-		"continent": ["north-america"],
-		"countryLabel_native": ["Belize"],
-		"id": "bz",
-		"domain": ".bz",
-		"flag": "https:\/\/flagcdn.com\/bz.svg"
-	},
-	{
-		"name": "ベルギー",
-		"capital": "ブリュッセル市",
-		"continent": ["europe"],
-		"countryLabel_native": [
-			"Königreich Belgien",
-			"Royaume de Belgique",
-			"Koninkrijk België"
-		],
-		"id": "be",
-		"domain": ".be",
-		"flag": "https:\/\/flagcdn.com\/be.svg"
-	},
-	{
-		"name": "ペルー",
-		"capital": "リマ",
-		"continent": ["south-america"],
-		"countryLabel_native": ["República del Perú"],
-		"id": "pe",
-		"domain": ".pe",
-		"flag": "https:\/\/flagcdn.com\/pe.svg"
-	},
-	{
-		"name": "ホンジュラス",
-		"capital": "テグシガルパ",
-		"continent": ["north-america"],
-		"countryLabel_native": ["República de Honduras"],
-		"id": "hn",
-		"domain": ".hn",
-		"flag": "https:\/\/flagcdn.com\/hn.svg"
-	},
-	{
-		"name": "ボスニア・ヘルツェゴビナ",
-		"capital": "サラエヴォ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Bosna i Hercegovina"],
-		"id": "ba",
-		"domain": ".ba",
-		"flag": "https:\/\/flagcdn.com\/ba.svg"
-	},
-	{
-		"name": "ボツワナ",
-		"capital": "ハボローネ",
-		"continent": ["africa"],
-		"countryLabel_native": ["Botswana"],
-		"id": "bw",
-		"domain": ".bw",
-		"flag": "https:\/\/flagcdn.com\/bw.svg"
-	},
-	{
-		"name": "ボリビア",
-		"capital": "ラパス,スクレ",
-		"continent": ["south-america"],
-		"countryLabel_native": [
-			"Wuliwya Suyu",
-			"Estado Plurinacional de Bolivia",
-			"Tetã Volívia",
-			"Buliwya Achka nasyunkunap Mama llaqta"
-		],
-		"id": "bo",
-		"domain": ".bo",
-		"flag": "https:\/\/flagcdn.com\/bo.svg"
-	},
-	{
-		"name": "ポルトガル",
-		"capital": "リスボン",
-		"continent": ["europe"],
-		"countryLabel_native": ["Portugal", "República Portuguesa"],
-		"id": "pt",
-		"domain": ".pt",
-		"flag": "https:\/\/flagcdn.com\/pt.svg"
-	},
-	{
-		"name": "ポーランド",
-		"capital": "ワルシャワ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Polska", "Rzeczpospolita Polska"],
-		"id": "pl",
-		"domain": ".pl",
-		"flag": "https:\/\/flagcdn.com\/pl.svg"
-	},
-	{
-		"name": "マダガスカル",
-		"capital": "アンタナナリボ",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"République de Madagascar",
-			"Repoblikan'i Madagaskar"
-		],
-		"id": "mg",
-		"domain": ".mg",
-		"flag": "https:\/\/flagcdn.com\/mg.svg"
-	},
-	{
-		"name": "マラウイ",
-		"capital": "リロングウェ",
-		"continent": ["africa"],
-		"countryLabel_native": ["Republic of Malawi", "Charu cha Malaŵi"],
-		"id": "mw",
-		"domain": ".mw",
-		"flag": "https:\/\/flagcdn.com\/mw.svg"
-	},
-	{
-		"name": "マリ共和国",
-		"capital": "バマコ",
-		"continent": ["africa"],
-		"countryLabel_native": ["Mali"],
-		"id": "ml",
-		"domain": ".ml",
-		"flag": "https:\/\/flagcdn.com\/ml.svg"
-	},
-	{
-		"name": "マルタ",
-		"capital": "バレッタ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Malta"],
-		"id": "mt",
-		"domain": ".mt",
-		"flag": "https:\/\/flagcdn.com\/mt.svg"
-	},
-	{
-		"name": "マレーシア",
-		"capital": "クアラルンプール",
-		"continent": ["asia"],
-		"countryLabel_native": ["Malaysia"],
-		"id": "my",
-		"domain": ".my",
-		"flag": "https:\/\/flagcdn.com\/my.svg"
-	},
-	{
-		"name": "マーシャル諸島",
-		"capital": "マジュロ",
-		"continent": ["oceania"],
-		"countryLabel_native": ["Aolepān Aorōkin M̧ajeļ", "Aolepān Aorōkin Ṃajeḷ"],
-		"id": "mh",
-		"domain": ".mh",
-		"flag": "https:\/\/flagcdn.com\/mh.svg"
-	},
-	{
-		"name": "ミクロネシア連邦",
-		"capital": "パリキール",
-		"continent": ["oceania"],
-		"countryLabel_native": ["Federated States of Micronesia", "Mikronesia"],
-		"id": "fm",
-		"domain": ".fm",
-		"flag": "https:\/\/flagcdn.com\/fm.svg"
-	},
-	{
-		"name": "ミャンマー",
-		"capital": "ネピドー",
-		"continent": ["asia"],
-		"countryLabel_native": [
-			"မြန်မာ",
-			"ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်",
-			"မြန်မာနိုင်ငံ",
-			"မြန်မာပြည်"
-		],
-		"id": "mm",
-		"domain": ".mm",
-		"flag": "https:\/\/flagcdn.com\/mm.svg"
-	},
-	{
-		"name": "メキシコ",
-		"capital": "メキシコシティ",
-		"continent": ["north-america"],
-		"countryLabel_native": ["México", "Mexko"],
-		"id": "mx",
-		"domain": ".mx",
-		"flag": "https:\/\/flagcdn.com\/mx.svg"
-	},
-	{
-		"name": "モザンビーク",
-		"capital": "マプト",
-		"continent": ["africa"],
-		"countryLabel_native": ["República de Moçambique", "مْسُمْبِيجِ"],
-		"id": "mz",
-		"domain": ".mz",
-		"flag": "https:\/\/flagcdn.com\/mz.svg"
-	},
-	{
-		"name": "モナコ",
-		"capital": "モナコ",
-		"continent": ["europe"],
-		"countryLabel_native": [
-			"Monaco",
-			"Principauté de Monaco",
-			"Prinçipato de Mónego",
-			"Prinçipatu de Mu̍negu",
-			"Principat de Mónegue"
-		],
-		"id": "mc",
-		"domain": ".mc",
-		"flag": "https:\/\/flagcdn.com\/mc.svg"
-	},
-	{
-		"name": "モルディブ",
-		"capital": "マレ",
-		"continent": ["asia"],
-		"countryLabel_native": ["ދިވެހިރާއްޖެ", "ދިވެހިރާއްޖޭގެ ޖުމުހޫރިއްޔާ"],
-		"id": "mv",
-		"domain": ".mv",
-		"flag": "https:\/\/flagcdn.com\/mv.svg"
-	},
-	{
-		"name": "モルドバ",
-		"capital": "キシナウ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Moldova"],
-		"id": "md",
-		"domain": ".md",
-		"flag": "https:\/\/flagcdn.com\/md.svg"
-	},
-	{
-		"name": "モロッコ",
-		"capital": "ラバト",
-		"continent": ["africa"],
-		"countryLabel_native": ["المملكة المغربية", "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ"],
-		"id": "ma",
-		"domain": ".ma",
-		"flag": "https:\/\/flagcdn.com\/ma.svg"
-	},
-	{
-		"name": "モンゴル国",
-		"capital": "ウランバートル",
-		"continent": ["asia"],
-		"countryLabel_native": ["Монгол Улс", "ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ"],
-		"id": "mn",
-		"domain": ".mn",
-		"flag": "https:\/\/flagcdn.com\/mn.svg"
-	},
-	{
-		"name": "モンテネグロ",
-		"capital": "ポドゴリツァ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Crna Gora", "Црна Гора"],
-		"id": "me",
-		"domain": ".me",
-		"flag": "https:\/\/flagcdn.com\/me.svg"
-	},
-	{
-		"name": "モーリシャス",
-		"capital": "ポートルイス",
-		"continent": ["africa"],
-		"countryLabel_native": ["République de Maurice"],
-		"id": "mu",
-		"domain": ".mu",
-		"flag": "https:\/\/flagcdn.com\/mu.svg"
-	},
-	{
-		"name": "モーリタニア",
-		"capital": "ヌアクショット",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"الجمهورية الإسلامية الموريتانية",
-			"Ndenndaandi Lislameeri Muritani",
-			"République islamique de Mauritanie",
-			"Moritani Silaamin Jamaane",
-			"Réewu lislaam bu Muritani"
-		],
-		"id": "mr",
-		"domain": ".mr",
-		"flag": "https:\/\/flagcdn.com\/mr.svg"
-	},
-	{
-		"name": "ヨルダン",
-		"capital": "アンマン",
-		"continent": ["asia"],
-		"countryLabel_native": ["االْمَمْلَكَةُ الْأُرْدُنِيَةُ الْهَاشِمِيَة"],
-		"id": "jo",
-		"domain": ".jo",
-		"flag": "https:\/\/flagcdn.com\/jo.svg"
-	},
-	{
-		"name": "ラオス",
-		"capital": "ヴィエンチャン",
-		"continent": ["asia"],
-		"countryLabel_native": ["ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ"],
-		"id": "la",
-		"domain": ".la",
-		"flag": "https:\/\/flagcdn.com\/la.svg"
-	},
-	{
-		"name": "ラトビア",
-		"capital": "リガ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Latvija"],
-		"id": "lv",
-		"domain": ".lv",
-		"flag": "https:\/\/flagcdn.com\/lv.svg"
-	},
-	{
-		"name": "リトアニア",
-		"capital": "ヴィルニュス",
-		"continent": ["europe"],
-		"countryLabel_native": ["Lietuva"],
-		"id": "lt",
-		"domain": ".lt",
-		"flag": "https:\/\/flagcdn.com\/lt.svg"
-	},
-	{
-		"name": "リヒテンシュタイン",
-		"capital": "ファドゥーツ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Liechtenstein", "Fürstentum Liechtenstein"],
-		"id": "li",
-		"domain": ".li",
-		"flag": "https:\/\/flagcdn.com\/li.svg"
-	},
-	{
-		"name": "リビア",
-		"capital": "トリポリ",
-		"continent": ["africa"],
-		"countryLabel_native": ["دولة ليبيا"],
-		"id": "ly",
-		"domain": ".ly",
-		"flag": "https:\/\/flagcdn.com\/ly.svg"
-	},
-	{
-		"name": "リベリア",
-		"capital": "モンロビア",
-		"continent": ["africa"],
-		"countryLabel_native": ["Republic of Liberia"],
-		"id": "lr",
-		"domain": ".lr",
-		"flag": "https:\/\/flagcdn.com\/lr.svg"
-	},
-	{
-		"name": "ルクセンブルク",
-		"capital": "ルクセンブルク市",
-		"continent": ["europe"],
-		"countryLabel_native": ["Luxembourg", "Luxemburg", "Lëtzebuerg"],
-		"id": "lu",
-		"domain": ".lu",
-		"flag": "https:\/\/flagcdn.com\/lu.svg"
-	},
-	{
-		"name": "ルワンダ",
-		"capital": "キガリ",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"Republic of Rwanda",
-			"Repubulika y'u Rwanda",
-			"Rwanda",
-			"Jamhuri ya Rwanda",
-			"République du Rwanda"
-		],
-		"id": "rw",
-		"domain": ".rw",
-		"flag": "https:\/\/flagcdn.com\/rw.svg"
-	},
-	{
-		"name": "ルーマニア",
-		"capital": "ブカレスト",
-		"continent": ["europe"],
-		"countryLabel_native": ["România"],
-		"id": "ro",
-		"domain": ".ro",
-		"flag": "https:\/\/flagcdn.com\/ro.svg"
-	},
-	{
-		"name": "レソト",
-		"capital": "マセル",
-		"continent": ["africa"],
-		"countryLabel_native": ["Lesotho"],
-		"id": "ls",
-		"domain": ".ls",
-		"flag": "https:\/\/flagcdn.com\/ls.svg"
-	},
-	{
-		"name": "レバノン",
-		"capital": "ベイルート",
-		"continent": ["asia"],
-		"countryLabel_native": [
-			"Lebanon",
-			"لبنان",
-			"الجمهورية اللبنانية",
-			"Republic of Lebanon",
-			"Lubnan",
-			"Republik Lubnan"
-		],
-		"id": "lb",
-		"domain": ".lb",
-		"flag": "https:\/\/flagcdn.com\/lb.svg"
-	},
-	{
-		"name": "ロシア",
-		"capital": "モスクワ",
-		"continent": ["europe", "asia"],
-		"countryLabel_native": ["Россия", "Российская Федерация"],
-		"id": "ru",
-		"domain": ".ru",
-		"flag": "https:\/\/flagcdn.com\/ru.svg"
-	},
-	{
-		"name": "中央アフリカ共和国",
-		"capital": "バンギ",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"Republique Centrafricaine",
-			"Ködörösêse tî Bêafrîka"
-		],
-		"id": "cf",
-		"domain": ".cf",
-		"flag": "https:\/\/flagcdn.com\/cf.svg"
-	},
-	{
-		"name": "中華人民共和国",
-		"capital": "北京市",
-		"continent": ["asia"],
-		"countryLabel_native": ["中华人民共和国"],
-		"id": "cn",
-		"domain": ".cn",
-		"flag": "https:\/\/flagcdn.com\/cn.svg"
-	},
-	{
-		"name": "台湾",
-		"capital": "台北市",
-		"continent": ["asia"],
-		"countryLabel_native": [
-			"Tâi-oân",
-			"taiwan",
-			"中華民國",
-			"Chûng-fà Mìn-koet",
-			"台灣",
-			"臺灣",
-			"Tiong-hoâ Bîn-kok",
-			"Tiong-huâ-bîn-kok"
-		],
-		"id": "tw",
-		"domain": ".tw",
-		"flag": "https:\/\/flagcdn.com\/tw.svg"
-	},
-	{
-		"name": "北マケドニア",
-		"capital": "スコピエ",
-		"continent": ["europe"],
-		"countryLabel_native": ["Република Северна Македонија"],
-		"id": "mk",
-		"domain": ".mk",
-		"flag": "https:\/\/flagcdn.com\/mk.svg"
-	},
-	{
-		"name": "南アフリカ共和国",
-		"capital": "プレトリア,ケープタウン,ブルームフォンテーン",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"South Africa",
-			"Suid-Afrika",
-			"iSewula Afrika",
-			"Afrika Borwa",
-			"iNingizimu Afrika",
-			"Aforika Borwa",
-			"Afrika-Dzonga",
-			"Afurika Tshipembe",
-			"uMzantsi Afrika"
-		],
-		"id": "za",
-		"domain": ".za",
-		"flag": "https:\/\/flagcdn.com\/za.svg"
-	},
-	{
-		"name": "南スーダン",
-		"capital": "ジュバ",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"South Sudan",
-			"جنوب السودان",
-			"جمهورية جنوب السودان",
-			"Republic of South Sudan"
-		],
-		"id": "ss",
-		"domain": ".ss",
-		"flag": "https:\/\/flagcdn.com\/ss.svg"
-	},
-	{
-		"name": "大韓民国",
-		"capital": "ソウル特別市",
-		"continent": ["asia"],
-		"countryLabel_native": ["대한민국"],
-		"id": "kr",
-		"domain": ".kr",
-		"flag": "https:\/\/flagcdn.com\/kr.svg"
-	},
-	{
-		"name": "日本",
-		"capital": "東京都",
-		"continent": ["asia"],
-		"countryLabel_native": ["日本"],
-		"id": "jp",
-		"domain": ".jp",
-		"flag": "https:\/\/flagcdn.com\/jp.svg"
-	},
-	{
-		"name": "北朝鮮",
-		"capital": "平壌市",
-		"continent": ["asia"],
-		"countryLabel_native": ["조선민주주의인민공화국"],
-		"id": "kp",
-		"domain": ".kp",
-		"flag": "https:\/\/flagcdn.com\/kp.svg"
-	},
-	{
-		"name": "東ティモール",
-		"capital": "ディリ",
-		"continent": ["asia"],
-		"countryLabel_native": [
-			"República Democrática de Timor-Leste",
-			"Repúblika Demokrátika Timor-Leste"
-		],
-		"id": "tl",
-		"domain": ".tl",
-		"flag": "https:\/\/flagcdn.com\/tl.svg"
-	},
-	{
-		"name": "赤道ギニア",
-		"capital": "ラパス",
-		"continent": ["africa"],
-		"countryLabel_native": [
-			"República de Guinea Ecuatorial",
-			"République de Guinée équatoriale",
-			"República da Guiné Equatorial"
-		],
-		"id": "gq",
-		"domain": ".gq",
-		"flag": "https:\/\/flagcdn.com\/gq.svg"
-	}
+  {
+    "name": "アイスランド",
+    "capital": "レイキャヴィーク",
+    "continent": ["europe"],
+    "countryLabel_native": ["Ísland"],
+    "id": "is",
+    "domain": ".is",
+    "flag": "https:\/\/flagcdn.com\/is.svg"
+  },
+  {
+    "name": "アイルランド",
+    "capital": "ダブリン",
+    "continent": ["europe"],
+    "countryLabel_native": ["Ireland", "Éire"],
+    "id": "ie",
+    "domain": ".ie",
+    "flag": "https:\/\/flagcdn.com\/ie.svg"
+  },
+  {
+    "name": "アゼルバイジャン",
+    "capital": "バクー",
+    "continent": ["asia"],
+    "countryLabel_native": ["Azərbaycan", "Azərbaycan Respublikası"],
+    "id": "az",
+    "domain": ".az",
+    "flag": "https:\/\/flagcdn.com\/az.svg"
+  },
+  {
+    "name": "アフガニスタン",
+    "capital": "カーブル",
+    "continent": ["asia"],
+    "countryLabel_native": ["افغانستان"],
+    "id": "af",
+    "domain": ".af",
+    "flag": "https:\/\/flagcdn.com\/af.svg"
+  },
+  {
+    "name": "アメリカ合衆国",
+    "capital": "ワシントンD.C.",
+    "continent": ["north-america"],
+    "countryLabel_native": [
+      "United States of America",
+      "Estados Unidos de América",
+      "Estados Unidus",
+      "ᏌᏊᎢᏳᎾᎵᏍᏔᏅᏍᎦᏚᎩ ᎾᎿ ᎠᎺᏰᏟ",
+      "ʻAmelika Hui Pū ʻia",
+      "Tannapta Nunaat Amiarikami",
+      "Wááshindoon Bikéyah Ałhidadiidzooígíí",
+      "Iunaite Sitete o Amerika",
+      "Létaz-Ini d'Amérik"
+    ],
+    "id": "us",
+    "domain": ".us",
+    "flag": "https:\/\/flagcdn.com\/us.svg"
+  },
+  {
+    "name": "アラブ首長国連邦",
+    "capital": "アブダビ",
+    "continent": ["asia"],
+    "countryLabel_native": ["الإِمَارات العربِيَّة المُتَّحِدة"],
+    "id": "ae",
+    "domain": ".ae",
+    "flag": "https:\/\/flagcdn.com\/ae.svg"
+  },
+  {
+    "name": "アルジェリア",
+    "capital": "アルジェ",
+    "continent": ["africa"],
+    "countryLabel_native": ["الجزائر", "الجمهورية الجزائرية الديمقراطية الشعبية"],
+    "id": "dz",
+    "domain": ".dz",
+    "flag": "https:\/\/flagcdn.com\/dz.svg"
+  },
+  {
+    "name": "アルゼンチン",
+    "capital": "ブエノスアイレス",
+    "continent": ["south-america"],
+    "countryLabel_native": ["República Argentina"],
+    "id": "ar",
+    "domain": ".ar",
+    "flag": "https:\/\/flagcdn.com\/ar.svg"
+  },
+  {
+    "name": "アルバニア",
+    "capital": "ティラナ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Republika e Shqipërisë"],
+    "id": "al",
+    "domain": ".al",
+    "flag": "https:\/\/flagcdn.com\/al.svg"
+  },
+  {
+    "name": "アルメニア",
+    "capital": "イェレヴァン",
+    "continent": ["asia"],
+    "countryLabel_native": ["Հայաստան"],
+    "id": "am",
+    "domain": ".am",
+    "flag": "https:\/\/flagcdn.com\/am.svg"
+  },
+  {
+    "name": "アンゴラ",
+    "capital": "ルアンダ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Angola", "República de Angola"],
+    "id": "ao",
+    "domain": ".ao",
+    "flag": "https:\/\/flagcdn.com\/ao.svg"
+  },
+  {
+    "name": "アンティグア・バーブーダ",
+    "capital": "セイント・ジョンズ",
+    "continent": ["north-america"],
+    "countryLabel_native": ["Antigua and Barbuda", "Aanteega an' Baabyuuda"],
+    "id": "ag",
+    "domain": ".ag",
+    "flag": "https:\/\/flagcdn.com\/ag.svg"
+  },
+  {
+    "name": "アンドラ",
+    "capital": "アンドラ・ラ・ベリャ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Andorra"],
+    "id": "ad",
+    "domain": ".ad",
+    "flag": "https:\/\/flagcdn.com\/ad.svg"
+  },
+  {
+    "name": "イエメン",
+    "capital": "サヌア,アデン",
+    "continent": ["asia"],
+    "countryLabel_native": ["الجمهوريّة اليمنية"],
+    "id": "ye",
+    "domain": ".ye",
+    "flag": "https:\/\/flagcdn.com\/ye.svg"
+  },
+  {
+    "name": "イギリス",
+    "capital": "ロンドン",
+    "continent": ["europe"],
+    "countryLabel_native": ["United Kingdom of Great Britain and Northern Ireland"],
+    "id": "gb",
+    "domain": ".uk",
+    "flag": "https:\/\/flagcdn.com\/gb.svg"
+  },
+  {
+    "name": "イスラエル",
+    "capital": "エルサレム",
+    "continent": ["asia"],
+    "countryLabel_native": ["دَوْلَة إِسْرَائِيل", "מְדִינַת יִשְׂרָאֵל"],
+    "id": "il",
+    "domain": ".il",
+    "flag": "https:\/\/flagcdn.com\/il.svg"
+  },
+  {
+    "name": "イタリア",
+    "capital": "ローマ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Italia", "Repubblica Italiana"],
+    "id": "it",
+    "domain": ".it",
+    "flag": "https:\/\/flagcdn.com\/it.svg"
+  },
+  {
+    "name": "イラク",
+    "capital": "バグダード",
+    "continent": ["asia"],
+    "countryLabel_native": [
+      "Iraq",
+      "العراق",
+      "جمهورية العراق",
+      "Republic of Iraq",
+      "Republik Iraq"
+    ],
+    "id": "iq",
+    "domain": ".iq",
+    "flag": "https:\/\/flagcdn.com\/iq.svg"
+  },
+  {
+    "name": "イラン",
+    "capital": "テヘラン",
+    "continent": ["asia"],
+    "countryLabel_native": ["ایران"],
+    "id": "ir",
+    "domain": ".ir",
+    "flag": "https:\/\/flagcdn.com\/ir.svg"
+  },
+  {
+    "name": "インド",
+    "capital": "ニューデリー",
+    "continent": ["asia"],
+    "countryLabel_native": ["भारत", "ভারত", "بھارت", "ہندوستان", "இந்தியா", "ꠄꠘ꠆ꠒꠤꠀ"],
+    "id": "in",
+    "domain": ".in",
+    "flag": "https:\/\/flagcdn.com\/in.svg"
+  },
+  {
+    "name": "インドネシア",
+    "capital": "ジャカルタ",
+    "continent": ["asia"],
+    "countryLabel_native": [
+      "Indonesia",
+      "Republic of Indonesia",
+      "Unitary State of the Republic of Indonesia",
+      "Negara Kesatuan Republik Indonesia",
+      "Republik Indonesia"
+    ],
+    "id": "id",
+    "domain": ".id",
+    "flag": "https:\/\/flagcdn.com\/id.svg"
+  },
+  {
+    "name": "ウガンダ",
+    "capital": "カンパラ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Republic of Uganda", "Jamhuri ya Uganda"],
+    "id": "ug",
+    "domain": ".ug",
+    "flag": "https:\/\/flagcdn.com\/ug.svg"
+  },
+  {
+    "name": "ウクライナ",
+    "capital": "キーウ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Україна"],
+    "id": "ua",
+    "domain": ".ua",
+    "flag": "https:\/\/flagcdn.com\/ua.svg"
+  },
+  {
+    "name": "ウズベキスタン",
+    "capital": "タシュケント",
+    "continent": ["asia"],
+    "countryLabel_native": ["Oʻzbekiston", "Oʻzbekiston Respublikasi"],
+    "id": "uz",
+    "domain": ".uz",
+    "flag": "https:\/\/flagcdn.com\/uz.svg"
+  },
+  {
+    "name": "ウルグアイ",
+    "capital": "モンテビデオ",
+    "continent": ["south-america"],
+    "countryLabel_native": ["República Oriental del Uruguay"],
+    "id": "uy",
+    "domain": ".uy",
+    "flag": "https:\/\/flagcdn.com\/uy.svg"
+  },
+  {
+    "name": "エクアドル",
+    "capital": "キト",
+    "continent": ["south-america"],
+    "countryLabel_native": ["República del Ecuador"],
+    "id": "ec",
+    "domain": ".ec",
+    "flag": "https:\/\/flagcdn.com\/ec.svg"
+  },
+  {
+    "name": "エジプト",
+    "capital": "カイロ",
+    "continent": ["africa"],
+    "countryLabel_native": [
+      "Egypt",
+      "مصر",
+      "Mesir",
+      "جُمهورِيّةُ مِصرَ العَرَبيّةِ",
+      "Arab Republic of Egypt",
+      "Republik Arab Mesir"
+    ],
+    "id": "eg",
+    "domain": ".eg",
+    "flag": "https:\/\/flagcdn.com\/eg.svg"
+  },
+  {
+    "name": "エストニア",
+    "capital": "タリン",
+    "continent": ["europe"],
+    "countryLabel_native": ["Eesti Vabariik"],
+    "id": "ee",
+    "domain": ".ee",
+    "flag": "https:\/\/flagcdn.com\/ee.svg"
+  },
+  {
+    "name": "エスワティニ",
+    "capital": "ムババーネ,ロバンバ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Umbuso weSwatini"],
+    "id": "sz",
+    "domain": ".sz",
+    "flag": "https:\/\/flagcdn.com\/sz.svg"
+  },
+  {
+    "name": "エチオピア",
+    "capital": "アディスアベバ",
+    "continent": ["africa"],
+    "countryLabel_native": [
+      "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",
+      "Federaalawaa Dimokraatawaa Repabliikii Itoophiyaa",
+      "ናይኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ",
+      "Toophphiya Federaalle Dimokkiraatike Ripaabilike"
+    ],
+    "id": "et",
+    "domain": ".et",
+    "flag": "https:\/\/flagcdn.com\/et.svg"
+  },
+  {
+    "name": "エリトリア",
+    "capital": "アスマラ",
+    "continent": ["africa"],
+    "countryLabel_native": ["إرترة", "ኤርትራ"],
+    "id": "er",
+    "domain": ".er",
+    "flag": "https:\/\/flagcdn.com\/er.svg"
+  },
+  {
+    "name": "エルサルバドル",
+    "capital": "サンサルバドル",
+    "continent": ["north-america"],
+    "countryLabel_native": ["República de El Salvador"],
+    "id": "sv",
+    "domain": ".sv",
+    "flag": "https:\/\/flagcdn.com\/sv.svg"
+  },
+  {
+    "name": "オマーン",
+    "capital": "マスカット",
+    "continent": ["asia"],
+    "countryLabel_native": ["سلطنة عُمان"],
+    "id": "om",
+    "domain": ".om",
+    "flag": "https:\/\/flagcdn.com\/om.svg"
+  },
+  {
+    "name": "オランダ王国",
+    "capital": "アムステルダム",
+    "continent": ["europe"],
+    "countryLabel_native": ["Koninkrijk der Nederlanden"],
+    "id": "nl",
+    "domain": ".nl",
+    "flag": "https:\/\/flagcdn.com\/nl.svg"
+  },
+  {
+    "name": "オーストラリア",
+    "capital": "キャンベラ",
+    "continent": ["oceania"],
+    "countryLabel_native": ["Australia"],
+    "id": "au",
+    "domain": ".au",
+    "flag": "https:\/\/flagcdn.com\/au.svg"
+  },
+  {
+    "name": "オーストリア",
+    "capital": "ウィーン",
+    "continent": ["europe"],
+    "countryLabel_native": ["Österreich", "Republik Österreich"],
+    "id": "at",
+    "domain": ".at",
+    "flag": "https:\/\/flagcdn.com\/at.svg"
+  },
+  {
+    "name": "カザフスタン",
+    "capital": "アスタナ",
+    "continent": ["europe", "asia"],
+    "countryLabel_native": ["Қазақстан", "قزاقستان", "Қазақстан Республикасы"],
+    "id": "kz",
+    "domain": ".kz",
+    "flag": "https:\/\/flagcdn.com\/kz.svg"
+  },
+  {
+    "name": "カナダ",
+    "capital": "オタワ",
+    "continent": ["north-america"],
+    "countryLabel_native": ["Canada"],
+    "id": "ca",
+    "domain": ".ca",
+    "flag": "https:\/\/flagcdn.com\/ca.svg"
+  },
+  {
+    "name": "カメルーン",
+    "capital": "ヤウンデ",
+    "continent": ["africa"],
+    "countryLabel_native": ["République du Cameroun"],
+    "id": "cm",
+    "domain": ".cm",
+    "flag": "https:\/\/flagcdn.com\/cm.svg"
+  },
+  {
+    "name": "カンボジア",
+    "capital": "プノンペン",
+    "continent": ["asia"],
+    "countryLabel_native": ["កម្ពុជា"],
+    "id": "kh",
+    "domain": ".kh",
+    "flag": "https:\/\/flagcdn.com\/kh.svg"
+  },
+  {
+    "name": "カーボベルデ",
+    "capital": "プライア",
+    "continent": ["africa"],
+    "countryLabel_native": ["República de Cabo Verde"],
+    "id": "cv",
+    "domain": ".cv",
+    "flag": "https:\/\/flagcdn.com\/cv.svg"
+  },
+  {
+    "name": "ガイアナ",
+    "capital": "ジョージタウン",
+    "continent": ["south-america"],
+    "countryLabel_native": ["Co-operative Republic of Guyana"],
+    "id": "gy",
+    "domain": ".gy",
+    "flag": "https:\/\/flagcdn.com\/gy.svg"
+  },
+  {
+    "name": "ガボン",
+    "capital": "リーブルヴィル",
+    "continent": ["africa"],
+    "countryLabel_native": ["République gabonaise"],
+    "id": "ga",
+    "domain": ".ga",
+    "flag": "https:\/\/flagcdn.com\/ga.svg"
+  },
+  {
+    "name": "ガンビア",
+    "capital": "バンジュール",
+    "continent": ["africa"],
+    "countryLabel_native": ["Republic of The Gambia"],
+    "id": "gm",
+    "domain": ".gm",
+    "flag": "https:\/\/flagcdn.com\/gm.svg"
+  },
+  {
+    "name": "ガーナ",
+    "capital": "アクラ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Ghana", "Gana", "Gaana"],
+    "id": "gh",
+    "domain": ".gh",
+    "flag": "https:\/\/flagcdn.com\/gh.svg"
+  },
+  {
+    "name": "キプロス",
+    "capital": "ニコシア",
+    "continent": ["europe"],
+    "countryLabel_native": ["Κυπριακή Δημοκρατία", "Kıbrıs Cumhuriyeti"],
+    "id": "cy",
+    "domain": ".cy",
+    "flag": "https:\/\/flagcdn.com\/cy.svg"
+  },
+  {
+    "name": "キューバ",
+    "capital": "ハバナ",
+    "continent": ["north-america"],
+    "countryLabel_native": ["República de Cuba"],
+    "id": "cu",
+    "domain": ".cu",
+    "flag": "https:\/\/flagcdn.com\/cu.svg"
+  },
+  {
+    "name": "キリバス",
+    "capital": "サウス・タラワ",
+    "continent": ["oceania"],
+    "countryLabel_native": ["Ribaberiki ni Kiribati"],
+    "id": "ki",
+    "domain": ".ki",
+    "flag": "https:\/\/flagcdn.com\/ki.svg"
+  },
+  {
+    "name": "キルギス",
+    "capital": "ビシュケク",
+    "continent": ["asia"],
+    "countryLabel_native": ["Кыргызстан"],
+    "id": "kg",
+    "domain": ".kg",
+    "flag": "https:\/\/flagcdn.com\/kg.svg"
+  },
+  {
+    "name": "ギニア",
+    "capital": "コナクリ",
+    "continent": ["africa"],
+    "countryLabel_native": ["République de Guinée"],
+    "id": "gn",
+    "domain": ".gn",
+    "flag": "https:\/\/flagcdn.com\/gn.svg"
+  },
+  {
+    "name": "ギニアビサウ共和国",
+    "capital": "ビサウ",
+    "continent": ["africa"],
+    "countryLabel_native": ["República da Guiné-Bissau"],
+    "id": "gw",
+    "domain": ".gw",
+    "flag": "https:\/\/flagcdn.com\/gw.svg"
+  },
+  {
+    "name": "ギリシャ",
+    "capital": "アテネ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Ελλάδα", "Ελληνική Δημοκρατία", "Ελλάς"],
+    "id": "gr",
+    "domain": ".gr",
+    "flag": "https:\/\/flagcdn.com\/gr.svg"
+  },
+  {
+    "name": "クウェート",
+    "capital": "クウェート市",
+    "continent": ["asia"],
+    "countryLabel_native": ["الكويت"],
+    "id": "kw",
+    "domain": ".kw",
+    "flag": "https:\/\/flagcdn.com\/kw.svg"
+  },
+  {
+    "name": "クロアチア",
+    "capital": "ザグレブ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Hrvatska"],
+    "id": "hr",
+    "domain": ".hr",
+    "flag": "https:\/\/flagcdn.com\/hr.svg"
+  },
+  {
+    "name": "グアテマラ",
+    "capital": "グアテマラシティ",
+    "continent": ["north-america"],
+    "countryLabel_native": ["República de Guatemala"],
+    "id": "gt",
+    "domain": ".gt",
+    "flag": "https:\/\/flagcdn.com\/gt.svg"
+  },
+  {
+    "name": "グレナダ",
+    "capital": "セントジョージズ",
+    "continent": ["north-america"],
+    "countryLabel_native": ["State of Grenada"],
+    "id": "gd",
+    "domain": ".gd",
+    "flag": "https:\/\/flagcdn.com\/gd.svg"
+  },
+  {
+    "name": "ケニア",
+    "capital": "ナイロビ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Republic of Kenya"],
+    "id": "ke",
+    "domain": ".ke",
+    "flag": "https:\/\/flagcdn.com\/ke.svg"
+  },
+  {
+    "name": "コスタリカ",
+    "capital": "サンホセ",
+    "continent": ["north-america"],
+    "countryLabel_native": ["República de Costa Rica"],
+    "id": "cr",
+    "domain": ".cr",
+    "flag": "https:\/\/flagcdn.com\/cr.svg"
+  },
+  {
+    "name": "コモロ",
+    "capital": "モロニ",
+    "continent": ["africa"],
+    "countryLabel_native": ["الاتحاد القمري", "Union des Comores"],
+    "id": "km",
+    "domain": ".km",
+    "flag": "https:\/\/flagcdn.com\/km.svg"
+  },
+  {
+    "name": "コロンビア",
+    "capital": "ボゴタ",
+    "continent": ["south-america"],
+    "countryLabel_native": ["Colombia"],
+    "id": "co",
+    "domain": ".co",
+    "flag": "https:\/\/flagcdn.com\/co.svg"
+  },
+  {
+    "name": "コンゴ共和国",
+    "capital": "ブラザヴィル",
+    "continent": ["africa"],
+    "countryLabel_native": ["République du Congo", "Repubilika ya Kongo", "Republíki ya Kongó"],
+    "id": "cg",
+    "domain": ".cg",
+    "flag": "https:\/\/flagcdn.com\/cg.svg"
+  },
+  {
+    "name": "コンゴ民主共和国",
+    "capital": "キンシャサ",
+    "continent": ["africa"],
+    "countryLabel_native": ["République démocratique du Congo"],
+    "id": "cd",
+    "domain": ".cd",
+    "flag": "https:\/\/flagcdn.com\/cd.svg"
+  },
+  {
+    "name": "コートジボワール",
+    "capital": "ヤムスクロ",
+    "continent": ["africa"],
+    "countryLabel_native": ["République de Côte d'Ivoire"],
+    "id": "ci",
+    "domain": ".ci",
+    "flag": "https:\/\/flagcdn.com\/ci.svg"
+  },
+  {
+    "name": "サウジアラビア",
+    "capital": "リヤド",
+    "continent": ["asia"],
+    "countryLabel_native": [
+      "Saudi Arabia",
+      "Kingdom of Saudi Arabia",
+      "السعودية",
+      "المملكة العربية السعودية",
+      "Arab Saudi",
+      "Kerajaan Arab Saudi"
+    ],
+    "id": "sa",
+    "domain": ".sa",
+    "flag": "https:\/\/flagcdn.com\/sa.svg"
+  },
+  {
+    "name": "サモア",
+    "capital": "アピア",
+    "continent": ["oceania"],
+    "countryLabel_native": [
+      "Western Samoa",
+      "Independent State of Samoa",
+      "Malo Sa’oloto Tuto’atasi o Samoa",
+      "Sāmoa"
+    ],
+    "id": "ws",
+    "domain": ".ws",
+    "flag": "https:\/\/flagcdn.com\/ws.svg"
+  },
+  {
+    "name": "サントメ・プリンシペ",
+    "capital": "サントメ",
+    "continent": ["africa"],
+    "countryLabel_native": ["República Democrática de São Tomé e Príncipe"],
+    "id": "st",
+    "domain": ".st",
+    "flag": "https:\/\/flagcdn.com\/st.svg"
+  },
+  {
+    "name": "サンマリノ",
+    "capital": "サンマリノ市",
+    "continent": ["europe"],
+    "countryLabel_native": ["San Marco", "Repubblica di San Marino"],
+    "id": "sm",
+    "domain": ".sm",
+    "flag": "https:\/\/flagcdn.com\/sm.svg"
+  },
+  {
+    "name": "ザンビア",
+    "capital": "ルサカ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Republic of Zambia"],
+    "id": "zm",
+    "domain": ".zm",
+    "flag": "https:\/\/flagcdn.com\/zm.svg"
+  },
+  {
+    "name": "シエラレオネ",
+    "capital": "フリータウン",
+    "continent": ["africa"],
+    "countryLabel_native": ["Republic of Sierra Leone"],
+    "id": "sl",
+    "domain": ".sl",
+    "flag": "https:\/\/flagcdn.com\/sl.svg"
+  },
+  {
+    "name": "シリア",
+    "capital": "ダマスカス",
+    "continent": ["asia"],
+    "countryLabel_native": ["الجمهورية العربية السورية", "سوريا", "Komara Erebî ya Sûriyê"],
+    "id": "sy",
+    "domain": ".sy",
+    "flag": "https:\/\/flagcdn.com\/sy.svg"
+  },
+  {
+    "name": "シンガポール",
+    "capital": "シンガポール",
+    "continent": ["asia"],
+    "countryLabel_native": [
+      "Republic of Singapore",
+      "Republik Singapura",
+      "சிங்கப்பூர் குடியரசு",
+      "新加坡共和国"
+    ],
+    "id": "sg",
+    "domain": ".sg",
+    "flag": "https:\/\/flagcdn.com\/sg.svg"
+  },
+  {
+    "name": "ジブチ",
+    "capital": "ジブチ市",
+    "continent": ["africa"],
+    "countryLabel_native": ["Jabuuti", "جمهورية جيبوتي", "République de Djibouti"],
+    "id": "dj",
+    "domain": ".dj",
+    "flag": "https:\/\/flagcdn.com\/dj.svg"
+  },
+  {
+    "name": "ジャマイカ",
+    "capital": "キングストン",
+    "continent": ["north-america"],
+    "countryLabel_native": ["Jamaica", "Jumieka", "Xaymaca", "Yamaye"],
+    "id": "jm",
+    "domain": ".jm",
+    "flag": "https:\/\/flagcdn.com\/jm.svg"
+  },
+  {
+    "name": "ジョージア",
+    "capital": "トビリシ",
+    "continent": ["europe"],
+    "countryLabel_native": ["საქართველო"],
+    "id": "ge",
+    "domain": ".ge",
+    "flag": "https:\/\/flagcdn.com\/ge.svg"
+  },
+  {
+    "name": "ジンバブエ",
+    "capital": "ハラレ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Zimbabwe"],
+    "id": "zw",
+    "domain": ".zw",
+    "flag": "https:\/\/flagcdn.com\/zw.svg"
+  },
+  {
+    "name": "スイス",
+    "capital": "ベルン",
+    "continent": ["europe"],
+    "countryLabel_native": [
+      "Schweizerische Eidgenossenschaft",
+      "Confédération suisse",
+      "Confederazione Svizzera",
+      "Confederaziun svizra"
+    ],
+    "id": "ch",
+    "domain": ".ch",
+    "flag": "https:\/\/flagcdn.com\/ch.svg"
+  },
+  {
+    "name": "スウェーデン",
+    "capital": "ストックホルム",
+    "continent": ["europe"],
+    "countryLabel_native": ["Sverige"],
+    "id": "se",
+    "domain": ".se",
+    "flag": "https:\/\/flagcdn.com\/se.svg"
+  },
+  {
+    "name": "スペイン王国",
+    "capital": "マドリード",
+    "continent": ["europe"],
+    "countryLabel_native": ["Reino de España"],
+    "id": "es",
+    "domain": ".es",
+    "flag": "https:\/\/flagcdn.com\/es.svg"
+  },
+  {
+    "name": "スリナム",
+    "capital": "パラマリボ",
+    "continent": ["south-america"],
+    "countryLabel_native": ["Republiek Suriname", "Ripoliku Sranan"],
+    "id": "sr",
+    "domain": ".sr",
+    "flag": "https:\/\/flagcdn.com\/sr.svg"
+  },
+  {
+    "name": "スリランカ",
+    "capital": "コロンボ,スリジャヤワルダナプラコッテ",
+    "continent": ["asia"],
+    "countryLabel_native": [
+      "ශ්රී ලංකා ප්රජාතාන්ත්රික සමාජවාදී ජනරජය",
+      "ශ්රී ලංකාව",
+      "இலங்கை சனநாயக சோசலிசக் குடியரசு"
+    ],
+    "id": "lk",
+    "domain": ".lk",
+    "flag": "https:\/\/flagcdn.com\/lk.svg"
+  },
+  {
+    "name": "スロバキア",
+    "capital": "ブラチスラヴァ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Slovenská republika"],
+    "id": "sk",
+    "domain": ".sk",
+    "flag": "https:\/\/flagcdn.com\/sk.svg"
+  },
+  {
+    "name": "スロベニア",
+    "capital": "リュブリャナ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Slovenija"],
+    "id": "si",
+    "domain": ".si",
+    "flag": "https:\/\/flagcdn.com\/si.svg"
+  },
+  {
+    "name": "スーダン",
+    "capital": "ハルツーム",
+    "continent": ["africa"],
+    "countryLabel_native": ["السودان", "جمهورية السودان"],
+    "id": "sd",
+    "domain": ".sd",
+    "flag": "https:\/\/flagcdn.com\/sd.svg"
+  },
+  {
+    "name": "セネガル",
+    "capital": "ダカール",
+    "continent": ["africa"],
+    "countryLabel_native": ["Senegaal"],
+    "id": "sn",
+    "domain": ".sn",
+    "flag": "https:\/\/flagcdn.com\/sn.svg"
+  },
+  {
+    "name": "セルビア",
+    "capital": "ベオグラード",
+    "continent": ["europe"],
+    "countryLabel_native": ["Србија"],
+    "id": "rs",
+    "domain": ".rs",
+    "flag": "https:\/\/flagcdn.com\/rs.svg"
+  },
+  {
+    "name": "セントクリストファー・ネイビス",
+    "capital": "バセテール",
+    "continent": ["north-america"],
+    "countryLabel_native": ["Federation of Saint Kitts and Nevis"],
+    "id": "kn",
+    "domain": ".kn",
+    "flag": "https:\/\/flagcdn.com\/kn.svg"
+  },
+  {
+    "name": "セントビンセント・グレナディーン",
+    "capital": "キングスタウン",
+    "continent": ["north-america"],
+    "countryLabel_native": ["Saint Vincent and the Grenadines"],
+    "id": "vc",
+    "domain": ".vc",
+    "flag": "https:\/\/flagcdn.com\/vc.svg"
+  },
+  {
+    "name": "セントルシア",
+    "capital": "カストリーズ",
+    "continent": ["north-america"],
+    "countryLabel_native": ["Saint Lucia"],
+    "id": "lc",
+    "domain": ".lc",
+    "flag": "https:\/\/flagcdn.com\/lc.svg"
+  },
+  {
+    "name": "セーシェル",
+    "capital": "ヴィクトリア",
+    "continent": ["africa"],
+    "countryLabel_native": ["République des Seychelles"],
+    "id": "sc",
+    "domain": ".sc",
+    "flag": "https:\/\/flagcdn.com\/sc.svg"
+  },
+  {
+    "name": "ソマリア",
+    "capital": "モガディシュ",
+    "continent": ["africa"],
+    "countryLabel_native": [
+      "جمهورية الصومال الفدرالية",
+      "Jamhuuriyadda Federaalka Soomaaliya",
+      "Soomaaliya",
+      "𐒈𐒝𐒑𐒛𐒐𐒘𐒕𐒖"
+    ],
+    "id": "so",
+    "domain": ".so",
+    "flag": "https:\/\/flagcdn.com\/so.svg"
+  },
+  {
+    "name": "ソロモン諸島",
+    "capital": "ホニアラ",
+    "continent": ["oceania"],
+    "countryLabel_native": ["Solomon Islands"],
+    "id": "sb",
+    "domain": ".sb",
+    "flag": "https:\/\/flagcdn.com\/sb.svg"
+  },
+  {
+    "name": "タイ王国",
+    "capital": "バンコク",
+    "continent": ["asia"],
+    "countryLabel_native": ["ราชอาณาจักรไทย"],
+    "id": "th",
+    "domain": ".th",
+    "flag": "https:\/\/flagcdn.com\/th.svg"
+  },
+  {
+    "name": "タジキスタン",
+    "capital": "ドゥシャンベ",
+    "continent": ["asia"],
+    "countryLabel_native": ["Тоҷикистон", "Ҷумҳурии Тоҷикистон"],
+    "id": "tj",
+    "domain": ".tj",
+    "flag": "https:\/\/flagcdn.com\/tj.svg"
+  },
+  {
+    "name": "タンザニア",
+    "capital": "ドドマ",
+    "continent": ["africa"],
+    "countryLabel_native": ["United Republic of Tanzania", "Jamhuri ya Muungano wa Tanzania"],
+    "id": "tz",
+    "domain": ".tz",
+    "flag": "https:\/\/flagcdn.com\/tz.svg"
+  },
+  {
+    "name": "チェコ共和国",
+    "capital": "プラハ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Česko", "Česká republika"],
+    "id": "cz",
+    "domain": ".cz",
+    "flag": "https:\/\/flagcdn.com\/cz.svg"
+  },
+  {
+    "name": "チャド",
+    "capital": "ンジャメナ",
+    "continent": ["africa"],
+    "countryLabel_native": ["جُمْهُورِيَّة تشاد", "République du Tchad"],
+    "id": "td",
+    "domain": ".td",
+    "flag": "https:\/\/flagcdn.com\/td.svg"
+  },
+  {
+    "name": "チュニジア",
+    "capital": "チュニス",
+    "continent": ["africa"],
+    "countryLabel_native": [
+      "Tunisia",
+      "تونس",
+      "الجمهورية التونسية",
+      "Republic of Tunisia",
+      "Republik Tunisia"
+    ],
+    "id": "tn",
+    "domain": ".tn",
+    "flag": "https:\/\/flagcdn.com\/tn.svg"
+  },
+  {
+    "name": "チリ",
+    "capital": "サンティアゴ",
+    "continent": ["south-america"],
+    "countryLabel_native": ["Chile", "República de Chile"],
+    "id": "cl",
+    "domain": ".cl",
+    "flag": "https:\/\/flagcdn.com\/cl.svg"
+  },
+  {
+    "name": "トリニダード・トバゴ",
+    "capital": "ポートオブスペイン",
+    "continent": ["north-america"],
+    "countryLabel_native": ["Republic of Trinidad and Tobago"],
+    "id": "tt",
+    "domain": ".tt",
+    "flag": "https:\/\/flagcdn.com\/tt.svg"
+  },
+  {
+    "name": "トルクメニスタン",
+    "capital": "アシガバート",
+    "continent": ["asia"],
+    "countryLabel_native": ["Türkmenistan", "Türkmenistan Respublikasi"],
+    "id": "tm",
+    "domain": ".tm",
+    "flag": "https:\/\/flagcdn.com\/tm.svg"
+  },
+  {
+    "name": "トルコ",
+    "capital": "アンカラ",
+    "continent": ["europe", "asia"],
+    "countryLabel_native": ["Türkiye", "Türkiye Cumhuriyeti"],
+    "id": "tr",
+    "domain": ".tr",
+    "flag": "https:\/\/flagcdn.com\/tr.svg"
+  },
+  {
+    "name": "トンガ",
+    "capital": "ヌクアロファ",
+    "continent": ["oceania"],
+    "countryLabel_native": ["Tonga"],
+    "id": "to",
+    "domain": ".to",
+    "flag": "https:\/\/flagcdn.com\/to.svg"
+  },
+  {
+    "name": "トーゴ",
+    "capital": "ロメ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Togo"],
+    "id": "tg",
+    "domain": ".tg",
+    "flag": "https:\/\/flagcdn.com\/tg.svg"
+  },
+  {
+    "name": "ドイツ",
+    "capital": "ベルリン",
+    "continent": ["europe"],
+    "countryLabel_native": ["Deutschland", "Bundesrepublik Deutschland"],
+    "id": "de",
+    "domain": ".de",
+    "flag": "https:\/\/flagcdn.com\/de.svg"
+  },
+  {
+    "name": "ドミニカ共和国",
+    "capital": "サント・ドミンゴ",
+    "continent": ["north-america"],
+    "countryLabel_native": ["República Dominicana"],
+    "id": "do",
+    "domain": ".do",
+    "flag": "https:\/\/flagcdn.com\/do.svg"
+  },
+  {
+    "name": "ドミニカ国",
+    "capital": "ロゾー",
+    "continent": ["north-america"],
+    "countryLabel_native": ["Commonwealth of Dominica", "Commonwealth Dominica"],
+    "id": "dm",
+    "domain": ".dm",
+    "flag": "https:\/\/flagcdn.com\/dm.svg"
+  },
+  {
+    "name": "ナイジェリア",
+    "capital": "アブジャ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Nijeriya", "Naigeria", "Nàìjíríà"],
+    "id": "ng",
+    "domain": ".ng",
+    "flag": "https:\/\/flagcdn.com\/ng.svg"
+  },
+  {
+    "name": "ナウル",
+    "capital": "ヤレン地区",
+    "continent": ["oceania"],
+    "countryLabel_native": ["Naoero", "Ripublik Naoero"],
+    "id": "nr",
+    "domain": ".nr",
+    "flag": "https:\/\/flagcdn.com\/nr.svg"
+  },
+  {
+    "name": "ナミビア",
+    "capital": "ウィントフック",
+    "continent": ["africa"],
+    "countryLabel_native": ["Republiek van Namibië", "Republik Namibia", "Republic of Namibia"],
+    "id": "na",
+    "domain": ".na",
+    "flag": "https:\/\/flagcdn.com\/na.svg"
+  },
+  {
+    "name": "ニカラグア",
+    "capital": "マナグア",
+    "continent": ["north-america"],
+    "countryLabel_native": ["República de Nicaragua"],
+    "id": "ni",
+    "domain": ".ni",
+    "flag": "https:\/\/flagcdn.com\/ni.svg"
+  },
+  {
+    "name": "ニジェール",
+    "capital": "ニアメ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Nijar"],
+    "id": "ne",
+    "domain": ".ne",
+    "flag": "https:\/\/flagcdn.com\/ne.svg"
+  },
+  {
+    "name": "ニュージーランド",
+    "capital": "ウェリントン",
+    "continent": ["oceania"],
+    "countryLabel_native": ["Aotearoa"],
+    "id": "nz",
+    "domain": ".nz",
+    "flag": "https:\/\/flagcdn.com\/nz.svg"
+  },
+  {
+    "name": "ネパール",
+    "capital": "カトマンズ",
+    "continent": ["asia"],
+    "countryLabel_native": ["नेपाल"],
+    "id": "np",
+    "domain": ".np",
+    "flag": "https:\/\/flagcdn.com\/np.svg"
+  },
+  {
+    "name": "ノルウェー王国",
+    "capital": "オスロ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Kongeriket Norge", "Kongeriket Noreg"],
+    "id": "no",
+    "domain": ".no",
+    "flag": "https:\/\/flagcdn.com\/no.svg"
+  },
+  {
+    "name": "ハイチ",
+    "capital": "ポルトープランス",
+    "continent": ["north-america"],
+    "countryLabel_native": ["Ayiti"],
+    "id": "ht",
+    "domain": ".ht",
+    "flag": "https:\/\/flagcdn.com\/ht.svg"
+  },
+  {
+    "name": "ハンガリー",
+    "capital": "ブダペスト",
+    "continent": ["europe"],
+    "countryLabel_native": ["Magyarország"],
+    "id": "hu",
+    "domain": ".hu",
+    "flag": "https:\/\/flagcdn.com\/hu.svg"
+  },
+  {
+    "name": "バチカン",
+    "capital": "バチカン",
+    "continent": ["europe"],
+    "countryLabel_native": ["Civitas Vaticana"],
+    "id": "va",
+    "domain": ".va",
+    "flag": "https:\/\/flagcdn.com\/va.svg"
+  },
+  {
+    "name": "バヌアツ",
+    "capital": "ポートビラ",
+    "continent": ["oceania"],
+    "countryLabel_native": [
+      "Ripablik blong Vanuatu",
+      "Vanuatu",
+      "Republic of Vanuatu",
+      "République du Vanuatu"
+    ],
+    "id": "vu",
+    "domain": ".vu",
+    "flag": "https:\/\/flagcdn.com\/vu.svg"
+  },
+  {
+    "name": "バハマ",
+    "capital": "ナッソー",
+    "continent": ["north-america"],
+    "countryLabel_native": ["Commonwealth of the Bahamas"],
+    "id": "bs",
+    "domain": ".bs",
+    "flag": "https:\/\/flagcdn.com\/bs.svg"
+  },
+  {
+    "name": "バルバドス",
+    "capital": "ブリッジタウン",
+    "continent": ["north-america"],
+    "countryLabel_native": ["Barbados"],
+    "id": "bb",
+    "domain": ".bb",
+    "flag": "https:\/\/flagcdn.com\/bb.svg"
+  },
+  {
+    "name": "バングラデシュ",
+    "capital": "ダッカ",
+    "continent": ["asia"],
+    "countryLabel_native": ["বাংলাদেশ", "গণপ্রজাতন্ত্রী বাংলাদেশ"],
+    "id": "bd",
+    "domain": ".bd",
+    "flag": "https:\/\/flagcdn.com\/bd.svg"
+  },
+  {
+    "name": "パキスタン",
+    "capital": "イスラマバード",
+    "continent": ["asia"],
+    "countryLabel_native": ["Pakistan", "پاکستان", "Pákistán", "پٲکِستان", "پاڪستان"],
+    "id": "pk",
+    "domain": ".pk",
+    "flag": "https:\/\/flagcdn.com\/pk.svg"
+  },
+  {
+    "name": "パナマ",
+    "capital": "パナマ市",
+    "continent": ["north-america"],
+    "countryLabel_native": ["República de Panamá"],
+    "id": "pa",
+    "domain": ".pa",
+    "flag": "https:\/\/flagcdn.com\/pa.svg"
+  },
+  {
+    "name": "パプアニューギニア",
+    "capital": "ポートモレスビー",
+    "continent": ["oceania"],
+    "countryLabel_native": [
+      "Independent State of Papua New Guinea",
+      "Independen Stet bilong Papua Niugini"
+    ],
+    "id": "pg",
+    "domain": ".pg",
+    "flag": "https:\/\/flagcdn.com\/pg.svg"
+  },
+  {
+    "name": "パラオ",
+    "capital": "ンゲルルムッド",
+    "continent": ["oceania"],
+    "countryLabel_native": ["Republic of Palau", "Belau"],
+    "id": "pw",
+    "domain": ".pw",
+    "flag": "https:\/\/flagcdn.com\/pw.svg"
+  },
+  {
+    "name": "パラグアイ",
+    "capital": "アスンシオン",
+    "continent": ["south-america"],
+    "countryLabel_native": ["República del Paraguay", "Paraguái Tavakuairetã"],
+    "id": "py",
+    "domain": ".py",
+    "flag": "https:\/\/flagcdn.com\/py.svg"
+  },
+  {
+    "name": "パレスチナ国",
+    "capital": "ラマッラー,エルサレム",
+    "continent": ["asia"],
+    "countryLabel_native": ["دولة فلسطين"],
+    "id": "ps",
+    "domain": ".ps",
+    "flag": "https:\/\/flagcdn.com\/ps.svg"
+  },
+  {
+    "name": "フィジー",
+    "capital": "スバ",
+    "continent": ["oceania"],
+    "countryLabel_native": [
+      "Viti",
+      "Republic of Fiji",
+      "Matanitu Tugalala o Viti",
+      "Fidźi Ganaradźja"
+    ],
+    "id": "fj",
+    "domain": ".fj",
+    "flag": "https:\/\/flagcdn.com\/fj.svg"
+  },
+  {
+    "name": "フィリピン",
+    "capital": "マニラ",
+    "continent": ["asia"],
+    "countryLabel_native": ["Philippines", "Pilipinas"],
+    "id": "ph",
+    "domain": ".ph",
+    "flag": "https:\/\/flagcdn.com\/ph.svg"
+  },
+  {
+    "name": "フィンランド",
+    "capital": "ヘルシンキ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Finland", "Suomi"],
+    "id": "fi",
+    "domain": ".fi",
+    "flag": "https:\/\/flagcdn.com\/fi.svg"
+  },
+  {
+    "name": "フランス",
+    "capital": "パリ",
+    "continent": ["europe"],
+    "countryLabel_native": ["France", "République française"],
+    "id": "fr",
+    "domain": ".fr",
+    "flag": "https:\/\/flagcdn.com\/fr.svg"
+  },
+  {
+    "name": "ブラジル",
+    "capital": "ブラジリア",
+    "continent": ["south-america"],
+    "countryLabel_native": ["República Federativa do Brasil"],
+    "id": "br",
+    "domain": ".br",
+    "flag": "https:\/\/flagcdn.com\/br.svg"
+  },
+  {
+    "name": "ブルガリア",
+    "capital": "ソフィア",
+    "continent": ["europe"],
+    "countryLabel_native": ["България"],
+    "id": "bg",
+    "domain": ".bg",
+    "flag": "https:\/\/flagcdn.com\/bg.svg"
+  },
+  {
+    "name": "ブルキナファソ",
+    "capital": "ワガドゥグー",
+    "continent": ["africa"],
+    "countryLabel_native": ["Burkina Faso"],
+    "id": "bf",
+    "domain": ".bf",
+    "flag": "https:\/\/flagcdn.com\/bf.svg"
+  },
+  {
+    "name": "ブルネイ",
+    "capital": "バンダルスリブガワン",
+    "continent": ["asia"],
+    "countryLabel_native": ["Brunei Darussalam", "Negara Brunei Darussalam"],
+    "id": "bn",
+    "domain": ".bn",
+    "flag": "https:\/\/flagcdn.com\/bn.svg"
+  },
+  {
+    "name": "ブルンジ",
+    "capital": "ギテガ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Uburundi"],
+    "id": "bi",
+    "domain": ".bi",
+    "flag": "https:\/\/flagcdn.com\/bi.svg"
+  },
+  {
+    "name": "ベトナム",
+    "capital": "ハノイ",
+    "continent": ["asia"],
+    "countryLabel_native": ["Việt Nam"],
+    "id": "vn",
+    "domain": ".vn",
+    "flag": "https:\/\/flagcdn.com\/vn.svg"
+  },
+  {
+    "name": "ベネズエラ",
+    "capital": "カラカス",
+    "continent": ["south-america"],
+    "countryLabel_native": ["Venezuela"],
+    "id": "ve",
+    "domain": ".ve",
+    "flag": "https:\/\/flagcdn.com\/ve.svg"
+  },
+  {
+    "name": "ベラルーシ",
+    "capital": "ミンスク",
+    "continent": ["europe"],
+    "countryLabel_native": ["Беларусь", "Рэспубліка Беларусь"],
+    "id": "by",
+    "domain": ".by",
+    "flag": "https:\/\/flagcdn.com\/by.svg"
+  },
+  {
+    "name": "ベリーズ",
+    "capital": "ベルモパン",
+    "continent": ["north-america"],
+    "countryLabel_native": ["Belize"],
+    "id": "bz",
+    "domain": ".bz",
+    "flag": "https:\/\/flagcdn.com\/bz.svg"
+  },
+  {
+    "name": "ベルギー",
+    "capital": "ブリュッセル市",
+    "continent": ["europe"],
+    "countryLabel_native": ["Königreich Belgien", "Royaume de Belgique", "Koninkrijk België"],
+    "id": "be",
+    "domain": ".be",
+    "flag": "https:\/\/flagcdn.com\/be.svg"
+  },
+  {
+    "name": "ペルー",
+    "capital": "リマ",
+    "continent": ["south-america"],
+    "countryLabel_native": ["República del Perú"],
+    "id": "pe",
+    "domain": ".pe",
+    "flag": "https:\/\/flagcdn.com\/pe.svg"
+  },
+  {
+    "name": "ホンジュラス",
+    "capital": "テグシガルパ",
+    "continent": ["north-america"],
+    "countryLabel_native": ["República de Honduras"],
+    "id": "hn",
+    "domain": ".hn",
+    "flag": "https:\/\/flagcdn.com\/hn.svg"
+  },
+  {
+    "name": "ボスニア・ヘルツェゴビナ",
+    "capital": "サラエヴォ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Bosna i Hercegovina"],
+    "id": "ba",
+    "domain": ".ba",
+    "flag": "https:\/\/flagcdn.com\/ba.svg"
+  },
+  {
+    "name": "ボツワナ",
+    "capital": "ハボローネ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Botswana"],
+    "id": "bw",
+    "domain": ".bw",
+    "flag": "https:\/\/flagcdn.com\/bw.svg"
+  },
+  {
+    "name": "ボリビア",
+    "capital": "ラパス,スクレ",
+    "continent": ["south-america"],
+    "countryLabel_native": [
+      "Wuliwya Suyu",
+      "Estado Plurinacional de Bolivia",
+      "Tetã Volívia",
+      "Buliwya Achka nasyunkunap Mama llaqta"
+    ],
+    "id": "bo",
+    "domain": ".bo",
+    "flag": "https:\/\/flagcdn.com\/bo.svg"
+  },
+  {
+    "name": "ポルトガル",
+    "capital": "リスボン",
+    "continent": ["europe"],
+    "countryLabel_native": ["Portugal", "República Portuguesa"],
+    "id": "pt",
+    "domain": ".pt",
+    "flag": "https:\/\/flagcdn.com\/pt.svg"
+  },
+  {
+    "name": "ポーランド",
+    "capital": "ワルシャワ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Polska", "Rzeczpospolita Polska"],
+    "id": "pl",
+    "domain": ".pl",
+    "flag": "https:\/\/flagcdn.com\/pl.svg"
+  },
+  {
+    "name": "マダガスカル",
+    "capital": "アンタナナリボ",
+    "continent": ["africa"],
+    "countryLabel_native": ["République de Madagascar", "Repoblikan'i Madagaskar"],
+    "id": "mg",
+    "domain": ".mg",
+    "flag": "https:\/\/flagcdn.com\/mg.svg"
+  },
+  {
+    "name": "マラウイ",
+    "capital": "リロングウェ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Republic of Malawi", "Charu cha Malaŵi"],
+    "id": "mw",
+    "domain": ".mw",
+    "flag": "https:\/\/flagcdn.com\/mw.svg"
+  },
+  {
+    "name": "マリ共和国",
+    "capital": "バマコ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Mali"],
+    "id": "ml",
+    "domain": ".ml",
+    "flag": "https:\/\/flagcdn.com\/ml.svg"
+  },
+  {
+    "name": "マルタ",
+    "capital": "バレッタ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Malta"],
+    "id": "mt",
+    "domain": ".mt",
+    "flag": "https:\/\/flagcdn.com\/mt.svg"
+  },
+  {
+    "name": "マレーシア",
+    "capital": "クアラルンプール",
+    "continent": ["asia"],
+    "countryLabel_native": ["Malaysia"],
+    "id": "my",
+    "domain": ".my",
+    "flag": "https:\/\/flagcdn.com\/my.svg"
+  },
+  {
+    "name": "マーシャル諸島",
+    "capital": "マジュロ",
+    "continent": ["oceania"],
+    "countryLabel_native": ["Aolepān Aorōkin M̧ajeļ", "Aolepān Aorōkin Ṃajeḷ"],
+    "id": "mh",
+    "domain": ".mh",
+    "flag": "https:\/\/flagcdn.com\/mh.svg"
+  },
+  {
+    "name": "ミクロネシア連邦",
+    "capital": "パリキール",
+    "continent": ["oceania"],
+    "countryLabel_native": ["Federated States of Micronesia", "Mikronesia"],
+    "id": "fm",
+    "domain": ".fm",
+    "flag": "https:\/\/flagcdn.com\/fm.svg"
+  },
+  {
+    "name": "ミャンマー",
+    "capital": "ネピドー",
+    "continent": ["asia"],
+    "countryLabel_native": ["မြန်မာ", "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်", "မြန်မာနိုင်ငံ", "မြန်မာပြည်"],
+    "id": "mm",
+    "domain": ".mm",
+    "flag": "https:\/\/flagcdn.com\/mm.svg"
+  },
+  {
+    "name": "メキシコ",
+    "capital": "メキシコシティ",
+    "continent": ["north-america"],
+    "countryLabel_native": ["México", "Mexko"],
+    "id": "mx",
+    "domain": ".mx",
+    "flag": "https:\/\/flagcdn.com\/mx.svg"
+  },
+  {
+    "name": "モザンビーク",
+    "capital": "マプト",
+    "continent": ["africa"],
+    "countryLabel_native": ["República de Moçambique", "مْسُمْبِيجِ"],
+    "id": "mz",
+    "domain": ".mz",
+    "flag": "https:\/\/flagcdn.com\/mz.svg"
+  },
+  {
+    "name": "モナコ",
+    "capital": "モナコ",
+    "continent": ["europe"],
+    "countryLabel_native": [
+      "Monaco",
+      "Principauté de Monaco",
+      "Prinçipato de Mónego",
+      "Prinçipatu de Mu̍negu",
+      "Principat de Mónegue"
+    ],
+    "id": "mc",
+    "domain": ".mc",
+    "flag": "https:\/\/flagcdn.com\/mc.svg"
+  },
+  {
+    "name": "モルディブ",
+    "capital": "マレ",
+    "continent": ["asia"],
+    "countryLabel_native": ["ދިވެހިރާއްޖެ", "ދިވެހިރާއްޖޭގެ ޖުމުހޫރިއްޔާ"],
+    "id": "mv",
+    "domain": ".mv",
+    "flag": "https:\/\/flagcdn.com\/mv.svg"
+  },
+  {
+    "name": "モルドバ",
+    "capital": "キシナウ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Moldova"],
+    "id": "md",
+    "domain": ".md",
+    "flag": "https:\/\/flagcdn.com\/md.svg"
+  },
+  {
+    "name": "モロッコ",
+    "capital": "ラバト",
+    "continent": ["africa"],
+    "countryLabel_native": ["المملكة المغربية", "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ"],
+    "id": "ma",
+    "domain": ".ma",
+    "flag": "https:\/\/flagcdn.com\/ma.svg"
+  },
+  {
+    "name": "モンゴル国",
+    "capital": "ウランバートル",
+    "continent": ["asia"],
+    "countryLabel_native": ["Монгол Улс", "ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ"],
+    "id": "mn",
+    "domain": ".mn",
+    "flag": "https:\/\/flagcdn.com\/mn.svg"
+  },
+  {
+    "name": "モンテネグロ",
+    "capital": "ポドゴリツァ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Crna Gora", "Црна Гора"],
+    "id": "me",
+    "domain": ".me",
+    "flag": "https:\/\/flagcdn.com\/me.svg"
+  },
+  {
+    "name": "モーリシャス",
+    "capital": "ポートルイス",
+    "continent": ["africa"],
+    "countryLabel_native": ["République de Maurice"],
+    "id": "mu",
+    "domain": ".mu",
+    "flag": "https:\/\/flagcdn.com\/mu.svg"
+  },
+  {
+    "name": "モーリタニア",
+    "capital": "ヌアクショット",
+    "continent": ["africa"],
+    "countryLabel_native": [
+      "الجمهورية الإسلامية الموريتانية",
+      "Ndenndaandi Lislameeri Muritani",
+      "République islamique de Mauritanie",
+      "Moritani Silaamin Jamaane",
+      "Réewu lislaam bu Muritani"
+    ],
+    "id": "mr",
+    "domain": ".mr",
+    "flag": "https:\/\/flagcdn.com\/mr.svg"
+  },
+  {
+    "name": "ヨルダン",
+    "capital": "アンマン",
+    "continent": ["asia"],
+    "countryLabel_native": ["االْمَمْلَكَةُ الْأُرْدُنِيَةُ الْهَاشِمِيَة"],
+    "id": "jo",
+    "domain": ".jo",
+    "flag": "https:\/\/flagcdn.com\/jo.svg"
+  },
+  {
+    "name": "ラオス",
+    "capital": "ヴィエンチャン",
+    "continent": ["asia"],
+    "countryLabel_native": ["ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ"],
+    "id": "la",
+    "domain": ".la",
+    "flag": "https:\/\/flagcdn.com\/la.svg"
+  },
+  {
+    "name": "ラトビア",
+    "capital": "リガ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Latvija"],
+    "id": "lv",
+    "domain": ".lv",
+    "flag": "https:\/\/flagcdn.com\/lv.svg"
+  },
+  {
+    "name": "リトアニア",
+    "capital": "ヴィルニュス",
+    "continent": ["europe"],
+    "countryLabel_native": ["Lietuva"],
+    "id": "lt",
+    "domain": ".lt",
+    "flag": "https:\/\/flagcdn.com\/lt.svg"
+  },
+  {
+    "name": "リヒテンシュタイン",
+    "capital": "ファドゥーツ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Liechtenstein", "Fürstentum Liechtenstein"],
+    "id": "li",
+    "domain": ".li",
+    "flag": "https:\/\/flagcdn.com\/li.svg"
+  },
+  {
+    "name": "リビア",
+    "capital": "トリポリ",
+    "continent": ["africa"],
+    "countryLabel_native": ["دولة ليبيا"],
+    "id": "ly",
+    "domain": ".ly",
+    "flag": "https:\/\/flagcdn.com\/ly.svg"
+  },
+  {
+    "name": "リベリア",
+    "capital": "モンロビア",
+    "continent": ["africa"],
+    "countryLabel_native": ["Republic of Liberia"],
+    "id": "lr",
+    "domain": ".lr",
+    "flag": "https:\/\/flagcdn.com\/lr.svg"
+  },
+  {
+    "name": "ルクセンブルク",
+    "capital": "ルクセンブルク市",
+    "continent": ["europe"],
+    "countryLabel_native": ["Luxembourg", "Luxemburg", "Lëtzebuerg"],
+    "id": "lu",
+    "domain": ".lu",
+    "flag": "https:\/\/flagcdn.com\/lu.svg"
+  },
+  {
+    "name": "ルワンダ",
+    "capital": "キガリ",
+    "continent": ["africa"],
+    "countryLabel_native": [
+      "Republic of Rwanda",
+      "Repubulika y'u Rwanda",
+      "Rwanda",
+      "Jamhuri ya Rwanda",
+      "République du Rwanda"
+    ],
+    "id": "rw",
+    "domain": ".rw",
+    "flag": "https:\/\/flagcdn.com\/rw.svg"
+  },
+  {
+    "name": "ルーマニア",
+    "capital": "ブカレスト",
+    "continent": ["europe"],
+    "countryLabel_native": ["România"],
+    "id": "ro",
+    "domain": ".ro",
+    "flag": "https:\/\/flagcdn.com\/ro.svg"
+  },
+  {
+    "name": "レソト",
+    "capital": "マセル",
+    "continent": ["africa"],
+    "countryLabel_native": ["Lesotho"],
+    "id": "ls",
+    "domain": ".ls",
+    "flag": "https:\/\/flagcdn.com\/ls.svg"
+  },
+  {
+    "name": "レバノン",
+    "capital": "ベイルート",
+    "continent": ["asia"],
+    "countryLabel_native": [
+      "Lebanon",
+      "لبنان",
+      "الجمهورية اللبنانية",
+      "Republic of Lebanon",
+      "Lubnan",
+      "Republik Lubnan"
+    ],
+    "id": "lb",
+    "domain": ".lb",
+    "flag": "https:\/\/flagcdn.com\/lb.svg"
+  },
+  {
+    "name": "ロシア",
+    "capital": "モスクワ",
+    "continent": ["europe", "asia"],
+    "countryLabel_native": ["Россия", "Российская Федерация"],
+    "id": "ru",
+    "domain": ".ru",
+    "flag": "https:\/\/flagcdn.com\/ru.svg"
+  },
+  {
+    "name": "中央アフリカ共和国",
+    "capital": "バンギ",
+    "continent": ["africa"],
+    "countryLabel_native": ["Republique Centrafricaine", "Ködörösêse tî Bêafrîka"],
+    "id": "cf",
+    "domain": ".cf",
+    "flag": "https:\/\/flagcdn.com\/cf.svg"
+  },
+  {
+    "name": "中華人民共和国",
+    "capital": "北京市",
+    "continent": ["asia"],
+    "countryLabel_native": ["中华人民共和国"],
+    "id": "cn",
+    "domain": ".cn",
+    "flag": "https:\/\/flagcdn.com\/cn.svg"
+  },
+  {
+    "name": "台湾",
+    "capital": "台北市",
+    "continent": ["asia"],
+    "countryLabel_native": [
+      "Tâi-oân",
+      "taiwan",
+      "中華民國",
+      "Chûng-fà Mìn-koet",
+      "台灣",
+      "臺灣",
+      "Tiong-hoâ Bîn-kok",
+      "Tiong-huâ-bîn-kok"
+    ],
+    "id": "tw",
+    "domain": ".tw",
+    "flag": "https:\/\/flagcdn.com\/tw.svg"
+  },
+  {
+    "name": "北マケドニア",
+    "capital": "スコピエ",
+    "continent": ["europe"],
+    "countryLabel_native": ["Република Северна Македонија"],
+    "id": "mk",
+    "domain": ".mk",
+    "flag": "https:\/\/flagcdn.com\/mk.svg"
+  },
+  {
+    "name": "南アフリカ共和国",
+    "capital": "プレトリア,ケープタウン,ブルームフォンテーン",
+    "continent": ["africa"],
+    "countryLabel_native": [
+      "South Africa",
+      "Suid-Afrika",
+      "iSewula Afrika",
+      "Afrika Borwa",
+      "iNingizimu Afrika",
+      "Aforika Borwa",
+      "Afrika-Dzonga",
+      "Afurika Tshipembe",
+      "uMzantsi Afrika"
+    ],
+    "id": "za",
+    "domain": ".za",
+    "flag": "https:\/\/flagcdn.com\/za.svg"
+  },
+  {
+    "name": "南スーダン",
+    "capital": "ジュバ",
+    "continent": ["africa"],
+    "countryLabel_native": [
+      "South Sudan",
+      "جنوب السودان",
+      "جمهورية جنوب السودان",
+      "Republic of South Sudan"
+    ],
+    "id": "ss",
+    "domain": ".ss",
+    "flag": "https:\/\/flagcdn.com\/ss.svg"
+  },
+  {
+    "name": "大韓民国",
+    "capital": "ソウル特別市",
+    "continent": ["asia"],
+    "countryLabel_native": ["대한민국"],
+    "id": "kr",
+    "domain": ".kr",
+    "flag": "https:\/\/flagcdn.com\/kr.svg"
+  },
+  {
+    "name": "日本",
+    "capital": "東京都",
+    "continent": ["asia"],
+    "countryLabel_native": ["日本"],
+    "id": "jp",
+    "domain": ".jp",
+    "flag": "https:\/\/flagcdn.com\/jp.svg"
+  },
+  {
+    "name": "北朝鮮",
+    "capital": "平壌市",
+    "continent": ["asia"],
+    "countryLabel_native": ["조선민주주의인민공화국"],
+    "id": "kp",
+    "domain": ".kp",
+    "flag": "https:\/\/flagcdn.com\/kp.svg"
+  },
+  {
+    "name": "東ティモール",
+    "capital": "ディリ",
+    "continent": ["asia"],
+    "countryLabel_native": [
+      "República Democrática de Timor-Leste",
+      "Repúblika Demokrátika Timor-Leste"
+    ],
+    "id": "tl",
+    "domain": ".tl",
+    "flag": "https:\/\/flagcdn.com\/tl.svg"
+  },
+  {
+    "name": "赤道ギニア",
+    "capital": "ラパス",
+    "continent": ["africa"],
+    "countryLabel_native": [
+      "República de Guinea Ecuatorial",
+      "République de Guinée équatoriale",
+      "República da Guiné Equatorial"
+    ],
+    "id": "gq",
+    "domain": ".gq",
+    "flag": "https:\/\/flagcdn.com\/gq.svg"
+  }
 ]
