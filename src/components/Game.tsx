@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useQueryState } from "nuqs";
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { LuCheck, LuTrophy, LuX } from "react-icons/lu";
 import { useStore } from "zustand";
 
 import type { FieldDisplayType } from "@/data/game-mode-types";
@@ -34,7 +35,7 @@ function FieldContent<T extends Record<string, string | null>>({
         <img
           alt=""
           src={`${item[field]}`}
-          className={`object-contain drop-shadow-xl ${imageClassName}`}
+          className={`max-w-full object-contain drop-shadow-xl ${imageClassName}`}
         />
       );
   }
@@ -54,8 +55,8 @@ function QuestionContent<T extends Record<string, string | null>>({
       item={question}
       field={field}
       fieldDisplayTypes={fieldDisplayTypes}
-      imageClassName="mx-auto h-32"
-      textClassName="font-bold text-3xl"
+      imageClassName="mx-auto h-24 sm:h-32 max-w-full"
+      textClassName="font-bold text-xl sm:text-3xl break-words"
     />
   );
 }
@@ -72,13 +73,16 @@ function ChoiceContent<T extends Record<string, string | null>>({
   onSelect: (option: QuizItem<T>) => void;
 }) {
   const layout =
-    fieldDisplayTypes[field] === "img" ? "grid grid-cols-2 gap-4" : "flex flex-col gap-3";
+    fieldDisplayTypes[field] === "img"
+      ? "grid grid-cols-2 gap-2 sm:gap-4"
+      : "flex flex-col gap-2 sm:gap-3";
 
   return (
-    <div className={`mt-6 w-full ${layout}`}>
-      {options.map((option) => (
+    <div className={`game-choices mt-3 w-full sm:mt-6 ${layout}`}>
+      {options.map((option, index) => (
         <ChoiceContentItem
           option={option}
+          index={index}
           key={option.id}
           field={field}
           fieldDisplayTypes={fieldDisplayTypes}
@@ -91,11 +95,13 @@ function ChoiceContent<T extends Record<string, string | null>>({
 
 function ChoiceContentItem<T extends Record<string, string | null>>({
   option,
+  index,
   field,
   fieldDisplayTypes,
   onSelect,
 }: {
   option: QuizItem<T>;
+  index: number;
   field: keyof T;
   fieldDisplayTypes: { [K in keyof T]: FieldDisplayType };
   onSelect: () => void;
@@ -106,7 +112,7 @@ function ChoiceContentItem<T extends Record<string, string | null>>({
         <button
           type="button"
           onClick={onSelect}
-          className="rounded-xl bg-blue-600 p-4 text-lg font-semibold transition hover:scale-[1.02] hover:bg-blue-500 active:scale-[0.98]"
+          className="relative min-h-12 rounded-2xl border border-blue-400/30 bg-blue-600/20 p-3 text-left text-base font-semibold break-words transition hover:border-blue-400 hover:bg-blue-600/40 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-400 active:scale-[0.98] motion-reduce:transform-none sm:min-h-16 sm:p-4 sm:text-lg"
         >
           {`${option[field]}`}
         </button>
@@ -116,7 +122,8 @@ function ChoiceContentItem<T extends Record<string, string | null>>({
         <button
           type="button"
           onClick={onSelect}
-          className="aspect-4/3 rounded-xl bg-zinc-800 shadow-md transition hover:scale-[1.03] hover:shadow-xl active:scale-[0.97]"
+          aria-label={`選択肢 ${index + 1}`}
+          className="relative aspect-4/3 rounded-2xl border border-zinc-700 bg-zinc-800 shadow-md transition hover:border-blue-400 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-400 active:scale-[0.97] motion-reduce:transform-none"
         >
           <img alt="" src={`${option[field]}`} className="h-full w-full object-contain p-2" />
         </button>
@@ -276,20 +283,17 @@ export default function Game<T extends Record<string, string | null>>({
   useEffect(() => {
     if (!showResult) return;
 
-    const timer = setTimeout(
-      () => {
-        dispatch({ type: "clearResult" });
-      },
-      isCorrect ? 400 : 1500,
-    );
+    const timer = setTimeout(() => {
+      dispatch({ type: "clearResult" });
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, [showResult, isCorrect, dispatch]);
 
   return (
-    <div className="relative flex w-full flex-col items-center gap-4 p-2">
-      <div className="flex w-full rounded-lg bg-slate-800 px-4 py-2 text-center">
-        <div className="flex w-full justify-center gap-4 py-2">
+    <div className="game-layout relative flex w-full min-w-0 flex-col items-center gap-3 p-3 pb-[max(1rem,env(safe-area-inset-bottom))] sm:gap-5 sm:p-4 sm:pb-8">
+      <div className="game-header flex w-full flex-col rounded-2xl border border-blue-400/20 bg-zinc-900 px-4 py-2 text-center shadow-lg">
+        <div className="flex w-full flex-wrap items-center justify-center gap-x-4 gap-y-2 py-2">
           <p className="font-bold">{t("title")}</p>
           {current >= 0 && current < questions.length && (
             <>
@@ -298,7 +302,7 @@ export default function Game<T extends Record<string, string | null>>({
               </p>
               {timeLeft !== null && (
                 <p className={`font-bold ${timeLeft <= 3 ? "text-red-400" : ""}`}>
-                  残り {timeLeft} 秒
+                  {t("game.remaining", { count: timeLeft })}
                 </p>
               )}
             </>
@@ -306,42 +310,29 @@ export default function Game<T extends Record<string, string | null>>({
         </div>
       </div>
 
-      {/* Result Overlay */}
-      <AnimatePresence>
-        {showResult && (
-          <motion.div
-            className={`fixed right-0 bottom-0 left-0 z-20 flex h-28 items-center justify-center backdrop-blur-sm ${isCorrect ? "bg-green-500/80" : "bg-red-500/80"}`}
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0 }}
-          >
-            <div className="text-center">
-              {isCorrect ? (
-                <p className="text-4xl font-bold">{t("message.correct")}</p>
-              ) : (
-                correct && (
-                  <>
-                    <p className="mb-2 text-3xl">{t("message.incorrect")}</p>
-                    <p>
-                      正解：
-                      <CorrectContent
-                        correctAnswer={correct}
-                        field={answerField}
-                        fieldDisplayTypes={fieldDisplayTypes}
-                      />
-                    </p>
-                  </>
-                )
-              )}
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {current >= 0 && (
+        <div className="w-full">
+          <div className="mb-2 flex flex-wrap justify-between gap-x-3 gap-y-1 text-sm text-zinc-400">
+            <span>
+              {t("game.progress", { count: answerRecords.length, total: questions.length })}
+            </span>
+            <span className="text-emerald-300">
+              {t("game.correct-count", { count: correctCount })}
+            </span>
+          </div>
+          <progress
+            aria-label={t("game.progress-label")}
+            max={Math.max(1, questions.length)}
+            value={answerRecords.length}
+            className="h-2 w-full overflow-hidden rounded-full accent-blue-500 [&::-moz-progress-bar]:rounded-full [&::-moz-progress-bar]:bg-blue-500 [&::-webkit-progress-bar]:rounded-full [&::-webkit-progress-bar]:bg-zinc-800 [&::-webkit-progress-value]:rounded-full [&::-webkit-progress-value]:bg-blue-500"
+          />
+        </div>
+      )}
 
       {/* Main */}
       {current === -1 ? (
-        <div className="mt-12 flex w-full flex-col items-center gap-6">
-          <div className="w-full rounded-xl border border-zinc-700 bg-zinc-800 p-5 shadow-xl">
+        <div className="mt-2 flex w-full flex-col items-center gap-6">
+          <div className="w-full rounded-xl border border-zinc-700 bg-zinc-800 p-3 shadow-xl sm:p-5">
             <p className="mb-4 text-xl font-bold">{t("game.ready-title")}</p>
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
               {summaryItems.map((item) => (
@@ -360,21 +351,44 @@ export default function Game<T extends Record<string, string | null>>({
             onClick={() => {
               dispatch({ type: "start", timeLimitSeconds: timeLimitSeconds || null });
             }}
-            className="rounded-xl bg-blue-600 px-10 py-4 text-xl text-white hover:bg-blue-500"
+            className="w-full rounded-2xl bg-blue-600 px-10 py-4 text-xl font-bold text-white shadow-lg shadow-blue-600/20 hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-400"
           >
             {t("button.start")}
           </button>
-          <a href="/country-quiz" className="text-blue-500 underline">
+          <a
+            href="/country-quiz"
+            onClick={(e) => {
+              e.preventDefault();
+              void setPage("");
+            }}
+            className="text-blue-500 underline"
+          >
             {t("button.back-to-mode-selection")}
           </a>
         </div>
       ) : current >= questions.length ? (
         <>
-          <div className="mt-12 w-full rounded-xl bg-zinc-800 p-6 shadow-xl">
+          <div className="mt-2 w-full rounded-xl bg-zinc-800 p-4 shadow-xl sm:p-6">
             <p className="mb-4 text-2xl font-bold">{t("result.title")}</p>
-            <p className="text-green-500">正解: {correctCount}</p>
-            <p className="text-red-500">不正解: {incorrectCount}</p>
-            <details className="mt-6 rounded-lg bg-zinc-900/80 p-4">
+            <LuTrophy aria-hidden="true" className="mx-auto mb-3 h-12 w-12 text-amber-300" />
+            <p className="text-center text-5xl font-black text-blue-200">
+              {correctCount}
+              <span className="text-xl text-zinc-400"> / {answerRecords.length}</span>
+            </p>
+            <p className="mt-3 text-center text-amber-300">
+              {t("game.accuracy", {
+                value: answerRecords.length
+                  ? Math.round((correctCount / answerRecords.length) * 100)
+                  : 0,
+              })}
+            </p>
+            <p className="mt-2 text-center text-zinc-400">
+              {t("game.progress", { count: answerRecords.length, total: questions.length })}
+            </p>
+            <p className="mt-3 text-center text-red-300">
+              {t("game.incorrect-count", { count: incorrectCount })}
+            </p>
+            <details className="mt-6 rounded-lg bg-zinc-900/80 p-2 sm:p-4">
               <summary className="cursor-pointer font-semibold">
                 {t("result.details-summary")}
               </summary>
@@ -382,7 +396,7 @@ export default function Game<T extends Record<string, string | null>>({
                 {answerRecords.map((record, index) => (
                   <div
                     key={`${record.question.id}-${index}`}
-                    className="rounded-lg border border-zinc-700 bg-zinc-800 p-4"
+                    className="min-w-0 rounded-lg border border-zinc-700 bg-zinc-800 p-3 break-words sm:p-4"
                   >
                     <p
                       className={`font-bold ${record.isCorrect ? "text-green-400" : "text-red-400"}`}
@@ -461,7 +475,7 @@ export default function Game<T extends Record<string, string | null>>({
         </>
       ) : (
         <div className="w-full">
-          <div className="overflow-clip rounded-xl bg-zinc-800 p-6 text-center shadow-xl">
+          <div className="game-question flex min-h-36 items-center justify-center rounded-2xl border border-zinc-700 bg-zinc-800 p-4 text-center shadow-xl sm:min-h-52 sm:p-6">
             <QuestionContent
               question={questions[current]}
               field={questionField}
@@ -490,6 +504,45 @@ export default function Game<T extends Record<string, string | null>>({
           />
         </div>
       )}
+      {/* Previous-answer feedback occupies its own space. */}
+      <div className="game-feedback min-h-32 w-full" aria-live="polite" aria-atomic="true">
+        <AnimatePresence>
+          {showResult && (
+            <motion.div
+              className={`flex min-h-28 w-full items-center justify-center rounded-2xl border border-white/10 p-3 ${isCorrect ? "bg-green-500/80" : "bg-red-500/80"}`}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+            >
+              <div className="min-w-0 text-center break-words">
+                <p className="mb-1 text-xs font-semibold">{t("game.previous-result")}</p>
+                {isCorrect ? (
+                  <LuCheck className="mx-auto h-6 w-6" aria-hidden="true" />
+                ) : (
+                  <LuX className="mx-auto h-6 w-6" aria-hidden="true" />
+                )}
+                {isCorrect ? (
+                  <p className="text-4xl font-bold">{t("message.correct")}</p>
+                ) : (
+                  correct && (
+                    <>
+                      <p className="mb-2 text-3xl">{t("message.incorrect")}</p>
+                      <p>
+                        {t("result.correct-answer-label")}：
+                        <CorrectContent
+                          correctAnswer={correct}
+                          field={answerField}
+                          fieldDisplayTypes={fieldDisplayTypes}
+                        />
+                      </p>
+                    </>
+                  )
+                )}
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
     </div>
   );
 }

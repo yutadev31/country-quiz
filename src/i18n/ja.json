@@ -23,7 +23,14 @@
     "ready-title": "この設定で始めます",
     "no-time-limit": "なし",
     "enabled": "オン",
-    "disabled": "オフ"
+    "disabled": "オフ",
+    "remaining": "残り {{count}} 秒",
+    "progress": "{{total}}問中 {{count}}問回答",
+    "correct-count": "正解 {{count}}",
+    "incorrect-count": "不正解 {{count}}",
+    "progress-label": "回答の進捗",
+    "previous-result": "前の問題の結果",
+    "accuracy": "正答率 {{value}}%"
   },
   "button": {
     "start": "スタート",
